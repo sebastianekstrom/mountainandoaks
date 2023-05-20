@@ -42,7 +42,7 @@ You can find all the templates in [this Figma](https://www.figma.com/file/yg7A1e
 
 ### 3. Add the recipe to the global list
 
-All recipes are fetched from [recipes.ts](https://github.com/sebastianekstrom/sebbe-baking/blob/main/constants/recipes.ts), ddd the new recipe at the top of the list.
+All recipes are fetched from [recipes.ts](https://github.com/sebastianekstrom/sebbe-baking/blob/main/constants/recipes.ts), add the new recipe at the top of the list.
 
 ### 4. Create the new recipe page
 
