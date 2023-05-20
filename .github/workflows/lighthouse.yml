@@ -1,8 +1,8 @@
-name: 🏠 Lighthouse
+name: 💡 Lighthouse
 on: [push]
 jobs:
   lhci:
-    name: Lighthouse
+    name: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
