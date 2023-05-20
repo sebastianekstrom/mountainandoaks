@@ -67,9 +67,6 @@ The Github actions runs the following tests:
 - **E2E**
   - There's E2E tests with the help of [Playwright](https://playwright.dev/)
   - Run `yarn run test:e2e` to run the tests locally
-- **Visual regression**
-  - There's visual regression tests with the help of [Percy](https://percy.io/)
-  - Run `yarn run test:e2e` to run the tests locally
 - **Type checks**
   - TypeScript type checks are ran with the `tsc` command
   - Run `yarn run tsc` to run the tests locally
