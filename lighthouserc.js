@@ -12,7 +12,7 @@ module.exports = {
         "splash-screen": "off",
         "service-worker": "off",
         "maskable-icon": "off",
-        "link-text": "off",
+
         "installable-manifest": "off",
         "heading-order": "off",
         "errors-in-console": "off",

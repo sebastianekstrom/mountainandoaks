@@ -36,9 +36,6 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           </Text>
         </Link>
         <Text classNames="mt-2">{truncateString(recipe.description, 180)}</Text>
-        <Link href={recipe.url}>
-          <Text classNames="font-medium mt-2">Read more</Text>
-        </Link>
       </article>
     );
   }
@@ -65,9 +62,6 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           <Text variant="h4">{recipe.title}</Text>
         </Link>
         <Text>{truncateString(recipe.description, 130)}</Text>
-        <Link href={recipe.url}>
-          <Text classNames="font-medium mt-2">Read more</Text>
-        </Link>
       </article>
     );
   }
@@ -96,10 +90,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           <Link href={recipe.url}>
             <Text variant="h4">{recipe.title}</Text>
           </Link>
-          <Text>{truncateString(recipe.description, 110)}</Text>
-          <Link href={recipe.url} className="mt-auto">
-            <Text classNames="font-medium relative top-[5px]">Read more</Text>
-          </Link>
+          <Text>{truncateString(recipe.description, 140)}</Text>
         </div>
       </article>
       <span className="bg-separator lg:h-[2px] w-full block" />
