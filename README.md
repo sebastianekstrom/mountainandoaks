@@ -4,7 +4,7 @@ This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built wit
 
 | Tool             | Status                                                                                                                                                                                              |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code coverage    |                 [![codecov](https://codecov.io/gh/sebastianekstrom/sebbe-baking/branch/main/graph/badge.svg?token=D5UVAH7X3A)](https://codecov.io/gh/sebastianekstrom/sebbe-baking)                 |
+| Code coverage    |                 [![codecov](https://codecov.io/gh/sebastianekstrom/sebbebakes/branch/main/graph/badge.svg?token=83G7VKF6FS)](https://codecov.io/gh/sebastianekstrom/sebbebakes)                 |
 | Lint             |             [![💅 Lint](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml)             |
 | Tests            | [![🧪 Tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml)                        |
 | Lighthouse       | [![💡 Lighthouse](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml)       |
@@ -25,7 +25,7 @@ The site will be available on [http://localhost:3000](http://localhost:3000).
 
 ## 🧑‍🍳 Adding a new recipe
 
-Since the recipes are _very_ custom, creating a new one requires a few steps:
+Since the recipes are _very_ custom, and often requires custom code, creating a new one requires a few steps:
 
 ### 1. Create the image assets
 
@@ -49,7 +49,7 @@ All recipes are fetched from [recipes.ts](https://github.com/sebastianekstrom/se
 
 Add a new file inside of the `pages/` directory, in the appropriate folder. The file name will become the slug, e.g:
 
-`pages/food-and-drinks/bbq-chicken.tsx` will be available on https://sebbebakes.com/food-and-drinks/bbq-chicken
+`pages/food-and-drinks/bbq-chicken.tsx` -> https://sebbebakes.com/food-and-drinks/bbq-chicken
 
 Create the recipe with whatever components you need, use other recipes as inspiration.
 
