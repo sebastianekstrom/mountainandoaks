@@ -1,16 +1,16 @@
-![Logo of Sebbe Bakes](https://github.com/sebastianekstrom/sebbe-baking/assets/1921046/21081a85-9535-44ab-a950-0505d4023315)
+![Logo of sebbebakes!](https://github.com/sebastianekstrom/sebbe-baking/assets/1921046/21081a85-9535-44ab-a950-0505d4023315)
 
 This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built with [Next.js](https://nextjs.org/), [Tailwind](https://tailwindcss.com) and deployed/hosted with [Vercel](https://vercel.com/).
 
-| Tool              | Status                                                                                                                                                                                               |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code coverage     |                  [![codecov](https://codecov.io/gh/sebastianekstrom/sebbe-baking/branch/main/graph/badge.svg?token=D5UVAH7X3A)](https://codecov.io/gh/sebastianekstrom/sebbe-baking)                 |
-| Lint              |            [![💅 Lint](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/lint.yml)           |
+| Tool              | Status                                                                                                                                                                                                |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code coverage     | [![codecov](https://codecov.io/gh/sebastianekstrom/sebbe-baking/branch/main/graph/badge.svg?token=D5UVAH7X3A)](https://codecov.io/gh/sebastianekstrom/sebbe-baking)                                   |
+| Lint              | [![💅 Lint](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/lint.yml)                      |
 | Tests             | [![🧪 Test](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/test.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/test.yml)                      |
-| TypeScript check  | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/type-check.yml)   |
+| TypeScript check  | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/type-check.yml)    |
 | E2E               | [![👀 E2E](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/playwright.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/playwright.yml)           |
 | Dead code         | [![💀 Dead code check](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/dead-code.yml/badge.svg)](https://github.com/sebastianekstrom/sebbe-baking/actions/workflows/dead-code.yml) |
-| Visual regression | [![Percy](https://percy.io/static/images/percy-badge.svg)](https://percy.io/452cc3ab/sebbe-bakes-v3)                                                                                                 |
+| Visual regression | [![Percy](https://percy.io/static/images/percy-badge.svg)](https://percy.io/452cc3ab/sebbe-bakes-v3)                                                                                                  |
 
 ## 💻 Getting started
 
