@@ -49,7 +49,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
       <main className="mx-auto max-w-7xl px-4 sm:px-6 container pb-14">
         {children}
       </main>
-      <footer className="flex mt-0 lg:mt-20 pb-10 items-center justify-center">
+      <footer className="flex mt-0 lg:mt-20 pb-10 flex-col items-center justify-center">
         <div className="flex flex-col items-center">
           <Text variant="h4">sebbe bakes</Text>
           <Text variant="caption" classNames="mt-2 flex items-center">
@@ -67,6 +67,20 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
             />
             by Sebastian Ekström
           </Text>
+        </div>
+        <div className="mt-4">
+          <a href="https://github.com/sebastianekstrom/sebbebakes">
+            <Image
+              src="/icons/github.svg"
+              width={20}
+              height={20}
+              style={{
+                height: 20,
+                width: 20,
+              }}
+              alt="View source on Github.com"
+            />
+          </a>
         </div>
       </footer>
       <Script
