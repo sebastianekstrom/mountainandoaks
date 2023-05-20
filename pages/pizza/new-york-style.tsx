@@ -61,9 +61,8 @@ const STEPS = [
     perform <b>4 stretch & folds</b>. <br />
     You can see an example how this is done in{" "}
     <Link external href="https://www.youtube.com/watch?v=QYzxulQY1Gc">
-      this
+      this video.
     </Link>{" "}
-    video.
   </Text>,
   <Text>
     Cover the bowl with a damp towel again and let it rest for another{" "}
@@ -85,9 +84,9 @@ const STEPS = [
     <b>divide it into 280g-300g pieces</b>.
   </Text>,
   <Text>
-    Shape the doughs into a ball (see example{" "}
+    Shape the doughs into a ball (
     <Link href="https://youtu.be/OjsCEJ8CWlg?t=361" external>
-      here
+      see example here
     </Link>
     ) and place each dough ball in a container that is lightly oiled and air
     tight
