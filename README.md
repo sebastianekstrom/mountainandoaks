@@ -73,6 +73,8 @@ The Github actions runs the following tests:
 - **Type checks**
   - TypeScript type checks are ran with the `tsc` command
   - Run `yarn run tsc` to run the tests locally
+- **Lighthouse**
+  - [Lighthouse](https://github.com/GoogleChrome/lighthouse) checks to test performance, a11y and SEO
 
 ## 🚢 Deployment
 
