@@ -4,7 +4,7 @@ This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built wit
 
 |                  | Status                                                                                                                                                                                              |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code coverage    |                 [![codecov](https://codecov.io/gh/sebastianekstrom/sebbe-baking/branch/main/graph/badge.svg?token=D5UVAH7X3A)](https://codecov.io/gh/sebastianekstrom/sebbe-baking)                 |
+| Code coverage    |                 [![codecov](https://codecov.io/github/sebastianekstrom/sebbebakes/branch/main/graph/badge.svg?token=83G7VKF6FS)](https://codecov.io/gh/sebastianekstrom/sebbebakes)                 |
 | Lint             |             [![💅 Lint](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml)             |
 | Tests            | [![🧪 Tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml)                        |
 | TypeScript check | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml)      |
