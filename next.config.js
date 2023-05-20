@@ -9,6 +9,10 @@ const nextConfig = {
   devIndicators: {
     buildActivity: false,
   },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
   async redirects() {
     return [
       {

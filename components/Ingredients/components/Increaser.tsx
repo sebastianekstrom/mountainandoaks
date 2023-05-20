@@ -41,7 +41,7 @@ export const Increaser = ({
           data-testid="TEST_ID_DECREASE_AMOUNT"
           className="flex items-center justify-center border-2 border-outline rounded-full text-regular w-[40px] h-[40px] hover:bg-outline transition"
           onClick={onDecrease}
-          arial-label="Decrease amount"
+          aria-label="Decrease amount"
         >
           <svg
             width="13"
@@ -86,7 +86,7 @@ export const Increaser = ({
           data-testid="TEST_ID_INCREASE_AMOUNT"
           className="flex items-center justify-center border-2 border-outline rounded-full text-regular w-[40px] h-[40px] hover:bg-outline transition"
           onClick={onIncrease}
-          arial-label="Increase amount"
+          aria-label="Increase amount"
         >
           <svg
             width="13"
