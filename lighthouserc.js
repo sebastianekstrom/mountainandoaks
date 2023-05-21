@@ -4,7 +4,6 @@ module.exports = {
       preset: "lighthouse:recommended",
       assertions: {
         // https://github.com/sebastianekstrom/sebbebakes/issues/5
-        "largest-contentful-paint": "off",
         interactive: "off",
         "uses-responsive-images": "off",
         "unused-javascript": "off",

@@ -19,6 +19,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           <Image
             src={recipe.thumbnails.hero}
             width={613}
+            priority
             height={483}
             alt=""
             className="w-full h-auto lg:w-[613px] lg:h-[483px]"
