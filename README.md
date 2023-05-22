@@ -1,4 +1,4 @@
-![Logo of sebbebakes!](https://github.com/sebastianekstrom/sebbe-baking/assets/1921046/21081a85-9535-44ab-a950-0505d4023315)
+![Logo of sebbebakes!](https://i.imgur.com/zwVABcA.png)
 
 This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built with [Next.js](https://nextjs.org/), [Tailwind](https://tailwindcss.com) and deployed/hosted with [Vercel](https://vercel.com/).
 
