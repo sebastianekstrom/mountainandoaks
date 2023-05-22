@@ -4,6 +4,7 @@ import Text from "components/Text";
 import Recommended from "components/Recommended";
 import { useRouter } from "next/router";
 import Toast from "components/Toast";
+
 interface Props {
   children?: React.ReactNode;
   ingredients?: React.ReactNode;
