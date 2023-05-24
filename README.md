@@ -2,13 +2,13 @@
 
 This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built with [Next.js](https://nextjs.org/), [Tailwind](https://tailwindcss.com) and deployed/hosted with [Vercel](https://vercel.com/).
 
-| Tool             | Status                                                                                                                                                                                              |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code coverage    |                 [![codecov](https://codecov.io/gh/sebastianekstrom/sebbebakes/branch/main/graph/badge.svg?token=83G7VKF6FS)](https://codecov.io/gh/sebastianekstrom/sebbebakes)                 |
-| Lint             |             [![💅 Lint](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml)             |
+| Tool             | Status                                                                                                                                                                                               |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code coverage    | [![codecov](https://codecov.io/gh/sebastianekstrom/sebbebakes/branch/main/graph/badge.svg?token=83G7VKF6FS)](https://codecov.io/gh/sebastianekstrom/sebbebakes)                                      |
+| Lint             | [![💅 Lint](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml)                         |
 | Tests            | [![🧪 Tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml)                        |
 | Lighthouse       | [![💡 Lighthouse](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml)       |
-| TypeScript check | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml)      |
+| TypeScript check | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml)       |
 | E2E              | [![👀 End-to-end tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/playwright.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/playwright.yml) |
 | Dead code        | [![💀 Dead code check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/dead-code.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/dead-code.yml)    |
 
@@ -72,6 +72,16 @@ The Github actions runs the following tests:
   - Run `yarn run tsc` to run the tests locally
 - **Lighthouse**
   - [Lighthouse](https://github.com/GoogleChrome/lighthouse) checks to test performance, a11y and SEO
+
+## 🎨 Storybook
+
+Start the [Storybook](https://storybook.js.org/) server with:
+
+```
+yarn run storybook
+```
+
+Storybook will be available on [http://localhost:6006](http://localhost:6006).
 
 ## 🚢 Deployment
 

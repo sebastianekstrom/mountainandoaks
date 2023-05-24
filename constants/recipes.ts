@@ -1,6 +1,6 @@
 import { Categories, Recipe } from "../types/recipe";
 
-const CATEGORIES: Categories = {
+export const CATEGORIES: Categories = {
   pizza: {
     value: "pizza",
     label: "Pizza",

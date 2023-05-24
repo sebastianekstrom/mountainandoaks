@@ -21,6 +21,8 @@ const customJestConfig = {
     "!build/",
     "components/**/**/*.ts",
     "components/**/**/*.tsx",
+    "!components/**/**/*.stories.ts",
+    "!components/**/**/*.stories.tsx",
     "utils/**/**/*.ts",
     "utils/**/**/*.tsx",
     "pages/**/**/*.tsx",
