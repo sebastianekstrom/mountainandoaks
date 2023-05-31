@@ -173,8 +173,8 @@ export const Toast = () => {
             <Text
               classNames={`!font-mono ${
                 isFullScreen
-                  ? "text-[55px] md:text-[300px]"
-                  : "text-[24px] md:text-5xl"
+                  ? "!text-[55px] !md:text-[300px]"
+                  : "!text-[24px] !md:text-5xl"
               }`}
             >
               {formatTime(timer)}
