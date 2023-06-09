@@ -282,7 +282,7 @@ export default function Bolognese() {
         ingredients={
           <Ingredients
             hideWeight
-            ingredientSuffix="portion"
+            ingredientSuffix="port"
             ingredients={INGREDIENTS}
             startingMultiplier={4}
           />
