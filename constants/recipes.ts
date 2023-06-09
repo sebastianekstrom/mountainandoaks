@@ -25,18 +25,18 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
-    title: "Pasta Bolognese",
-    url: "/food-and-drinks/bolognese",
+    title: "Pasta alla puttanesca",
+    url: "/food-and-drinks/puttanesca",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
-      hero: require("../public/images/recipes/bolognese/thumbnails/hero.jpg"),
-      tall: require("../public/images/recipes/bolognese/thumbnails/tall.jpg"),
-      wide: require("../public/images/recipes/bolognese/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/bolognese/thumbnails/square.jpg"),
-      meta: require("../public/images/recipes/bolognese/thumbnails/meta.png"),
+      hero: require("../public/images/recipes/puttanesca/thumbnails/hero.jpg"),
+      tall: require("../public/images/recipes/puttanesca/thumbnails/tall.jpg"),
+      wide: require("../public/images/recipes/puttanesca/thumbnails/wide.jpg"),
+      square: require("../public/images/recipes/puttanesca/thumbnails/square.jpg"),
+      meta: require("../public/images/recipes/puttanesca/thumbnails/meta.png"),
     },
     description:
-      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours. The outcome is a delicious sauce with an amazing texture and depth that'll make your taste buds dance with joy.",
+      "Pasta alla Puttanesca is a rustic, hearty dish from southern Italy. Made with simple, robust ingredients like olives, capers, tomatoes, and anchovies, this pasta dish delivers a sauce that's packed with authentic, homely flavors.",
   },
   {
     title: "The 54 – A long proofed NY style pizza",
@@ -65,6 +65,20 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "This iconic Vietnamese bread is known for its fluffy interior and thin, soft crust, perfect for loading up with chicken or pork, pickled carrots and daikon, pâté, chili, and cucumber.",
+  },
+  {
+    title: "Pasta Bolognese",
+    url: "/food-and-drinks/bolognese",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../public/images/recipes/bolognese/thumbnails/hero.jpg"),
+      tall: require("../public/images/recipes/bolognese/thumbnails/tall.jpg"),
+      wide: require("../public/images/recipes/bolognese/thumbnails/wide.jpg"),
+      square: require("../public/images/recipes/bolognese/thumbnails/square.jpg"),
+      meta: require("../public/images/recipes/bolognese/thumbnails/meta.png"),
+    },
+    description:
+      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours. The outcome is a delicious sauce with an amazing texture and depth that'll make your taste buds dance with joy.",
   },
   {
     title: "New York style pizza dough",
