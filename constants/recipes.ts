@@ -30,7 +30,7 @@ export const RECIPES: Recipe[] = [
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
       hero: require("../public/images/recipes/puttanesca/thumbnails/hero.jpg"),
-      tall: require("../public/images/recipes/puttanesca/thumbnails/tall.jpg"),
+      tall: require("../public/images/recipes/puttanesca/thumbnails/tall.png"),
       wide: require("../public/images/recipes/puttanesca/thumbnails/wide.jpg"),
       square: require("../public/images/recipes/puttanesca/thumbnails/square.jpg"),
       meta: require("../public/images/recipes/puttanesca/thumbnails/meta.png"),

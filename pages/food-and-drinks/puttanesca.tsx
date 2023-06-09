@@ -6,7 +6,7 @@ import Text from "components/Text";
 import Ingredients from "components/Ingredients";
 import MethodImage from "components/MethodImage";
 
-import heroImage from "public/images/recipes/puttanesca/thumbnails/tall.jpg";
+import heroImage from "public/images/recipes/puttanesca/thumbnails/tall.png";
 
 import metaImage from "public/images/recipes/puttanesca/thumbnails/meta.png";
 import image1 from "public/images/recipes/puttanesca/1.png";
