@@ -30,7 +30,11 @@ export const Step = ({ index, step, completable }: Props) => {
               }`}
             >
               {isCompleted ? (
-                <CheckIcon className="h-6 w-6" aria-hidden="true" />
+                <CheckIcon
+                  className="h-6 w-6"
+                  aria-hidden="true"
+                  aria-label="completed"
+                />
               ) : (
                 index + 1
               )}

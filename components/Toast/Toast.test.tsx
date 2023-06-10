@@ -11,7 +11,7 @@ describe("<Toast />", () => {
     localStorage.clear();
   });
 
-  test("starts the timer when the start button is clicked", () => {
+  it("starts the timer when the start button is clicked", () => {
     const { getByTestId, getByText } = render(<Toast />);
 
     fireEvent.click(getByTestId("start-btn"));
@@ -23,7 +23,7 @@ describe("<Toast />", () => {
     expect(getByText("00:00:01")).toBeDefined();
   });
 
-  test("pauses the timer when the pause button is clicked", () => {
+  it("pauses the timer when the pause button is clicked", () => {
     const { getByTestId, getByText } = render(<Toast />);
 
     fireEvent.click(getByTestId("start-btn"));
@@ -36,7 +36,7 @@ describe("<Toast />", () => {
     expect(getByText("00:00:00")).toBeDefined();
   });
 
-  test("resumes the timer when the resume button is clicked", () => {
+  it("resumes the timer when the resume button is clicked", () => {
     const { getByTestId, getByText } = render(<Toast />);
 
     fireEvent.click(getByTestId("start-btn"));
@@ -50,7 +50,7 @@ describe("<Toast />", () => {
     expect(getByText("00:00:01")).toBeDefined();
   });
 
-  test("restarts the timer when the restart button is clicked", () => {
+  it("restarts the timer when the restart button is clicked", () => {
     const { getByTestId, getByText } = render(<Toast />);
 
     fireEvent.click(getByTestId("start-btn"));

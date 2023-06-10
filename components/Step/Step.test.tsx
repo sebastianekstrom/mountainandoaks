@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Step } from "./Step";
 import "@testing-library/jest-dom";
@@ -38,5 +38,23 @@ describe("Step component", () => {
     const stepButton = screen.getByRole("button");
     userEvent.click(stepButton);
     expect(stepButton).toHaveTextContent("1");
+  });
+
+  it("reduces button's opacity when 'isCompleted' state is true", () => {
+    render(<Step {...defaultProps} />);
+    const stepButton = screen.getByRole("button").children[0];
+
+    waitFor(() => expect(stepButton).toHaveClass("opacity-10"));
+    userEvent.click(stepButton);
+    expect(stepButton).not.toHaveClass("opacity-10");
+  });
+
+  it("shows a check icon when 'isCompleted' state is true", () => {
+    render(<Step {...defaultProps} />);
+    const stepButton = screen.getByRole("button");
+    userEvent.click(stepButton);
+    waitFor(() =>
+      expect(screen.getByLabelText("completed")).toBeInTheDocument()
+    );
   });
 });
