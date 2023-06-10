@@ -18,7 +18,7 @@ describe("useMobileScrollCheck", () => {
     });
   });
 
-  test("set visibility to true for non small screens", () => {
+  it("set visibility to true for non small screens", () => {
     const setIsVisible = jest.fn();
     window.innerWidth = 800;
 
@@ -26,7 +26,7 @@ describe("useMobileScrollCheck", () => {
     expect(setIsVisible).toHaveBeenCalledWith(true);
   });
 
-  test("does not set visibility for small screens on initial render", () => {
+  it("does not set visibility for small screens on initial render", () => {
     const setIsVisible = jest.fn();
     window.innerWidth = 600;
 
@@ -34,7 +34,7 @@ describe("useMobileScrollCheck", () => {
     expect(setIsVisible).not.toHaveBeenCalled();
   });
 
-  test("sets visibility to true for small screens when scrolling beyond limit", () => {
+  it("sets visibility to true for small screens when scrolling beyond limit", () => {
     const setIsVisible = jest.fn();
     window.innerWidth = 600;
 
