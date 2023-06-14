@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Jalapeño dip",
+    url: "/food-and-drinks/jalapeno-dip",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../public/images/recipes/jalapeno-dip/thumbnails/hero.png"),
+      tall: require("../public/images/recipes/jalapeno-dip/thumbnails/tall.png"),
+      wide: require("../public/images/recipes/jalapeno-dip/thumbnails/wide.png"),
+      square: require("../public/images/recipes/jalapeno-dip/thumbnails/square.png"),
+      meta: require("../public/images/recipes/jalapeno-dip/thumbnails/meta.png"),
+    },
+    description:
+      "This dip, with its zesty jalapeño and hint of garlic, is the perfect spicy, creamy addition to your tacos and nachos. Or any snack craving a little heat.",
+  },
+  {
     title: "Pasta alla puttanesca",
     url: "/food-and-drinks/puttanesca",
     category: CATEGORIES["food-and-drinks"],
