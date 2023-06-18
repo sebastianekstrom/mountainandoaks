@@ -25,20 +25,6 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
-    title: "Jalapeño dip",
-    url: "/food-and-drinks/jalapeno-dip",
-    category: CATEGORIES["food-and-drinks"],
-    thumbnails: {
-      hero: require("../public/images/recipes/jalapeno-dip/thumbnails/hero.png"),
-      tall: require("../public/images/recipes/jalapeno-dip/thumbnails/tall.png"),
-      wide: require("../public/images/recipes/jalapeno-dip/thumbnails/wide.png"),
-      square: require("../public/images/recipes/jalapeno-dip/thumbnails/square.png"),
-      meta: require("../public/images/recipes/jalapeno-dip/thumbnails/meta.png"),
-    },
-    description:
-      "This dip, with its zesty jalapeño and hint of garlic, is the perfect spicy, creamy addition to your tacos and nachos. Or any snack craving a little heat.",
-  },
-  {
     title: "Pasta alla puttanesca",
     url: "/food-and-drinks/puttanesca",
     category: CATEGORIES["food-and-drinks"],
@@ -67,18 +53,32 @@ export const RECIPES: Recipe[] = [
       "This recipe is a modification of my New York Style pizza with the goal of having a really long proof time to develop maximum taste. To be able to have a total of 54 hour proof time the dough needs very little yeast. The recipe also includes something called Diastatic malt powder which improves the rise, texture and crust. It's not required to use, but highly encouraged.",
   },
   {
-    title: "Banh mi bun",
-    url: "/bread/banh-mi-bun",
-    category: CATEGORIES.bread,
+    title: "Sebby's",
+    url: "/pizza/sebbys",
+    category: CATEGORIES.pizza,
     thumbnails: {
-      hero: require("../public/images/bread/banh-mi-bun/thumbnails/hero.jpg"),
-      tall: require("../public/images/bread/banh-mi-bun/thumbnails/tall.jpg"),
-      wide: require("../public/images/bread/banh-mi-bun/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/banh-mi-bun/thumbnails/square.jpg"),
-      meta: require("../public/images/bread/banh-mi-bun/thumbnails/meta.png"),
+      hero: require("../public/images/recipes/sebbys/thumbnails/hero.jpg"),
+      tall: require("../public/images/recipes/sebbys/thumbnails/tall.jpg"),
+      wide: require("../public/images/recipes/sebbys/thumbnails/wide.jpg"),
+      square: require("../public/images/recipes/sebbys/thumbnails/square.jpg"),
+      meta: require("../public/images/recipes/sebbys/thumbnails/meta.png"),
     },
     description:
-      "This iconic Vietnamese bread is known for its fluffy interior and thin, soft crust, perfect for loading up with chicken or pork, pickled carrots and daikon, pâté, chili, and cucumber.",
+      "Every Swede knows about the glorious Gorby's, a pirog filled with low quality meat and topped with even lower quality cheese. This recipe is a version of the Gorby's, with home made dough and a delicious variant of a bolognese. I recommend making the bolognese a few hours, up to a day, before making the pirog to develop more flavour.",
+  },
+  {
+    title: "Baguette",
+    url: "/bread/baguette",
+    category: CATEGORIES.bread,
+    thumbnails: {
+      hero: require("../public/images/bread/baguette/thumbnails/hero.jpg"),
+      tall: require("../public/images/bread/baguette/thumbnails/tall.jpg"),
+      wide: require("../public/images/bread/baguette/thumbnails/wide.jpg"),
+      square: require("../public/images/bread/baguette/thumbnails/square.jpg"),
+      meta: require("../public/images/bread/baguette/thumbnails/meta.png"),
+    },
+    description:
+      "This recipe will produce a light and fluffy baguette with a semi open crumb. Baguettes are one of the trickier breads to make due to the shaping, but it's really fun and with practice it gets easier.",
   },
   {
     title: "Pasta Bolognese",
@@ -109,18 +109,18 @@ export const RECIPES: Recipe[] = [
       "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavour I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
-    title: "Baguette",
-    url: "/bread/baguette",
+    title: "Banh mi bun",
+    url: "/bread/banh-mi-bun",
     category: CATEGORIES.bread,
     thumbnails: {
-      hero: require("../public/images/bread/baguette/thumbnails/hero.jpg"),
-      tall: require("../public/images/bread/baguette/thumbnails/tall.jpg"),
-      wide: require("../public/images/bread/baguette/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/baguette/thumbnails/square.jpg"),
-      meta: require("../public/images/bread/baguette/thumbnails/meta.png"),
+      hero: require("../public/images/bread/banh-mi-bun/thumbnails/hero.jpg"),
+      tall: require("../public/images/bread/banh-mi-bun/thumbnails/tall.jpg"),
+      wide: require("../public/images/bread/banh-mi-bun/thumbnails/wide.jpg"),
+      square: require("../public/images/bread/banh-mi-bun/thumbnails/square.jpg"),
+      meta: require("../public/images/bread/banh-mi-bun/thumbnails/meta.png"),
     },
     description:
-      "This recipe will produce a light and fluffy baguette with a semi open crumb. Baguettes are one of the trickier breads to make due to the shaping, but it's really fun and with practice it gets easier.",
+      "This iconic Vietnamese bread is known for its fluffy interior and thin, soft crust, perfect for loading up with chicken or pork, pickled carrots and daikon, pâté, chili, and cucumber.",
   },
   {
     title: "Gear for baking",
@@ -219,20 +219,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "These are the perfect buns for a smashed burger (somewhere around a 75g patty), or whatever burger you like. It uses something called dough conditioner, which is like the MSG of the baking world. It speeds up proofing time, strengthens the gluten and improves caramelization in the oven. This is totally optional, but try it if you can get a hold of it!",
-  },
-  {
-    title: "Sebby's",
-    url: "/pizza/sebbys",
-    category: CATEGORIES.pizza,
-    thumbnails: {
-      hero: require("../public/images/recipes/sebbys/thumbnails/hero.jpg"),
-      tall: require("../public/images/recipes/sebbys/thumbnails/tall.jpg"),
-      wide: require("../public/images/recipes/sebbys/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/sebbys/thumbnails/square.jpg"),
-      meta: require("../public/images/recipes/sebbys/thumbnails/meta.png"),
-    },
-    description:
-      "Every Swede knows about the glorious Gorby's, a pirog filled with low quality meat and topped with even lower quality cheese. This recipe is a version of the Gorby's, with home made dough and a delicious variant of a bolognese. I recommend making the bolognese a few hours, up to a day, before making the pirog to develop more flavour.",
   },
   {
     title: "Hybrid pizza dough",
@@ -401,5 +387,19 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "Get ready to rock your taste buds with this wickedly tasty sauce, perfect for taking your chicken wings to new heights. This easy, lip-smacking recipe delivers a flavor explosion with every bite.",
+  },
+  {
+    title: "Jalapeño dip",
+    url: "/food-and-drinks/jalapeno-dip",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../public/images/recipes/jalapeno-dip/thumbnails/hero.png"),
+      tall: require("../public/images/recipes/jalapeno-dip/thumbnails/tall.png"),
+      wide: require("../public/images/recipes/jalapeno-dip/thumbnails/wide.png"),
+      square: require("../public/images/recipes/jalapeno-dip/thumbnails/square.png"),
+      meta: require("../public/images/recipes/jalapeno-dip/thumbnails/meta.png"),
+    },
+    description:
+      "This dip, with its zesty jalapeño and hint of garlic, is the perfect spicy, creamy addition to your tacos and nachos. Or any snack craving a little heat.",
   },
 ];
