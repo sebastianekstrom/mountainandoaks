@@ -169,10 +169,10 @@ export const RECIPES: Recipe[] = [
     url: "/bread/the-simple-loaf",
     category: CATEGORIES.bread,
     thumbnails: {
-      hero: require("../public/images/bread/the-simple-loaf/thumbnails/hero.jpg"),
-      tall: require("../public/images/bread/the-simple-loaf/thumbnails/tall.jpg"),
-      wide: require("../public/images/bread/the-simple-loaf/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/the-simple-loaf/thumbnails/square.jpg"),
+      hero: require("../public/images/bread/the-simple-loaf/thumbnails/hero.png"),
+      tall: require("../public/images/bread/the-simple-loaf/thumbnails/tall.png"),
+      wide: require("../public/images/bread/the-simple-loaf/thumbnails/wide.png"),
+      square: require("../public/images/bread/the-simple-loaf/thumbnails/square.png"),
       meta: require("../public/images/bread/the-simple-loaf/thumbnails/meta.png"),
     },
     description:
