@@ -8,9 +8,11 @@ import Ingredients from "components/Ingredients";
 import WindowPaneTest from "components/WindowPaneTest";
 import PokeTest from "components/PokeTest";
 
-import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.jpg";
+import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.png";
 import metaImage from "public/images/bread/the-simple-loaf/thumbnails/meta.png";
+import image1 from "public/images/bread/the-simple-loaf/1.png";
 import Method from "components/Method";
+import MethodImage from "components/MethodImage";
 
 const INGREDIENTS = [
   {
@@ -105,7 +107,7 @@ const STEPS = [
   <Text>
     Bake for <b>20 more minutes</b> until the crust is golden brown
   </Text>,
-  <Text>
+  <Text extra={<MethodImage src={image1} alt="" />}>
     All done, take out the bread from the oven and place it on a cooling rack.
     Let it rest for at least <b>30 minutes</b>
   </Text>,
