@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Bordelaise sauce",
+    url: "/food-and-drinks/bordelaise-sauce",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../public/images/recipes/bordelaise-sauce/thumbnails/hero.png"),
+      tall: require("../public/images/recipes/bordelaise-sauce/thumbnails/tall.png"),
+      wide: require("../public/images/recipes/bordelaise-sauce/thumbnails/wide.png"),
+      square: require("../public/images/recipes/bordelaise-sauce/thumbnails/square.png"),
+      meta: require("../public/images/recipes/bordelaise-sauce/thumbnails/meta.png"),
+    },
+    description:
+      "Bordelaise sauce is a classic French sauce named after France’s Bordeaux region, which is well-known for its wine. It’s a flavorful sauce made from dry red wine, bone marrow, butter, shallots, and demi-glace.",
+  },
+  {
     title: "Pasta alla puttanesca",
     url: "/food-and-drinks/puttanesca",
     category: CATEGORIES["food-and-drinks"],

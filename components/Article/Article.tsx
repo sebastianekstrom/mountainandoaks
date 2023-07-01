@@ -22,7 +22,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             priority
             height={483}
             alt=""
-            className="w-full h-auto lg:w-[613px] lg:h-[483px]"
+            className="w-full h-auto lg:w-[613px]"
             placeholder="blur"
           />
         </Link>
