@@ -94,6 +94,12 @@ const INGREDIENTS = [
         valueSuffix: false,
         excludeValue: true,
       },
+      {
+        value: 1,
+        label: "Olive oil",
+        valueSuffix: false,
+        excludeValue: true,
+      },
     ],
   },
 ];
@@ -110,8 +116,8 @@ const STEPS = [
     >
       Begin by prepping your ingredients. <br />
       <br />
-      Grate the <b>Parmesan cheese</b> and finely <b>chop the parsley</b>,
-      setting them aside in separate containers. <br />
+      Grate the <b>Parmesan cheese</b> and <b>chop the parsley</b>, setting them
+      aside in separate containers. <br />
       <br />
       Coarsely <b>chop the garlic, onion, anchovies, olives, and capers</b>,
       keeping each in its own container for easy access during cooking.
@@ -125,8 +131,10 @@ const STEPS = [
       </>
     }
   >
-    Hand-crush the <b>tomatoes</b>, breaking them down into rough pieces. Prep
-    is done!
+    Hand-crush the <b>tomatoes</b>, breaking them down into smaller pieces until
+    you have a relatively smooth (but not too smooth) sauce. <br />
+    <br />
+    Prep is done!
   </Text>,
   <Text>
     Set a pot of <b>water on the stove to boil</b> for the pasta.
@@ -142,9 +150,10 @@ const STEPS = [
     }
   >
     Drizzle in the <b>olive oil</b> in the pan and add the{" "}
-    <b>onion, anchovies</b>, and <b>red pepper flakes</b>. Saute these for about{" "}
-    <b>5 minutes</b> until the onions are translucent and the anchovies have
-    melted into the oil.
+    <b>onion, anchovies</b>, and <b>red pepper flakes</b>. <br />
+    <br />
+    Sauté these for about <b>5 minutes</b> until the onions are translucent and
+    the anchovies have melted into the oil.
   </Text>,
   <Text
     extra={
@@ -154,8 +163,7 @@ const STEPS = [
     }
   >
     Add the <b>capers</b>, <b>olives</b>, and <b>garlic</b> to the pan. Continue
-    cooking for an additional <b>2 minutes</b> to allow these ingredients to
-    release their flavors.
+    cooking for an additional <b>2 minutes</b>.
   </Text>,
   <Text
     extra={
@@ -164,10 +172,12 @@ const STEPS = [
       </>
     }
   >
-    Stir in the <b>crushed tomatoes</b> and let them simmer for another 2
+    Stir in the <b>crushed tomatoes</b> and let them simmer for another 2 - 3
     minutes.
   </Text>,
-  <Text>Remove the pan from the heat for the time being.</Text>,
+  <Text>
+    <b>Remove the pan</b> from the heat for the time being.
+  </Text>,
   <Text
     extra={
       <>
@@ -192,11 +202,12 @@ const STEPS = [
   >
     <b>Add the cooked pasta to the pan</b> with the sauce and mix well. If
     needed, add a <b>few splashes of pasta water</b> to help thicken the sauce.
-  </Text>,
-  <Text>
+    <br />
+    <br />
     Allow the pasta and sauce to cook together for an additional{" "}
-    <b>1-2 minutes</b>.
+    <b>1-2 minutes</b> until it gets a bit more creamy in its consistency.
   </Text>,
+
   <Text
     extra={
       <>
@@ -215,13 +226,15 @@ const STEPS = [
       </>
     }
   >
-    Serve your Pasta alla Puttanesca hot, garnished with a little more Parmesan
-    and a twist of fresh ground pepper to taste. Enjoy this rustic Italian
-    classic!
+    Serve your Pasta alla Puttanesca hot, garnished with a little more{" "}
+    <b>Parmesan</b>, <b>olive oil</b> and a twist of fresh ground{" "}
+    <b>black pepper</b> to taste. <br />
+    <br />
+    Enjoy this rustic Italian classic!
   </Text>,
 ];
 
-export default function Bolognese() {
+export default function Puttanesca() {
   return (
     <Page
       metaTitle="Pasta alla puttanesca"
