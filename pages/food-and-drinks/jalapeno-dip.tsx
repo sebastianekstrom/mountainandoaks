@@ -101,10 +101,9 @@ export default function JalapenoDip() {
               snack craving a little heat.
             </Text>
             <Text variant="ingress">
-              While cilantro adds a distinct freshness to this dip, we
-              understand it's not for everyone. If you choose to omit it, add a
-              little extra baby spinach to keep the dip's texture and color
-              balance
+              While cilantro adds a distinct freshness to this dip, it's not for
+              everyone. If you choose to omit it, add a little extra baby
+              spinach to keep the dip's texture and color balance.
             </Text>
           </>
         }

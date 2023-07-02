@@ -59,13 +59,13 @@ export default function GearForBaking() {
         heroImage={heroImage}
         description={
           <>
-            <Text>
+            <Text variant="ingress">
               You don't <i>need</i> any gear to bake bread or pizzas, but it can
               definitely help make it easier and more efficient. Here's my most
               used tools when I bake.
             </Text>
 
-            <Text>
+            <Text variant="ingress">
               This list contains links to products, these are <b>not</b>{" "}
               affiliate links, just products that I like to use.
             </Text>

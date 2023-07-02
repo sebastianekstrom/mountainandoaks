@@ -63,7 +63,7 @@ export default function BakingInHomeOven() {
         title="Baking pizza in a home oven"
         heroImage={heroImage}
         description={
-          <Text>
+          <Text variant="ingress">
             Pizza loves heat. But a regular home oven doesn't provide as much
             heat as professional ones or wood ovens. But do not fear, there are
             a few tricks you can do to get extremely good results in your home
@@ -78,9 +78,7 @@ export default function BakingInHomeOven() {
             </Text>
 
             <div className="mt-6">
-              <Text variant="h3">
-                <span className="font-bold">1. Pizza steel</span>
-              </Text>
+              <Text variant="h3">1. Pizza steel</Text>
               <div className="">
                 <Text>
                   Pizza is very forgiving, and there’s a lot of shortcuts you
@@ -103,9 +101,7 @@ export default function BakingInHomeOven() {
             </div>
 
             <div className="mt-12">
-              <Text variant="h3">
-                <span className="font-bold">2. Preheating the oven</span>
-              </Text>
+              <Text variant="h3">2. Preheating the oven</Text>
               <div className="">
                 <Text>
                   The next important thing is preheating your oven. If you’re
@@ -123,9 +119,7 @@ export default function BakingInHomeOven() {
             </div>
 
             <div className="mt-12">
-              <Text variant="h3">
-                <span className="font-bold">3. Pre baking the dough</span>
-              </Text>
+              <Text variant="h3">3. Pre baking the dough</Text>
               <div className="">
                 <Text>
                   So “real” pizza is supposed to be cooked in 90-180 seconds

@@ -124,8 +124,8 @@ const STEPS = [
           title="Mirepoix"
           description={
             <>
-              A mix celery, carrot and onion is called a mirepoix, or soffritto,
-              and is a common flavour base in cooking
+              A mix of celery, carrot and onion is called a mirepoix and is a
+              common flavour base in cooking.
             </>
           }
         />

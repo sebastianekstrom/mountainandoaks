@@ -12,12 +12,12 @@ import Method from "components/Method";
 
 const INGREDIENTS = [
   {
-    value: 200,
-    label: "Mayonnaise",
-  },
-  {
     value: 280,
     label: "Sour cream",
+  },
+  {
+    value: 200,
+    label: "Mayonnaise",
   },
   {
     value: 75,
