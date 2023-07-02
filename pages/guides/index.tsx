@@ -3,7 +3,7 @@ import React from "react";
 import Page from "components/Page";
 import PostList from "components/PostList";
 
-import baking from "public/images/techniques/baking.jpg";
+import baking from "public/images/techniques/gear/thumbnails/hero.jpg";
 import { RECIPES } from "constants/recipes";
 
 export default function Guides() {

@@ -2,7 +2,7 @@ import React from "react";
 
 import Page from "components/Page";
 import PostList from "components/PostList";
-import pizza from "public/images/pizza/pizza.jpg";
+import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
 import { RECIPES } from "constants/recipes";
 
 export default function Pizza() {

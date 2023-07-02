@@ -11,9 +11,9 @@ import WindowPaneTest from "components/WindowPaneTest";
 
 import heroImage from "public/images/pizza/detroit/thumbnails/tall.jpg";
 import metaImage from "public/images/pizza/detroit/thumbnails/meta.png";
-import detroit2 from "public/images/pizza/detroit-2.jpg";
-import detroit3 from "public/images/pizza/detroit-3.jpg";
-import detroit4 from "public/images/pizza/detroit-4.jpg";
+import detroit2 from "public/images/pizza/detroit/detroit-2.jpg";
+import detroit3 from "public/images/pizza/detroit/detroit-3.jpg";
+import detroit4 from "public/images/pizza/detroit/detroit-4.jpg";
 import Method from "components/Method";
 
 const INGREDIENTS = [

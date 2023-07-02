@@ -2,7 +2,7 @@ import Page from "components/Page";
 
 import PostList from "components/PostList";
 import { RECIPES } from "constants/recipes";
-import pizza from "public/images/pizza/pizza.jpg";
+import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
 import { Recipe } from "types/recipe";
 
 const categories = [
