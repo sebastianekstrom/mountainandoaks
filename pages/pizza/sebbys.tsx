@@ -12,8 +12,8 @@ import PokeTest from "components/PokeTest";
 
 import heroImage from "public/images/recipes/sebbys/thumbnails/tall.jpg";
 import metaImage from "public/images/recipes/sebbys/thumbnails/meta.png";
-import finalImage from "public/images/recipes/sebbys2.jpg";
-import shapeImage from "public/images/recipes/shape.jpg";
+import finalImage from "public/images/recipes/sebbys/sebbys2.jpg";
+import shapeImage from "public/images/recipes/sebbys/shape.jpg";
 import Method from "components/Method";
 
 const INGREDIENTS = [

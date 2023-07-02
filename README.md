@@ -34,8 +34,8 @@ A recipe requires the following image assets:
 - `hero.jpg` – 1226px x 966px
 - `tall.jpg` – 918px x 1120px
 - `wide.jpg` – 816px x 392px
-- `square.jpg` – 408px x 408px
-- `meta.png` – 1200px x 627px (notice the `.png` format)
+- `square.jpg` – 900px x 900px
+- `meta.png` – 1200px x 627px
 
 These should be placed in `public/images/<recipe-slug>/thumbnails/`.
 

@@ -60,7 +60,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/54-new-york-style/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/54-new-york-style/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/54-new-york-style/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/54-new-york-style/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/54-new-york-style/thumbnails/square.png"),
       meta: require("../public/images/pizza/54-new-york-style/thumbnails/meta.png"),
     },
     description:
@@ -74,7 +74,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/sebbys/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/sebbys/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/sebbys/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/sebbys/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/sebbys/thumbnails/square.png"),
       meta: require("../public/images/recipes/sebbys/thumbnails/meta.png"),
     },
     description:
@@ -88,7 +88,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/bread/baguette/thumbnails/hero.jpg"),
       tall: require("../public/images/bread/baguette/thumbnails/tall.jpg"),
       wide: require("../public/images/bread/baguette/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/baguette/thumbnails/square.jpg"),
+      square: require("../public/images/bread/baguette/thumbnails/square.png"),
       meta: require("../public/images/bread/baguette/thumbnails/meta.png"),
     },
     description:
@@ -102,7 +102,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/bolognese/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/bolognese/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/bolognese/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/bolognese/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/bolognese/thumbnails/square.png"),
       meta: require("../public/images/recipes/bolognese/thumbnails/meta.png"),
     },
     description:
@@ -116,7 +116,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/ny-style/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/ny-style/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/ny-style/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/ny-style/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/ny-style/thumbnails/square.png"),
       meta: require("../public/images/pizza/ny-style/thumbnails/meta.png"),
     },
     description:
@@ -130,7 +130,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/bread/banh-mi-bun/thumbnails/hero.jpg"),
       tall: require("../public/images/bread/banh-mi-bun/thumbnails/tall.jpg"),
       wide: require("../public/images/bread/banh-mi-bun/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/banh-mi-bun/thumbnails/square.jpg"),
+      square: require("../public/images/bread/banh-mi-bun/thumbnails/square.png"),
       meta: require("../public/images/bread/banh-mi-bun/thumbnails/meta.png"),
     },
     description:
@@ -144,7 +144,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/techniques/gear/thumbnails/hero.jpg"),
       tall: require("../public/images/techniques/gear/thumbnails/tall.jpg"),
       wide: require("../public/images/techniques/gear/thumbnails/wide.jpg"),
-      square: require("../public/images/techniques/gear/thumbnails/square.jpg"),
+      square: require("../public/images/techniques/gear/thumbnails/square.png"),
       meta: require("../public/images/techniques/gear/thumbnails/meta.png"),
     },
     description:
@@ -158,7 +158,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/neapolitan/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/neapolitan/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/neapolitan/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/neapolitan/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/neapolitan/thumbnails/square.png"),
       meta: require("../public/images/pizza/neapolitan/thumbnails/meta.png"),
     },
     description:
@@ -172,7 +172,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/detroit/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/detroit/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/detroit/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/detroit/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/detroit/thumbnails/square.png"),
       meta: require("../public/images/pizza/detroit/thumbnails/meta.png"),
     },
     description:
@@ -200,7 +200,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/neapolitan-sauce/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/neapolitan-sauce/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/neapolitan-sauce/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/neapolitan-sauce/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/neapolitan-sauce/thumbnails/square.png"),
       meta: require("../public/images/pizza/neapolitan-sauce/thumbnails/meta.png"),
     },
     description:
@@ -214,7 +214,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/techniques/baking-home-oven/thumbnails/hero.jpg"),
       tall: require("../public/images/techniques/baking-home-oven/thumbnails/tall.jpg"),
       wide: require("../public/images/techniques/baking-home-oven/thumbnails/wide.jpg"),
-      square: require("../public/images/techniques/baking-home-oven/thumbnails/square.jpg"),
+      square: require("../public/images/techniques/baking-home-oven/thumbnails/square.png"),
       meta: require("../public/images/techniques/baking-home-oven/thumbnails/meta.png"),
     },
     description:
@@ -228,7 +228,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/bread/bun/thumbnails/hero.jpg"),
       tall: require("../public/images/bread/bun/thumbnails/tall.jpg"),
       wide: require("../public/images/bread/bun/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/bun/thumbnails/square.jpg"),
+      square: require("../public/images/bread/bun/thumbnails/square.png"),
       meta: require("../public/images/bread/bun/thumbnails/meta.png"),
     },
     description:
@@ -242,7 +242,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/hybrid/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/hybrid/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/hybrid/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/hybrid/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/hybrid/thumbnails/square.png"),
       meta: require("../public/images/pizza/hybrid/thumbnails/meta.png"),
     },
     description:
@@ -256,7 +256,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/pizza/ny-sauce/thumbnails/hero.jpg"),
       tall: require("../public/images/pizza/ny-sauce/thumbnails/tall.jpg"),
       wide: require("../public/images/pizza/ny-sauce/thumbnails/wide.jpg"),
-      square: require("../public/images/pizza/ny-sauce/thumbnails/square.jpg"),
+      square: require("../public/images/pizza/ny-sauce/thumbnails/square.png"),
       meta: require("../public/images/pizza/ny-sauce/thumbnails/meta.png"),
     },
     description:
@@ -270,7 +270,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/basil-infused-oil/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/basil-infused-oil/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/basil-infused-oil/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/basil-infused-oil/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/basil-infused-oil/thumbnails/square.png"),
       meta: require("../public/images/recipes/basil-infused-oil/thumbnails/meta.png"),
     },
     description:
@@ -284,7 +284,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/bread/danish-rye-bread/thumbnails/hero.jpg"),
       tall: require("../public/images/bread/danish-rye-bread/thumbnails/tall.jpg"),
       wide: require("../public/images/bread/danish-rye-bread/thumbnails/wide.jpg"),
-      square: require("../public/images/bread/danish-rye-bread/thumbnails/square.jpg"),
+      square: require("../public/images/bread/danish-rye-bread/thumbnails/square.png"),
       meta: require("../public/images/bread/danish-rye-bread/thumbnails/meta.png"),
     },
     description:
@@ -298,7 +298,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/kebab-sauce/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/kebab-sauce/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/kebab-sauce/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/kebab-sauce/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/kebab-sauce/thumbnails/square.png"),
       meta: require("../public/images/recipes/kebab-sauce/thumbnails/meta.png"),
     },
     description:
@@ -312,7 +312,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/dried-citrus/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/dried-citrus/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/dried-citrus/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/dried-citrus/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/dried-citrus/thumbnails/square.png"),
       meta: require("../public/images/recipes/dried-citrus/thumbnails/meta.png"),
     },
     description:
@@ -326,7 +326,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/techniques/piefection/thumbnails/hero.jpg"),
       tall: require("../public/images/techniques/piefection/thumbnails/tall.jpg"),
       wide: require("../public/images/techniques/piefection/thumbnails/wide.jpg"),
-      square: require("../public/images/techniques/piefection/thumbnails/square.jpg"),
+      square: require("../public/images/techniques/piefection/thumbnails/square.png"),
       meta: require("../public/images/techniques/piefection/thumbnails/meta.png"),
     },
     description:
@@ -340,7 +340,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/burger-sauce/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/burger-sauce/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/burger-sauce/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/burger-sauce/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/burger-sauce/thumbnails/square.png"),
       meta: require("../public/images/recipes/burger-sauce/thumbnails/meta.png"),
     },
     description:
@@ -354,7 +354,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/garlic-oil/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/garlic-oil/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/garlic-oil/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/garlic-oil/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/garlic-oil/thumbnails/square.png"),
       meta: require("../public/images/recipes/garlic-oil/thumbnails/meta.png"),
     },
     description:
@@ -368,7 +368,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/rasberry-fudge/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/rasberry-fudge/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/rasberry-fudge/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/rasberry-fudge/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/rasberry-fudge/thumbnails/square.png"),
       meta: require("../public/images/recipes/rasberry-fudge/thumbnails/meta.png"),
     },
     description:
@@ -382,7 +382,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/alabama-slammer/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/alabama-slammer/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/alabama-slammer/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/alabama-slammer/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/alabama-slammer/thumbnails/square.png"),
       meta: require("../public/images/recipes/alabama-slammer/thumbnails/meta.png"),
     },
     description:
@@ -396,7 +396,7 @@ export const RECIPES: Recipe[] = [
       hero: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/hero.jpg"),
       tall: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/tall.jpg"),
       wide: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/wide.jpg"),
-      square: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/square.jpg"),
+      square: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/square.png"),
       meta: require("../public/images/recipes/buffalo-chicken-wing-sauce/thumbnails/meta.png"),
     },
     description:

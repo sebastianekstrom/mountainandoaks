@@ -7,17 +7,17 @@ import Text from "components/Text";
 import heroImage from "public/images/techniques/gear/thumbnails/tall.jpg";
 import metaImage from "public/images/techniques/gear/thumbnails/meta.png";
 
-import scale from "public/images/techniques/entries/scale.jpg";
-import standMixer from "public/images/techniques/entries/stand-mixer.jpg";
-import coolingRack from "public/images/techniques/entries/cooling-rack.jpg";
-import doughScraper from "public/images/techniques/entries/dough-scraper.jpg";
-import pizzaSteel from "public/images/techniques/entries/pizza-steel.jpg";
-import doughContainer from "public/images/techniques/entries/dough-container.jpg";
-import foodContainer from "public/images/techniques/entries/food-containers.jpg";
-import dutchOven from "public/images/techniques/entries/dutch-oven.jpg";
-import razor from "public/images/techniques/entries/razor.jpg";
-import labeling from "public/images/techniques/entries/labeling.jpg";
-import label from "public/images/techniques/entries/label.jpg";
+import scale from "public/images/techniques/gear/entries/scale.jpg";
+import standMixer from "public/images/techniques/gear/entries/stand-mixer.jpg";
+import coolingRack from "public/images/techniques/gear/entries/cooling-rack.jpg";
+import doughScraper from "public/images/techniques/gear/entries/dough-scraper.jpg";
+import pizzaSteel from "public/images/techniques/gear/entries/pizza-steel.jpg";
+import doughContainer from "public/images/techniques/gear/entries/dough-container.jpg";
+import foodContainer from "public/images/techniques/gear/entries/food-containers.jpg";
+import dutchOven from "public/images/techniques/gear/entries/dutch-oven.jpg";
+import razor from "public/images/techniques/gear/entries/razor.jpg";
+import labeling from "public/images/techniques/gear/entries/labeling.jpg";
+import label from "public/images/techniques/gear/entries/label.jpg";
 
 import Image from "next/image";
 
