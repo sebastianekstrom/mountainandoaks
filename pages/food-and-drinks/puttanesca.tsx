@@ -247,7 +247,7 @@ export default function Puttanesca() {
         ingredients={
           <Ingredients
             hideWeight
-            ingredientSuffix="port"
+            ingredientSuffix="portion"
             ingredients={INGREDIENTS}
             startingMultiplier={4}
           />
