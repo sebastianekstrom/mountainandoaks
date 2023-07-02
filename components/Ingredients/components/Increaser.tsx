@@ -33,9 +33,9 @@ export const Increaser = ({
   }, []);
 
   return (
-    <div className="flex justify-between mb-8 items-center">
+    <div className="flex justify-between mb-8 items-center flex-col md:flex-row">
       <Text variant="h3">Ingredients</Text>
-      <div className="flex items-center">
+      <div className="flex items-center mt-2 md:mt-0">
         <button
           id="TEST_ID_DECREASE_AMOUNT"
           data-testid="TEST_ID_DECREASE_AMOUNT"

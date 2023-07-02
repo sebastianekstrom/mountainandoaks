@@ -21,38 +21,38 @@ import Method from "components/Method";
 
 const INGREDIENTS = [
   {
-    value: 450,
+    value: 225,
     label: "Veel or beef stock",
   },
   {
-    value: 300,
+    value: 150,
     label: "Red wine (from Bordeaux)",
   },
   {
-    value: 35,
+    value: 17.5,
     label: "Shallots",
   },
   {
-    value: 20,
+    value: 10,
     label: "Bone marrow (optional)",
   },
   {
-    value: 20,
+    value: 10,
     label: "Butter",
   },
 
   {
-    value: 15,
+    value: 7.5,
     label: "Cold butter to finish the sauce",
   },
   {
-    value: 3,
+    value: 1.5,
     label: "Sprigs of thyme",
     valueSuffix: false,
     exludeFromTotalWeight: true,
   },
   {
-    value: 1,
+    value: 0.5,
     label: "Bay leaf",
     valueSuffix: false,
     exludeFromTotalWeight: true,
@@ -174,8 +174,9 @@ export default function Bolognese() {
         ingredients={
           <Ingredients
             hideWeight
-            ingredientSuffix="batch"
+            ingredientSuffix="portion"
             ingredients={INGREDIENTS}
+            startingMultiplier={2}
           />
         }
         method={<Method recipeMethod={STEPS} />}
