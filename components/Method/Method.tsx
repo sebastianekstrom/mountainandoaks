@@ -51,23 +51,19 @@ export const Method = ({ recipeMethod, completable = true }: Props) => {
     );
   }
 
-  if (!isMultiStep) {
-    const method = recipeMethod as SingleStepMethod[];
-    return (
-      <>
-        {method.map((step, index) => {
-          return (
-            <Step
-              completable={completable}
-              key={index}
-              index={index}
-              step={step}
-            />
-          );
-        })}
-      </>
-    );
-  }
-
-  return null;
+  const method = recipeMethod as SingleStepMethod[];
+  return (
+    <>
+      {method.map((step, index) => {
+        return (
+          <Step
+            completable={completable}
+            key={index}
+            index={index}
+            step={step}
+          />
+        );
+      })}
+    </>
+  );
 };
