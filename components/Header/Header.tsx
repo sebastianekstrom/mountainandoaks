@@ -71,7 +71,11 @@ export const Header = () => {
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <Link href="/" aria-label="Go to home page">
+                  <Link
+                    href="/"
+                    aria-label="Go to home page"
+                    className="focus-visible:outline-none"
+                  >
                     <Text variant="h4">Sebbe bakes</Text>
                   </Link>
                 </div>
