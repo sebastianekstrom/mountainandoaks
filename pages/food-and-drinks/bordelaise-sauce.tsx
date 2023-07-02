@@ -11,7 +11,7 @@ import heroImage from "public/images/recipes/bordelaise-sauce/thumbnails/tall.pn
 import metaImage from "public/images/recipes/bordelaise-sauce/thumbnails/meta.png";
 import image1 from "public/images/recipes/bordelaise-sauce/1.png";
 import image2 from "public/images/recipes/bordelaise-sauce/2.png";
-import image3 from "public/images/recipes/bordelaise-sauce/3.png";
+import image3 from "public/images/recipes/bordelaise-sauce/3_1.png";
 import image4 from "public/images/recipes/bordelaise-sauce/4.png";
 import image5 from "public/images/recipes/bordelaise-sauce/5.png";
 
