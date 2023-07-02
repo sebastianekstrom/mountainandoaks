@@ -54,7 +54,7 @@ export default function RasberryFudge() {
   return (
     <Page
       metaTitle="Rasberry fudge"
-      description="A refreshing cocktail inspired by Swedish bartender Jimmy Dymott, but with a few creative twists. Savor the delightful combination of sweet raspberries, rich fudge, and a hint of vanilla in this easygoing, flavorsome creation. Perfect for those warm-weather gatherings or simply to unwind and enjoy."
+      description="A refreshing cocktail inspired by Swedish bartender Jimmy Dymott, but with a few tweaks. Savor the delightful combination of sweet raspberries, rich fudge, and a hint of vanilla in this easygoing, flavorsome creation. Perfect for those warm-weather gatherings or simply to unwind and enjoy."
       image={metaImage}
     >
       <Post

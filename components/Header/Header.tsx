@@ -28,7 +28,7 @@ export const Header = () => {
             </Link>
           </div>
           <div className="md:hidden h-6 w-6">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md text-regular hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md text-regular hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-0">
               <span className="sr-only">Open menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
