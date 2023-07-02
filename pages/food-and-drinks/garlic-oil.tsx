@@ -19,27 +19,25 @@ const INGREDIENTS = [
   },
   {
     value: 160,
-    label: "Olive oil",
+    label: "Rapeseed oil",
   },
 ];
 
 const STEPS = [
+  <Text>Peel the garlic</Text>,
   <Text>
-    Peel the garlic and crush the cloves with the flat side of a knife
+    In a cold pan, add the garlic and the rapeseed oil. If the garlic isn't
+    covered by the oil add some more until they are fully submerged
   </Text>,
   <Text>
-    In a cold pan, add the garlic and the olive oil. If the garlic isn't covered
-    by the oil add some more until they are fully submerged
+    Turn on the stove on very low heat, about a 2-3 on a stove with 9 levels
   </Text>,
   <Text>
-    Turn on the stove on very low heat, about a 2 on a stove with 9 levels
-  </Text>,
-  <Text>
-    Cook the garlic for about <b>20 minutes</b>, stirring occasionally
+    Cook the garlic for about <b>40 minutes</b>, stirring occasionally
   </Text>,
   <Text>
     Pour the oil and the cloves into a jar and cover it with a lid or plastic
-    wrap. Store in the fridge for a <b>maximum of 3 days - 4 days</b>
+    wrap. Store in the fridge for up to <b>maximum of 4 days</b>
   </Text>,
 ];
 
@@ -67,9 +65,7 @@ export default function GarlicOil() {
               This garlic infused oil is perfect to drizzle on top of your{" "}
               <Link href="/pizza/new-york-style">pizza</Link>, or just dip a
               freshly baked piece of{" "}
-              <Link href="/bread/the-simple-loaf">bread</Link> in. Don't use
-              your fancy olive oil for this, use something cheap since the
-              garlic flavour is very intense.
+              <Link href="/bread/the-simple-loaf">bread</Link> in.
             </Text>
           </>
         }

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Text from "components/Text";
 import Recommended from "components/Recommended";
 import { useRouter } from "next/router";
-import Toast from "components/Toast";
 
 interface Props {
   children?: React.ReactNode;
@@ -77,7 +76,6 @@ export const Post = ({
       </div>
       {children}
       {category && <Recommended title={recommendedTitle} category={category} />}
-      <Toast />
     </article>
   );
 };

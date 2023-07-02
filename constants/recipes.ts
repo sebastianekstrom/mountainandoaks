@@ -372,7 +372,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../public/images/recipes/rasberry-fudge/thumbnails/meta.png"),
     },
     description:
-      "A refreshing cocktail inspired by Swedish bartender Jimmy Dymott, but with a few creative twists. Savor the delightful combination of sweet raspberries, rich fudge, and a hint of vanilla in this easygoing, flavorsome creation. Perfect for those warm-weather gatherings or simply to unwind and enjoy.",
+      "A refreshing cocktail inspired by Swedish bartender Jimmy Dymott, but with a few tweaks. Savor the delightful combination of sweet raspberries, rich fudge, and a hint of vanilla in this easygoing, flavorsome creation. Perfect for those warm-weather gatherings or simply to unwind and enjoy.",
   },
   {
     title: "Alabama Slammer",
