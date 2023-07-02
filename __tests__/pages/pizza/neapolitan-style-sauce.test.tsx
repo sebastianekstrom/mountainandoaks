@@ -12,7 +12,7 @@ describe("NeopolitanSauce page", () => {
   beforeEach(() => {
     (useRouter as jest.Mock).mockReturnValue({
       asPath: "/",
-      route: "/bread/hamburger-bun",
+      route: "/pizza/neapolitan-style-sauce",
     });
 
     render(<NeopolitanSauce />);

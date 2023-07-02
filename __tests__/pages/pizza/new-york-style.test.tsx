@@ -12,7 +12,7 @@ describe("NYStyle page", () => {
   beforeEach(() => {
     (useRouter as jest.Mock).mockReturnValue({
       asPath: "/",
-      route: "/bread/hamburger-bun",
+      route: "/pizza/new-york-style",
     });
 
     render(<NYStyle />);

@@ -8,11 +8,11 @@ jest.mock("next/router", () => ({
   useRouter: jest.fn(),
 }));
 
-describe("Baguette page", () => {
+describe("Danish page", () => {
   beforeEach(() => {
     (useRouter as jest.Mock).mockReturnValue({
       asPath: "/",
-      route: "/bread/hamburger-bun",
+      route: "/bread/danish-rye-bread",
     });
 
     render(<Danish />);
