@@ -76,35 +76,35 @@ export const Header = () => {
                   </Link>
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-black hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-8" role="navigation">
+                <nav className="grid gap-y-6" role="navigation">
                   <Link
                     href="/pizza"
-                    className="-m-3 border-b-2 border-black flex items-center p-3 hover:bg-gray-50"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Pizza</Text>
                   </Link>
                   <Link
                     href="/bread"
-                    className="-m-3 border-b-2 border-black flex items-center p-3 hover:bg-gray-50"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Bread</Text>
                   </Link>
                   <Link
                     href="/food-and-drinks"
-                    className="-m-3 border-b-2 border-black flex items-center p-3 hover:bg-gray-50"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Food & Drinks</Text>
                   </Link>
                   <Link
                     href="/guides"
-                    className="-m-3 border-b-2 border-black flex items-center p-3 hover:bg-gray-50"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Guides</Text>
                   </Link>
