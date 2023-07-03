@@ -2,6 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { useRouter } from "next/router";
 import { Page } from "./Page";
+import Text from "components/Text";
 
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
@@ -24,7 +25,7 @@ describe("Page", () => {
         description="Test page description"
         image={{ src: "/test-image.png" }}
       >
-        <h1>Test content</h1>
+        <Text>Test content</Text>
       </Page>
     );
 
