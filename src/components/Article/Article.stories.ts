@@ -26,7 +26,7 @@ export const Component: Story = {
         meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
       },
       description:
-        "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavour I recommend cold proofing the dough in the fridge for at least 24 hours!",
+        "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
     },
   },
 };

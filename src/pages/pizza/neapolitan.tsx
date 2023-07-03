@@ -80,7 +80,7 @@ const STEPS = [
         description={
           <>
             For optimal results I recommend <b>24 hours - 72 hours</b> in the
-            fridge. More time equals more flavour
+            fridge. More time equals more flavor
           </>
         }
       />

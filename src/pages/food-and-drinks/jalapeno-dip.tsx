@@ -71,7 +71,7 @@ const STEPS = [
     sure to <b>taste and adjust as needed</b>.
   </Text>,
   <Text extra={<MethodImage src={image3} alt="" />}>
-    Use right away, or store in the fridge to develop more flavour
+    Use right away, or store in the fridge to develop more flavor
   </Text>,
 ];
 

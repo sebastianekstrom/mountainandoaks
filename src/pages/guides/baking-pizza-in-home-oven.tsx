@@ -21,7 +21,7 @@ const STEPS = [
     in to a <b>30cm / 12”</b> round pizza
   </Text>,
   <Text>
-    Spread a thin layer of the tomato sauce (or crème fraiche if you're doing a
+    Spread a thin layer of the tomato sauce (or crème fraîche if you're doing a
     bianco) on the pizza. Do not do this step for all your pizzas at the same
     time. If you let the pizza, with the sauce on it, lie on the kitchen counter
     for too long the bottom will get all soggy and it will stick to the pizza

@@ -23,5 +23,11 @@ module.exports = {
         "sebbe-bakes/no-custom-text-elements": 0,
       },
     },
+    {
+      files: ["config/eslint/**/*.js"],
+      rules: {
+        "sebbe-bakes/no-commonly-misspelled-words": 0,
+      },
+    },
   ],
 };

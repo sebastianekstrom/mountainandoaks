@@ -23,6 +23,7 @@ const customJestConfig = {
     "src/utils/**/**/*.ts",
     "src/utils/**/**/*.tsx",
     "src/pages/**/**/*.tsx",
+    "config/**/**/*.js",
   ],
 };
 

@@ -99,8 +99,8 @@ const STEPS = [
             <>
               You can also do this Marco Pierre White style and set the heat to
               the absolute max and reduce the sauce really fast. He argues that
-              it increases the flavour even more. But I prefer doing it on
-              medium heat, since it's easier to control.
+              it increases the flavor even more. But I prefer doing it on medium
+              heat, since it's easier to control.
             </>
           }
         />

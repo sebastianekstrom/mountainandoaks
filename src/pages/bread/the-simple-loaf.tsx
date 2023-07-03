@@ -51,9 +51,9 @@ const STEPS = [
     gluten strength. If you knead by hand, knead for 10 minutes. <br />
   </Text>,
   <Text>
-    Grab your dutch oven and put it in the oven and set it to <b>250°C/482°F</b>
-    . If you don't have a dutch oven use a baking sheet. I do however highly
-    recommend getting one, you can read more about the benefits of a dutch oven{" "}
+    Grab your Dutch oven and put it in the oven and set it to <b>250°C/482°F</b>
+    . If you don't have a Dutch oven use a baking sheet. I do however highly
+    recommend getting one, you can read more about the benefits of a Dutch oven{" "}
     <Link href="techniques/gear-for-baking">here</Link>
   </Text>,
   <Text>
@@ -79,7 +79,7 @@ const STEPS = [
   </Text>,
   <Text>
     Place the dough on a piece of parchment paper to prevent it from sticking.
-    Take out your dutch oven, or baking sheet, out from the oven and place the
+    Take out your Dutch oven, or baking sheet, out from the oven and place the
     dough on it
   </Text>,
   <Text>
@@ -91,7 +91,7 @@ const STEPS = [
     good scoring techniques
   </Text>,
   <Text>
-    If you're using a dutch oven, cover it with the lid and place it in the
+    If you're using a Dutch oven, cover it with the lid and place it in the
     oven. If you're using a baking sheet, spray the dough with a tiny bit of
     water and place it in the oven. The spray of water will prevent the crust
     from forming too quickly, thus allowing the bread to rise
@@ -101,7 +101,7 @@ const STEPS = [
     <b>220°C / 428°F</b>
   </Text>,
   <Text>
-    After <b>20 minutes</b> remove the lid from the dutch oven, if you're using
+    After <b>20 minutes</b> remove the lid from the Dutch oven, if you're using
     one
   </Text>,
   <Text>

@@ -25,7 +25,7 @@ const INGREDIENTS = [
   },
   {
     value: 7,
-    label: "Fanta (orange flavour)",
+    label: "Fanta (orange flavor)",
   },
   {
     value: 2,

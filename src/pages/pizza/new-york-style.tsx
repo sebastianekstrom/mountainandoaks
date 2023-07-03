@@ -94,7 +94,7 @@ const STEPS = [
   <Text>
     Place the containers in the fridge for <b>at least four hours</b>. <br />{" "}
     For optimal results I recommend <b>24 hours - 72 hours</b>. More time equals
-    more flavour
+    more flavor
   </Text>,
   <Text>
     Take out the dough from the fridge <b>one hour before baking</b>. For best

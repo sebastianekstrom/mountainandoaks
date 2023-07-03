@@ -125,7 +125,7 @@ const STEPS = [
           description={
             <>
               A mix of celery, carrot and onion is called a mirepoix and is a
-              common flavour base in cooking.
+              common flavor base in cooking.
             </>
           }
         />
@@ -156,7 +156,7 @@ const STEPS = [
         description={
           <>
             The reason we roll the meat into balls is because we want a lot of
-            browning due to the flavour it produces, but not on all the meat
+            browning due to the flavor it produces, but not on all the meat
             because that'll make it dry
           </>
         }
@@ -181,7 +181,7 @@ const STEPS = [
             <>
               Don't be scared here, the beef should get a really dark brown
               color. You want that Maillard reaction going on to increase the
-              flavour.
+              flavor.
             </>
           }
         />
@@ -245,7 +245,7 @@ const STEPS = [
       />
     }
   >
-    Once you're happy with the flavour of the Bolognese, start to{" "}
+    Once you're happy with the flavor of the Bolognese, start to{" "}
     <b>boil the pasta</b>.
   </Text>,
   <Text>
