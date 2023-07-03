@@ -2,6 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { Post } from "./Post";
 import { useRouter } from "next/router";
+import Text from "components/Text";
 
 jest.mock("next/image", () => ({
   __esModule: true,
@@ -32,8 +33,8 @@ describe("Post component", () => {
   });
 
   it("renders the ingredients and method sections when provided", () => {
-    const ingredients = <p>Test Ingredients</p>;
-    const method = <p>Test Method</p>;
+    const ingredients = <Text>Test Ingredients</Text>;
+    const method = <Text>Test Method</Text>;
     render(
       <Post title="Test Title" ingredients={ingredients} method={method} />
     );
