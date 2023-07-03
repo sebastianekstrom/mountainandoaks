@@ -169,7 +169,7 @@ export default function HybridDough() {
               doughs; the New York style and the Neopolitan style. It uses{" "}
               poolish, which is a pre-fermented dough that you make the day
               before and later incorporate into the dough. The poolish will
-              greatly increase the flavour and texture of the pizza.
+              greatly increase the flavor and texture of the pizza.
             </Text>
             <Text variant="ingress">
               The recipe also uses both Tipo 00 and Manitoba flour, Manitoba

@@ -117,7 +117,7 @@ export default function GearForBaking() {
               <b>There's basically only two brands worth buying</b> when it
               comes to amateur baking and it's the{" "}
               <Link href="https://www.kitchenaid.com/countertop-appliances/bundles/p.professional-5-plus-series-5-quart-bowl-lift-stand-mixer-with-flex-edge-beater-bundle.kvbkfbundleer.html?">
-                Kitchen Aid
+                KitchenAid
               </Link>{" "}
               or the{" "}
               <Link href="https://www.ankarsrum.com/us/product/assistent-original-ocean-blue-ob/">
@@ -129,7 +129,7 @@ export default function GearForBaking() {
             <Text>
               <b>What I use</b>:{" "}
               <Link href="https://www.kitchenaid.com/countertop-appliances/bundles/p.professional-5-plus-series-5-quart-bowl-lift-stand-mixer-with-flex-edge-beater-bundle.kvbkfbundleer.html?">
-                Kitchen Aid 5 Quart Bowl
+                KitchenAid 5 Quart Bowl
               </Link>
             </Text>
           </Entry>
@@ -225,12 +225,6 @@ export default function GearForBaking() {
           </Entry>
 
           <Entry title="Food labeling" image={labeling}>
-            <Text>
-              When making prep for pizzas, or food in general, I always write a
-              label on the container with <b>what it contains</b>, and{" "}
-              <b>when it was prepared</b>.
-            </Text>
-
             <div className="mt-4 mb-4">
               <Image className="w-auto h-full" src={label} alt=""></Image>
             </div>
@@ -260,13 +254,13 @@ export default function GearForBaking() {
           <Entry title="Dutch oven" image={dutchOven}>
             <Text>
               If you don't have a fancy oven that can produce steam you will
-              need a dutch oven to be able to get a proper rise on your bread.
-              This is because the dutch oven captures all the steam that the
+              need a Dutch oven to be able to get a proper rise on your bread.
+              This is because the Dutch oven captures all the steam that the
               dough evaporates and traps it, thus delaying the crust of the
               bread to form too quickly, letting the bread rise as much as
               possible. <br />
               <br />I know <b>Le Creuset</b> is the bomb, but don't buy their
-              dutch oven just for baking, it's way too expensive.
+              Dutch oven just for baking, it's way too expensive.
             </Text>
             <div className="mt-4" />
             <Text>

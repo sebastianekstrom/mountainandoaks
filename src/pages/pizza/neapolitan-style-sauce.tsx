@@ -61,8 +61,8 @@ const STEPS = [
   </Text>,
   <Text>
     The sauce is <b>done</b>! For best result, keep it in the fridge for a few
-    hours, or overnight, to let it developer more flavour. But you can
-    definitely use it right away!
+    hours, or overnight, to let it developer more flavor. But you can definitely
+    use it right away!
   </Text>,
 ];
 
@@ -93,7 +93,7 @@ export default function NeapolitanSauce() {
             </Text>
 
             <Text variant="ingress">
-              This is my favorite way of doing it. It's not as flavourful as my{" "}
+              This is my favorite way of doing it. It's not as flavorful as my{" "}
               <Link href="/pizza/new-york-style-sauce">
                 New York Style sauce
               </Link>

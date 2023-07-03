@@ -153,7 +153,7 @@ const STEPS = [
         mushrooms. It should turn into almost a paste.
       </Text>,
       <Text>
-        <b>Heat oil in a pan</b> or dutch oven on medium/high heat. With your
+        <b>Heat oil in a pan</b> or Dutch oven on medium/high heat. With your
         hand, break the <b>minced beef</b> into smaller balls put them into the
         pan. Keep turning the balls of meat around, after 4-6 minutes the whole
         surface should be deeply browned (but still raw in the middle). Transfer
@@ -161,13 +161,13 @@ const STEPS = [
       </Text>,
       <Text>
         Wipe out any burnt meat from the pan and set it to medium heat. Add some
-        olive oil and add the <b>mire poix, garlic and mushrooms</b>. Stir until
+        olive oil and add the <b>mirepoix, garlic and mushrooms</b>. Stir until
         soft, about 3-4 minutes. Be careful not to burn the garlic.
       </Text>,
       <Text>
         Scrape the contents of the pan to the sides of the pan and add the
         tomato paste on the opposite side. <b>Stir the tomato paste</b> and let
-        it cook for 2-3 minutes to develop more flavour.
+        it cook for 2-3 minutes to develop more flavor.
       </Text>,
       <Text>Stir and combine everything in the pan until mixed.</Text>,
       <Text>
@@ -198,7 +198,7 @@ const STEPS = [
             description={
               <>
                 Remember to over season the sauce, the pirog dough will absorb a
-                lot of the flavour. Take the sauce to Flavour Town 🤙
+                lot of the flavor. Take the sauce to Flavor Town 🤙
               </>
             }
           />
@@ -212,7 +212,7 @@ const STEPS = [
         <br />
         <br />I prefer making the sauce the day before, this means there's a lot
         less steps to do when making the actual pirog and the sauce has more
-        time to develop flavour.
+        time to develop flavor.
       </Text>,
     ],
   },
@@ -345,7 +345,7 @@ export default function Sebbys() {
             </Text>
             <Text variant="ingress">
               I recommend making the bolognese a few hours, up to a day, before
-              making the pirog to develop more flavour.
+              making the pirog to develop more flavor.
             </Text>
           </>
         }

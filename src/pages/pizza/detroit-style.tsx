@@ -136,7 +136,7 @@ const STEPS = [
         description={
           <>
             Remember to over season your sauce, the dough and cheeze will absorb{" "}
-            <i>a lot of</i> the flavour.
+            <i>a lot of</i> the flavor.
           </>
         }
       />
@@ -228,7 +228,7 @@ export default function DetroitStyle() {
                 J. Kenji López-Alt
               </Link>{" "}
               but with modifications to streamline the process and add a bit
-              more flavour.
+              more flavor.
             </Text>
           </>
         }

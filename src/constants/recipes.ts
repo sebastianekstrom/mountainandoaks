@@ -78,7 +78,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/recipes/sebbys/thumbnails/meta.png"),
     },
     description:
-      "Every Swede knows about the glorious Gorby's, a pirog filled with low quality meat and topped with even lower quality cheese. This recipe is a version of the Gorby's, with home made dough and a delicious variant of a bolognese. I recommend making the bolognese a few hours, up to a day, before making the pirog to develop more flavour.",
+      "Every Swede knows about the glorious Gorby's, a pirog filled with low quality meat and topped with even lower quality cheese. This recipe is a version of the Gorby's, with home made dough and a delicious variant of a bolognese. I recommend making the bolognese a few hours, up to a day, before making the pirog to develop more flavor.",
   },
   {
     title: "Baguette",
@@ -120,7 +120,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
     },
     description:
-      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavour I recommend cold proofing the dough in the fridge for at least 24 hours!",
+      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
     title: "Banh mi bun",
@@ -176,7 +176,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/pizza/detroit/thumbnails/meta.png"),
     },
     description:
-      "The Detroit style pizza is a deep-dish pizza made in a rectangle steel pan and then cut into squares. The dough has a unusually high hydration level for a pizza which creates a fluffy, moist and delicious pizza topped with low hydration mozzarella and sausage. This recipe is inspired by J. Kenji López-Alt but with modifications to streamline the process and add a bit more flavour.",
+      "The Detroit style pizza is a deep-dish pizza made in a rectangle steel pan and then cut into squares. The dough has a unusually high hydration level for a pizza which creates a fluffy, moist and delicious pizza topped with low hydration mozzarella and sausage. This recipe is inspired by J. Kenji López-Alt but with modifications to streamline the process and add a bit more flavor.",
   },
   {
     title: "Simple loaf",
@@ -204,7 +204,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/pizza/neapolitan-sauce/thumbnails/meta.png"),
     },
     description:
-      "There's a lot of variants for the tomato sauce for a Neapolitan pizza. Some prefer to not cook it, some prefer it containing nothing more than San Marzano's, basil and salt. This is my favorite way of doing it. It's not as flavourful as my New York Style sauce, but more subtle to let the toppings shine. This sauce pairs well with my Neapolitan style dough.",
+      "There's a lot of variants for the tomato sauce for a Neapolitan pizza. Some prefer to not cook it, some prefer it containing nothing more than San Marzano's, basil and salt. This is my favorite way of doing it. It's not as flavorful as my New York Style sauce, but more subtle to let the toppings shine. This sauce pairs well with my Neapolitan style dough.",
   },
   {
     title: "Baking pizza in a home oven",
@@ -246,7 +246,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/pizza/hybrid/thumbnails/meta.png"),
     },
     description:
-      "This dough is the result of me experimenting with two different doughs; the New York style and the Neopolitan style. It uses poolish, which is a pre-fermented dough that you make the day before and later incorporate into the dough. The poolish will greatly increase the flavour and texture of the pizza. The recipe also uses both Tipo 00 and Manitoba flour, Manitoba flour has a very high W strength which results in better gluten development. The end result is a New York style dough with tons of flavour and a great crust!",
+      "This dough is the result of me experimenting with two different doughs; the New York style and the Neopolitan style. It uses poolish, which is a pre-fermented dough that you make the day before and later incorporate into the dough. The poolish will greatly increase the flavor and texture of the pizza. The recipe also uses both Tipo 00 and Manitoba flour, Manitoba flour has a very high W strength which results in better gluten development. The end result is a New York style dough with tons of flavor and a great crust!",
   },
   {
     title: "New York style pizza sauce",
@@ -358,7 +358,7 @@ export const RECIPES: Recipe[] = [
       meta: require("../../public/images/recipes/garlic-oil/thumbnails/meta.png"),
     },
     description:
-      "This garlic infused oil is perfect to drizzle on top of your pizza, or just dip a freshly baked piece of bread in. Don't use your fancy olive oil for this, use something cheap since the garlic flavour is very intense.",
+      "This garlic infused oil is perfect to drizzle on top of your pizza, or just dip a freshly baked piece of bread in. Don't use your fancy olive oil for this, use something cheap since the garlic flavor is very intense.",
   },
   {
     title: "Rasberry fudge",

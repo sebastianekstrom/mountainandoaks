@@ -52,7 +52,7 @@ const STEPS = [
   </Text>,
   <Text>
     For best result, keep it in the fridge for a few hours to let it developer
-    more flavour. But you can definitely use it right away!
+    more flavor. But you can definitely use it right away!
   </Text>,
 ];
 
