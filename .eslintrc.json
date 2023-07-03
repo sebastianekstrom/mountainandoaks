@@ -1,17 +1,12 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:storybook/recommended"
-  ],
+  "extends": ["next/core-web-vitals", "plugin:storybook/recommended"],
   "rules": {
     "react/no-unescaped-entities": 0,
     "no-unused-vars": "warn"
   },
   "overrides": [
     {
-      "files": [
-        "pages/**/**/*.tsx"
-      ],
+      "files": ["src/pages/**/**/*.tsx"],
       "rules": {
         "react/jsx-key": 0
       }
