@@ -4,7 +4,7 @@ import localFont from "@next/font/local";
 import { convertStringToID } from "utils/convertStringToID";
 
 const headingFont = localFont({
-  src: "../../public/fonts/Gatile.woff2",
+  src: "../../../public/fonts/Gatile.woff2",
   display: "swap",
   variable: "--font-heading",
 });
@@ -14,19 +14,19 @@ const bodyFont = localFont({
   variable: "--font-sans",
   src: [
     {
-      path: "../../public/fonts/Stolzl-Book.woff",
+      path: "../../../public/fonts/Stolzl-Book.woff",
       weight: "400",
     },
     {
-      path: "../../public/fonts/Stolzl-Medium.woff",
+      path: "../../../public/fonts/Stolzl-Medium.woff",
       weight: "500",
     },
     {
-      path: "../../public/fonts/Stolzl-Regular.woff",
+      path: "../../../public/fonts/Stolzl-Regular.woff",
       weight: "600",
     },
     {
-      path: "../../public/fonts/Stolzl-Bold.woff",
+      path: "../../../public/fonts/Stolzl-Bold.woff",
       weight: "700",
     },
   ],

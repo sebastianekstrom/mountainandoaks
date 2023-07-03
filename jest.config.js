@@ -1,17 +1,12 @@
 const nextJest = require("next/jest");
 
 const createJestConfig = nextJest({
-  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
-  dir: "./",
+  dir: "./src/",
 });
 
-// Add any custom config to be passed to Jest
 /** @type {import('jest').Config} */
 const customJestConfig = {
-  // Add more setup options before each test is run
-  // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  // if using TypeScript with a baseUrl set to the root directory then you need the below for alias' to work
-  moduleDirectories: ["node_modules", "<rootDir>/"],
+  moduleDirectories: ["node_modules", "<rootDir>/src/"],
   testEnvironment: "jest-environment-jsdom",
   coverageDirectory: "./coverage/",
   collectCoverage: true,
@@ -21,13 +16,13 @@ const customJestConfig = {
   collectCoverageFrom: [
     "!/node_modules/",
     "!build/",
-    "components/**/**/*.ts",
-    "components/**/**/*.tsx",
-    "!components/**/**/*.stories.ts",
-    "!components/**/**/*.stories.tsx",
-    "utils/**/**/*.ts",
-    "utils/**/**/*.tsx",
-    "pages/**/**/*.tsx",
+    "src/components/**/**/*.ts",
+    "src/components/**/**/*.tsx",
+    "!src/components/**/**/*.stories.ts",
+    "!src/components/**/**/*.stories.tsx",
+    "src/utils/**/**/*.ts",
+    "src/utils/**/**/*.tsx",
+    "src/pages/**/**/*.tsx",
   ],
 };
 

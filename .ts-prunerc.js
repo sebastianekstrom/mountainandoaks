@@ -1,8 +1,8 @@
 const IGNORED_PATHS = [
-  "pages/",
-  "types/recipe\\.d\\.ts",
+  "src/pages/",
+  "src/types/recipe\\.d\\.ts",
   "playwright\\.config\\.ts",
-  "components/.*\\.stories\\.tsx?",
+  "src/components/.*\\.stories\\.tsx?",
 ].join("|");
 
 module.exports = {
