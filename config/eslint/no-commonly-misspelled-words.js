@@ -10,7 +10,6 @@ module.exports = {
       { misspelled: "flavour", correct: "flavor" },
       { misspelled: "dutch oven", correct: "Dutch oven", exact: true },
       { misspelled: "colour", correct: "color" },
-      { misspelled: "quiet", correct: "quiet" },
     ];
 
     function checkNodeForMisspelledWords(node) {
