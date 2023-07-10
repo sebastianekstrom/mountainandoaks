@@ -21,7 +21,7 @@ export const Header = () => {
               <Image
                 width={215}
                 height={49}
-                className="w-[180px] md:w-[215px] h-auto"
+                className="w-[180px] md:w-[162px] lg:w-[215px] h-auto"
                 src="/images/misc/logo.svg"
                 alt=""
               ></Image>
@@ -35,7 +35,7 @@ export const Header = () => {
           </div>
           <Popover.Group
             as="nav"
-            className="hidden space-x-10 md:flex relative top-[2px]"
+            className="hidden space-x-8 lg:space-x-10 md:flex relative top-[2px]"
             role="navigation"
           >
             <Link href="/pizza">
@@ -49,6 +49,9 @@ export const Header = () => {
             </Link>
             <Link href="/guides">
               <Text>Guides</Text>
+            </Link>
+            <Link href="https://www.instagram.com/sebbebakes">
+              <Text>Instagram</Text>
             </Link>
           </Popover.Group>
         </div>
@@ -111,6 +114,12 @@ export const Header = () => {
                     className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Guides</Text>
+                  </Link>
+                  <Link
+                    href="https://www.instagram.com/sebbebakes/"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
+                  >
+                    <Text>Instagram</Text>
                   </Link>
                 </nav>
               </div>
