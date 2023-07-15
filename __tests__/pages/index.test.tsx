@@ -27,7 +27,7 @@ describe("Home", () => {
 
   test("renders recipe titles", () => {
     expect(screen.getByText("Pasta Bolognese")).toBeDefined();
-    expect(screen.getByText("Detroit style pizza")).toBeDefined();
+    expect(screen.getByText("Birria tacos")).toBeDefined();
   });
 
   test("renders category sections", () => {
