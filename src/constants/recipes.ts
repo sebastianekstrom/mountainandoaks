@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Birria tacos",
+    url: "/food-and-drinks/birria-tacos",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/birria-tacos/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/birria-tacos/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/birria-tacos/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/birria-tacos/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/birria-tacos/thumbnails/meta.png"),
+    },
+    description:
+      "These tacos are a standout in the world of Mexican cuisine. At the heart of this recipe is the slow-cooked meat, steeped in the sweetness of Guajillo chilies.",
+  },
+  {
     title: "Bordelaise sauce",
     url: "/food-and-drinks/bordelaise-sauce",
     category: CATEGORIES["food-and-drinks"],
