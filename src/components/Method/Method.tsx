@@ -30,7 +30,7 @@ export const Method = ({ recipeMethod, completable = true }: Props) => {
               key={`${day.label}+${index}`}
               className={index !== 0 ? "mt-12 pt-10" : undefined}
             >
-              <Text variant="h3" classNames="mt-4">
+              <Text variant="h3" classNames="mt-4 -mb-4">
                 {day.label}
               </Text>
               {day.steps.map((step, i) => {

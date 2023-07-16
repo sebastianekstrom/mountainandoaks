@@ -72,17 +72,18 @@ const INGREDIENTS = [
 
 const STEPS = [
   {
-    label: "Day 1 - Poolish making time",
+    label: "Day 1 - Preparing the poolish",
     steps: [
       <Text>
-        Mix the all the ingredients for the <b>poolish</b> in a bowl
+        Combine all the ingredients for the <b>poolish</b> in a bowl.
       </Text>,
       <Text>
-        Put the dough on your kitchen counter and knead it with your hands until
-        its combined, around <b>3-5 minutes</b>
+        Turn the dough mixture out onto your kitchen counter and knead with your
+        hands until it's thoroughly combined, about <b>3-5 minutes</b>.
       </Text>,
       <Text>
-        Put in a lightly oiled bowl and store in the fridge for <b>12h-24h</b>
+        Transfer the dough back into the bowl, cover it with plastic wrap and
+        refrigerate for <b>12-24 hours</b>.
       </Text>,
     ],
   },
@@ -90,63 +91,66 @@ const STEPS = [
     label: "Day 2 - Baguette making time",
     steps: [
       <Text>
-        Take the <b>poolish</b> out of the fridge
+        Remove the <b>poolish</b> from the refrigerator.
       </Text>,
       <Text extra={<MethodImage src={image1} alt="" />}>
-        In a new bowl combine all the dry ingredients (flour, salt, yeast) and
-        give it a quicks stir to combine. After that add the water
+        In a separate bowl, combine all the dry ingredients (<b>flour</b>,{" "}
+        <b>salt</b>,<b>yeast</b>), and give them a quick stir for an even mix.
+        Then, add the water.
       </Text>,
       <Text extra={<MethodImage src={image2} alt="" />}>
-        Tear the poolish into small pieces
+        <b>Tear the poolish</b> into small, manageable pieces.
       </Text>,
       <Text extra={<WindowPaneTest />}>
-        Start kneading the dough and piece by piece{" "}
-        <b>incorporate the poolish</b>
+        Begin kneading the dough, incorporating the poolish pieces gradually
+        until fully combined.
         <br />
         <br />
-        If you have a stand mixer mix for 2 min on low speed to combine the
-        dough, and then 8 minutes on medium to develop gluten strength. If you
-        knead by hand, knead for at least 10 minutes <br />
+        If you're using a stand mixer, mix the dough for{" "}
+        <b>2 minutes on low speed</b> to combine, and then for{" "}
+        <b>8 minutes on medium</b> to develop gluten strength. If you're
+        kneading by hand, knead for at least 10 minutes.
       </Text>,
       <Text>
-        Cover the dough with a damp towel and let it proof in room temperature
-        for <b>1-2 hours</b> or until it has doubled in size
+        Cover the dough with a damp towel and allow it to proof at room
+        temperature for <b>1-2 hours</b>, or until it has doubled in size.
       </Text>,
       <Text>
-        Once the dough is proofed, lightly punch the dough to knock out all the
-        air and <b>divide it into 260g pieces</b>
+        Once the dough has proofed, gently deflate the dough to knock out the
+        air, and divide it into <b>260g pieces</b>.
       </Text>,
       <Text extra={<MethodImage src={image3} alt="" />}>
-        <Link href="https://youtu.be/n0U8RdRdFDU?t=633" external>
-          Pre shape
+        <Link href="https://www.youtube.com/shorts/AdO7ZQjQfEo" external>
+          Pre-shape
         </Link>{" "}
-        each ball and let it rest for 10min - 15min. It's also time to start pre
-        heating your oven, so set it to <b>240°C / 465°F</b>
+        each dough ball and let them rest for 10-15 minutes. Meanwhile,{" "}
+        <b>preheat your oven</b> to 240°C / 465°F.
       </Text>,
       <Text extra={<MethodImage src={image4} alt="" />}>
         Make the{" "}
-        <Link href="https://youtu.be/n0U8RdRdFDU?t=716" external>
+        <Link href="https://www.youtube.com/shorts/WweHpLyWssQ" external>
           final shape
         </Link>{" "}
-        which is similar to the pre shape, but with the extra step of kneading
-        it to a baguette shape
+        which is exactly like the pre-shape, but with the extra step of kneading
+        it to a baguette shape.
       </Text>,
       <Text extra={<PokeTest />}>
-        Cover with a towel and let it proof for another <b>30min - 60min</b>
+        Cover the baguettes with a damp towel and let them proof for another{" "}
+        <b>30-60 minutes</b>.
       </Text>,
       <Text>
-        We need to create steam in the oven to help the bread rise, so start
-        boiling some water (around 1000g gram) and place an oven proof container
-        at the bottom of the oven
+        To create steam in the oven (which helps the bread rise), start boiling
+        about 1000g of water. Place an ovenproof container at the bottom of the
+        oven.
       </Text>,
       <Text extra={<MethodImage src={image5} alt="" />}>
-        Score the dough by making three <em>straight</em> lines with some
-        offset, as visualized by the red lines below, and place them on a baking
-        tray
+        <b>Score the dough</b> by making three parallel slashes across the top
+        of each baguette.
       </Text>,
       <Text>
-        Put the oven tray in the oven, and immediately pour the boiling water
-        into the container at the bottom of the oven
+        Position the baguettes on a baking tray, place the tray in the oven, and
+        immediately pour the boiling water into the container at the bottom of
+        the oven.
       </Text>,
       <Text
         extra={
@@ -156,10 +160,10 @@ const STEPS = [
           </>
         }
       >
-        After <b>20min - 25min</b> in the oven the bread is done! Make sure to
-        let it rest for <em>at least</em> 30 minutes after taking it out of the
-        oven. If you cut it straight away all the moisture will evaporate and
-        the bread will become dry.
+        After <b>20-25 minutes</b> in the oven, the baguettes should be done.
+        Allow them to rest for at least 30 minutes after removing them from the
+        oven. Cutting into the baguette too soon could cause it to lose moisture
+        and become dry. Enjoy your homemade baguettes!
       </Text>,
     ],
   },
