@@ -1,60 +1,32 @@
-import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Step } from "./Step";
-import "@testing-library/jest-dom";
 
-describe("Step component", () => {
-  const defaultProps = {
-    index: 0,
-    step: "Test step",
-    id: "test-id",
-  };
-
-  it("renders without crashing", () => {
-    render(<Step {...defaultProps} />);
+describe("<Step />", () => {
+  it("should display the index when not completed", () => {
+    render(<Step index={0} step="Test Step" completable={true} />);
+    expect(screen.getByText("1")).toBeDefined();
   });
 
-  it("renders the step content correctly", () => {
-    render(<Step {...defaultProps} />);
-    expect(screen.getByText(defaultProps.step)).toBeDefined();
-  });
-
-  it("toggles the 'isCompleted' state when clicked", () => {
-    render(<Step {...defaultProps} />);
-    const stepButton = screen.getByRole("button");
-
-    expect(stepButton).toHaveTextContent("1");
-
-    userEvent.click(stepButton);
-
-    userEvent.click(stepButton);
-
-    expect(stepButton).toHaveTextContent("1");
-  });
-
-  it("doesn't toggle the 'isCompleted' state when 'completable' is false", () => {
-    render(<Step {...defaultProps} completable={false} />);
-    const stepButton = screen.getByRole("button");
-    userEvent.click(stepButton);
-    expect(stepButton).toHaveTextContent("1");
-  });
-
-  it("reduces button's opacity when 'isCompleted' state is true", () => {
-    render(<Step {...defaultProps} />);
-    const stepButton = screen.getByRole("button").children[0];
-
-    waitFor(() => expect(stepButton).toHaveClass("opacity-10"));
-    userEvent.click(stepButton);
-    expect(stepButton).not.toHaveClass("opacity-10");
-  });
-
-  it("shows a check icon when 'isCompleted' state is true", () => {
-    render(<Step {...defaultProps} />);
-    const stepButton = screen.getByRole("button");
-    userEvent.click(stepButton);
-    waitFor(() =>
-      expect(screen.getByLabelText("completed")).toBeInTheDocument()
+  it("should display the CheckIcon when completed", async () => {
+    render(<Step index={0} step="Test Step" completable={true} />);
+    userEvent.click(screen.getByRole("button"));
+    await waitFor(() =>
+      expect(screen.getByLabelText("completed")).toBeDefined()
     );
+  });
+
+  it("should not toggle completion if the step is not completable", async () => {
+    render(<Step index={0} step="Test Step" completable={false} />);
+    userEvent.click(screen.getByRole("button"));
+    expect(screen.getByText("1")).toBeDefined();
+    await waitFor(() =>
+      expect(screen.queryByLabelText("completed")).toBe(null)
+    );
+  });
+
+  it("should display the step text", () => {
+    render(<Step index={0} step="Test Step" completable={true} />);
+    expect(screen.getByText("Test Step")).toBeDefined();
   });
 });
