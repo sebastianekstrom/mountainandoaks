@@ -78,9 +78,12 @@ const STEPS = [
   </Text>,
   <Text>
     Preheat your Dutch oven by placing it in the oven set to <b>250°C/482°F</b>.
+    <br />
+    <br />
     If a Dutch oven is not available, a baking sheet can serve as a substitute.
     However, for optimal results, consider investing in a Dutch oven (you can
-    read more about it <Link href="techniques/gear-for-baking">here</Link>).
+    read more about it{" "}
+    <Link href="/guides/gear-for-baking#dutch-oven">here</Link>).
   </Text>,
   <Text extra={<MethodImage src={image5} alt="" />}>
     Cover your dough with a damp towel or plastic wrap and allow it to proof for
@@ -117,7 +120,7 @@ const STEPS = [
     <br />
     You can watch{" "}
     <Link href="https://youtu.be/wfoC-daJq8E?t=192">this video</Link> for some
-    good scoring techniques
+    good scoring techniques.
   </Text>,
   <Text extra={<MethodImage src={image9} alt="" />}>
     If using a Dutch oven, place its lid back on before putting it in the oven.
@@ -127,7 +130,7 @@ const STEPS = [
   </Text>,
   <Text>
     Once the bread is in the oven, promptly reduce the temperature to{" "}
-    <b>220°C / 428°F</b>
+    <b>220°C / 428°F</b>.
   </Text>,
   <Text>
     After the first <b>20 minutes</b> of baking, remove the Dutch oven lid, if

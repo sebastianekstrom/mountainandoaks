@@ -173,7 +173,7 @@ export default function GearForBaking() {
           <Entry title="Pizza steel" image={pizzaSteel}>
             <Text>
               As mentioned in my{" "}
-              <Link href="/techniques/baking-pizza-in-home-oven">
+              <Link href="/guides/baking-pizza-in-home-oven">
                 baking pizza in a home
               </Link>{" "}
               guide a baking steel is essential if you want to make <i>great</i>{" "}
