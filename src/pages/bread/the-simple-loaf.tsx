@@ -11,6 +11,15 @@ import PokeTest from "components/PokeTest";
 import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.png";
 import metaImage from "public/images/bread/the-simple-loaf/thumbnails/meta.png";
 import image1 from "public/images/bread/the-simple-loaf/1.png";
+import image2 from "public/images/bread/the-simple-loaf/2.png";
+import image3 from "public/images/bread/the-simple-loaf/3.png";
+import image4 from "public/images/bread/the-simple-loaf/4.png";
+import image5 from "public/images/bread/the-simple-loaf/5.png";
+import image6 from "public/images/bread/the-simple-loaf/6.png";
+import image7 from "public/images/bread/the-simple-loaf/7.png";
+import image8 from "public/images/bread/the-simple-loaf/8.png";
+import image9 from "public/images/bread/the-simple-loaf/9.png";
+import image10 from "public/images/bread/the-simple-loaf/10.png";
 import Method from "components/Method";
 import MethodImage from "components/MethodImage";
 
@@ -40,76 +49,100 @@ const INGREDIENTS = [
 ];
 
 const STEPS = [
-  <Text>Mix the dry ingredients (flour, yeast and salt) in a bowl</Text>,
-  <Text>
-    Add the liquids (water, olive oil) to the bowl and give it a quick mix with
-    your hands or a spatula
+  <Text extra={<MethodImage src={image1} alt="" />}>
+    Begin by <b>measuring all the ingredients</b>, place them in separate
+    containers and set them aside for later use.
   </Text>,
-  <Text extra={<WindowPaneTest />}>
-    Start kneading the dough. If you have a stand mixer mix it for 3 minutes on
-    low speed to combine the dough, and then 5 minutes on medium to develop
-    gluten strength. If you knead by hand, knead for 10 minutes. <br />
+  <Text extra={<MethodImage src={image2} alt="" />}>
+    In a mixing bowl, combine the dry ingredients: <b>flour</b>, <b>yeast</b>,
+    and <b>salt</b>.
+  </Text>,
+  <Text extra={<MethodImage src={image3} alt="" />}>
+    To the dry mixture, incorporate the liquid elements: <b>water</b> and{" "}
+    <b>olive oil</b>.
+  </Text>,
+  <Text
+    extra={
+      <>
+        <MethodImage src={image4} alt="" />
+        <WindowPaneTest />
+      </>
+    }
+  >
+    <b>Knead the dough</b>. If you're using a stand mixer, combine the dough on
+    low speed for about 3 minutes, then increase the speed to medium and mix for
+    an additional 5 minutes to develop the gluten.
+    <br />
+    <br />
+    If kneading by hand, continue for approximately 10 minutes.
   </Text>,
   <Text>
-    Grab your Dutch oven and put it in the oven and set it to <b>250°C/482°F</b>
-    . If you don't have a Dutch oven use a baking sheet. I do however highly
-    recommend getting one, you can read more about the benefits of a Dutch oven{" "}
-    <Link href="techniques/gear-for-baking">here</Link>
+    Preheat your Dutch oven by placing it in the oven set to <b>250°C/482°F</b>.
+    If a Dutch oven is not available, a baking sheet can serve as a substitute.
+    However, for optimal results, consider investing in a Dutch oven (you can
+    read more about it <Link href="techniques/gear-for-baking">here</Link>).
   </Text>,
-  <Text>
-    Cover the bowl with a damp towel or plastic wrap and let it proof for{" "}
-    <b>60 minutes</b>
+  <Text extra={<MethodImage src={image5} alt="" />}>
+    Cover your dough with a damp towel or plastic wrap and allow it to proof for
+    an <b>60 minutes</b>.
   </Text>,
-  <Text>
-    Put the dough on your kitchen counter and{" "}
+  <Text extra={<MethodImage src={image6} alt="" />}>
+    Transfer the dough to your kitchen counter for{" "}
     <Link href="https://youtu.be/n0U8RdRdFDU?t=633" external>
-      pre shape
+      preliminary shaping
     </Link>{" "}
-    it
+    .
   </Text>,
   <Text extra={<PokeTest />}>
-    Time for the final proof, cover the dough with a damp towel and let it proof
-    for <b>30 minutes</b>
+    Proceed to the final proofing stage. Cover the dough with a damp towel again
+    and let it proof for another <b>30 minutes</b>.
   </Text>,
   <Text>
     Make the{" "}
     <Link href="https://youtu.be/n0U8RdRdFDU?t=716" external>
-      final shape
-    </Link>
+      final shape.
+    </Link>{" "}
+    Try to shape the dough as tight as possible.
   </Text>,
-  <Text>
-    Place the dough on a piece of parchment paper to prevent it from sticking.
-    Take out your Dutch oven, or baking sheet, out from the oven and place the
-    dough on it
+  <Text extra={<MethodImage src={image7} alt="" />}>
+    Place the dough on a piece of <b>parchment paper</b> to prevent sticking.
+    Remove your preheated Dutch oven or baking sheet from the oven and place the
+    dough onto it.
   </Text>,
-  <Text>
-    <b>Score the bread</b> with a razor blade or a really sharp knife. This is
-    because we want to control the rise of the bread. If you don't score it the
-    bread might &quot;explode&quot; on the sides which means we won't get a good
-    rise. You can watch{" "}
+  <Text extra={<MethodImage src={image8} alt="" />}>
+    <b>Score the top of the dough</b> using a razor blade or a sharp knife. This
+    will control the bread's rise during baking. If unscored, the bread may
+    "burst" at the sides, compromising its rise.
+    <br />
+    <br />
+    You can watch{" "}
     <Link href="https://youtu.be/wfoC-daJq8E?t=192">this video</Link> for some
     good scoring techniques
   </Text>,
-  <Text>
-    If you're using a Dutch oven, cover it with the lid and place it in the
-    oven. If you're using a baking sheet, spray the dough with a tiny bit of
-    water and place it in the oven. The spray of water will prevent the crust
-    from forming too quickly, thus allowing the bread to rise
+  <Text extra={<MethodImage src={image9} alt="" />}>
+    If using a Dutch oven, place its lid back on before putting it in the oven.
+    For a baking sheet, spritz the dough with a small amount of water before
+    placing it in the oven. This water layer will delay the formation of a
+    crust, thus promoting the bread's rise.
   </Text>,
   <Text>
-    As soon as the bread is in the oven, lower the temperature to{" "}
+    Once the bread is in the oven, promptly reduce the temperature to{" "}
     <b>220°C / 428°F</b>
   </Text>,
   <Text>
-    After <b>20 minutes</b> remove the lid from the Dutch oven, if you're using
-    one
+    After the first <b>20 minutes</b> of baking, remove the Dutch oven lid, if
+    using one.
   </Text>,
   <Text>
-    Bake for <b>20 more minutes</b> until the crust is golden brown
+    Continue baking for an additional <b>20 more minutes</b>, or until the crust
+    turns a golden-brown color.
   </Text>,
-  <Text extra={<MethodImage src={image1} alt="" />}>
-    All done, take out the bread from the oven and place it on a cooling rack.
-    Let it rest for at least <b>30 minutes</b>
+  <Text extra={<MethodImage src={image10} alt="" />}>
+    Your bread is now ready! Carefully remove it from the oven and place it on a
+    cooling rack. <b>Let it rest for at least 30 minutes</b> before slicing and
+    serving. <br />
+    <br />
+    Enjoy your homemade bread!
   </Text>,
 ];
 
