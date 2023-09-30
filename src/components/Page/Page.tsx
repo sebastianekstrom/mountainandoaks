@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Script from "next/script";
 import Text from "components/Text";
+import { RECIPES } from "../../constants/recipes";
 
 interface Props {
   children: React.ReactNode;
@@ -53,7 +54,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
         <div className="flex flex-col items-center">
           <Text variant="h4">sebbe bakes</Text>
           <Text variant="caption" classNames="mt-2 flex items-center">
-            Made with
+            {RECIPES.length} recipes made with
             <Image
               src="/images/misc/rolling_pin.svg"
               className="mr-1 ml-0.5"
