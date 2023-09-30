@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Cheddar dip",
+    url: "/food-and-drinks/cheddar-dip",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/cheddar-dip/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/cheddar-dip/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/cheddar-dip/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/cheddar-dip/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/cheddar-dip/thumbnails/meta.png"),
+    },
+    description:
+      "This cheddar dip employs a blend of culinary science and straightforward cooking, utilizing sodium citrate for a silky-smooth texture and iota carrageenan for textural stability. Perfect for chips, vegetables, or as a luxurious drizzle over nachos.",
+  },
+  {
     title: "Birria tacos",
     url: "/food-and-drinks/birria-tacos",
     category: CATEGORIES["food-and-drinks"],
