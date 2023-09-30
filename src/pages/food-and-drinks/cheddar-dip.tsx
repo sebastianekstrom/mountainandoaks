@@ -106,7 +106,12 @@ const STEPS = [
       </>
     }
   >
-    All done! Adjust seasoning with extra salt, if necessary.
+    All done! Adjust seasoning with extra salt, if necessary. <br />
+    <br />
+    This dip <b>reheats excellently</b>, making it ideal for preparing several
+    hours or even a day in advance. Store it in the refrigerator, and when
+    you're ready to serve, simply add a splash of water and reheat it in a
+    saucepan.
   </Text>,
 ];
 
