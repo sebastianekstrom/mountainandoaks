@@ -4,18 +4,6 @@ import { Post } from "./Post";
 import { useRouter } from "next/router";
 import Text from "components/Text";
 
-jest.mock("next/image", () => ({
-  __esModule: true,
-  default: (props: any) => {
-    /* eslint-disable no-unused-vars */
-    const { priority, ...restProps } = props; // destructure props to exclude 'priority'
-    /* eslint-enable no-unused-vars */
-    /* eslint-disable @next/next/no-img-element */
-    return <img {...restProps} alt="" />;
-    /* eslint-enable @next/next/no-img-element */
-  },
-}));
-
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
 }));

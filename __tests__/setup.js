@@ -10,3 +10,12 @@ jest.spyOn(global.console, "error").mockImplementationOnce((message) => {
     global.console.warn(message);
   }
 });
+
+jest.mock("next/image", () => ({
+  __esModule: true,
+  default: (props) => {
+    /* eslint-disable @next/next/no-img-element */
+    return <img {...props} alt="" />;
+    /* eslint-enable @next/next/no-img-element */
+  },
+}));
