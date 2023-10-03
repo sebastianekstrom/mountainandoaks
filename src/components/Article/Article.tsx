@@ -24,6 +24,9 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             alt=""
             className="w-full h-auto lg:w-[613px]"
             placeholder="blur"
+            sizes="(max-width: 768px) 100vw,
+            (max-width: 1200px) 40vw,
+            40vw"
           />
         </Link>
         <Link href={recipe.category.path}>
@@ -52,6 +55,9 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             alt=""
             className="w-full h-full lg:w-[408px] lg:h-[196px]"
             placeholder="blur"
+            sizes="(max-width: 768px) 100vw,
+            (max-width: 1200px) 33vw,
+            33vw"
           />
         </Link>
         <Link href={recipe.category.path}>
@@ -80,6 +86,9 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             alt=""
             className="w-full h-full lg:w-[204] lg:h-[204]"
             placeholder="blur"
+            sizes="(max-width: 768px) 100vw,
+            (max-width: 1200px) 25vw,
+            25vw"
           />
         </Link>
         <div className="lg:ml-6 flex flex-col">
