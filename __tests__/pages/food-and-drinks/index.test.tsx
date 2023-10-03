@@ -14,7 +14,7 @@ describe("FoodAndDrinks", () => {
     });
   });
 
-  test("renders recipe titles", () => {
+  it("renders recipe titles", () => {
     render(<FoodAndDrinks />);
     expect(screen.getByText("Alabama Slammer")).toBeDefined();
   });

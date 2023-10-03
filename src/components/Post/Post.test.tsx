@@ -17,7 +17,7 @@ describe("Post component", () => {
 
   it("renders the Post component with the provided title", () => {
     render(<Post title="Test Title" />);
-    expect(screen.queryAllByText("Test Title")).toBeDefined();
+    expect(screen.getAllByText("Test Title")).toBeDefined();
   });
 
   it("renders the ingredients and method sections when provided", () => {

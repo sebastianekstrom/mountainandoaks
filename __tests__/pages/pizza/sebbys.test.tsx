@@ -14,16 +14,16 @@ describe("Sebbys page", () => {
       asPath: "/",
       route: "/food-and-drinks/sebbys",
     });
-
-    render(<Sebbys />);
   });
 
   it("renders title correctly", () => {
+    render(<Sebbys />);
     const title = screen.queryAllByText(/Sebby's/i);
     expect(title).toBeDefined();
   });
 
   it("renders the ingress text", () => {
+    render(<Sebbys />);
     const ingress = screen.queryAllByText(
       /Every Swede knows about the glorious/i
     );
@@ -31,6 +31,7 @@ describe("Sebbys page", () => {
   });
 
   it("renders the ingredients", () => {
+    render(<Sebbys />);
     const flourLabel = screen.queryAllByText(/Bread flour/i);
     const waterLabel = screen.queryAllByText(/Minced meat/i);
     expect(flourLabel).toBeDefined();
@@ -38,11 +39,13 @@ describe("Sebbys page", () => {
   });
 
   it("renders the method steps", () => {
+    render(<Sebbys />);
     const step = screen.queryAllByText(/Make the bolognese/i);
     expect(step).toBeDefined();
   });
 
   it("renders the alert with the correct description", () => {
+    render(<Sebbys />);
     const alert = screen.queryAllByText(
       /I make my mirepoix with the 1:2:1 ratio/i
     );

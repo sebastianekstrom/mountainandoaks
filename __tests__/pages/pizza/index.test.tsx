@@ -12,12 +12,11 @@ describe("Pizza", () => {
       asPath: "/pizza",
       route: "/pizza",
     });
-
-    render(<Pizza />);
   });
 
-  test("renders recipe titles", () => {
-    expect(screen.getByText("New York style pizza dough")).toBeDefined();
-    expect(screen.getByText("Detroit style pizza")).toBeDefined();
+  it("renders recipe titles", () => {
+    render(<Pizza />);
+    expect(screen.getByText("New York style pizza dough")).toBeVisible();
+    expect(screen.getByText("Detroit style pizza")).toBeVisible();
   });
 });

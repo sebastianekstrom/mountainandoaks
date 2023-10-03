@@ -2,8 +2,10 @@ module.exports = {
   extends: [
     "next/core-web-vitals",
     "plugin:storybook/recommended",
+    "plugin:testing-library/react",
     "plugin:sebbe-bakes/all",
   ],
+  plugins: ["testing-library"],
 
   rules: {
     "react/no-unescaped-entities": 0,

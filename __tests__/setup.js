@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom";
+
 /* 
 For some reason using <Image /> from "next/image" causes an console.error when running tests:
 

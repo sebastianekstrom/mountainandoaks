@@ -12,11 +12,10 @@ describe("Bread", () => {
       asPath: "/bread",
       route: "/bread",
     });
-
-    render(<Bread />);
   });
 
-  test("renders recipe titles", () => {
+  it("renders recipe titles", () => {
+    render(<Bread />);
     expect(screen.getByText("Baguette")).toBeDefined();
   });
 });

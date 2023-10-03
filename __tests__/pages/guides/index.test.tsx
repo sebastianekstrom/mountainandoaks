@@ -12,11 +12,10 @@ describe("Guides", () => {
       asPath: "/guides",
       route: "/guides",
     });
-
-    render(<Guides />);
   });
 
-  test("renders guide titles", () => {
+  it("renders guide titles", () => {
+    render(<Guides />);
     expect(screen.getByText("Gear for baking")).toBeDefined();
   });
 });

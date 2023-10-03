@@ -2,7 +2,6 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import Bolognese from "pages/food-and-drinks/bolognese";
 import { useRouter } from "next/router";
-import "@testing-library/jest-dom";
 
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
@@ -14,16 +13,16 @@ describe("Bolognese page", () => {
       asPath: "/",
       route: "/food-and-drinks/bolognese",
     });
-
-    render(<Bolognese />);
   });
 
   it("renders title correctly", () => {
+    render(<Bolognese />);
     const title = screen.queryAllByText(/Bolognese/i);
     expect(title).toBeDefined();
   });
 
   it("renders the ingress text", () => {
+    render(<Bolognese />);
     const ingress = screen.queryAllByText(
       /There are almost as many Bolognese recipes as there are Italians/i
     );
@@ -31,11 +30,13 @@ describe("Bolognese page", () => {
   });
 
   it("renders the ingredients", () => {
+    render(<Bolognese />);
     const ingredient = screen.queryAllByText(/Minced beef/i);
     expect(ingredient).toBeDefined();
   });
 
   it("renders the method steps", () => {
+    render(<Bolognese />);
     const step = screen.queryAllByText(/Start off with some preparation/i);
     expect(step).toBeDefined();
   });

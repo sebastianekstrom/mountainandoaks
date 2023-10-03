@@ -10,15 +10,14 @@ describe("<Step />", () => {
 
   it("should display the CheckIcon when completed", async () => {
     render(<Step index={0} step="Test Step" completable={true} />);
-    userEvent.click(screen.getByRole("button"));
-    await waitFor(() =>
-      expect(screen.getByLabelText("completed")).toBeDefined()
-    );
+    await userEvent.click(screen.getByRole("button"));
+
+    expect(await screen.findByLabelText("completed")).toBeDefined();
   });
 
   it("should not toggle completion if the step is not completable", async () => {
     render(<Step index={0} step="Test Step" completable={false} />);
-    userEvent.click(screen.getByRole("button"));
+    await userEvent.click(screen.getByRole("button"));
     expect(screen.getByText("1")).toBeDefined();
     await waitFor(() =>
       expect(screen.queryByLabelText("completed")).toBe(null)

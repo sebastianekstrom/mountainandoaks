@@ -2,7 +2,6 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import BanhMiBun from "pages/bread/banh-mi-bun";
 import { useRouter } from "next/router";
-import "@testing-library/jest-dom";
 
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
@@ -14,16 +13,16 @@ describe("BanhMiBun page", () => {
       asPath: "/",
       route: "/bread/banh-mi-bun",
     });
-
-    render(<BanhMiBun />);
   });
 
   it("renders title correctly", () => {
+    render(<BanhMiBun />);
     const title = screen.queryAllByText(/Bánh mì bun/i);
     expect(title).toBeDefined();
   });
 
   it("renders the ingress text", () => {
+    render(<BanhMiBun />);
     const ingress = screen.queryAllByText(
       /This iconic Vietnamese bread is known/i
     );
@@ -31,6 +30,7 @@ describe("BanhMiBun page", () => {
   });
 
   it("renders the ingredients", () => {
+    render(<BanhMiBun />);
     const waterLabel = screen.queryAllByText(/Water/i);
     const eggLabel = screen.queryAllByText(/Egg/i);
     expect(waterLabel).toBeDefined();
@@ -38,6 +38,7 @@ describe("BanhMiBun page", () => {
   });
 
   it("renders the method steps", () => {
+    render(<BanhMiBun />);
     const step = screen.queryAllByText(
       /Start by melting the butter over low heat/i
     );
