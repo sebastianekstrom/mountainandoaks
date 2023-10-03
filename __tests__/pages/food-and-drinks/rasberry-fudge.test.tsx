@@ -2,7 +2,6 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import RasberryFudge from "pages/food-and-drinks/rasberry-fudge";
 import { useRouter } from "next/router";
-import "@testing-library/jest-dom";
 
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
@@ -14,26 +13,28 @@ describe("RasberryFudge page", () => {
       asPath: "/",
       route: "/food-and-drinks/rasberry-fudge",
     });
-
-    render(<RasberryFudge />);
   });
 
   it("renders title correctly", () => {
+    render(<RasberryFudge />);
     const title = screen.queryAllByText(/Rasberry fudge/i);
     expect(title).toBeDefined();
   });
 
   it("renders the ingress text", () => {
+    render(<RasberryFudge />);
     const ingress = screen.queryAllByText(/A refreshing cocktail inspired by/i);
     expect(ingress).toBeDefined();
   });
 
   it("renders the ingredients", () => {
+    render(<RasberryFudge />);
     const ingredient = screen.queryAllByText(/Vanilla vodka/i);
     expect(ingredient).toBeDefined();
   });
 
   it("renders the method steps", () => {
+    render(<RasberryFudge />);
     const step = screen.queryAllByText(
       /Combine all ingredients in a shaker filled/i
     );

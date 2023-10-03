@@ -13,8 +13,8 @@ describe("Link component", () => {
 
   it("renders with href", () => {
     render(<Link href="/test">Test Link</Link>);
-    const linkElement = screen.getByText("Test Link");
-    expect(linkElement.closest("a")).toHaveAttribute("href", "/test");
+    const linkElement = screen.getByRole("link", { name: /test link/i });
+    expect(linkElement).toHaveAttribute("href", "/test");
   });
 
   it("renders with noColor", () => {

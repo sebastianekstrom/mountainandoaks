@@ -24,7 +24,7 @@ describe("Header", () => {
     expect(screen.getByText("Guides")).toBeDefined();
   });
 
-  it("toggles the mobile menu", () => {
+  it("toggles the mobile menu", async () => {
     render(<Header />);
 
     const mobileMenuButton = screen.getByRole("button", {
@@ -33,10 +33,10 @@ describe("Header", () => {
     fireEvent.click(mobileMenuButton);
 
     expect(screen.getByRole("button", { name: "Close menu" })).toBeDefined();
-    expect(screen.queryAllByText(/Pizza/i)).toBeDefined();
-    expect(screen.queryAllByText(/Bread/i)).toBeDefined();
-    expect(screen.queryAllByText(/Recipes/i)).toBeDefined();
-    expect(screen.queryAllByText(/Guides/i)).toBeDefined();
+    expect(await screen.findAllByText(/Pizza/i)).toBeDefined();
+    expect(await screen.findAllByText(/Bread/i)).toBeDefined();
+    expect(await screen.findAllByText(/Food & Drinks/i)).toBeDefined();
+    expect(await screen.findAllByText(/Guides/i)).toBeDefined();
 
     const closeButton = screen.getByRole("button", { name: "Close menu" });
     fireEvent.click(closeButton);

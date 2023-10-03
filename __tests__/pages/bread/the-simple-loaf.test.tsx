@@ -2,7 +2,6 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import SimpleLoaf from "pages/bread/the-simple-loaf";
 import { useRouter } from "next/router";
-import "@testing-library/jest-dom";
 
 jest.mock("next/router", () => ({
   useRouter: jest.fn(),
@@ -14,16 +13,16 @@ describe("SimpleLoaf page", () => {
       asPath: "/",
       route: "/bread/the-simple-loaf",
     });
-
-    render(<SimpleLoaf />);
   });
 
   it("renders title correctly", () => {
+    render(<SimpleLoaf />);
     const title = screen.queryAllByText(/The simple loaf/i);
     expect(title).toBeDefined();
   });
 
   it("renders the ingress text", () => {
+    render(<SimpleLoaf />);
     const ingress = screen.queryAllByText(
       /A basic, simple and delicious loaf/i
     );
@@ -31,6 +30,7 @@ describe("SimpleLoaf page", () => {
   });
 
   it("renders the ingredients", () => {
+    render(<SimpleLoaf />);
     const flourLabel = screen.queryAllByText(/Bread flour/i);
     const waterLabel = screen.queryAllByText(/Water/i);
     expect(flourLabel).toBeDefined();
@@ -38,6 +38,7 @@ describe("SimpleLoaf page", () => {
   });
 
   it("renders the method steps", () => {
+    render(<SimpleLoaf />);
     const step = screen.queryAllByText(/Mix the dry ingredients/i);
     expect(step).toBeDefined();
   });

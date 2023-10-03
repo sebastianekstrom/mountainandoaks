@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { Ingredient, MultiIngredient } from "types/recipe";
 import { Ingredients, RecipeTimes } from "./Ingredients";
 import userEvent from "@testing-library/user-event";
@@ -88,32 +88,32 @@ describe("Ingredients", () => {
   it("increases the multiplier", async () => {
     render(<Ingredients {...defaultProps} />);
 
-    userEvent.click(screen.getByLabelText("Increase amount"));
+    await userEvent.click(screen.getByLabelText("Increase amount"));
 
-    await waitFor(() => expect(screen.getByText("2 loaves")).toBeDefined());
+    expect(await screen.findByText("2 loaves")).toBeDefined();
 
-    userEvent.click(screen.getByLabelText("Increase amount"));
+    await userEvent.click(screen.getByLabelText("Increase amount"));
 
-    await waitFor(() => expect(screen.getByText("3 loaves")).toBeDefined());
+    expect(await screen.findByText("3 loaves")).toBeDefined();
   });
 
   it("decreases the multiplier", async () => {
     render(<Ingredients {...defaultProps} />);
 
-    userEvent.click(screen.getByLabelText("Increase amount"));
-    await waitFor(() => expect(screen.getByText("2 loaves")).toBeDefined());
+    await userEvent.click(screen.getByLabelText("Increase amount"));
+    expect(await screen.findByText("2 loaves")).toBeDefined();
 
-    userEvent.click(screen.getByLabelText("Decrease amount"));
-    await waitFor(() => expect(screen.getByText("1 loaf")).toBeDefined());
+    await userEvent.click(screen.getByLabelText("Decrease amount"));
+    expect(await screen.findByText("1 loaf")).toBeDefined();
   });
 
   it("does not decrease the multiplier below 1", async () => {
     render(<Ingredients {...defaultProps} />);
 
-    userEvent.click(screen.getByLabelText("Decrease amount"));
-    userEvent.click(screen.getByLabelText("Decrease amount"));
-    userEvent.click(screen.getByLabelText("Decrease amount"));
+    await userEvent.click(screen.getByLabelText("Decrease amount"));
+    await userEvent.click(screen.getByLabelText("Decrease amount"));
+    await userEvent.click(screen.getByLabelText("Decrease amount"));
 
-    await waitFor(() => expect(screen.getByText("1 loaf")).toBeDefined());
+    expect(await screen.findByText("1 loaf")).toBeDefined();
   });
 });
