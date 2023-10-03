@@ -4,7 +4,7 @@ import type { Preview } from "@storybook/react";
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 
-import localFont from "@next/font/local";
+import localFont from "next/font/local";
 
 const headingFont = localFont({
   src: "../public/fonts/Gatile.woff2",
