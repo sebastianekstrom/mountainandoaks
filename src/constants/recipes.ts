@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Chili oil noodles",
+    url: "/food-and-drinks/chili-oil-noodles",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/chili-oil-noodles/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/chili-oil-noodles/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/chili-oil-noodles/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/chili-oil-noodles/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/chili-oil-noodles/thumbnails/meta.png"),
+    },
+    description:
+      "This chili oil noodle recipe is a quick and flavorful way to level up your meals. Make your own spicy chili oil with a crispy shallot and garlic kick.  It doesn't just work great on noodles; you can also drizzle it on bread or anything else that needs a flavor boost. Plus, you can store it in the fridge for a long time, so it's a gift that keeps on giving.",
+  },
+  {
     title: "Cheddar dip",
     url: "/food-and-drinks/cheddar-dip",
     category: CATEGORIES["food-and-drinks"],
