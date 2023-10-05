@@ -7,6 +7,7 @@ interface Category {
   title: string;
   // eslint-disable-next-line no-unused-vars
   filter: (recipe: Recipe) => boolean;
+  isRestCategory?: boolean;
 }
 
 interface Props {
@@ -51,12 +52,18 @@ export const PostList = ({
 
       {/* Used for the home page */}
       {categories &&
-        categories.map(({ title, filter }, index) => {
-          const categoryRecipes = filteredList.filter(filter).slice(0, 3);
-          categoryItems = [...categoryItems, ...categoryRecipes];
-          filteredList = filteredList.filter(
-            (recipe) => !categoryRecipes.includes(recipe)
-          );
+        categories?.map(({ title, filter, isRestCategory }, index) => {
+          let categoryRecipes: Recipe[];
+
+          if (isRestCategory) {
+            categoryRecipes = [...filteredList];
+          } else {
+            categoryRecipes = filteredList.filter(filter).slice(0, 3);
+            categoryItems = [...categoryItems, ...categoryRecipes];
+            filteredList = filteredList.filter(
+              (recipe) => !categoryRecipes.includes(recipe)
+            );
+          }
 
           return (
             categoryRecipes.length > 0 && (
