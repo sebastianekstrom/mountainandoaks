@@ -15,12 +15,17 @@ const categories = [
     filter: (recipe: Recipe) => recipe.category.value === "bread",
   },
   {
-    title: "Hey good looking, what'ya got cooking?",
+    title: "More food",
     filter: (recipe: Recipe) => recipe.category.value === "food-and-drinks",
   },
   {
     title: "Level up",
     filter: (recipe: Recipe) => recipe.category.value === "guide",
+  },
+  {
+    title: "All recipes",
+    filter: () => true,
+    isRestCategory: true,
   },
 ];
 
