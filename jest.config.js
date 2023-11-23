@@ -15,6 +15,7 @@ const customJestConfig = {
   testPathIgnorePatterns: ["<rootDir>/__tests__/setup.js"],
   collectCoverageFrom: [
     "!/node_modules/",
+    "!config/",
     "!build/",
     "src/components/**/**/*.ts",
     "src/components/**/**/*.tsx",
