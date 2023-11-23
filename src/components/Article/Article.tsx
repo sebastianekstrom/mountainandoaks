@@ -18,9 +18,6 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
         <Link href={recipe.url} aria-label={`Go to ${recipe.title}`}>
           <Image
             src={recipe.thumbnails.hero}
-            width={613}
-            priority
-            height={483}
             alt=""
             className="w-full h-auto lg:w-[613px] object-cover"
             placeholder="blur"
@@ -51,8 +48,6 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
         <Link href={recipe.url} aria-label={`Go to ${recipe.title}`}>
           <Image
             src={recipe.thumbnails.wide}
-            width={408}
-            height={196}
             alt=""
             className="w-full h-auto lg:w-[408px] lg:h-[196px] object-cover"
             placeholder="blur"

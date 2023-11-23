@@ -53,8 +53,6 @@ export const Post = ({
             src={heroImage}
             placeholder="blur"
             alt=""
-            priority
-            height={560}
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 50vw,
             50vw"
