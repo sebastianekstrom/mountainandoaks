@@ -9,7 +9,7 @@
     "lint:js:dead-code": "node scripts/find-dead-code.js",
     "test:js": "jest",
     "test:types": "tsc",
-    "test:e2e": "percy exec -- npx playwright test",
+    "test:e2e": "npx playwright test",
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
@@ -29,8 +29,6 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@percy/cli": "^1.24.0",
-    "@percy/playwright": "^1.0.4",
     "@playwright/test": "^1.33.0",
     "@storybook/addon-essentials": "^7.0.13",
     "@storybook/addon-interactions": "^7.0.13",
