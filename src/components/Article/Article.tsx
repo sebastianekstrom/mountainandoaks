@@ -22,11 +22,12 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             priority
             height={483}
             alt=""
-            className="w-full h-auto lg:w-[613px]"
+            className="w-full h-auto lg:w-[613px] object-cover"
             placeholder="blur"
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 40vw,
             40vw"
+            quality={100}
           />
         </Link>
         <Link href={recipe.category.path}>
@@ -53,11 +54,10 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
             width={408}
             height={196}
             alt=""
-            className="w-full h-full lg:w-[408px] lg:h-[196px]"
+            className="w-full h-auto lg:w-[408px] lg:h-[196px] object-cover"
             placeholder="blur"
-            sizes="(max-width: 768px) 100vw,
-            (max-width: 1200px) 33vw,
-            33vw"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
+            quality={100}
           />
         </Link>
         <Link href={recipe.category.path}>
@@ -84,11 +84,12 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           <Image
             src={recipe.thumbnails.square}
             alt=""
-            className="w-full h-full lg:w-[204] lg:h-[204]"
+            className="w-full h-full lg:w-[204] lg:h-[204] object-cover"
             placeholder="blur"
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 25vw,
             25vw"
+            quality={100}
           />
         </Link>
         <div className="lg:ml-6 flex flex-col">

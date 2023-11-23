@@ -28,6 +28,7 @@ export const Tooltip = ({ value }: { value: string }) => {
               className="w-[15] h-auto"
               src="/images/misc/question-mark.svg"
               alt=""
+              quality={100}
             ></Image>
           </button>
         </Trigger>

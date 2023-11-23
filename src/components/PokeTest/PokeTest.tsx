@@ -9,7 +9,7 @@ export const PokeTest = () => {
           proofed.
           <br />
           <br />
-          Poke the dough lightly with your finger and observe what happens:
+          Wet your finger and poke the dough lightly and observe what happens:
           <br />
           <br />
           <span className="ml-4 block">

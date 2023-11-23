@@ -7,14 +7,15 @@ import Ingredients from "components/Ingredients";
 import Alert from "components/Alert";
 import MethodImage from "components/MethodImage";
 
-import heroImage from "public/images/recipes/bolognese/thumbnails/tall.jpg";
+import heroImage from "public/images/recipes/bolognese/thumbnails/tall.png";
 
 import metaImage from "public/images/recipes/bolognese/thumbnails/meta.png";
 import image1 from "public/images/recipes/bolognese/1.jpg";
 import image2 from "public/images/recipes/bolognese/2.jpg";
 import image3 from "public/images/recipes/bolognese/3.jpg";
 import image4 from "public/images/recipes/bolognese/4.jpg";
-import image5 from "public/images/recipes/bolognese/5.jpg";
+import image5 from "public/images/recipes/bolognese/5.png";
+import image6 from "public/images/recipes/bolognese/6.png";
 import Method from "components/Method";
 
 const INGREDIENTS = [
@@ -43,7 +44,7 @@ const INGREDIENTS = [
       },
       {
         value: 18.75,
-        label: "Tomato paste (or purée)",
+        label: "Tomato paste",
       },
       {
         value: 17.5,
@@ -58,6 +59,10 @@ const INGREDIENTS = [
         label: "Carrot",
       },
       {
+        value: 7.5,
+        label: "Demi-glace (optional)",
+      },
+      {
         value: 0.2,
         label: "Cloves of garlic",
         valueSuffix: false,
@@ -67,6 +72,12 @@ const INGREDIENTS = [
         value: 0.25,
         label: "Bay leaf",
         valueSuffix: false,
+      },
+      {
+        value: 1,
+        label: "Pinch of dried oregano",
+        valueSuffix: false,
+        excludeValue: true,
       },
       {
         value: 1,
@@ -81,7 +92,7 @@ const INGREDIENTS = [
     ingredients: [
       {
         value: 125,
-        label: "Spaghetti or papardelle",
+        label: "Spaghetti or linguine",
       },
     ],
   },
@@ -90,7 +101,7 @@ const INGREDIENTS = [
     ingredients: [
       {
         value: 99999,
-        label: "Grated Parmesan or Pecorino",
+        label: "Grated Parmesan",
         excludeValue: true,
         valueSuffix: false,
       },
@@ -208,13 +219,14 @@ const STEPS = [
     of the wine has evaporated.
   </Text>,
   <Text extra={<MethodImage src={image4} alt="" />}>
-    Add the <b>tomato paste</b>, <b>garlic</b> and pinch of freshley shredded{" "}
-    <b>nut meg</b>. Let it cook for another 5 minutes.
+    Add the <b>tomato paste</b>, <b>garlic</b>, a pinch of freshley shredded{" "}
+    <b>nut meg</b> and a <em>small</em> pinch of <b>dried oregano</b>. Let it
+    cook for another 5 minutes.
   </Text>,
   <>
     <Text>
-      Add the <b>bay leaf</b> and pour in the <b>chicken stock</b> and{" "}
-      <b>milk</b>.
+      Add the <b>bay leaf</b> and the optional <b>demi-glace</b>, and pour in
+      the <b>chicken stock</b> and <b>milk</b>.
       <br />
       <br />
       Let everything cook on low heat for <b>2–2½ hours</b> without a lid. Stir
@@ -263,7 +275,14 @@ const STEPS = [
     Stir the pasta and the sauce and <b>let it all combine</b> for a minute or
     two.
   </Text>,
-  <Text extra={<MethodImage src={image5} alt="" />}>
+  <Text
+    extra={
+      <>
+        <MethodImage src={image6} alt="" />
+        <MethodImage src={image5} alt="" />
+      </>
+    }
+  >
     Serve the dish with some parmesan, freshly grounded black bepper, olive oil
     and fresh oregano sprinkled on top.
   </Text>,

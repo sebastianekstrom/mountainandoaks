@@ -11,7 +11,13 @@ export const WindowPaneTest = () => {
           take a piece of dough, and gently stretch it. If it doesn't break, it
           has passed the test! If not, knead a few more minutes.
           <span className="mt-6 block">
-            <Image className="" src={image1} alt="" placeholder="blur" />
+            <Image
+              className=""
+              src={image1}
+              alt=""
+              placeholder="blur"
+              quality={100}
+            />
             <span className="text-xs text-right block italic mt-1">
               Image courtesy of Ankarsum
             </span>

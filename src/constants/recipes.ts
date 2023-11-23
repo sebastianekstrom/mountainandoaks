@@ -141,9 +141,9 @@ export const RECIPES: Recipe[] = [
     url: "/food-and-drinks/bolognese",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
-      hero: require("../../public/images/recipes/bolognese/thumbnails/hero.jpg"),
-      tall: require("../../public/images/recipes/bolognese/thumbnails/tall.jpg"),
-      wide: require("../../public/images/recipes/bolognese/thumbnails/wide.jpg"),
+      hero: require("../../public/images/recipes/bolognese/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/bolognese/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/bolognese/thumbnails/wide.png"),
       square: require("../../public/images/recipes/bolognese/thumbnails/square.png"),
       meta: require("../../public/images/recipes/bolognese/thumbnails/meta.png"),
     },
