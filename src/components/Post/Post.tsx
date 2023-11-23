@@ -58,6 +58,7 @@ export const Post = ({
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 50vw,
             50vw"
+            quality={100}
           />
           {ingredients && <div className="mt-6 lg:mt-12">{ingredients}</div>}
         </aside>
