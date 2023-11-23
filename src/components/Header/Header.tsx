@@ -12,12 +12,7 @@ export const Header = () => {
       <header className="mx-auto max-w-7xl px-4 sm:px-6 lg:mb-12">
         <div className="flex items-center justify-between py-4 md:py-6 md:space-x-10">
           <div className="flex">
-            <Link
-              href="/"
-              data-testid="TEST_ID_LOGO"
-              id="TEST_ID_LOGO"
-              aria-label="Go to home page"
-            >
+            <Link href="/" aria-label="Go to home page">
               <Image
                 width={215}
                 height={49}

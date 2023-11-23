@@ -17,7 +17,7 @@ describe("Header", () => {
   it("renders the header with logo and menu items", () => {
     render(<Header />);
 
-    expect(screen.getByTestId("TEST_ID_LOGO")).toBeDefined();
+    expect(screen.getByLabelText("Go to home page")).toBeDefined();
     expect(screen.getByText("Pizza")).toBeDefined();
     expect(screen.getByText("Bread")).toBeDefined();
     expect(screen.getByText("Food & Drinks")).toBeDefined();
@@ -30,9 +30,12 @@ describe("Header", () => {
     const mobileMenuButton = screen.getByRole("button", {
       name: "Open menu",
     });
+
     fireEvent.click(mobileMenuButton);
 
-    expect(screen.getByRole("button", { name: "Close menu" })).toBeDefined();
+    expect(
+      await screen.findByRole("button", { name: "Close menu" })
+    ).toBeDefined();
     expect(await screen.findAllByText(/Pizza/i)).toBeDefined();
     expect(await screen.findAllByText(/Bread/i)).toBeDefined();
     expect(await screen.findAllByText(/Food & Drinks/i)).toBeDefined();
