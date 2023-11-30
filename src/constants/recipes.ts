@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Cheesy bread rolls",
+    url: "/bread/cheesy-bread-rolls",
+    category: CATEGORIES["bread"],
+    thumbnails: {
+      hero: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/hero.png"),
+      tall: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/tall.png"),
+      wide: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/wide.png"),
+      square: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/square.png"),
+      meta: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/meta.png"),
+    },
+    description:
+      "Made with Manitoba flour, these rolls combine a chewy interior with a crispy cheese topping. Ideal for a sandwich that's satisfyingly cheesy and crunchy.",
+  },
+  {
     title: "Chili oil noodles",
     url: "/food-and-drinks/chili-oil-noodles",
     category: CATEGORIES["food-and-drinks"],

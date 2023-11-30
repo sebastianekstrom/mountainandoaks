@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import ChiliOildNoodles from "pages/food-and-drinks/alabama-slammer";
+import ChiliOildNoodles from "pages/food-and-drinks/chili-oil-noodles";
 import { useRouter } from "next/router";
 
 jest.mock("next/router", () => ({
