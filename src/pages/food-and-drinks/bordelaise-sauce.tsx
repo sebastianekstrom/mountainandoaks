@@ -34,13 +34,16 @@ const INGREDIENTS = [
   },
   {
     value: 10,
+    label: "Butter",
+  },
+  {
+    value: 10,
     label: "Bone marrow (optional)",
   },
   {
     value: 10,
-    label: "Butter",
+    label: "Demi-glace (optional)",
   },
-
   {
     value: 7.5,
     label: "Cold butter to finish the sauce",
@@ -119,8 +122,8 @@ const STEPS = [
     again.
   </Text>,
   <Text>
-    Pour in the <b>beef stock</b>, and continue to simmer until it’s{" "}
-    <b>reduced by half</b>.
+    Pour in the <b>beef stock</b> and the optional <b>demi-glace</b>. Continue
+    to simmer until it’s <b>reduced by half</b>.
   </Text>,
   <Text>
     When the sauce is nearing completion, with just a few minutes remaining,
