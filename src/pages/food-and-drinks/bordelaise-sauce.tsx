@@ -90,6 +90,10 @@ const STEPS = [
     Melt the butter in a pan and gently <b>sauté the shallots</b> until they
     turn translucent.
   </Text>,
+  <Text>
+    Set the pan to <b>medium heat</b> and pour in <b>half of the wine</b>, and
+    add the <b>bay leaf</b> and <b>thyme</b>.
+  </Text>,
   <Text
     extra={
       <>
@@ -99,8 +103,8 @@ const STEPS = [
             <>
               You can also do this Marco Pierre White style and set the heat to
               the absolute max and reduce the sauce really fast. He argues that
-              it increases the flavor even more. But I prefer doing it on medium
-              heat, since it's easier to control.
+              it increases the flavor even more. But I prefer doing it on
+              medium-high heat, since it's easier to control.
             </>
           }
         />
@@ -108,10 +112,6 @@ const STEPS = [
       </>
     }
   >
-    Set the pan to <b>medium heat</b> and pour in <b>half of the wine</b>, and
-    add the <b>bay leaf</b> and <b>thyme</b>.
-  </Text>,
-  <Text>
     Allow the wine to simmer until it has <b>reduced by half</b>.
   </Text>,
   <Text>
