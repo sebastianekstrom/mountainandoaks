@@ -133,7 +133,8 @@ const STEPS = [
           description={
             <>
               Straining is optional, but it yields a smoother sauce. If you
-              choose not to strain it, extract the thyme from the sauce.
+              choose not to strain it, extract the thyme and bay leaf from the
+              sauce.
             </>
           }
         />
