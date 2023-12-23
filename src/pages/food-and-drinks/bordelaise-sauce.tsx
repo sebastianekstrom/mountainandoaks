@@ -41,12 +41,12 @@ const INGREDIENTS = [
     label: "Bone marrow (optional)",
   },
   {
-    value: 10,
-    label: "Demi-glace (optional)",
-  },
-  {
     value: 7.5,
     label: "Cold butter to finish the sauce",
+  },
+  {
+    value: 5,
+    label: "Demi-glace (optional)",
   },
   {
     value: 1.5,
