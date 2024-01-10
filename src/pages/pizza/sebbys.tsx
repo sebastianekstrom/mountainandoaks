@@ -21,30 +21,30 @@ const INGREDIENTS = [
     label: "Dough",
     ingredients: [
       {
-        value: 520,
+        value: 37.14,
         label: "Bread flour",
         isFlour: true,
       },
       {
-        value: 185,
+        value: 13.215,
         label: "Water",
         isWater: true,
       },
       {
-        value: 185,
+        value: 13.215,
         label: "Milk",
         isWater: true,
       },
       {
-        value: 30,
+        value: 2.14,
         label: "Vegetable oil",
       },
       {
-        value: 6,
+        value: 0.43,
         label: "Instant yeast",
       },
       {
-        value: 8,
+        value: 0.57,
         label: "Salt",
       },
     ],
@@ -53,43 +53,43 @@ const INGREDIENTS = [
     label: "Bolognese",
     ingredients: [
       {
-        value: 500,
+        value: 35.715,
         label: "Minced meat (beef)",
       },
       {
-        value: 470,
+        value: 33.57,
         label: "Beef stock",
       },
       {
-        value: 400,
+        value: 28.57,
         label: "Canned whole tomatoes",
       },
       {
-        value: 250,
+        value: 17.86,
         label: "Red wine",
       },
       {
-        value: 240,
+        value: 17.14,
         label: "Mirepoix (celery, onion, carrot)",
       },
       {
-        value: 200,
+        value: 14.285,
         label: "Water",
       },
       {
-        value: 150,
+        value: 10.715,
         label: "Mushroom",
       },
       {
-        value: 60,
+        value: 4.285,
         label: "Tomato purée",
       },
       {
-        value: 13,
+        value: 0.93,
         label: "Garlic",
       },
       {
-        value: 1,
+        value: 0.07,
         label: "Bay leaf",
         valueSuffix: false,
       },
@@ -99,11 +99,11 @@ const INGREDIENTS = [
     label: "Toppings",
     ingredients: [
       {
-        value: 160,
+        value: 11.43,
         label: "Cheeze of your choice",
       },
       {
-        value: 30,
+        value: 2.14,
         label: "Finely shredded Parmesan",
       },
     ],
@@ -318,7 +318,7 @@ export default function Sebbys() {
         heroImage={heroImage}
         ingredients={
           <Ingredients
-            initialValue={14}
+            startingMultiplier={14}
             ingredientSuffix="pirogs"
             weightLabel="Dough weight"
             ingredients={INGREDIENTS}
