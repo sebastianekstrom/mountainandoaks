@@ -15,7 +15,11 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
   if (type === "featured") {
     return (
       <article className="mb-12 lg:mb-0">
-        <Link href={recipe.url} aria-label={`Go to ${recipe.title}`}>
+        <Link
+          href={recipe.url}
+          aria-label={`Go to ${recipe.title}`}
+          tabIndex={-1}
+        >
           <Image
             src={recipe.thumbnails.hero}
             alt=""
@@ -45,7 +49,11 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
   if (type === "rectangle") {
     return (
       <article className="flex flex-col lg:block mb-12 lg:mb-0">
-        <Link href={recipe.url} aria-label={`Go to ${recipe.title}`}>
+        <Link
+          href={recipe.url}
+          aria-label={`Go to ${recipe.title}`}
+          tabIndex={-1}
+        >
           <Image
             src={recipe.thumbnails.wide}
             alt=""
@@ -75,6 +83,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           href={recipe.url}
           className="w-full h-full lg:w-[204px] lg:h-[204px] lg:min-w-[204px] lg:min-h-[204px]"
           aria-label={`Go to ${recipe.title}`}
+          tabIndex={-1}
         >
           <Image
             src={recipe.thumbnails.square}
