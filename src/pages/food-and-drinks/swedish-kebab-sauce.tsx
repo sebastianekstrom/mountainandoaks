@@ -12,35 +12,35 @@ import Method from "components/Method";
 
 const INGREDIENTS = [
   {
-    value: 280,
+    value: 70,
     label: "Sour cream",
   },
   {
-    value: 200,
+    value: 50,
     label: "Mayonnaise",
   },
   {
-    value: 75,
+    value: 18.75,
     label: "Fefferoni juice",
   },
   {
-    value: 7,
+    value: 1.75,
     label: "Fanta (orange flavor)",
   },
   {
-    value: 2,
+    value: 0.5,
     label: "Aromat",
   },
   {
-    value: 2,
+    value: 0.5,
     label: "Garlic powder",
   },
   {
-    value: 1,
+    value: 0.25,
     label: "Dried oregano",
   },
   {
-    value: 1,
+    value: 0.25,
     label: "Sambal Oelek (optional)",
   },
 ];
@@ -68,7 +68,7 @@ export default function KebabSauce() {
         heroImage={heroImage}
         ingredients={
           <Ingredients
-            ingredientSuffix="batch"
+            ingredientSuffix="portion"
             ingredients={INGREDIENTS}
             additionalMeta={<Badge value="10min" label="Prep time" />}
           />
