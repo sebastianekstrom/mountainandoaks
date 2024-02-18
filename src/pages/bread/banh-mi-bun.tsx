@@ -9,7 +9,7 @@ import Method from "components/Method";
 import MethodImage from "components/MethodImage";
 import PokeTest from "components/PokeTest";
 
-import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.jpg";
+import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.png";
 import metaImage from "public/images/bread/banh-mi-bun/thumbnails/meta.png";
 
 import image1 from "public/images/bread/banh-mi-bun/1.jpg";
@@ -21,8 +21,8 @@ import image6 from "public/images/bread/banh-mi-bun/6.jpg";
 import image7 from "public/images/bread/banh-mi-bun/7.jpg";
 import image8 from "public/images/bread/banh-mi-bun/8.jpg";
 import image9 from "public/images/bread/banh-mi-bun/9.jpg";
-import image10 from "public/images/bread/banh-mi-bun/10.jpg";
-import image11 from "public/images/bread/banh-mi-bun/11.jpg";
+import finalBread from "public/images/bread/banh-mi-bun/final-bread.png";
+import finalImage from "public/images/bread/banh-mi-bun/final.png";
 
 const INGREDIENTS = [
   {
@@ -179,8 +179,8 @@ const STEPS = [
   <Text
     extra={
       <>
-        <MethodImage src={image10} alt="" />
-        <MethodImage src={image11} alt="" />
+        <MethodImage src={finalBread} alt="" />
+        <MethodImage src={finalImage} alt="" />
       </>
     }
   >
