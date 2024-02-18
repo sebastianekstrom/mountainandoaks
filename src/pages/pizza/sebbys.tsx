@@ -10,10 +10,12 @@ import MethodImage from "components/MethodImage";
 import WindowPaneTest from "components/WindowPaneTest";
 import PokeTest from "components/PokeTest";
 
-import heroImage from "public/images/recipes/sebbys/thumbnails/tall.jpg";
+import heroImage from "public/images/recipes/sebbys/thumbnails/tall.png";
 import metaImage from "public/images/recipes/sebbys/thumbnails/meta.png";
-import finalImage from "public/images/recipes/sebbys/sebbys2.jpg";
-import shapeImage from "public/images/recipes/sebbys/shape.jpg";
+import finalImage from "public/images/recipes/sebbys/final.png";
+import shapeImage from "public/images/recipes/sebbys/pre-oven.png";
+import mirePoix from "public/images/recipes/sebbys/mirepoix.png";
+import sauce from "public/images/recipes/sebbys/sauce.png";
 import Method from "components/Method";
 
 const INGREDIENTS = [
@@ -159,7 +161,7 @@ const STEPS = [
         surface should be deeply browned (but still raw in the middle). Transfer
         the beef to another bowl.
       </Text>,
-      <Text>
+      <Text extra={<MethodImage src={mirePoix} alt="" />}>
         Wipe out any burnt meat from the pan and set it to medium heat. Add some
         olive oil and add the <b>mirepoix, garlic and mushrooms</b>. Stir until
         soft, about 3-4 minutes. Be careful not to burn the garlic.
@@ -179,7 +181,7 @@ const STEPS = [
         Add the rest of the liquids (<b>beef stock, water, canned tomatoes</b>)
         as well as the bay leaf.
       </Text>,
-      <Text>
+      <Text extra={<MethodImage src={sauce} alt="" />}>
         Let the sauce <b>cook for 90 minutes</b> without a lid. The goal is to
         get a very <em>very</em> thick sauce. You'll want to be able to scrape
         the bottom of the pan with a spatula and the sauce should not try to
@@ -295,7 +297,6 @@ const STEPS = [
       <Text
         extra={
           <>
-            <MethodImage src={heroImage} alt="Three perogis in a plate" />
             <MethodImage src={finalImage} alt="" />
           </>
         }
