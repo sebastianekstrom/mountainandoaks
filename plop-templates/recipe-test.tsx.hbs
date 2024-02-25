@@ -1,0 +1,31 @@
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import {{pascalCase title}} from "pages/{{category}}/{{slug}}";
+import { useRouter } from "next/router";
+
+jest.mock("next/router", () => ({
+  useRouter: jest.fn(),
+}));
+
+describe("{{pascalCase title}} page", () => {
+  beforeEach(() => {
+    (useRouter as jest.Mock).mockReturnValue({
+      asPath: "/",
+      route: "/{{category}}/{{slug}}",
+    });
+  });
+
+  it("renders title correctly", () => {
+    render(<{{pascalCase title}} />);
+    const title = screen.queryAllByText(/{{title}}/i);
+    expect(title).toBeDefined();
+  });
+
+  it("renders the ingress text", () => {
+    render(<{{pascalCase title}} />);
+    const ingress = screen.queryAllByText(
+      /{{description}}./i
+    );
+    expect(ingress).toBeDefined();
+  });
+});
