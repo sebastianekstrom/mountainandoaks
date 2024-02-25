@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ruleFiles = fs
-  .readdirSync("config/eslint")
+  .readdirSync("tooling/eslint")
   .filter((file) => file !== "index.js" && !file.endsWith("test.js"));
 
 const configs = {

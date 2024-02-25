@@ -4,10 +4,6 @@ import { Post } from "./Post";
 import { useRouter } from "next/router";
 import Text from "components/Text";
 
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
-
 describe("Post component", () => {
   beforeEach(() => {
     (useRouter as jest.Mock).mockReturnValue({

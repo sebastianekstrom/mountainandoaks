@@ -1,19 +1,9 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { useRouter } from "next/router";
+
 import { Header } from "./Header";
 
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
-
 describe("Header", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-    });
-  });
-
   it("renders the header with logo and menu items", () => {
     render(<Header />);
 

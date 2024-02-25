@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Piefection from "pages/guides/piefection";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("Piefection page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/guides/piefection",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<Piefection />);
     const title = screen.queryAllByText(/The Art of Pie-fection/i);

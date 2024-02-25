@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import JalapenoDip from "pages/food-and-drinks/jalapeno-dip";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("JalapenoDip page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/food-and-drinks/jalapeno-dip",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<JalapenoDip />);
     const title = screen.queryAllByText(/Jalapeño dip/i);

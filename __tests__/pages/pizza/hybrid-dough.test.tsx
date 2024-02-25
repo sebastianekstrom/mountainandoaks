@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import HybridDough from "pages/pizza/hybrid-dough";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("HybridDough page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/pizza/hybrid-dough",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<HybridDough />);
     const title = screen.queryAllByText(/The hybrid pizza dough/i);
