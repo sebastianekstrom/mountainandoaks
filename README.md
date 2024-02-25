@@ -1,6 +1,20 @@
 ![Logo of sebbebakes!](https://i.imgur.com/zwVABcA.png)
 
-This is the repostitory for [sebbebakes.com](https://sebbebakes.com/). Built with [Next.js](https://nextjs.org/), [Tailwind](https://tailwindcss.com) and deployed/hosted with [Vercel](https://vercel.com/).
+<p align="center">
+  The repostitory for <a href="https://sebbebakes.com">sebbebakes.com</a> – A place for food, pizza and bread.
+</p>
+
+<p align="center">
+  <sub>🛠️ <a href="https://nextjs.org">Next.js</a>  – 💅 <a href="https://tailwindcss.com">Tailwind</a>  – 📦 <a href="https://vercel.com">Vercel</a></sub>
+</p>
+
+---
+
+<p align="center">
+  ⭐️ <a href="#getting-started">Getting started</a> • <a href="#adding-a-new-recipe">Adding a new recipe</a> • <a href="#testing">Testing</a> • <a href="#storybook">Storybook</a> • <a href="#deployment">Deployment</a> ⭐️
+</p>
+
+---
 
 | Tool             | Status                                                                                                                                                                                               |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +39,7 @@ The site will be available on [http://localhost:3000](http://localhost:3000).
 
 ## 🧑‍🍳 Adding a new recipe
 
-Since the recipes are _very_ custom, and often requires custom code, creating a new one requires a few steps:
+To create a new recipe, please follow the steps below.
 
 ### 1. Generate boilerplate code for the new recipe
 
@@ -98,10 +112,4 @@ Storybook will be available on [http://localhost:6006](http://localhost:6006).
 
 ## 🚢 Deployment
 
-Deploys are done automatically as soon as a new commit hits the `main` branch. Deployments can be monitored on the [Vercel dashboard](https://vercel.com/sebastianekstrom/sebbe-baking).
-
-## 🔗 Useful links
-
-- [Google Analytics](https://analytics.google.com/analytics/web/#/p346891790/reports/intelligenthome)
-- [Vercel dashboard](https://vercel.com/sebastianekstrom/sebbe-baking)
-- [Figma](https://www.figma.com/file/yg7A1e8cgdHObsdZhx7HHA/Redesign?type=design&node-id=327%3A303&t=8CZrdOD5WHJzg4kV-1).
+Deploys are done automatically as soon as a new commit hits the `main` branch.
