@@ -27,33 +27,46 @@ The site will be available on [http://localhost:3000](http://localhost:3000).
 
 Since the recipes are _very_ custom, and often requires custom code, creating a new one requires a few steps:
 
-### 1. Create the image assets
+### 1. Generate boilerplate code for the new recipe
 
-A recipe requires the following image assets:
+The following script will generate everything needed to create a new recipe:
 
-- `hero.jpg` – 1226px x 966px
-- `tall.jpg` – 918px x 1120px
-- `wide.jpg` – 816px x 392px
-- `square.jpg` – 900px x 900px
+```
+yarn run new-recipe
+```
+
+Follow the promps and the output will be:
+
+```tsx
+// Recipe page
+src/pages/{{category}}/{{slug}}.tsx
+
+// Tests
+__tests__/pages/{{category}}/{{slug}}.test.tsx
+
+// Required image placeholders
+public/images/{{category}}/{{slug}}/thumbnails/hero.png
+public/images/{{category}}/{{slug}}/thumbnails/meta.png
+public/images/{{category}}/{{slug}}/thumbnails/square.png
+public/images/{{category}}/{{slug}}/thumbnails/tall.png
+public/images/{{category}}/{{slug}}/thumbnails/wide.png
+```
+
+As well an entry inside of `src/constants/recipes.ts`. After the script is done the new page will open automatically in the browser.
+
+### 2. Add the images
+
+A recipe requires multiple image dimensions, these have been added as placeholders in the previous step. The dimensions are as follows:
+
+- `hero.png` – 1226px x 966px
+- `tall.png` – 918px x 1120px
+- `wide.png` – 816px x 392px
+- `square.png` – 900px x 900px
 - `meta.png` – 1200px x 627px
 
-These should be placed in `public/images/<recipe-slug>/thumbnails/`.
+Update the placeholder images inside of `public/images/{{category}}/{{slug}}/thumbnails/` with the proper ones.
 
-You can find all the templates in [this Figma](https://www.figma.com/file/yg7A1e8cgdHObsdZhx7HHA/Redesign?type=design&node-id=327%3A303&t=8CZrdOD5WHJzg4kV-1).
-
-### 3. Add the recipe to the global list
-
-All recipes are fetched from [recipes.ts](https://github.com/sebastianekstrom/sebbe-baking/blob/main/constants/recipes.ts), add the new recipe at the top of the list.
-
-### 4. Create the new recipe page
-
-Add a new file inside of the `pages/` directory, in the appropriate folder. The file name will become the slug, e.g:
-
-`pages/food-and-drinks/bbq-chicken.tsx` -> https://sebbebakes.com/food-and-drinks/bbq-chicken
-
-Create the recipe with whatever components you need, use other recipes as inspiration.
-
-### 4. Create the PR
+### 3. Create the PR
 
 After that create a PR, as soon as all the checks are green you can go a head and merge and it'll be available on https://sebbebakes.com within a few minutes!
 
@@ -91,3 +104,4 @@ Deploys are done automatically as soon as a new commit hits the `main` branch. D
 
 - [Google Analytics](https://analytics.google.com/analytics/web/#/p346891790/reports/intelligenthome)
 - [Vercel dashboard](https://vercel.com/sebastianekstrom/sebbe-baking)
+- [Figma](https://www.figma.com/file/yg7A1e8cgdHObsdZhx7HHA/Redesign?type=design&node-id=327%3A303&t=8CZrdOD5WHJzg4kV-1).
