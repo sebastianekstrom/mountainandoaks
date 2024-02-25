@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import GarlicOil from "pages/food-and-drinks/garlic-oil";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("GarlicOil page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/food-and-drinks/garlic-oil",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<GarlicOil />);
     const title = screen.queryAllByText(/Garlic oil/i);

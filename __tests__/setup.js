@@ -1,4 +1,5 @@
 import "@testing-library/jest-dom";
+import { useRouter } from "next/router";
 
 /* 
 For some reason using <Image /> from "next/image" causes an console.error when running tests:
@@ -21,3 +22,12 @@ jest.mock("next/image", () => ({
     /* eslint-enable @next/next/no-img-element */
   },
 }));
+
+jest.mock("next/router", () => ({
+  useRouter: jest.fn(),
+}));
+
+useRouter.mockReturnValue({
+  asPath: "/",
+  route: "/",
+});

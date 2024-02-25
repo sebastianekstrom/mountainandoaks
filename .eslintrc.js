@@ -26,7 +26,7 @@ module.exports = {
       },
     },
     {
-      files: ["config/eslint/**/*.js"],
+      files: ["tooling/eslint/**/*.js"],
       rules: {
         "sebbe-bakes/no-commonly-misspelled-words": 0,
       },

@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import The54 from "pages/pizza/the-54-long-proofed-new-york-style";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("The54 page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/pizza/the-54-long-proofed-new-york-style",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<The54 />);
     const title = screen.queryAllByText(

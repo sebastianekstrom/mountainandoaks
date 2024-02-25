@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import DriedCitrus from "pages/food-and-drinks/dried-citrus";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("DriedCitrus page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/food-and-drinks/dried-citrus",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<DriedCitrus />);
     const title = screen.queryAllByText(/Dried citrus/i);

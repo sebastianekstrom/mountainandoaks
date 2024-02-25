@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import DetroitStyle from "pages/pizza/detroit-style";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("DetroitStyle page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/pizza/detroit-style",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<DetroitStyle />);
     const title = screen.queryAllByText(/Detroit style pizza/i);

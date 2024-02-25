@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import BasilInfusedOil from "pages/food-and-drinks/basil-infused-oil";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("BasilInfusedOil page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/food-and-drinks/basil-infused-oil",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<BasilInfusedOil />);
     const title = screen.queryAllByText(/Basil-infused oil/i);

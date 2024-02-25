@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import RasberryFudge from "pages/food-and-drinks/rasberry-fudge";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("RasberryFudge page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/food-and-drinks/rasberry-fudge",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<RasberryFudge />);
     const title = screen.queryAllByText(/Rasberry fudge/i);

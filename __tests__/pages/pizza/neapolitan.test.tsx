@@ -1,20 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Neapolitan from "pages/pizza/neapolitan";
-import { useRouter } from "next/router";
-
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
 
 describe("Neapolitan page", () => {
-  beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
-      asPath: "/",
-      route: "/pizza/neapolitan",
-    });
-  });
-
   it("renders title correctly", () => {
     render(<Neapolitan />);
     const title = screen.queryAllByText(/Neapolitan style pizza dough/i);
