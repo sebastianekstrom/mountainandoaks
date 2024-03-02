@@ -49,7 +49,7 @@ const INGREDIENTS = [
     label: "Demi-glace (optional)",
   },
   {
-    value: 1.5,
+    value: 3,
     label: "Sprigs of thyme",
     valueSuffix: false,
     exludeFromTotalWeight: true,
