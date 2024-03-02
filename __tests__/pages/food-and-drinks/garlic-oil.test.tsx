@@ -17,12 +17,11 @@ describe("GarlicOil page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<GarlicOil />);
-    const flourLabel = screen.queryAllByText(/Cloves of garlic/i);
-    expect(flourLabel).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
-
   it("renders the method steps", () => {
     render(<GarlicOil />);
     const step = screen.queryAllByText(/Peel the garlic and crush the cloves/i);

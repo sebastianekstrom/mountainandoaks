@@ -83,7 +83,7 @@ export const Ingredients = ({
         />
       </aside>
 
-      <section className="mb-8 lg:mb-0">
+      <section className="mb-8 lg:mb-0" data-testid="INGREDIENT_LIST">
         <div>{description || " "}</div>
 
         {isMultipleIngredients ? (

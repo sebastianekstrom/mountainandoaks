@@ -15,10 +15,10 @@ describe("RasberryFudge page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<RasberryFudge />);
-    const ingredient = screen.queryAllByText(/Vanilla vodka/i);
-    expect(ingredient).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

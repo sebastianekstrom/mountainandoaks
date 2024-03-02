@@ -17,12 +17,11 @@ describe("BordelaiseSauce page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<BordelaiseSauce />);
-    const ingredient = screen.queryAllByText(/Veel or beef stock/i);
-    expect(ingredient).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
-
   it("renders the method steps", () => {
     render(<BordelaiseSauce />);
     const step = screen.queryAllByText(/Begin by prepping your ingredients/i);

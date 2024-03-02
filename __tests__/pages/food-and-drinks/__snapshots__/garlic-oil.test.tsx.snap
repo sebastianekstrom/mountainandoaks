@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GarlicOil page renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Cloves of garlic
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Rapeseed oil
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          160
+          g
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;

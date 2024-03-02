@@ -17,10 +17,10 @@ describe("BirriaTacos page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<BirriaTacos />);
-    const ingredient = screen.queryAllByText(/Beef stock/i);
-    expect(ingredient).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

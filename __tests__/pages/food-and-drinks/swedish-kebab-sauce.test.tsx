@@ -17,12 +17,10 @@ describe("SwedishKebabSauce page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<SwedishKebabSauce />);
-    const flourLabel = screen.queryAllByText(/Fanta/i);
-    const waterLabel = screen.queryAllByText(/Mayonnaise/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

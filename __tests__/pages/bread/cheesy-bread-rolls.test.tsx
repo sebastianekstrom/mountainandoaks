@@ -17,19 +17,17 @@ describe("Cheesy bread rolls page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
-    render(<CheesyBreadRolls />);
-    const flourLabel = screen.queryAllByText(/Manitoba flour/i);
-    const waterLabel = screen.queryAllByText(/Water/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
-  });
-
   it("renders the method steps", () => {
     render(<CheesyBreadRolls />);
     const step = screen.queryAllByText(
       /Divide the dough into approximately 70-gram pieces/i
     );
     expect(step).toBeDefined();
+  });
+
+  it("renders the correct ingredients", () => {
+    render(<CheesyBreadRolls />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 });

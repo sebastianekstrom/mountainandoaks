@@ -17,17 +17,15 @@ describe("Danish page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
-    render(<Danish />);
-    const flourLabel = screen.queryAllByText(/Bread flour (vetemjöl)/i);
-    const waterLabel = screen.queryAllByText(/Water/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
-  });
-
   it("renders the method steps", () => {
     render(<Danish />);
     const step = screen.queryAllByText(/Grind the anise and fennel/i);
     expect(step).toBeDefined();
+  });
+
+  it("renders the correct ingredients", () => {
+    render(<Danish />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 });

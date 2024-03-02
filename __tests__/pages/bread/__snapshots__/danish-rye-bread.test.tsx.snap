@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Danish page renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Bread flour (vetemjöl)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          70
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Rye flur (rågmjöl)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          67
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sour milk (filmjölk)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          200
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Beer (stour or porter)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          150
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Syrup (sirap)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          133
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Pumpkin seeds, for decoration
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          20
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Oatmeal (havregryn), for decoration
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          20
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Salt
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          7
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Bicarbonate (bikarbonat)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          7
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Anise (anis)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          4
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Fennel seeds (fänkålsfrön)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          4
+          g
+        </p>
+      </li>
+    </ul>
+    <div
+      class="ml-auto"
+    >
+      <button
+        class="mt-2 rounded-full text-regular bg-pill-background py-2 px-4"
+        data-testid="BAKERS_PERCENTAGE"
+        role="button"
+      >
+        <p
+          class="variable font-sans text-caption leading-paragraph "
+        >
+          Show bakers %
+        </p>
+      </button>
+    </div>
+  </div>
+</section>
+`;

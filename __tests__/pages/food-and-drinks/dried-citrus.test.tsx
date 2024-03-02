@@ -17,10 +17,10 @@ describe("DriedCitrus page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<DriedCitrus />);
-    const flourLabel = screen.queryAllByText(/Citruses of your choice/i);
-    expect(flourLabel).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

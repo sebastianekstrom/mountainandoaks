@@ -15,10 +15,10 @@ describe("BasilInfusedOil page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<BasilInfusedOil />);
-    const ingredient = screen.queryAllByText(/Fresh basil/i);
-    expect(ingredient).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

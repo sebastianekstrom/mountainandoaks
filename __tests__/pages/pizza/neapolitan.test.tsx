@@ -15,12 +15,10 @@ describe("Neapolitan page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<Neapolitan />);
-    const flourLabel = screen.queryAllByText(/Flour (Tipo 00)/i);
-    const waterLabel = screen.queryAllByText(/Salt/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {
