@@ -17,17 +17,15 @@ describe("HamburgerBun page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
-    render(<HamburgerBun />);
-    const flourLabel = screen.queryAllByText(/All purpose flour/i);
-    const waterLabel = screen.queryAllByText(/Water/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
-  });
-
   it("renders the method steps", () => {
     render(<HamburgerBun />);
     const step = screen.queryAllByText(/Boil the baked potato until soft/i);
     expect(step).toBeDefined();
+  });
+
+  it("renders the correct ingredients", () => {
+    render(<HamburgerBun />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 });

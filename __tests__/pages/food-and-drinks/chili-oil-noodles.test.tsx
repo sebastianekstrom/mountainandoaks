@@ -17,12 +17,11 @@ describe("ChiliOildNoodles page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<ChiliOildNoodles />);
-    const ingredient = screen.queryAllByText(/Vegetable oil/i);
-    expect(ingredient).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
-
   it("renders the method steps", () => {
     render(<ChiliOildNoodles />);
     const step = screen.queryAllByText(/Take a small piece of cheesecloth/i);

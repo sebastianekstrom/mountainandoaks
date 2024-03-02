@@ -17,17 +17,15 @@ describe("SimpleLoaf page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
-    render(<SimpleLoaf />);
-    const flourLabel = screen.queryAllByText(/Bread flour/i);
-    const waterLabel = screen.queryAllByText(/Water/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
-  });
-
   it("renders the method steps", () => {
     render(<SimpleLoaf />);
     const step = screen.queryAllByText(/Mix the dry ingredients/i);
     expect(step).toBeDefined();
+  });
+
+  it("renders the correct ingredients", () => {
+    render(<SimpleLoaf />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 });

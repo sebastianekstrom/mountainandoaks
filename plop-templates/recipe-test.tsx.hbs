@@ -16,4 +16,10 @@ describe("{{pascalCase title}} page", () => {
     );
     expect(ingress).toBeDefined();
   });
+
+   it("renders the correct ingredients", () => {
+    render(<{{pascalCase title}} />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
+  });
 });

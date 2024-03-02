@@ -17,12 +17,10 @@ describe("DetroitStyle page", () => {
     expect(ingress).toBeDefined();
   });
 
-  it("renders the ingredients", () => {
+  it("renders the correct ingredients", () => {
     render(<DetroitStyle />);
-    const flourLabel = screen.queryAllByText(/Bread flour/i);
-    const waterLabel = screen.queryAllByText(/Canned tomatoes/i);
-    expect(flourLabel).toBeDefined();
-    expect(waterLabel).toBeDefined();
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
   });
 
   it("renders the method steps", () => {

@@ -38,4 +38,10 @@ describe("Baguette page", () => {
     );
     expect(alert).toBeDefined();
   });
+
+  it("renders the correct ingredients", () => {
+    render(<Baguette />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
+  });
 });

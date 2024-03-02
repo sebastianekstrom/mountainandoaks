@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HamburgerBun page renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="variable font-heading text-h3 leading-h3 text-regular "
+      >
+        Dough
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              All purpose flour
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            52
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Water
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            17
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Baked potato
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            13
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Butter
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            6.3
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Sugar
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            5.8
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Egg
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            5
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Dough conditioner (optional)
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1.5
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Salt
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Instant yeast
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.7
+            g
+          </p>
+        </li>
+      </ul>
+      <div
+        class="ml-auto"
+      >
+        <button
+          class="mt-2 rounded-full text-regular bg-pill-background py-2 px-4"
+          data-testid="BAKERS_PERCENTAGE"
+          role="button"
+        >
+          <p
+            class="variable font-sans text-caption leading-paragraph "
+          >
+            Show bakers %
+          </p>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="variable font-heading text-h3 leading-h3 text-regular "
+      >
+        Egg wash
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Egg
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Splash of water
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="variable font-heading text-h3 leading-h3 text-regular "
+      >
+        Melted butter
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Butter
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            5
+            g
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BanhMiBun page renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Bread flour (12% protein)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          500
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Water
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          260
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class="flex flex-row items-center"
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Egg
+          </p>
+          <span
+            class="ml-2 flex items-center"
+          >
+            <button
+              class="outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
+              data-state="closed"
+            >
+              <img
+                alt=""
+                class="w-[15] h-auto"
+                height="15"
+                quality="100"
+                src="/images/misc/question-mark.svg"
+                width="15"
+              />
+            </button>
+          </span>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          60
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Butter
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          30
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Salt
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          9
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Yeast
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          7
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Dough conditioner (optional)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sugar
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          6
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class="flex flex-row items-center"
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Melted butter
+          </p>
+          <span
+            class="ml-2 flex items-center"
+          >
+            <button
+              class="outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
+              data-state="closed"
+            >
+              <img
+                alt=""
+                class="w-[15] h-auto"
+                height="15"
+                quality="100"
+                src="/images/misc/question-mark.svg"
+                width="15"
+              />
+            </button>
+          </span>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        />
+      </li>
+    </ul>
+    <div
+      class="ml-auto"
+    >
+      <button
+        class="mt-2 rounded-full text-regular bg-pill-background py-2 px-4"
+        data-testid="BAKERS_PERCENTAGE"
+        role="button"
+      >
+        <p
+          class="variable font-sans text-caption leading-paragraph "
+        >
+          Show bakers %
+        </p>
+      </button>
+    </div>
+  </div>
+</section>
+`;

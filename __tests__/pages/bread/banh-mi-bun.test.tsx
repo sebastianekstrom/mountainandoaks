@@ -32,4 +32,10 @@ describe("BanhMiBun page", () => {
     );
     expect(step).toBeDefined();
   });
+
+  it("renders the correct ingredients", () => {
+    render(<BanhMiBun />);
+    const ingredientList = screen.getByTestId("INGREDIENT_LIST");
+    expect(ingredientList).toMatchSnapshot();
+  });
 });
