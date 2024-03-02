@@ -116,4 +116,17 @@ describe("Ingredients", () => {
 
     expect(await screen.findByText("1 loaf")).toBeDefined();
   });
+
+  it("calls onChangeMultiplier when multiplier changes", async () => {
+    const onChange = jest.fn();
+    render(<Ingredients {...defaultProps} onChangeMultiplier={onChange} />);
+
+    await userEvent.click(screen.getByLabelText("Increase amount"));
+    expect(await screen.findByText("2 loaves")).toBeDefined();
+    expect(onChange).toHaveBeenCalledWith(2);
+
+    await userEvent.click(screen.getByLabelText("Decrease amount"));
+    expect(await screen.findByText("1 loaf")).toBeDefined();
+    expect(onChange).toHaveBeenCalledWith(1);
+  });
 });

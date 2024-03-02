@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Page from "components/Page";
 import Post from "components/Post";
@@ -18,6 +18,7 @@ import image5 from "public/images/recipes/bordelaise-sauce/5.png";
 import image7 from "public/images/recipes/bordelaise-sauce/7.png";
 import image8 from "public/images/recipes/bordelaise-sauce/8.png";
 import Method from "components/Method";
+import Badge from "components/Badge";
 
 const INGREDIENTS = [
   {
@@ -165,7 +166,11 @@ const STEPS = [
   </Text>,
 ];
 
-export default function Bolognese() {
+const STARTING_MULTIPLIER = 2;
+const YIELD_PER_PORTION_IN_GRAMS = 100;
+
+export default function BordelaiseSauce() {
+  const [multiplier, setMultiplier] = useState(STARTING_MULTIPLIER);
   return (
     <Page
       metaTitle="Bordelaise sauce"
@@ -177,10 +182,16 @@ export default function Bolognese() {
         heroImage={heroImage}
         ingredients={
           <Ingredients
-            hideWeight
             ingredientSuffix="portion"
             ingredients={INGREDIENTS}
-            startingMultiplier={2}
+            startingMultiplier={STARTING_MULTIPLIER}
+            onChangeMultiplier={setMultiplier}
+            additionalMeta={
+              <Badge
+                value={`~${YIELD_PER_PORTION_IN_GRAMS * multiplier}g`}
+                label="amount of sauce"
+              />
+            }
           />
         }
         method={<Method recipeMethod={STEPS} />}
