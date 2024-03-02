@@ -27,6 +27,8 @@ interface Props {
   hideWeight?: boolean;
   startingMultiplier?: number;
   additionalMeta?: React.ReactNode;
+  // eslint-disable-next-line no-unused-vars
+  onChangeMultiplier?: (value: number) => void;
 }
 
 export const Ingredients = ({
@@ -41,6 +43,7 @@ export const Ingredients = ({
   hideWeight,
   startingMultiplier,
   additionalMeta,
+  onChangeMultiplier,
 }: Props) => {
   const [multiplier, setMultiplier] = useState(startingMultiplier || 1);
   const isMultipleIngredients = getIngredientType(ingredients) === "multi-part";
@@ -55,14 +58,18 @@ export const Ingredients = ({
   const yields = value * multiplier;
 
   const onIncrease = () => {
-    setMultiplier(multiplier + 1);
+    const multi = multiplier + 1;
+    setMultiplier(multi);
+    onChangeMultiplier && onChangeMultiplier(multi);
   };
 
   const onDecrease = () => {
     if (multiplier === 1) {
       return;
     }
-    setMultiplier(multiplier - 1);
+    const multi = multiplier - 1;
+    setMultiplier(multi);
+    onChangeMultiplier && onChangeMultiplier(multi);
   };
 
   return (
