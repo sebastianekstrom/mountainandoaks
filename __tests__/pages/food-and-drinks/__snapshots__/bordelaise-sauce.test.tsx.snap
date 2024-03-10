@@ -27,7 +27,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          450
+          225
           g
         </p>
       </li>
@@ -46,7 +46,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          300
+          150
           g
         </p>
       </li>
@@ -65,7 +65,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          35
+          18
           g
         </p>
       </li>
@@ -84,7 +84,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          20
+          10
           g
         </p>
       </li>
@@ -103,7 +103,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          20
+          10
           g
         </p>
       </li>
@@ -122,7 +122,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          15
+          7.5
           g
         </p>
       </li>
@@ -141,7 +141,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          10
+          5
           g
         </p>
       </li>
@@ -160,7 +160,7 @@ exports[`BordelaiseSauce page renders the correct ingredients 1`] = `
         <p
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
-          6
+          3
         </p>
       </li>
       <li

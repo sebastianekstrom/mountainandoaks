@@ -22,35 +22,35 @@ import Badge from "components/Badge";
 
 const INGREDIENTS = [
   {
-    value: 225,
+    value: 112.5,
     label: "Veel or beef stock",
   },
   {
-    value: 150,
+    value: 75,
     label: "Red wine (from Bordeaux)",
   },
   {
-    value: 17.5,
+    value: 8.75,
     label: "Shallots",
   },
   {
-    value: 10,
+    value: 5,
     label: "Butter",
   },
   {
-    value: 10,
+    value: 5,
     label: "Bone marrow (optional)",
   },
   {
-    value: 7.5,
+    value: 3.75,
     label: "Cold butter to finish the sauce",
   },
   {
-    value: 5,
+    value: 2.5,
     label: "Demi-glace (optional)",
   },
   {
-    value: 3,
+    value: 1.5,
     label: "Sprigs of thyme",
     valueSuffix: false,
     exludeFromTotalWeight: true,
@@ -167,7 +167,7 @@ const STEPS = [
 ];
 
 const STARTING_MULTIPLIER = 2;
-const YIELD_PER_PORTION_IN_GRAMS = 100;
+const YIELD_PER_PORTION_IN_GRAMS = 50;
 
 export default function BordelaiseSauce() {
   const [multiplier, setMultiplier] = useState(STARTING_MULTIPLIER);
@@ -189,7 +189,7 @@ export default function BordelaiseSauce() {
             additionalMeta={
               <Badge
                 value={`~${YIELD_PER_PORTION_IN_GRAMS * multiplier}g`}
-                label="amount of sauce"
+                label="of sauce"
               />
             }
           />
