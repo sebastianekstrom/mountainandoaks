@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Asian pork marinade",
+    url: "/recipes/asian-pork-marinade",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/asian-pork-marinade/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/asian-pork-marinade/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/asian-pork-marinade/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/asian-pork-marinade/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/asian-pork-marinade/thumbnails/meta.png"),
+    },
+    description:
+      "Elevate your pork dishes with this rich, Vietnamese-inspired marinade. Perfect for grilling, roasting, or pan-frying pork to perfection.",
+  },
+  {
     title: "Cheesy bread rolls",
     url: "/bread/cheesy-bread-rolls",
     category: CATEGORIES["bread"],
