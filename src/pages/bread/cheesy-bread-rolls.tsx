@@ -8,7 +8,9 @@ import PokeTest from "components/PokeTest";
 
 import heroImage from "public/images/bread/cheesy-bread-rolls/thumbnails/tall.png";
 import metaImage from "public/images/bread/cheesy-bread-rolls/thumbnails/meta.png";
-import image1 from "public/images/bread/cheesy-bread-rolls/1.png";
+import image1 from "public/images/bread/cheesy-bread-rolls/image-1.png";
+import image2 from "public/images/bread/cheesy-bread-rolls/image-2.png";
+import image3 from "public/images/bread/cheesy-bread-rolls/image-3.png";
 import Method from "components/Method";
 import WindowPaneTest from "components/WindowPaneTest";
 import MethodImage from "components/MethodImage";
@@ -69,7 +71,7 @@ const STEPS = [
   <Text>
     Divide the dough into approximately <b>70-gram pieces</b>.
   </Text>,
-  <Text>
+  <Text extra={<MethodImage src={image3} alt="" />}>
     To <b>shape the dough</b>, place your hand over it in a claw-like form. Move
     your hand in circular motions, initially pressing firmly to shape the dough,
     then gradually reducing pressure to tighten and smooth the surface.
@@ -78,7 +80,7 @@ const STEPS = [
     Place each piece on the prepared baking sheet, ensuring enough space between
     them for proofing; they will roughly double in size.
   </Text>,
-  <Text>
+  <Text extra={<MethodImage src={image2} alt="" />}>
     Once all pieces are shaped, lightly mist them with water and{" "}
     <b>cover with a damp towel</b>.
   </Text>,
