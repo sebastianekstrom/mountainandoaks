@@ -26,7 +26,7 @@ const INGREDIENTS = [
     label: "Veel or beef stock",
   },
   {
-    value: 75,
+    value: 112.5,
     label: "Red wine (from Bordeaux)",
   },
   {
@@ -149,7 +149,27 @@ const STEPS = [
     <b>Strain the sauce</b> through a fine sieve into a bowl, then clean the
     saucepan and return the sauce to it.
   </Text>,
-  <Text>
+  <Text
+    extra={
+      <Alert
+        title="Deviation"
+        description={
+          <>
+            If you want to stray away from the classic French recipe and create
+            your own red wine sauce, now is the time!
+            <br />
+            <br />
+            You can add a splash of <b>fish sauce</b> which will give more umami
+            flavor (no, it will not taste like fish), <b>lemon juice</b> to
+            freshen it up or thicken it with <b>dark brown roux</b> or{" "}
+            <b>cornstarch</b>. Some <b>Worcestershire Sauce</b>? Why not? Wanna
+            make it darker? Add a dash of <b>squid ink</b> or{" "}
+            <b>black food coloring</b>.
+          </>
+        }
+      />
+    }
+  >
     <b>Lower the heat</b> to a very gentle simmer, and season with <b>salt</b>{" "}
     and <b>white pepper</b> to taste.
   </Text>,
