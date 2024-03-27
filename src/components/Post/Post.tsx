@@ -57,6 +57,7 @@ export const Post = ({
             (max-width: 1200px) 50vw,
             50vw"
             quality={100}
+            priority
           />
           {ingredients && <div className="mt-6 lg:mt-12">{ingredients}</div>}
         </aside>
