@@ -1,10 +1,10 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import MethodImage from "components/MethodImage";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
 
 import heroImage from "public/images/recipes/dried-citrus/thumbnails/tall.jpg";
 import metaImage from "public/images/recipes/dried-citrus/thumbnails/meta.png";
@@ -12,7 +12,7 @@ import image1 from "public/images/recipes/dried-citrus/citrus-1.jpg";
 import image2 from "public/images/recipes/dried-citrus/citrus-2.jpg";
 import image3 from "public/images/recipes/dried-citrus/citrus-3.jpg";
 import image4 from "public/images/recipes/dried-citrus/citrus-4.jpg";
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

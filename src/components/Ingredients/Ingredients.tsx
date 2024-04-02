@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import Table from "components/Table";
-import IngredientMeta from "../IngredientMeta";
+import { Table } from "components/Table/Table";
+import { IngredientMeta } from "components/IngredientMeta/IngredientMeta";
 import { calculateTotalWeight } from "utils/calculateTotalWeight";
 import { calculateHydration } from "utils/calculateHydration";
 import { getIngredientType } from "utils/getIngredientType";

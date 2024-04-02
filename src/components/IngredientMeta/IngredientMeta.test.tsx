@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { IngredientMeta } from "./IngredientMeta";
-import { RecipeTimes } from "../Ingredients/Ingredients";
+import { RecipeTimes } from "components/Ingredients/Ingredients";
 
 const defaultProps = {
   onIncrease: jest.fn(),

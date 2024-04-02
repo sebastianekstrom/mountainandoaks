@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Text from "components/Text";
+import { Text } from "components/Text/Text";
 import { truncateString } from "utils/truncateString";
 import { Recipe } from "types/recipe";
 

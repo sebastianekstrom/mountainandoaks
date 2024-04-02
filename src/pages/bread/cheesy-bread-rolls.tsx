@@ -1,19 +1,19 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import PokeTest from "components/PokeTest";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { PokeTest } from "components/PokeTest/PokeTest";
 
 import heroImage from "public/images/bread/cheesy-bread-rolls/thumbnails/tall.png";
 import metaImage from "public/images/bread/cheesy-bread-rolls/thumbnails/meta.png";
 import image1 from "public/images/bread/cheesy-bread-rolls/image-1.png";
 import image2 from "public/images/bread/cheesy-bread-rolls/image-2.png";
 import image3 from "public/images/bread/cheesy-bread-rolls/image-3.png";
-import Method from "components/Method";
-import WindowPaneTest from "components/WindowPaneTest";
-import MethodImage from "components/MethodImage";
+import { Method } from "components/Method/Method";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
+import { MethodImage } from "components/MethodImage/MethodImage";
 
 const INGREDIENTS = [
   {

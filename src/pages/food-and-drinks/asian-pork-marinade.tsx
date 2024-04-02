@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
 
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
 import heroImage from "public/images/recipes/asian-pork-marinade/thumbnails/tall.png";
 import metaImage from "public/images/recipes/asian-pork-marinade/thumbnails/meta.png";
 
-import Method from "components/Method";
-import Badge from "components/Badge";
+import { Method } from "components/Method/Method";
+import { Badge } from "components/Badge/Badge";
 
 const INGREDIENTS = [
   {

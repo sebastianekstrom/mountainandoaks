@@ -10,7 +10,7 @@ import {
 } from "@radix-ui/react-tooltip";
 import Image from "next/image";
 
-import Text from "components/Text";
+import { Text } from "components/Text/Text";
 
 export const Tooltip = ({ value }: { value: string }) => {
   const [open, setOpen] = useState(false);

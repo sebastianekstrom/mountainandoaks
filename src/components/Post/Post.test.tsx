@@ -1,8 +1,9 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
-import { Post } from "./Post";
 import { useRouter } from "next/router";
-import Text from "components/Text";
+import { render, screen } from "@testing-library/react";
+
+import { Post } from "./Post";
+import { Text } from "components/Text/Text";
 
 describe("Post component", () => {
   beforeEach(() => {
@@ -10,7 +11,6 @@ describe("Post component", () => {
       route: "/bread/sourdough",
     });
   });
-
   it("renders the Post component with the provided title", () => {
     render(<Post title="Test Title" />);
     expect(screen.getAllByText("Test Title")).toBeDefined();

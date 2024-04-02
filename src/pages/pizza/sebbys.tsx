@@ -1,14 +1,14 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Link from "components/Link";
-import Text from "components/Text";
-import Alert from "components/Alert";
-import Ingredients from "components/Ingredients";
-import MethodImage from "components/MethodImage";
-import WindowPaneTest from "components/WindowPaneTest";
-import PokeTest from "components/PokeTest";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Link } from "components/Link/Link";
+import { Text } from "components/Text/Text";
+import { Alert } from "components/Alert/Alert";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
+import { PokeTest } from "components/PokeTest/PokeTest";
 
 import heroImage from "public/images/recipes/sebbys/thumbnails/tall.png";
 import metaImage from "public/images/recipes/sebbys/thumbnails/meta.png";
@@ -16,7 +16,7 @@ import finalImage from "public/images/recipes/sebbys/final.png";
 import shapeImage from "public/images/recipes/sebbys/pre-oven.png";
 import mirePoix from "public/images/recipes/sebbys/mirepoix.png";
 import sauce from "public/images/recipes/sebbys/sauce.png";
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

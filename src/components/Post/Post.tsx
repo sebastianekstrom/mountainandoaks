@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Text from "components/Text";
-import Recommended from "components/Recommended";
+import { Text } from "components/Text/Text";
+import { Recommended } from "components/Recommended/Recommended";
 import { useRouter } from "next/router";
 
 interface Props {

@@ -1,6 +1,6 @@
 import React from "react";
-import Text from "../Text";
-import Step from "../Step";
+import { Text } from "components/Text/Text";
+import { Step } from "components/Step/Step";
 
 import { getRecipeMethodType } from "utils/getRecipeMethodType";
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-import Page from "components/Page";
-import PostList from "components/PostList";
+import { Page } from "components/Page/Page";
+import { PostList } from "components/PostList/PostList";
 import image from "public/images/recipes/puttanesca/thumbnails/hero.png";
 import { RECIPES } from "constants/recipes";
 

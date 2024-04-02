@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Text from "components/Text";
+import { Text } from "components/Text/Text";
 import pluralize from "pluralize";
 
 interface Props {

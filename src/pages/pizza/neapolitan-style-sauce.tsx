@@ -1,15 +1,15 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Link from "components/Link";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import Badge from "components/Badge";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Link } from "components/Link/Link";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Badge } from "components/Badge/Badge";
 
 import heroImage from "public/images/pizza/neapolitan-sauce/thumbnails/tall.jpg";
 import metaImage from "public/images/pizza/neapolitan-sauce/thumbnails/meta.png";
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {
