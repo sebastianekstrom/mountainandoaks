@@ -1,4 +1,5 @@
 const { RuleTester } = require("eslint");
+
 const disallowedElementsRule = require("./no-custom-text-elements");
 
 const ruleTester = new RuleTester({

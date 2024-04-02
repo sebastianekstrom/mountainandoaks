@@ -1,6 +1,8 @@
 import React from "react";
-import { Text } from "components/Text/Text";
+
 import { Article } from "components/Article/Article";
+import { Text } from "components/Text/Text";
+
 import { Recipe } from "types/recipe";
 
 interface Category {

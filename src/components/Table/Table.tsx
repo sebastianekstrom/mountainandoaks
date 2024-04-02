@@ -1,8 +1,11 @@
 import React, { useState, useCallback, useMemo } from "react";
-import { roundValue } from "utils/roundValue";
+
+import { Text } from "components/Text/Text";
 
 import { Ingredient } from "types/recipe";
-import { Text } from "components/Text/Text";
+
+import { roundValue } from "utils/roundValue";
+
 import { Row } from "./components/Row";
 import { getTotalFlourAmount } from "./utils/getTotalFlourAmount";
 

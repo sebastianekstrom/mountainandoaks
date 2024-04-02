@@ -1,9 +1,11 @@
 import React from "react";
+
+import { Badge } from "components/Badge/Badge";
 import { RecipeTimes } from "components/Ingredients/Ingredients";
 
 import { roundValue } from "utils/roundValue";
+
 import { pluralizeMinutes } from "./utils";
-import { Badge } from "components/Badge/Badge";
 
 interface Props {
   weight?: number;

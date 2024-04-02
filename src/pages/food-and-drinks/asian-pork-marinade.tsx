@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 
+import metaImage from "public/images/recipes/asian-pork-marinade/thumbnails/meta.png";
+import heroImage from "public/images/recipes/asian-pork-marinade/thumbnails/tall.png";
+
+import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
 import { Page } from "components/Page/Page";
 import { Post } from "components/Post/Post";
-
 import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import heroImage from "public/images/recipes/asian-pork-marinade/thumbnails/tall.png";
-import metaImage from "public/images/recipes/asian-pork-marinade/thumbnails/meta.png";
-
-import { Method } from "components/Method/Method";
-import { Badge } from "components/Badge/Badge";
 
 const INGREDIENTS = [
   {

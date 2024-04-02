@@ -1,8 +1,9 @@
-import { Text } from "components/Text/Text";
-import { Article } from "components/Article/Article";
 import { useRouter } from "next/router";
 
 import { RECIPES } from "constants/recipes";
+
+import { Article } from "components/Article/Article";
+import { Text } from "components/Text/Text";
 
 interface Props {
   category: string;

@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 
-import { Table } from "components/Table/Table";
 import { IngredientMeta } from "components/IngredientMeta/IngredientMeta";
-import { calculateTotalWeight } from "utils/calculateTotalWeight";
-import { calculateHydration } from "utils/calculateHydration";
-import { getIngredientType } from "utils/getIngredientType";
+import { Table } from "components/Table/Table";
+
 import { Ingredient, MultiIngredient as _MultiIngredient } from "types/recipe";
+
+import { calculateHydration } from "utils/calculateHydration";
+import { calculateTotalWeight } from "utils/calculateTotalWeight";
+import { getIngredientType } from "utils/getIngredientType";
+
 import { Increaser } from "./components/Increaser";
 import { MultiIngredient } from "./components/MultiIngredient";
 

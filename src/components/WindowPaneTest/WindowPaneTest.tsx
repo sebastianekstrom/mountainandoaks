@@ -1,6 +1,8 @@
-import { Alert } from "components/Alert/Alert";
 import Image from "next/image";
+
 import image1 from "public/images/misc/window-pane-test.jpg";
+
+import { Alert } from "components/Alert/Alert";
 
 export const WindowPaneTest = () => {
   return (

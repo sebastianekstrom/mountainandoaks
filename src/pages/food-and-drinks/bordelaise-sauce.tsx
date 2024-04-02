@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import { Alert } from "components/Alert/Alert";
-import heroImage from "public/images/recipes/bordelaise-sauce/thumbnails/tall.png";
-
-import metaImage from "public/images/recipes/bordelaise-sauce/thumbnails/meta.png";
 import image1 from "public/images/recipes/bordelaise-sauce/1.png";
 import image2 from "public/images/recipes/bordelaise-sauce/2.png";
 import image3 from "public/images/recipes/bordelaise-sauce/3_1.png";
 import image4 from "public/images/recipes/bordelaise-sauce/4.png";
 import image5 from "public/images/recipes/bordelaise-sauce/5.png";
-
 import image7 from "public/images/recipes/bordelaise-sauce/7.png";
 import image8 from "public/images/recipes/bordelaise-sauce/8.png";
-import { Method } from "components/Method/Method";
+import metaImage from "public/images/recipes/bordelaise-sauce/thumbnails/meta.png";
+import heroImage from "public/images/recipes/bordelaise-sauce/thumbnails/tall.png";
+
+import { Alert } from "components/Alert/Alert";
 import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

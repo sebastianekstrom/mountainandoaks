@@ -1,15 +1,15 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
-import { Text } from "components/Text/Text";
+import metaImage from "public/images/pizza/54-new-york-style/thumbnails/meta.png";
+import heroImage from "public/images/pizza/54-new-york-style/thumbnails/tall.jpg";
+
 import { Alert } from "components/Alert/Alert";
 import { Ingredients } from "components/Ingredients/Ingredients";
-
-import heroImage from "public/images/pizza/54-new-york-style/thumbnails/tall.jpg";
-import metaImage from "public/images/pizza/54-new-york-style/thumbnails/meta.png";
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

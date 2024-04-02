@@ -1,20 +1,20 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
-import { Text } from "components/Text/Text";
-import { Alert } from "components/Alert/Alert";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
-
-import heroImage from "public/images/pizza/detroit/thumbnails/tall.jpg";
-import metaImage from "public/images/pizza/detroit/thumbnails/meta.png";
 import detroit2 from "public/images/pizza/detroit/detroit-2.jpg";
 import detroit3 from "public/images/pizza/detroit/detroit-3.jpg";
 import detroit4 from "public/images/pizza/detroit/detroit-4.jpg";
+import metaImage from "public/images/pizza/detroit/thumbnails/meta.png";
+import heroImage from "public/images/pizza/detroit/thumbnails/tall.jpg";
+
+import { Alert } from "components/Alert/Alert";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
 
 const INGREDIENTS = [
   {

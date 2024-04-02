@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { RECIPES } from "constants/recipes";
-import { PostList } from "components/PostList/PostList";
-
 import baguette from "public/images/bread/baguette/baguette.png";
+
+import { RECIPES } from "constants/recipes";
+
+import { Page } from "components/Page/Page";
+import { PostList } from "components/PostList/PostList";
 
 export default function BreadHome() {
   const breadRecipes = RECIPES.filter(

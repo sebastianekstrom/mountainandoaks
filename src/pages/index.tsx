@@ -1,8 +1,10 @@
-import { Page } from "components/Page/Page";
-
-import { PostList } from "components/PostList/PostList";
-import { RECIPES } from "constants/recipes";
 import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
+
+import { RECIPES } from "constants/recipes";
+
+import { Page } from "components/Page/Page";
+import { PostList } from "components/PostList/PostList";
+
 import { Recipe } from "types/recipe";
 
 const categories = [

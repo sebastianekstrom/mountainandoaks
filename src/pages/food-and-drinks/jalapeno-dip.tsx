@@ -1,18 +1,18 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { Badge } from "components/Badge/Badge";
-import { MethodImage } from "components/MethodImage/MethodImage";
-
-import heroImage from "public/images/recipes/jalapeno-dip/thumbnails/tall.png";
-import metaImage from "public/images/recipes/jalapeno-dip/thumbnails/meta.png";
 import image1 from "public/images/recipes/jalapeno-dip/1.png";
 import image2 from "public/images/recipes/jalapeno-dip/2.png";
 import image3 from "public/images/recipes/jalapeno-dip/3.png";
+import metaImage from "public/images/recipes/jalapeno-dip/thumbnails/meta.png";
+import heroImage from "public/images/recipes/jalapeno-dip/thumbnails/tall.png";
+
+import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
 import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

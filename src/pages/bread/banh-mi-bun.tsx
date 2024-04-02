@@ -1,17 +1,5 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { Alert } from "components/Alert/Alert";
-import { Method } from "components/Method/Method";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import { PokeTest } from "components/PokeTest/PokeTest";
-
-import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.png";
-import metaImage from "public/images/bread/banh-mi-bun/thumbnails/meta.png";
-
 import image1 from "public/images/bread/banh-mi-bun/1.jpg";
 import image2 from "public/images/bread/banh-mi-bun/2.jpg";
 import image3 from "public/images/bread/banh-mi-bun/3.jpg";
@@ -23,6 +11,17 @@ import image8 from "public/images/bread/banh-mi-bun/8.jpg";
 import image9 from "public/images/bread/banh-mi-bun/9.jpg";
 import finalBread from "public/images/bread/banh-mi-bun/final-bread.png";
 import finalImage from "public/images/bread/banh-mi-bun/final.png";
+import metaImage from "public/images/bread/banh-mi-bun/thumbnails/meta.png";
+import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.png";
+
+import { Alert } from "components/Alert/Alert";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { PokeTest } from "components/PokeTest/PokeTest";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

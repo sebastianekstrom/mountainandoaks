@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import NYSauce from "pages/pizza/new-york-style-sauce";
 
 describe("NYSauce page", () => {

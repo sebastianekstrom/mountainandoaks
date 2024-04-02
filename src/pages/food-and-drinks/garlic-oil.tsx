@@ -1,14 +1,14 @@
 import React from "react";
 
+import metaImage from "public/images/recipes/garlic-oil/thumbnails/meta.png";
+import heroImage from "public/images/recipes/garlic-oil/thumbnails/tall.jpg";
+
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
+import { Method } from "components/Method/Method";
 import { Page } from "components/Page/Page";
 import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
 import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-
-import heroImage from "public/images/recipes/garlic-oil/thumbnails/tall.jpg";
-import metaImage from "public/images/recipes/garlic-oil/thumbnails/meta.png";
-import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

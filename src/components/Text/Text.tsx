@@ -1,5 +1,5 @@
-import React from "react";
 import localFont from "next/font/local";
+import React from "react";
 
 import { convertStringToID } from "utils/convertStringToID";
 

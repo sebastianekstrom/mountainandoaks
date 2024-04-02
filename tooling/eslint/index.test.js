@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+
 const { configs, rules } = require("./index");
 
 describe("ESLint Config Loader", () => {

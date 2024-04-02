@@ -1,10 +1,11 @@
 import React from "react";
 
+import baking from "public/images/techniques/gear/thumbnails/hero.jpg";
+
+import { RECIPES } from "constants/recipes";
+
 import { Page } from "components/Page/Page";
 import { PostList } from "components/PostList/PostList";
-
-import baking from "public/images/techniques/gear/thumbnails/hero.jpg";
-import { RECIPES } from "constants/recipes";
 
 export default function Guides() {
   const guides = RECIPES.filter((recipe) => {

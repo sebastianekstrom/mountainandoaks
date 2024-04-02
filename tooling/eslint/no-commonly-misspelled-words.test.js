@@ -1,4 +1,5 @@
 const { RuleTester } = require("eslint");
+
 const yourCustomRule = require("./no-commonly-misspelled-words");
 
 const ruleTester = new RuleTester();

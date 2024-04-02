@@ -1,9 +1,11 @@
 import React from "react";
 
+import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
+
+import { RECIPES } from "constants/recipes";
+
 import { Page } from "components/Page/Page";
 import { PostList } from "components/PostList/PostList";
-import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
-import { RECIPES } from "constants/recipes";
 
 export default function Pizza() {
   const pizzas = RECIPES.filter((recipe) => {

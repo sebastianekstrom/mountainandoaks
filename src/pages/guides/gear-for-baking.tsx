@@ -1,25 +1,24 @@
+import Image from "next/image";
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Link } from "components/Link/Link";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import heroImage from "public/images/techniques/gear/thumbnails/tall.jpg";
-import metaImage from "public/images/techniques/gear/thumbnails/meta.png";
-
+import coolingRack from "public/images/techniques/gear/entries/cooling-rack.jpg";
+import doughContainer from "public/images/techniques/gear/entries/dough-container.jpg";
+import doughScraper from "public/images/techniques/gear/entries/dough-scraper.jpg";
+import dutchOven from "public/images/techniques/gear/entries/dutch-oven.jpg";
+import foodContainer from "public/images/techniques/gear/entries/food-containers.jpg";
+import label from "public/images/techniques/gear/entries/label.jpg";
+import labeling from "public/images/techniques/gear/entries/labeling.jpg";
+import pizzaSteel from "public/images/techniques/gear/entries/pizza-steel.jpg";
+import razor from "public/images/techniques/gear/entries/razor.jpg";
 import scale from "public/images/techniques/gear/entries/scale.jpg";
 import standMixer from "public/images/techniques/gear/entries/stand-mixer.jpg";
-import coolingRack from "public/images/techniques/gear/entries/cooling-rack.jpg";
-import doughScraper from "public/images/techniques/gear/entries/dough-scraper.jpg";
-import pizzaSteel from "public/images/techniques/gear/entries/pizza-steel.jpg";
-import doughContainer from "public/images/techniques/gear/entries/dough-container.jpg";
-import foodContainer from "public/images/techniques/gear/entries/food-containers.jpg";
-import dutchOven from "public/images/techniques/gear/entries/dutch-oven.jpg";
-import razor from "public/images/techniques/gear/entries/razor.jpg";
-import labeling from "public/images/techniques/gear/entries/labeling.jpg";
-import label from "public/images/techniques/gear/entries/label.jpg";
+import metaImage from "public/images/techniques/gear/thumbnails/meta.png";
+import heroImage from "public/images/techniques/gear/thumbnails/tall.jpg";
 
-import Image from "next/image";
+import { Link } from "components/Link/Link";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const Entry = ({
   title,
