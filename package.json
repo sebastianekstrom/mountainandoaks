@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint:js": "next lint --max-warnings=0",
-    "lint:js:dead-code": "node scripts/find-dead-code.js",
+    "lint:js:dead-code": "node tooling/find-dead-code.js",
     "test:js": "jest",
     "test:types": "tsc",
     "test:e2e": "npx playwright test",

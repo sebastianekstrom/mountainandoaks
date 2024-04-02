@@ -93,7 +93,10 @@ module.exports = function (plop) {
   });
 
   plop.setActionType("copyPlaceholderImages", function (answers) {
-    const sourcePath = path.join(__dirname, "plop-templates/placeholder.png");
+    const sourcePath = path.join(
+      __dirname,
+      "tooling/plop-templates/placeholder.png"
+    );
     const targetDir = "public/images/{{category}}/{{slug}}/thumbnails";
     const fileNames = [
       "hero.png",
@@ -158,7 +161,7 @@ module.exports = function (plop) {
         {
           type: "add",
           path: "src/pages/{{category}}/{{slug}}.tsx",
-          templateFile: "plop-templates/recipe.tsx.hbs",
+          templateFile: "tooling/plop-templates/recipe.tsx.hbs",
           data: {
             ...data,
             categoryPath: adjustedCategory,
@@ -171,7 +174,7 @@ module.exports = function (plop) {
         {
           type: "add",
           path: "__tests__/pages/{{category}}/{{slug}}.test.tsx",
-          templateFile: "plop-templates/recipe-test.tsx.hbs",
+          templateFile: "tooling/plop-templates/recipe-test.tsx.hbs",
         },
         {
           type: "formatCode",
