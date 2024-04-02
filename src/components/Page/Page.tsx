@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Header";
+import { Header } from "components/Header/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Script from "next/script";
-import Text from "components/Text";
+import { Text } from "components/Text/Text";
 import { RECIPES } from "../../constants/recipes";
 
 interface Props {

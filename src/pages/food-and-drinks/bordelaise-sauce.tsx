@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import MethodImage from "components/MethodImage";
-import Alert from "components/Alert";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Alert } from "components/Alert/Alert";
 import heroImage from "public/images/recipes/bordelaise-sauce/thumbnails/tall.png";
 
 import metaImage from "public/images/recipes/bordelaise-sauce/thumbnails/meta.png";
@@ -17,8 +17,8 @@ import image5 from "public/images/recipes/bordelaise-sauce/5.png";
 
 import image7 from "public/images/recipes/bordelaise-sauce/7.png";
 import image8 from "public/images/recipes/bordelaise-sauce/8.png";
-import Method from "components/Method";
-import Badge from "components/Badge";
+import { Method } from "components/Method/Method";
+import { Badge } from "components/Badge/Badge";
 
 const INGREDIENTS = [
   {

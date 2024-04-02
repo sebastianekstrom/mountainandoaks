@@ -1,13 +1,13 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import Alert from "components/Alert";
-import Method from "components/Method";
-import MethodImage from "components/MethodImage";
-import PokeTest from "components/PokeTest";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Alert } from "components/Alert/Alert";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { PokeTest } from "components/PokeTest/PokeTest";
 
 import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.png";
 import metaImage from "public/images/bread/banh-mi-bun/thumbnails/meta.png";

@@ -1,9 +1,9 @@
 import React from "react";
 
-import Page from "components/Page";
-import Link from "components/Link";
-import Post from "components/Post";
-import Text from "components/Text";
+import { Page } from "components/Page/Page";
+import { Link } from "components/Link/Link";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 import heroImage from "public/images/techniques/gear/thumbnails/tall.jpg";
 import metaImage from "public/images/techniques/gear/thumbnails/meta.png";
 

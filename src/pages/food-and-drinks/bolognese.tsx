@@ -1,11 +1,11 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import Alert from "components/Alert";
-import MethodImage from "components/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Alert } from "components/Alert/Alert";
+import { MethodImage } from "components/MethodImage/MethodImage";
 
 import heroImage from "public/images/recipes/bolognese/thumbnails/tall.png";
 
@@ -16,7 +16,7 @@ import image3 from "public/images/recipes/bolognese/3.jpg";
 import image4 from "public/images/recipes/bolognese/4.jpg";
 import image5 from "public/images/recipes/bolognese/5.png";
 import image6 from "public/images/recipes/bolognese/6.png";
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

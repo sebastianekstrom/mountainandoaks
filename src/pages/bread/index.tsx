@@ -1,8 +1,8 @@
 import React from "react";
 
-import Page from "components/Page";
+import { Page } from "components/Page/Page";
 import { RECIPES } from "constants/recipes";
-import PostList from "components/PostList";
+import { PostList } from "components/PostList/PostList";
 
 import baguette from "public/images/bread/baguette/baguette.png";
 

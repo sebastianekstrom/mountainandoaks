@@ -1,13 +1,13 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Link from "components/Link";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import MethodImage from "components/MethodImage";
-import WindowPaneTest from "components/WindowPaneTest";
-import PokeTest from "components/PokeTest";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Link } from "components/Link/Link";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
+import { PokeTest } from "components/PokeTest/PokeTest";
 
 import heroImage from "public/images/bread/baguette/thumbnails/tall.jpg";
 import metaImage from "public/images/bread/baguette/thumbnails/meta.png";
@@ -19,7 +19,7 @@ import image5 from "public/images/bread/baguette/5.png";
 import image6 from "public/images/bread/baguette/6.png";
 import image7 from "public/images/bread/baguette/7.png";
 
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

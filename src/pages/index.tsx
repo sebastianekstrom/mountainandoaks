@@ -1,6 +1,6 @@
-import Page from "components/Page";
+import { Page } from "components/Page/Page";
 
-import PostList from "components/PostList";
+import { PostList } from "components/PostList/PostList";
 import { RECIPES } from "constants/recipes";
 import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
 import { Recipe } from "types/recipe";

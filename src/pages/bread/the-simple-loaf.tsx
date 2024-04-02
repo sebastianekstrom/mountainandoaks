@@ -1,12 +1,12 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Link from "components/Link";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import WindowPaneTest from "components/WindowPaneTest";
-import PokeTest from "components/PokeTest";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Link } from "components/Link/Link";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
+import { PokeTest } from "components/PokeTest/PokeTest";
 
 import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.png";
 import metaImage from "public/images/bread/the-simple-loaf/thumbnails/meta.png";
@@ -20,8 +20,8 @@ import image7 from "public/images/bread/the-simple-loaf/7.png";
 import image8 from "public/images/bread/the-simple-loaf/8.png";
 import image9 from "public/images/bread/the-simple-loaf/9.png";
 import image10 from "public/images/bread/the-simple-loaf/10.png";
-import Method from "components/Method";
-import MethodImage from "components/MethodImage";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
 
 const INGREDIENTS = [
   {

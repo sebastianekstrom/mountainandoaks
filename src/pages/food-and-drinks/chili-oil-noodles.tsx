@@ -1,10 +1,10 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import MethodImage from "components/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { MethodImage } from "components/MethodImage/MethodImage";
 
 import heroImage from "public/images/recipes/chili-oil-noodles/thumbnails/tall.png";
 import metaImage from "public/images/recipes/chili-oil-noodles/thumbnails/meta.png";
@@ -20,7 +20,7 @@ import image10 from "public/images/recipes/chili-oil-noodles/10.png";
 import image11 from "public/images/recipes/chili-oil-noodles/11.png";
 import image12 from "public/images/recipes/chili-oil-noodles/12.png";
 import image13 from "public/images/recipes/chili-oil-noodles/13.png";
-import Method from "components/Method";
+import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

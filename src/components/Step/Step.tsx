@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Text from "../Text";
+import { Text } from "components/Text/Text";
 import { CheckIcon } from "@heroicons/react/24/outline";
 
 interface Props {

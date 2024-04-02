@@ -1,10 +1,10 @@
 import React from "react";
 
-import Page from "components/Page";
-import Post from "components/Post";
-import Text from "components/Text";
-import Ingredients from "components/Ingredients";
-import MethodImage from "components/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { MethodImage } from "components/MethodImage/MethodImage";
 import heroImage from "public/images/recipes/birria-tacos/thumbnails/tall.png";
 
 import metaImage from "public/images/recipes/birria-tacos/thumbnails/meta.png";
@@ -23,8 +23,8 @@ import image12 from "public/images/recipes/birria-tacos/12.png";
 import image14 from "public/images/recipes/birria-tacos/14.png";
 import image15 from "public/images/recipes/birria-tacos/15.png";
 import image18 from "public/images/recipes/birria-tacos/18.png";
-import Method from "components/Method";
-import Badge from "components/Badge";
+import { Method } from "components/Method/Method";
+import { Badge } from "components/Badge/Badge";
 
 const INGREDIENTS = [
   {

@@ -1,7 +1,7 @@
 import React from "react";
 
-import Page from "components/Page";
-import PostList from "components/PostList";
+import { Page } from "components/Page/Page";
+import { PostList } from "components/PostList/PostList";
 import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
 import { RECIPES } from "constants/recipes";
 

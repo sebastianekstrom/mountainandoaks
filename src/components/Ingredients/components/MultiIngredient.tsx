@@ -1,6 +1,6 @@
 import { MultiIngredient as _MultiIngredient } from "types/recipe";
-import Text from "components/Text";
-import Table from "components/Table";
+import { Text } from "components/Text/Text";
+import { Table } from "components/Table/Table";
 
 interface Props {
   ingredients: _MultiIngredient[];
