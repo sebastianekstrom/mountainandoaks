@@ -1,9 +1,12 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+
 import { Text } from "components/Text/Text";
-import { truncateString } from "utils/truncateString";
+
 import { Recipe } from "types/recipe";
+
+import { truncateString } from "utils/truncateString";
 
 interface ArticleProps {
   first?: boolean;

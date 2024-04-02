@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import Piefection from "pages/guides/piefection";
 
 describe("Piefection page", () => {

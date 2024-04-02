@@ -1,20 +1,20 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { Alert } from "components/Alert/Alert";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import { Method } from "components/Method/Method";
-import { Badge } from "components/Badge/Badge";
-
-import heroImage from "public/images/recipes/cheddar-dip/thumbnails/tall.png";
-import metaImage from "public/images/recipes/cheddar-dip/thumbnails/meta.png";
 import image1 from "public/images/recipes/cheddar-dip/1.png";
 import image3 from "public/images/recipes/cheddar-dip/3.png";
 import image4 from "public/images/recipes/cheddar-dip/4.png";
 import image5 from "public/images/recipes/cheddar-dip/5.png";
+import metaImage from "public/images/recipes/cheddar-dip/thumbnails/meta.png";
+import heroImage from "public/images/recipes/cheddar-dip/thumbnails/tall.png";
+
+import { Alert } from "components/Alert/Alert";
+import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

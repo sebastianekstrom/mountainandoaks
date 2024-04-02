@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import Sebbys from "pages/pizza/sebbys";
 
 import "@testing-library/jest-dom";

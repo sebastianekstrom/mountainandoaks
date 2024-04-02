@@ -1,17 +1,18 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Link } from "components/Link/Link";
-import heroImage from "public/images/techniques/piefection/thumbnails/tall.jpg";
-import metaImage from "public/images/techniques/piefection/thumbnails/meta.png";
-import { MethodImage } from "components/MethodImage/MethodImage";
+import image4 from "public/images/techniques/piefection/danger.jpg";
 import image1 from "public/images/techniques/piefection/gram.jpg";
 import image2 from "public/images/techniques/piefection/prep.jpg";
 import image3 from "public/images/techniques/piefection/steel.jpg";
-import image4 from "public/images/techniques/piefection/danger.jpg";
+import metaImage from "public/images/techniques/piefection/thumbnails/meta.png";
+import heroImage from "public/images/techniques/piefection/thumbnails/tall.jpg";
+
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const STEPS_DOS = [
   <>

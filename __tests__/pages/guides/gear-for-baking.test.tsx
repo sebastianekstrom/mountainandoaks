@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import GearForBaking from "pages/guides/gear-for-baking";
 
 describe("GearForBaking page", () => {

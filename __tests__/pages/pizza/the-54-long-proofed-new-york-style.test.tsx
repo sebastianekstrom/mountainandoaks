@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import The54 from "pages/pizza/the-54-long-proofed-new-york-style";
 
 describe("The54 page", () => {

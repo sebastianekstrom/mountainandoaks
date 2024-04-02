@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
-import { Ingredient } from "types/recipe";
+import { getBakersPercentage } from "components/Table/utils/getBakersPercentage";
 import { Text } from "components/Text/Text";
 import { Tooltip } from "components/Tooltip/Tooltip";
-import { getBakersPercentage } from "components/Table/utils/getBakersPercentage";
+
+import { Ingredient } from "types/recipe";
 
 interface Props {
   item: Ingredient;

@@ -1,7 +1,9 @@
-import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { Table } from "./Table";
+import React from "react";
+
 import { Ingredient } from "types/recipe";
+
+import { Table } from "./Table";
 
 const defaultProps: Ingredient[] = [
   {

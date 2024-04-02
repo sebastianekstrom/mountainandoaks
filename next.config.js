@@ -9,6 +9,9 @@ const nextConfig = {
   devIndicators: {
     buildActivity: false,
   },
+  eslint: {
+    dirs: ["__tests__", "src", "tooling"],
+  },
   i18n: {
     locales: ["en"],
     defaultLocale: "en",

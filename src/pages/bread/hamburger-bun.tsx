@@ -1,15 +1,15 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { PokeTest } from "components/PokeTest/PokeTest";
-
-import heroImage from "public/images/bread/bun/thumbnails/tall.jpg";
 import metaImage from "public/images/bread/bun/thumbnails/meta.png";
+import heroImage from "public/images/bread/bun/thumbnails/tall.jpg";
+
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
+import { Page } from "components/Page/Page";
+import { PokeTest } from "components/PokeTest/PokeTest";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

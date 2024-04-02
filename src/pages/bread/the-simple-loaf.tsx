@@ -1,16 +1,7 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
-import { PokeTest } from "components/PokeTest/PokeTest";
-
-import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.png";
-import metaImage from "public/images/bread/the-simple-loaf/thumbnails/meta.png";
 import image1 from "public/images/bread/the-simple-loaf/1.png";
+import image10 from "public/images/bread/the-simple-loaf/10.png";
 import image2 from "public/images/bread/the-simple-loaf/2.png";
 import image3 from "public/images/bread/the-simple-loaf/3.png";
 import image4 from "public/images/bread/the-simple-loaf/4.png";
@@ -19,9 +10,18 @@ import image6 from "public/images/bread/the-simple-loaf/6.png";
 import image7 from "public/images/bread/the-simple-loaf/7.png";
 import image8 from "public/images/bread/the-simple-loaf/8.png";
 import image9 from "public/images/bread/the-simple-loaf/9.png";
-import image10 from "public/images/bread/the-simple-loaf/10.png";
+import metaImage from "public/images/bread/the-simple-loaf/thumbnails/meta.png";
+import heroImage from "public/images/bread/the-simple-loaf/thumbnails/tall.png";
+
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
 import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { PokeTest } from "components/PokeTest/PokeTest";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
 
 const INGREDIENTS = [
   {

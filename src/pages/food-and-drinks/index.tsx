@@ -1,9 +1,11 @@
 import React from "react";
 
+import image from "public/images/recipes/puttanesca/thumbnails/hero.png";
+
+import { RECIPES } from "constants/recipes";
+
 import { Page } from "components/Page/Page";
 import { PostList } from "components/PostList/PostList";
-import image from "public/images/recipes/puttanesca/thumbnails/hero.png";
-import { RECIPES } from "constants/recipes";
 
 export default function FoodAndDrinks() {
   const recipes = RECIPES.filter((recipe) => {

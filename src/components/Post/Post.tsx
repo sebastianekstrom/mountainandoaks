@@ -1,8 +1,9 @@
-import React from "react";
 import Image from "next/image";
-import { Text } from "components/Text/Text";
-import { Recommended } from "components/Recommended/Recommended";
 import { useRouter } from "next/router";
+import React from "react";
+
+import { Recommended } from "components/Recommended/Recommended";
+import { Text } from "components/Text/Text";
 
 interface Props {
   children?: React.ReactNode;

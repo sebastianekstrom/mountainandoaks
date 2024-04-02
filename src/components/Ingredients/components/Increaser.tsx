@@ -1,6 +1,7 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Text } from "components/Text/Text";
 import pluralize from "pluralize";
+import React, { useState, useRef, useEffect } from "react";
+
+import { Text } from "components/Text/Text";
 
 interface Props {
   onDecrease: () => void;

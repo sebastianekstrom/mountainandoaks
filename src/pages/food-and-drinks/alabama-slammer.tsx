@@ -1,14 +1,14 @@
 import React from "react";
 
+import metaImage from "public/images/recipes/alabama-slammer/thumbnails/meta.png";
+import heroImage from "public/images/recipes/alabama-slammer/thumbnails/tall.jpg";
+
+import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
 import { Page } from "components/Page/Page";
 import { Post } from "components/Post/Post";
 import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { Badge } from "components/Badge/Badge";
-
-import heroImage from "public/images/recipes/alabama-slammer/thumbnails/tall.jpg";
-import metaImage from "public/images/recipes/alabama-slammer/thumbnails/meta.png";
-import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

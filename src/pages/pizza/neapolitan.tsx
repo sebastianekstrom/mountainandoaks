@@ -1,16 +1,16 @@
 import React from "react";
 
+import metaImage from "public/images/pizza/neapolitan/thumbnails/meta.png";
+import heroImage from "public/images/pizza/neapolitan/thumbnails/tall.jpg";
+
+import { Alert } from "components/Alert/Alert";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
+import { Method } from "components/Method/Method";
 import { Page } from "components/Page/Page";
 import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
 import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { Alert } from "components/Alert/Alert";
 import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
-
-import heroImage from "public/images/pizza/neapolitan/thumbnails/tall.jpg";
-import metaImage from "public/images/pizza/neapolitan/thumbnails/meta.png";
-import { Method } from "components/Method/Method";
 
 const INGREDIENTS = [
   {

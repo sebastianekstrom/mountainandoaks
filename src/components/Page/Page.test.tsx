@@ -1,8 +1,9 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
+import { Text } from "components/Text/Text";
 
 import { Page } from "./Page";
-import { Text } from "components/Text/Text";
 
 describe("Page", () => {
   it("renders the Page component with a header, main, and footer", () => {

@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
+import metaImage from "public/images/techniques/baking-home-oven/thumbnails/meta.png";
+import heroImage from "public/images/techniques/baking-home-oven/thumbnails/tall.jpg";
+
 import { Link } from "components/Link/Link";
+import { Method } from "components/Method/Method";
+import { Page } from "components/Page/Page";
 import { Post } from "components/Post/Post";
 import { Text } from "components/Text/Text";
-import heroImage from "public/images/techniques/baking-home-oven/thumbnails/tall.jpg";
-import metaImage from "public/images/techniques/baking-home-oven/thumbnails/meta.png";
-import { Method } from "components/Method/Method";
 
 const STEPS = [
   <Text>

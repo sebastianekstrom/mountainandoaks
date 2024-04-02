@@ -1,8 +1,10 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
-import { Ingredient, MultiIngredient } from "types/recipe";
-import { Ingredients, RecipeTimes } from "./Ingredients";
 import userEvent from "@testing-library/user-event";
+import React from "react";
+
+import { Ingredient, MultiIngredient } from "types/recipe";
+
+import { Ingredients, RecipeTimes } from "./Ingredients";
 
 const defaultProps = {
   ingredients: [

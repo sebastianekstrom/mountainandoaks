@@ -1,16 +1,5 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Link } from "components/Link/Link";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
-import { PokeTest } from "components/PokeTest/PokeTest";
-
-import heroImage from "public/images/bread/baguette/thumbnails/tall.jpg";
-import metaImage from "public/images/bread/baguette/thumbnails/meta.png";
 import image1 from "public/images/bread/baguette/1.png";
 import image2 from "public/images/bread/baguette/2.png";
 import image3 from "public/images/bread/baguette/3.png";
@@ -18,8 +7,18 @@ import image4 from "public/images/bread/baguette/4.png";
 import image5 from "public/images/bread/baguette/5.png";
 import image6 from "public/images/bread/baguette/6.png";
 import image7 from "public/images/bread/baguette/7.png";
+import metaImage from "public/images/bread/baguette/thumbnails/meta.png";
+import heroImage from "public/images/bread/baguette/thumbnails/tall.jpg";
 
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Link } from "components/Link/Link";
 import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { PokeTest } from "components/PokeTest/PokeTest";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
+import { WindowPaneTest } from "components/WindowPaneTest/WindowPaneTest";
 
 const INGREDIENTS = [
   {

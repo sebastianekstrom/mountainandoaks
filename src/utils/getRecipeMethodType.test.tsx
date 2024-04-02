@@ -1,5 +1,6 @@
-import { getRecipeMethodType } from "./getRecipeMethodType";
 import { Text } from "components/Text/Text";
+
+import { getRecipeMethodType } from "./getRecipeMethodType";
 
 const MULTI_STEP = [
   {

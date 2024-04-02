@@ -1,5 +1,6 @@
-import { calculateTotalWeight } from "./calculateTotalWeight";
 import { Ingredient, MultiIngredient } from "types/recipe";
+
+import { calculateTotalWeight } from "./calculateTotalWeight";
 
 describe("calculateTotalWeight", () => {
   const ingredientA: Ingredient = {

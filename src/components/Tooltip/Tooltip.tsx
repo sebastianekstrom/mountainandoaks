@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import {
   Provider,
   Root,
@@ -9,6 +7,7 @@ import {
   Arrow,
 } from "@radix-ui/react-tooltip";
 import Image from "next/image";
+import React, { useState } from "react";
 
 import { Text } from "components/Text/Text";
 

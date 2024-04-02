@@ -1,14 +1,12 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { MethodImage } from "components/MethodImage/MethodImage";
-import heroImage from "public/images/recipes/birria-tacos/thumbnails/tall.png";
-
-import metaImage from "public/images/recipes/birria-tacos/thumbnails/meta.png";
 import image1 from "public/images/recipes/birria-tacos/1.png";
+import image10 from "public/images/recipes/birria-tacos/10.png";
+import image11 from "public/images/recipes/birria-tacos/11.png";
+import image12 from "public/images/recipes/birria-tacos/12.png";
+import image14 from "public/images/recipes/birria-tacos/14.png";
+import image15 from "public/images/recipes/birria-tacos/15.png";
+import image18 from "public/images/recipes/birria-tacos/18.png";
 import image2 from "public/images/recipes/birria-tacos/2.png";
 import image3 from "public/images/recipes/birria-tacos/3.png";
 import image4 from "public/images/recipes/birria-tacos/4.png";
@@ -17,14 +15,16 @@ import image6 from "public/images/recipes/birria-tacos/6.png";
 import image7 from "public/images/recipes/birria-tacos/7.png";
 import image8 from "public/images/recipes/birria-tacos/8.png";
 import image9 from "public/images/recipes/birria-tacos/9.png";
-import image10 from "public/images/recipes/birria-tacos/10.png";
-import image11 from "public/images/recipes/birria-tacos/11.png";
-import image12 from "public/images/recipes/birria-tacos/12.png";
-import image14 from "public/images/recipes/birria-tacos/14.png";
-import image15 from "public/images/recipes/birria-tacos/15.png";
-import image18 from "public/images/recipes/birria-tacos/18.png";
-import { Method } from "components/Method/Method";
+import metaImage from "public/images/recipes/birria-tacos/thumbnails/meta.png";
+import heroImage from "public/images/recipes/birria-tacos/thumbnails/tall.png";
+
 import { Badge } from "components/Badge/Badge";
+import { Ingredients } from "components/Ingredients/Ingredients";
+import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {

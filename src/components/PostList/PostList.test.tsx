@@ -1,7 +1,9 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
-import { PostList } from "./PostList";
+import React from "react";
+
 import { Recipe } from "types/recipe";
+
+import { PostList } from "./PostList";
 
 const mockRecipes: Recipe[] = [
   {

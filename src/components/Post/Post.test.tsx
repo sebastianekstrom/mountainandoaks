@@ -1,9 +1,10 @@
-import React from "react";
-import { useRouter } from "next/router";
 import { render, screen } from "@testing-library/react";
+import { useRouter } from "next/router";
+import React from "react";
+
+import { Text } from "components/Text/Text";
 
 import { Post } from "./Post";
-import { Text } from "components/Text/Text";
 
 describe("Post component", () => {
   beforeEach(() => {

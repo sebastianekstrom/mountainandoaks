@@ -1,5 +1,6 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import React from "react";
+
 import NYStyle from "pages/pizza/new-york-style";
 
 describe("NYStyle page", () => {

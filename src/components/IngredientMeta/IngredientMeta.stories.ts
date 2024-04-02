@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { IngredientMeta } from "./IngredientMeta";
 import { RecipeTimes } from "components/Ingredients/Ingredients";
+
+import { IngredientMeta } from "./IngredientMeta";
 
 const meta: Meta<typeof IngredientMeta> = {
   title: "Components/IngredientMeta",

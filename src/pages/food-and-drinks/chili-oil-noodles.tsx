@@ -1,14 +1,10 @@
 import React from "react";
 
-import { Page } from "components/Page/Page";
-import { Post } from "components/Post/Post";
-import { Text } from "components/Text/Text";
-import { Ingredients } from "components/Ingredients/Ingredients";
-import { MethodImage } from "components/MethodImage/MethodImage";
-
-import heroImage from "public/images/recipes/chili-oil-noodles/thumbnails/tall.png";
-import metaImage from "public/images/recipes/chili-oil-noodles/thumbnails/meta.png";
 import image1 from "public/images/recipes/chili-oil-noodles/1.png";
+import image10 from "public/images/recipes/chili-oil-noodles/10.png";
+import image11 from "public/images/recipes/chili-oil-noodles/11.png";
+import image12 from "public/images/recipes/chili-oil-noodles/12.png";
+import image13 from "public/images/recipes/chili-oil-noodles/13.png";
 import image2 from "public/images/recipes/chili-oil-noodles/2.png";
 import image3 from "public/images/recipes/chili-oil-noodles/3.png";
 import image4 from "public/images/recipes/chili-oil-noodles/4.png";
@@ -16,11 +12,15 @@ import image5 from "public/images/recipes/chili-oil-noodles/5.png";
 import image6 from "public/images/recipes/chili-oil-noodles/6.png";
 import image8 from "public/images/recipes/chili-oil-noodles/8.png";
 import image9 from "public/images/recipes/chili-oil-noodles/9.png";
-import image10 from "public/images/recipes/chili-oil-noodles/10.png";
-import image11 from "public/images/recipes/chili-oil-noodles/11.png";
-import image12 from "public/images/recipes/chili-oil-noodles/12.png";
-import image13 from "public/images/recipes/chili-oil-noodles/13.png";
+import metaImage from "public/images/recipes/chili-oil-noodles/thumbnails/meta.png";
+import heroImage from "public/images/recipes/chili-oil-noodles/thumbnails/tall.png";
+
+import { Ingredients } from "components/Ingredients/Ingredients";
 import { Method } from "components/Method/Method";
+import { MethodImage } from "components/MethodImage/MethodImage";
+import { Page } from "components/Page/Page";
+import { Post } from "components/Post/Post";
+import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {
