@@ -7,7 +7,6 @@ import type { Recipe } from "types/recipe";
 
 interface Category {
   title: string;
-  // eslint-disable-next-line no-unused-vars
   filter: (recipe: Recipe) => boolean;
   isRestCategory?: boolean;
 }

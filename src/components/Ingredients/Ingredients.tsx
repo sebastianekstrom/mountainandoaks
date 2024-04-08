@@ -34,7 +34,6 @@ interface Props {
   hideWeight?: boolean;
   startingMultiplier?: number;
   additionalMeta?: React.ReactNode;
-  // eslint-disable-next-line no-unused-vars
   onChangeMultiplier?: (value: number) => void;
 }
 
