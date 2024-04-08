@@ -146,6 +146,7 @@ exports[`Sebbys page renders the correct ingredients 1`] = `
           class="mt-2 rounded-full text-regular bg-pill-background py-2 px-4"
           data-testid="BAKERS_PERCENTAGE"
           role="button"
+          type="button"
         >
           <p
             class="variable font-sans text-caption leading-paragraph "
