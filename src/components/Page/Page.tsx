@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Script from "next/script";
-import React from "react";
+import type React from "react";
 
 import { Header } from "components/Header/Header";
 import { Text } from "components/Text/Text";

@@ -107,7 +107,7 @@ export default function JalapenoDip() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

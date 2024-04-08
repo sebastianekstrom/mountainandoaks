@@ -181,7 +181,7 @@ export default function HybridDough() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

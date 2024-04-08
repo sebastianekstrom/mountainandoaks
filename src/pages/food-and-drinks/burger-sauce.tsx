@@ -92,7 +92,7 @@ export default function BurgerSauce() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

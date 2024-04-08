@@ -13,7 +13,7 @@ describe("Baguette page", () => {
   it("renders the ingress text", () => {
     render(<Baguette />);
     const ingress = screen.queryAllByText(
-      /This recipe will produce a light and fluffy baguette/i
+      /This recipe will produce a light and fluffy baguette/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -35,7 +35,7 @@ describe("Baguette page", () => {
   it("renders the alert with the correct description", () => {
     render(<Baguette />);
     const alert = screen.queryAllByText(
-      /Poke the dough lightly with your finger/i
+      /Poke the dough lightly with your finger/i,
     );
     expect(alert).toBeDefined();
   });

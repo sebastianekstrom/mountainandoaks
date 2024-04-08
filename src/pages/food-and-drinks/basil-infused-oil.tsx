@@ -88,7 +88,7 @@ export default function BasilInfusedOil() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

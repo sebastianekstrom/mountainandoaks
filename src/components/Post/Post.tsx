@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import React from "react";
+import type React from "react";
 
 import { Recommended } from "components/Recommended/Recommended";
 import { Text } from "components/Text/Text";
@@ -25,7 +25,7 @@ export const Post = ({
   const router = useRouter();
   const findCategory = router.route.split("/")[1];
   const category = findCategory || null;
-  let recommendedTitle;
+  let recommendedTitle: string;
 
   switch (category) {
     case "bread":

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 
-import { Recipe } from "types/recipe";
+import type { Recipe } from "types/recipe";
 
 import { PostList } from "./PostList";
 
@@ -79,7 +79,7 @@ describe("PostList", () => {
         latestTitle="Latest bread recipes"
         moreTitle="Mmmmm... bread"
         categories={mockCategories}
-      />
+      />,
     );
     expect(screen.getByText("Latest bread recipes")).toBeDefined();
   });
@@ -91,7 +91,7 @@ describe("PostList", () => {
         latestTitle="Latest bread recipes"
         moreTitle="Mmmmm... bread"
         categories={mockCategories}
-      />
+      />,
     );
     expect(screen.getByText("Test Recipe 1")).toBeDefined();
     expect(screen.getByText("Test Recipe 2")).toBeDefined();
@@ -104,7 +104,7 @@ describe("PostList", () => {
         latestTitle="Latest bread recipes"
         moreTitle="Mmmmm... bread"
         categories={mockCategories}
-      />
+      />,
     );
     expect(screen.getByText("Mmmm... bread")).toBeDefined();
   });

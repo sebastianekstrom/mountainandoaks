@@ -9,7 +9,7 @@ import { PostList } from "components/PostList/PostList";
 
 export default function BreadHome() {
   const breadRecipes = RECIPES.filter(
-    (recipe) => recipe.category.value === "bread"
+    (recipe) => recipe.category.value === "bread",
   );
 
   return (

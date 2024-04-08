@@ -13,7 +13,7 @@ describe("HybridDough page", () => {
   it("renders the ingress text", () => {
     render(<HybridDough />);
     const ingress = screen.queryAllByText(
-      /This dough is the result of me experimenting/i
+      /This dough is the result of me experimenting/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("HybridDough page", () => {
   it("renders the method steps", () => {
     render(<HybridDough />);
     const step = screen.queryAllByText(
-      /Place the poolish in the fridge for between/i
+      /Place the poolish in the fridge for between/i,
     );
     expect(step).toBeDefined();
   });

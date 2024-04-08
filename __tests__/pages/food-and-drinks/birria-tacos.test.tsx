@@ -13,7 +13,7 @@ describe("BirriaTacos page", () => {
   it("renders the ingress text", () => {
     render(<BirriaTacos />);
     const ingress = screen.queryAllByText(
-      /These tacos are a standout in the world of Mexican cuisine/i
+      /These tacos are a standout in the world of Mexican cuisine/i,
     );
     expect(ingress).toBeDefined();
   });

@@ -21,7 +21,7 @@ describe("<Step />", () => {
     await userEvent.click(screen.getByRole("button"));
     expect(screen.getByText("1")).toBeDefined();
     await waitFor(() =>
-      expect(screen.queryByLabelText("completed")).toBe(null)
+      expect(screen.queryByLabelText("completed")).toBe(null),
     );
   });
 

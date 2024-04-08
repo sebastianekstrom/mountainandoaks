@@ -98,7 +98,7 @@ export default function NewYorkStyleSauce() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

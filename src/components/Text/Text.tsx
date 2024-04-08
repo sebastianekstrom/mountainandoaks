@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import React from "react";
+import type React from "react";
 
 import { convertStringToID } from "utils/convertStringToID";
 
@@ -93,7 +93,7 @@ export const Text = ({
           {children}
         </h1>
       );
-    case "h2":
+    case "h2": {
       const h2 = (
         <h2
           id={anchorID ? id : undefined}
@@ -108,8 +108,9 @@ export const Text = ({
       }
 
       return h2;
+    }
 
-    case "h3":
+    case "h3": {
       const h3 = (
         <h3
           id={anchorID ? id : undefined}
@@ -124,7 +125,8 @@ export const Text = ({
       }
 
       return h3;
-    case "h4":
+    }
+    case "h4": {
       const h4 = (
         <h4
           id={anchorID ? id : undefined}
@@ -138,6 +140,7 @@ export const Text = ({
       }
 
       return h4;
+    }
     case "logo":
       return (
         <h3

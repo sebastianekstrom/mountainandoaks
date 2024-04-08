@@ -21,7 +21,7 @@ describe("Post component", () => {
     const ingredients = <Text>Test Ingredients</Text>;
     const method = <Text>Test Method</Text>;
     render(
-      <Post title="Test Title" ingredients={ingredients} method={method} />
+      <Post title="Test Title" ingredients={ingredients} method={method} />,
     );
     expect(screen.getByText("Test Ingredients")).toBeDefined();
     expect(screen.getByText("Test Method")).toBeDefined();

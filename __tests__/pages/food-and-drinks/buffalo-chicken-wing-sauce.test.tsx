@@ -25,7 +25,7 @@ describe("BuffaloChickenWing page", () => {
   it("renders the method steps", () => {
     render(<BuffaloChickenWing />);
     const step = screen.queryAllByText(
-      /Generously smother your crispy chicken/i
+      /Generously smother your crispy chicken/i,
     );
     expect(step).toBeDefined();
   });

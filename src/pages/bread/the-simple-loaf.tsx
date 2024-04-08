@@ -179,7 +179,7 @@ export default function SimpleLoaf() {
             loaf.
           </Text>
         }
-      ></Post>
+      />
     </Page>
   );
 }

@@ -268,7 +268,7 @@ export default function Puttanesca() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

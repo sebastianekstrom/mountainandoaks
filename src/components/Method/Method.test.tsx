@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 
-import { Method, SingleStepMethod, MultiStepMethod } from "./Method";
+import { Method, type SingleStepMethod, type MultiStepMethod } from "./Method";
 
 const defaultPropsSingleStep: SingleStepMethod = [
   "Mix the ingredients.",

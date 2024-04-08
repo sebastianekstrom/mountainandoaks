@@ -246,7 +246,7 @@ export default function ChiliOilNoodles() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

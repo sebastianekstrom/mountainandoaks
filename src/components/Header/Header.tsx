@@ -19,7 +19,7 @@ export const Header = () => {
                 className="w-[180px] md:w-[162px] lg:w-[215px] h-auto"
                 src="/images/misc/logo.svg"
                 alt=""
-              ></Image>
+              />
             </Link>
           </div>
           <div className="md:hidden h-6 w-6">
@@ -85,7 +85,7 @@ export const Header = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-6" role="navigation">
+                <nav className="grid gap-y-6">
                   <Link
                     href="/pizza"
                     className="-m-3 flex items-center p-3 hover:bg-gray-50"

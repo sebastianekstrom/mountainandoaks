@@ -3,7 +3,7 @@ import React from "react";
 import { Article } from "components/Article/Article";
 import { Text } from "components/Text/Text";
 
-import { Recipe } from "types/recipe";
+import type { Recipe } from "types/recipe";
 
 interface Category {
   title: string;
@@ -53,40 +53,39 @@ export const PostList = ({
       </section>
 
       {/* Used for the home page */}
-      {categories &&
-        categories?.map(({ title, filter, isRestCategory }, index) => {
-          let categoryRecipes: Recipe[];
+      {categories?.map(({ title, filter, isRestCategory }, index) => {
+        let categoryRecipes: Recipe[];
 
-          if (isRestCategory) {
-            categoryRecipes = [...filteredList];
-          } else {
-            categoryRecipes = filteredList.filter(filter).slice(0, 3);
-            categoryItems = [...categoryItems, ...categoryRecipes];
-            filteredList = filteredList.filter(
-              (recipe) => !categoryRecipes.includes(recipe)
-            );
-          }
-
-          return (
-            categoryRecipes.length > 0 && (
-              <section key={index} className="mt-12 lg:mt-24">
-                <Text variant="h2" classNames="mb-4">
-                  {title}
-                </Text>
-
-                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
-                  {categoryRecipes.map((recipe) => (
-                    <Article
-                      key={recipe.title}
-                      recipe={recipe}
-                      type="rectangle"
-                    />
-                  ))}
-                </div>
-              </section>
-            )
+        if (isRestCategory) {
+          categoryRecipes = [...filteredList];
+        } else {
+          categoryRecipes = filteredList.filter(filter).slice(0, 3);
+          categoryItems = [...categoryItems, ...categoryRecipes];
+          filteredList = filteredList.filter(
+            (recipe) => !categoryRecipes.includes(recipe),
           );
-        })}
+        }
+
+        return (
+          categoryRecipes.length > 0 && (
+            <section key={`${title}`} className="mt-12 lg:mt-24">
+              <Text variant="h2" classNames="mb-4">
+                {title}
+              </Text>
+
+              <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
+                {categoryRecipes.map((recipe) => (
+                  <Article
+                    key={recipe.title}
+                    recipe={recipe}
+                    type="rectangle"
+                  />
+                ))}
+              </div>
+            </section>
+          )
+        );
+      })}
 
       {moreTitle && filteredList.length > 0 && (
         <section className="mt-24">

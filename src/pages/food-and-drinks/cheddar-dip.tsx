@@ -151,7 +151,7 @@ export default function CheddarDip() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

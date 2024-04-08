@@ -13,7 +13,7 @@ describe("DetroitStyle page", () => {
   it("renders the ingress text", () => {
     render(<DetroitStyle />);
     const ingress = screen.queryAllByText(
-      /The Detroit style pizza is a deep-dish pizza/i
+      /The Detroit style pizza is a deep-dish pizza/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("DetroitStyle page", () => {
   it("renders the method steps", () => {
     render(<DetroitStyle />);
     const step = screen.queryAllByText(
-      /Adjust oven rack to lowest position and preheat/i
+      /Adjust oven rack to lowest position and preheat/i,
     );
     expect(step).toBeDefined();
   });

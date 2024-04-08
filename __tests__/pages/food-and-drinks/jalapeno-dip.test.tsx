@@ -13,7 +13,7 @@ describe("JalapenoDip page", () => {
   it("renders the ingress text", () => {
     render(<JalapenoDip />);
     const ingress = screen.queryAllByText(
-      /This dip, with its zesty jalapeño and hint of garlic/i
+      /This dip, with its zesty jalapeño and hint of garlic/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("JalapenoDip page", () => {
   it("renders the method steps", () => {
     render(<JalapenoDip />);
     const step = screen.queryAllByText(
-      /Start by prepping all the ingredients/i
+      /Start by prepping all the ingredients/i,
     );
     expect(step).toBeDefined();
   });

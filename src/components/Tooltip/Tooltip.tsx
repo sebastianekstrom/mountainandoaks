@@ -18,6 +18,7 @@ export const Tooltip = ({ value }: { value: string }) => {
       <Root open={open} onOpenChange={() => setOpen(!open)}>
         <Trigger asChild>
           <button
+            type="button"
             onClick={() => setOpen(!open)}
             className="outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
           >
@@ -28,7 +29,7 @@ export const Tooltip = ({ value }: { value: string }) => {
               src="/images/misc/question-mark.svg"
               alt=""
               quality={100}
-            ></Image>
+            />
           </button>
         </Trigger>
         <Portal>

@@ -13,7 +13,7 @@ describe("BanhMiBun page", () => {
   it("renders the ingress text", () => {
     render(<BanhMiBun />);
     const ingress = screen.queryAllByText(
-      /This iconic Vietnamese bread is known/i
+      /This iconic Vietnamese bread is known/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -29,7 +29,7 @@ describe("BanhMiBun page", () => {
   it("renders the method steps", () => {
     render(<BanhMiBun />);
     const step = screen.queryAllByText(
-      /Start by melting the butter over low heat/i
+      /Start by melting the butter over low heat/i,
     );
     expect(step).toBeDefined();
   });

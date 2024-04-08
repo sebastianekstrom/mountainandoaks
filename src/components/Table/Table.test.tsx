@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import React from "react";
 
-import { Ingredient } from "types/recipe";
+import type { Ingredient } from "types/recipe";
 
 import { Table } from "./Table";
 

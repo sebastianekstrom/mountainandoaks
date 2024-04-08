@@ -13,7 +13,7 @@ describe("AlabamaSlammer page", () => {
   it("renders the ingress text", () => {
     render(<AlabamaSlammer />);
     const ingress = screen.queryAllByText(
-      /Meet the Alabama Slammer, a refreshing cocktail with a sports twist!/i
+      /Meet the Alabama Slammer, a refreshing cocktail with a sports twist!/i,
     );
     expect(ingress).toBeDefined();
   });

@@ -350,7 +350,7 @@ export default function Sebbys() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

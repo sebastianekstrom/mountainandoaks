@@ -136,7 +136,7 @@ export default function Neapolitan() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

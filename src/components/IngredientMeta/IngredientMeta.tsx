@@ -1,7 +1,7 @@
-import React from "react";
+import type React from "react";
 
 import { Badge } from "components/Badge/Badge";
-import { RecipeTimes } from "components/Ingredients/Ingredients";
+import type { RecipeTimes } from "components/Ingredients/Ingredients";
 
 import { roundValue } from "utils/roundValue";
 

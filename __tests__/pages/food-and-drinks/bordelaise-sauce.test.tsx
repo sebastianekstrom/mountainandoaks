@@ -13,7 +13,7 @@ describe("BordelaiseSauce page", () => {
   it("renders the ingress text", () => {
     render(<BordelaiseSauce />);
     const ingress = screen.queryAllByText(
-      /Bordelaise sauce is a classic French sauce named/i
+      /Bordelaise sauce is a classic French sauce named/i,
     );
     expect(ingress).toBeDefined();
   });

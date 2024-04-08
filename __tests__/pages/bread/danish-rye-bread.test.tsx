@@ -13,7 +13,7 @@ describe("Danish page", () => {
   it("renders the ingress text", () => {
     render(<Danish />);
     const ingress = screen.queryAllByText(
-      /A delicious sweet Danish rye bread that/i
+      /A delicious sweet Danish rye bread that/i,
     );
     expect(ingress).toBeDefined();
   });

@@ -197,7 +197,7 @@ export default function Baguette() {
             the shaping, but it's really fun and with practice it gets easier.
           </Text>
         }
-      ></Post>
+      />
     </Page>
   );
 }

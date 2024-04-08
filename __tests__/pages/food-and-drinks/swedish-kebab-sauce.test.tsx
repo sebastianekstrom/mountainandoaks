@@ -13,7 +13,7 @@ describe("SwedishKebabSauce page", () => {
   it("renders the ingress text", () => {
     render(<SwedishKebabSauce />);
     const ingress = screen.queryAllByText(
-      /I've finally managed to recreate the kebab sauce that's used/i
+      /I've finally managed to recreate the kebab sauce that's used/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("SwedishKebabSauce page", () => {
   it("renders the method steps", () => {
     render(<SwedishKebabSauce />);
     const step = screen.queryAllByText(
-      /Add all the ingredients in a container/i
+      /Add all the ingredients in a container/i,
     );
     expect(step).toBeDefined();
   });

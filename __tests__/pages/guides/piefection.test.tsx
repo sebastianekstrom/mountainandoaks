@@ -19,7 +19,7 @@ describe("Piefection page", () => {
   it("renders some steps", () => {
     render(<Piefection />);
     const step = screen.queryAllByText(
-      /Hosting a pizza party can feel like herding/i
+      /Hosting a pizza party can feel like herding/i,
     );
     expect(step).toBeDefined();
   });

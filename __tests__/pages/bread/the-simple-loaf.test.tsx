@@ -13,7 +13,7 @@ describe("SimpleLoaf page", () => {
   it("renders the ingress text", () => {
     render(<SimpleLoaf />);
     const ingress = screen.queryAllByText(
-      /A basic, simple and delicious loaf/i
+      /A basic, simple and delicious loaf/i,
     );
     expect(ingress).toBeDefined();
   });

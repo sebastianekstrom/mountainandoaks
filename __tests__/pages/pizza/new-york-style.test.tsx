@@ -13,7 +13,7 @@ describe("NYStyle page", () => {
   it("renders the ingress text", () => {
     render(<NYStyle />);
     const ingress = screen.queryAllByText(
-      /This New York-style pizza is all about/i
+      /This New York-style pizza is all about/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("NYStyle page", () => {
   it("renders the method steps", () => {
     render(<NYStyle />);
     const step = screen.queryAllByText(
-      /Knead the dough. If using a stand mixer/i
+      /Knead the dough. If using a stand mixer/i,
     );
     expect(step).toBeDefined();
   });

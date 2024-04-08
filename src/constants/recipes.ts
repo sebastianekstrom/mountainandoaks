@@ -1,4 +1,4 @@
-import { Categories, Recipe } from "../types/recipe";
+import type { Categories, Recipe } from "../types/recipe";
 
 export const CATEGORIES: Categories = {
   pizza: {
@@ -41,7 +41,7 @@ export const RECIPES: Recipe[] = [
   {
     title: "Cheesy bread rolls",
     url: "/bread/cheesy-bread-rolls",
-    category: CATEGORIES["bread"],
+    category: CATEGORIES.bread,
     thumbnails: {
       hero: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/hero.png"),
       tall: require("../../public/images/bread/cheesy-bread-rolls/thumbnails/tall.png"),

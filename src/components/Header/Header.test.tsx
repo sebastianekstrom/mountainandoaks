@@ -24,7 +24,7 @@ describe("Header", () => {
     fireEvent.click(mobileMenuButton);
 
     expect(
-      await screen.findByRole("button", { name: "Close menu" })
+      await screen.findByRole("button", { name: "Close menu" }),
     ).toBeDefined();
     expect(await screen.findAllByText(/Pizza/i)).toBeDefined();
     expect(await screen.findAllByText(/Bread/i)).toBeDefined();

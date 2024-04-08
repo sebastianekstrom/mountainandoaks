@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
 
 import { IngredientMeta } from "components/IngredientMeta/IngredientMeta";
 import { Table } from "components/Table/Table";
 
-import { Ingredient, MultiIngredient as _MultiIngredient } from "types/recipe";
+import type {
+  Ingredient,
+  MultiIngredient as _MultiIngredient,
+} from "types/recipe";
 
 import { calculateHydration } from "utils/calculateHydration";
 import { calculateTotalWeight } from "utils/calculateTotalWeight";
@@ -63,7 +67,7 @@ export const Ingredients = ({
   const onIncrease = () => {
     const multi = multiplier + 1;
     setMultiplier(multi);
-    onChangeMultiplier && onChangeMultiplier(multi);
+    onChangeMultiplier?.(multi);
   };
 
   const onDecrease = () => {
@@ -72,7 +76,7 @@ export const Ingredients = ({
     }
     const multi = multiplier - 1;
     setMultiplier(multi);
-    onChangeMultiplier && onChangeMultiplier(multi);
+    onChangeMultiplier?.(multi);
   };
 
   return (

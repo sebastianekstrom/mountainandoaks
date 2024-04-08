@@ -4,7 +4,7 @@ import React from "react";
 
 import { Text } from "components/Text/Text";
 
-import { Recipe } from "types/recipe";
+import type { Recipe } from "types/recipe";
 
 import { truncateString } from "utils/truncateString";
 

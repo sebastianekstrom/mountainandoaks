@@ -1,4 +1,4 @@
-import { Ingredient, MultiIngredient } from "types/recipe";
+import type { Ingredient, MultiIngredient } from "types/recipe";
 
 import { calculateTotalWeight } from "./calculateTotalWeight";
 

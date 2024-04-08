@@ -13,7 +13,7 @@ describe("BakingPizza page", () => {
   it("renders the ingress text", () => {
     render(<BakingPizza />);
     const ingress = screen.queryAllByText(
-      /Pizza loves heat. But a regular home oven/i
+      /Pizza loves heat. But a regular home oven/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -21,7 +21,7 @@ describe("BakingPizza page", () => {
   it("renders the method steps", () => {
     render(<BakingPizza />);
     const step = screen.queryAllByText(
-      /Insert your pizza steel into the oven/i
+      /Insert your pizza steel into the oven/i,
     );
     expect(step).toBeDefined();
   });

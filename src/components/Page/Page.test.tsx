@@ -14,7 +14,7 @@ describe("Page", () => {
         image={{ src: "/test-image.png" }}
       >
         <Text>Test content</Text>
-      </Page>
+      </Page>,
     );
 
     expect(screen.getByLabelText("Go to home page")).toBeDefined();

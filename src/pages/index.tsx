@@ -5,7 +5,7 @@ import { RECIPES } from "constants/recipes";
 import { Page } from "components/Page/Page";
 import { PostList } from "components/PostList/PostList";
 
-import { Recipe } from "types/recipe";
+import type { Recipe } from "types/recipe";
 
 const categories = [
   {

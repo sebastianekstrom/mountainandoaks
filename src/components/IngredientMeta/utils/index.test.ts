@@ -42,10 +42,10 @@ describe("getFormattedTotalTime", () => {
     const twoHoursAndThirtyMinutes = 2 * 60 + 30;
 
     expect(getFormattedTotalTime(oneHourAndTenMinutes)).toBe(
-      "1 hour 10 minutes"
+      "1 hour 10 minutes",
     );
     expect(getFormattedTotalTime(twoHoursAndThirtyMinutes)).toBe(
-      "2 hours 30 minutes"
+      "2 hours 30 minutes",
     );
   });
 });

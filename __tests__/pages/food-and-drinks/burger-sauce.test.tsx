@@ -13,7 +13,7 @@ describe("BurgerSauce page", () => {
   it("renders the ingress text", () => {
     render(<BurgerSauce />);
     const ingress = screen.queryAllByText(
-      /A delicious mix of creamy mayo, spicy sriracha, tangy garlic pickles/i
+      /A delicious mix of creamy mayo, spicy sriracha, tangy garlic pickles/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("BurgerSauce page", () => {
   it("renders the method steps", () => {
     render(<BurgerSauce />);
     const step = screen.queryAllByText(
-      /Finely chop onion and pickles, then place in a mixing/i
+      /Finely chop onion and pickles, then place in a mixing/i,
     );
     expect(step).toBeDefined();
   });

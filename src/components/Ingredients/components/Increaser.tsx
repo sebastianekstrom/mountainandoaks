@@ -38,6 +38,7 @@ export const Increaser = ({
       <Text variant="h3">Ingredients</Text>
       <div className="flex items-center mt-2 md:mt-0">
         <button
+          type="button"
           id="TEST_ID_DECREASE_AMOUNT"
           data-testid="TEST_ID_DECREASE_AMOUNT"
           className="flex items-center justify-center border-2 border-outline rounded-full text-regular w-[40px] h-[40px] hover:bg-outline transition"
@@ -45,6 +46,7 @@ export const Increaser = ({
           aria-label="Decrease amount"
         >
           <svg
+            aria-hidden="true"
             width="13"
             height="2"
             viewBox="0 0 13 2"
@@ -78,11 +80,12 @@ export const Increaser = ({
               ref={inputRef2}
             >{`${yields + 12} ${pluralize(
               ingredientSuffix,
-              yields + 12
+              yields + 12,
             )}`}</span>
           </Text>
         </div>
         <button
+          type="button"
           id="TEST_ID_INCREASE_AMOUNT"
           data-testid="TEST_ID_INCREASE_AMOUNT"
           className="flex items-center justify-center border-2 border-outline rounded-full text-regular w-[40px] h-[40px] hover:bg-outline transition"
@@ -90,6 +93,7 @@ export const Increaser = ({
           aria-label="Increase amount"
         >
           <svg
+            aria-hidden="true"
             width="13"
             height="13"
             viewBox="0 0 13 13"

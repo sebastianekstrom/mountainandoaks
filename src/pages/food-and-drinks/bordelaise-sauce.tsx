@@ -227,7 +227,7 @@ export default function BordelaiseSauce() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

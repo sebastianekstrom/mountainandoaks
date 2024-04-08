@@ -13,7 +13,7 @@ describe("NeopolitanSauce page", () => {
   it("renders the ingress text", () => {
     render(<NeopolitanSauce />);
     const ingress = screen.queryAllByText(
-      /There's a lot of variants for the tomato sauce/i
+      /There's a lot of variants for the tomato sauce/i,
     );
     expect(ingress).toBeDefined();
   });

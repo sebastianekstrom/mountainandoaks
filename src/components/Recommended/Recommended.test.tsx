@@ -13,7 +13,7 @@ describe("Recommended Component", () => {
 
   it("returns null of a category isn't passed", () => {
     const { container } = render(
-      <Recommended title="Check these out!" category="" />
+      <Recommended title="Check these out!" category="" />,
     );
 
     expect(container).toBeEmptyDOMElement();

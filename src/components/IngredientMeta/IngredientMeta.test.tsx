@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 
-import { RecipeTimes } from "components/Ingredients/Ingredients";
+import type { RecipeTimes } from "components/Ingredients/Ingredients";
 
 import { IngredientMeta } from "./IngredientMeta";
 

@@ -13,7 +13,7 @@ describe("Puttanesca page", () => {
   it("renders the ingress text", () => {
     render(<Puttanesca />);
     const ingress = screen.queryAllByText(
-      /Pasta alla puttanesca is a rustic, hearty dish from southern/i
+      /Pasta alla puttanesca is a rustic, hearty dish from southern/i,
     );
     expect(ingress).toBeDefined();
   });

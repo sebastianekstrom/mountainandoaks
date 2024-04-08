@@ -1,5 +1,6 @@
 import { CheckIcon } from "@heroicons/react/24/outline";
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
 
 import { Text } from "components/Text/Text";
 

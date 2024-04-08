@@ -4,7 +4,7 @@ import { getBakersPercentage } from "components/Table/utils/getBakersPercentage"
 import { Text } from "components/Text/Text";
 import { Tooltip } from "components/Tooltip/Tooltip";
 
-import { Ingredient } from "types/recipe";
+import type { Ingredient } from "types/recipe";
 
 interface Props {
   item: Ingredient;
@@ -35,6 +35,7 @@ export const Row = ({
         done ? "opacity-10" : ""
       }`}
       onClick={onMarkDone}
+      onKeyDown={onMarkDone}
     >
       <div className={item.tooltip ? "flex flex-row items-center" : ""}>
         <Text classNames="font-semibold">{item.label}</Text>

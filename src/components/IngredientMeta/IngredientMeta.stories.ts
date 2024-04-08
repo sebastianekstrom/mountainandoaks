@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { RecipeTimes } from "components/Ingredients/Ingredients";
+import type { RecipeTimes } from "components/Ingredients/Ingredients";
 
 import { IngredientMeta } from "./IngredientMeta";
 

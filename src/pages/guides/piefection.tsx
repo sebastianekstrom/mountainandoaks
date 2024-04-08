@@ -166,7 +166,7 @@ export default function DosAndDonts() {
         }
       >
         <div className="lg:grid lg:grid-cols-12 lg:gap-16 pt-8 lg:pt-20">
-          <div className="lg:col-span-5"></div>
+          <div className="lg:col-span-5" />
 
           <div className="lg:col-span-7 mt-12 lg:mt-0">
             <Text variant="h2">Do's</Text>

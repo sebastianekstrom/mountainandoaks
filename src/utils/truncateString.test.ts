@@ -36,7 +36,7 @@ describe("truncateString", () => {
       "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours.";
     const output = truncateString(input, 180);
     expect(output).toEqual(
-      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk..."
+      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk...",
     );
   });
 

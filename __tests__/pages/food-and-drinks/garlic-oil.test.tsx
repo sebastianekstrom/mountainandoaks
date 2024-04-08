@@ -13,7 +13,7 @@ describe("GarlicOil page", () => {
   it("renders the ingress text", () => {
     render(<GarlicOil />);
     const ingress = screen.queryAllByText(
-      /This garlic infused oil is perfect/i
+      /This garlic infused oil is perfect/i,
     );
     expect(ingress).toBeDefined();
   });

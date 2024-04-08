@@ -1,7 +1,7 @@
-import { Ingredient, MultiIngredient } from "types/recipe";
+import type { Ingredient, MultiIngredient } from "types/recipe";
 
 export const calculateHydration = (
-  ingredients: Ingredient[] | MultiIngredient[] | undefined
+  ingredients: Ingredient[] | MultiIngredient[] | undefined,
 ) => {
   if (!ingredients) return null;
 

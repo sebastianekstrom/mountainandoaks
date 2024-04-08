@@ -22,7 +22,7 @@ describe("Link component", () => {
     render(
       <Link href="/test" noColor={true}>
         Test Link
-      </Link>
+      </Link>,
     );
     const linkElement = screen.getByText("Test Link");
     expect(linkElement).toHaveClass("font-regular");
@@ -32,7 +32,7 @@ describe("Link component", () => {
     render(
       <Link href="/test" underline={true}>
         Test Link
-      </Link>
+      </Link>,
     );
     const linkElement = screen.getByText("Test Link");
     expect(linkElement).toHaveClass("underline");

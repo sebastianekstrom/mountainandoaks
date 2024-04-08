@@ -106,7 +106,7 @@ export default function NeapolitanSauce() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

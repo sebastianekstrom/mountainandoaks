@@ -1,4 +1,4 @@
-import { Ingredient } from "types/recipe";
+import type { Ingredient } from "types/recipe";
 
 export const getTotalFlourAmount = (items: Ingredient[]) => {
   return items.reduce((acc, ingredient) => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import type React from "react";
 
 import coolingRack from "public/images/techniques/gear/entries/cooling-rack.jpg";
 import doughContainer from "public/images/techniques/gear/entries/dough-container.jpg";
@@ -40,7 +40,7 @@ const Entry = ({
         {children}
       </div>
       <div className="col-span-12 md:col-span-4 mt-4 order-first md:order-last">
-        <Image className="w-full h-auto " src={image} alt=""></Image>
+        <Image className="w-full h-auto " src={image} alt="" />
       </div>
     </div>
   );
@@ -225,7 +225,7 @@ export default function GearForBaking() {
 
           <Entry title="Food labeling" image={labeling}>
             <div className="mt-4 mb-4">
-              <Image className="w-auto h-full" src={label} alt=""></Image>
+              <Image className="w-auto h-full" src={label} alt="" />
             </div>
 
             <Text>

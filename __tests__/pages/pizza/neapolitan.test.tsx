@@ -25,7 +25,7 @@ describe("Neapolitan page", () => {
   it("renders the method steps", () => {
     render(<Neapolitan />);
     const step = screen.queryAllByText(
-      /Transfer the dough to a lightly oiled bowl/i
+      /Transfer the dough to a lightly oiled bowl/i,
     );
     expect(step).toBeDefined();
   });

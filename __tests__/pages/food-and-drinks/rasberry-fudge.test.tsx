@@ -25,7 +25,7 @@ describe("RasberryFudge page", () => {
   it("renders the method steps", () => {
     render(<RasberryFudge />);
     const step = screen.queryAllByText(
-      /Combine all ingredients in a shaker filled/i
+      /Combine all ingredients in a shaker filled/i,
     );
     expect(step).toBeDefined();
   });

@@ -83,7 +83,7 @@ export default function AlabamaSlammer() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

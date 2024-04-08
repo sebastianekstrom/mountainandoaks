@@ -225,7 +225,7 @@ export default function BanhMi() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

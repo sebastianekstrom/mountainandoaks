@@ -232,7 +232,7 @@ export default function DetroitStyle() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

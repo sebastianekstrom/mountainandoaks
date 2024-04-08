@@ -13,7 +13,7 @@ describe("AsianPorkMarinade page", () => {
   it("renders the ingress text", () => {
     render(<AsianPorkMarinade />);
     const ingress = screen.queryAllByText(
-      /Elevate your pork dishes with this rich, Vietnamese-inspired marinade. Perfect for grilling, roasting, or pan-frying pork to perfection../i
+      /Elevate your pork dishes with this rich, Vietnamese-inspired marinade. Perfect for grilling, roasting, or pan-frying pork to perfection../i,
     );
     expect(ingress).toBeDefined();
   });

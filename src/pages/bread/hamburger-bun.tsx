@@ -173,7 +173,7 @@ export default function HamburgerBun() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

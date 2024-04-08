@@ -1,7 +1,7 @@
-import { Ingredient, MultiIngredient } from "types/recipe";
+import type { Ingredient, MultiIngredient } from "types/recipe";
 
 export const getIngredientType = (
-  ingredientList: MultiIngredient[] | Ingredient[]
+  ingredientList: MultiIngredient[] | Ingredient[],
 ) => {
   const ingredients = ingredientList as any;
 

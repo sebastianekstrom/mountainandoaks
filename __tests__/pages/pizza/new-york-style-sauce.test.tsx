@@ -13,7 +13,7 @@ describe("NYSauce page", () => {
   it("renders the ingress text", () => {
     render(<NYSauce />);
     const ingress = screen.queryAllByText(
-      /This tomato sauce is quite salty to balance the sweetness/i
+      /This tomato sauce is quite salty to balance the sweetness/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -27,7 +27,7 @@ describe("NYSauce page", () => {
   it("renders the method steps", () => {
     render(<NYSauce />);
     const step = screen.queryAllByText(
-      /Add all the ingredients in a container/i
+      /Add all the ingredients in a container/i,
     );
     expect(step).toBeDefined();
   });

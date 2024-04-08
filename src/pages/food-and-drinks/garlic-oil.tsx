@@ -69,7 +69,7 @@ export default function GarlicOil() {
             </Text>
           </>
         }
-      ></Post>
+      />
     </Page>
   );
 }

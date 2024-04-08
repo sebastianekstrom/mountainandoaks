@@ -13,7 +13,7 @@ describe("Cheesy bread rolls page", () => {
   it("renders the ingress text", () => {
     render(<CheesyBreadRolls />);
     const ingress = screen.queryAllByText(
-      /Made with Manitoba flour, these rolls combine a chewy interior with a crispy/i
+      /Made with Manitoba flour, these rolls combine a chewy interior with a crispy/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -21,7 +21,7 @@ describe("Cheesy bread rolls page", () => {
   it("renders the method steps", () => {
     render(<CheesyBreadRolls />);
     const step = screen.queryAllByText(
-      /Divide the dough into approximately 70-gram pieces/i
+      /Divide the dough into approximately 70-gram pieces/i,
     );
     expect(step).toBeDefined();
   });

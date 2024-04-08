@@ -30,3 +30,6 @@ jobs:
 
       - name: Code Linting
         run: yarn run lint:js
+
+      - name: Code Format
+        run: yarn run lint:format

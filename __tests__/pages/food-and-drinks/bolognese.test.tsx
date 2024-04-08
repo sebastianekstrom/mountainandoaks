@@ -13,7 +13,7 @@ describe("Bolognese page", () => {
   it("renders the ingress text", () => {
     render(<Bolognese />);
     const ingress = screen.queryAllByText(
-      /There are almost as many Bolognese recipes as there are Italians/i
+      /There are almost as many Bolognese recipes as there are Italians/i,
     );
     expect(ingress).toBeDefined();
   });

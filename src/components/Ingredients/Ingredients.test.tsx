@@ -2,9 +2,9 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import React from "react";
 
-import { Ingredient, MultiIngredient } from "types/recipe";
+import type { Ingredient, MultiIngredient } from "types/recipe";
 
-import { Ingredients, RecipeTimes } from "./Ingredients";
+import { Ingredients, type RecipeTimes } from "./Ingredients";
 
 const defaultProps = {
   ingredients: [

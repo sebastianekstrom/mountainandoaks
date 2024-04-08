@@ -2,7 +2,7 @@ import React, { useState, useCallback, useMemo } from "react";
 
 import { Text } from "components/Text/Text";
 
-import { Ingredient } from "types/recipe";
+import type { Ingredient } from "types/recipe";
 
 import { roundValue } from "utils/roundValue";
 
@@ -34,7 +34,7 @@ export const Table = ({ items, multiplier }: Props) => {
           const dontPrintValue = item.valueSuffix === false;
           return (
             <Row
-              key={i}
+              key={`${item.label}-${i}`}
               displayPercentageButton={displayPercentageButton}
               item={item}
               value={value}
@@ -48,6 +48,7 @@ export const Table = ({ items, multiplier }: Props) => {
       {displayPercentageButton ? (
         <div className="ml-auto">
           <button
+            type="button"
             onClick={toggleBakersPercentage}
             data-testid="BAKERS_PERCENTAGE"
             role="button"

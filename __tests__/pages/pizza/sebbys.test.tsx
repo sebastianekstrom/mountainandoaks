@@ -15,7 +15,7 @@ describe("Sebbys page", () => {
   it("renders the ingress text", () => {
     render(<Sebbys />);
     const ingress = screen.queryAllByText(
-      /Every Swede knows about the glorious/i
+      /Every Swede knows about the glorious/i,
     );
     expect(ingress).toBeDefined();
   });
@@ -35,7 +35,7 @@ describe("Sebbys page", () => {
   it("renders the alert with the correct description", () => {
     render(<Sebbys />);
     const alert = screen.queryAllByText(
-      /I make my mirepoix with the 1:2:1 ratio/i
+      /I make my mirepoix with the 1:2:1 ratio/i,
     );
     expect(alert).toBeDefined();
   });
