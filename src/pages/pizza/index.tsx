@@ -8,21 +8,21 @@ import { Page } from "components/Page/Page";
 import { PostList } from "components/PostList/PostList";
 
 export default function Pizza() {
-	const pizzas = RECIPES.filter((recipe) => {
-		return recipe.category.value === "pizza";
-	});
+  const pizzas = RECIPES.filter((recipe) => {
+    return recipe.category.value === "pizza";
+  });
 
-	return (
-		<Page
-			metaTitle="Pizza"
-			description="Optimized and battle tested pizza recipes"
-			image={pizza}
-		>
-			<PostList
-				latestTitle="Latest pizza recipes"
-				moreTitle="More delicious pizza"
-				items={pizzas}
-			/>
-		</Page>
-	);
+  return (
+    <Page
+      metaTitle="Pizza"
+      description="Optimized and battle tested pizza recipes"
+      image={pizza}
+    >
+      <PostList
+        latestTitle="Latest pizza recipes"
+        moreTitle="More delicious pizza"
+        items={pizzas}
+      />
+    </Page>
+  );
 }
