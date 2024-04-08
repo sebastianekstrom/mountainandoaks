@@ -3,8 +3,8 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { WindowPaneTest } from "./WindowPaneTest";
 
 const meta: Meta<typeof WindowPaneTest> = {
-  title: "Components/WindowPaneTest",
-  component: WindowPaneTest,
+	title: "Components/WindowPaneTest",
+	component: WindowPaneTest,
 };
 
 export default meta;

@@ -1,46 +1,46 @@
-import { StaticImageData } from "next/image";
+import type { StaticImageData } from "next/image";
 
 type CategoryKey = "pizza" | "bread" | "food-and-drinks" | "guide";
 
 interface Category {
-  value: CategoryKey;
-  label: string;
-  path: string;
+	value: CategoryKey;
+	label: string;
+	path: string;
 }
 
 export interface Categories {
-  [key: string]: Category;
+	[key: string]: Category;
 }
 
 interface Thumbnail {
-  hero: StaticImageData;
-  tall: StaticImageData;
-  wide: StaticImageData;
-  square: StaticImageData;
-  meta: StaticImageData;
+	hero: StaticImageData;
+	tall: StaticImageData;
+	wide: StaticImageData;
+	square: StaticImageData;
+	meta: StaticImageData;
 }
 
 export interface Recipe {
-  title: string;
-  url: string;
-  category: Category;
-  thumbnails: Thumbnail;
-  description: string;
+	title: string;
+	url: string;
+	category: Category;
+	thumbnails: Thumbnail;
+	description: string;
 }
 
 export interface Ingredient {
-  value: number;
-  label: string;
-  valueSuffix?: string | boolean;
-  exludeFromTotalWeight?: boolean;
-  isWater?: boolean;
-  isFlour?: boolean;
-  shouldNotBeDuplicated?: boolean;
-  excludeValue?: boolean;
-  tooltip?: string;
+	value: number;
+	label: string;
+	valueSuffix?: string | boolean;
+	exludeFromTotalWeight?: boolean;
+	isWater?: boolean;
+	isFlour?: boolean;
+	shouldNotBeDuplicated?: boolean;
+	excludeValue?: boolean;
+	tooltip?: string;
 }
 
 export interface MultiIngredient {
-  label: string;
-  ingredients: Ingredient[];
+	label: string;
+	ingredients: Ingredient[];
 }

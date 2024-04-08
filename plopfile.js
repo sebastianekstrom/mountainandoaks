@@ -5,13 +5,13 @@ const net = require("net");
 
 function checkPort(port, callback) {
   const server = net.createServer();
-  server.once("error", function (err) {
+  server.once("error", (err) => {
     if (err.code === "EADDRINUSE") {
       // Port is in use
       callback(true);
     }
   });
-  server.once("listening", function () {
+  server.once("listening", () => {
     // Port is available
     server.close();
     callback(false);
@@ -55,14 +55,14 @@ function formatFile(filePath) {
 }
 
 /** @type {import('plop').NodePlopAPI} */
-module.exports = function (plop) {
+module.exports = (plop) => {
   plop.setActionType("formatCode", async (answers, config) => {
     const paths = config.paths.map((templatePath) =>
       plop.renderString(templatePath, answers)
     );
 
     // Loop through each path and format the file
-    for (let filePath of paths) {
+    for (const filePath of paths) {
       try {
         await formatFile(path.join(__dirname, filePath));
       } catch (error) {
@@ -92,7 +92,7 @@ module.exports = function (plop) {
     });
   });
 
-  plop.setActionType("copyPlaceholderImages", function (answers) {
+  plop.setActionType("copyPlaceholderImages", (answers) => {
     const sourcePath = path.join(
       __dirname,
       "tooling/plop-templates/placeholder.png"
@@ -148,7 +148,7 @@ module.exports = function (plop) {
         ],
       },
     ],
-    actions: function (data) {
+    actions: (data) => {
       const adjustedCategory =
         data.category === "food-and-drinks" ? "recipes" : data.category;
       return [
