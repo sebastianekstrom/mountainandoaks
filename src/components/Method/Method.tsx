@@ -2,6 +2,7 @@ import type React from "react";
 
 import { Step } from "components/Step/Step";
 import { Text } from "components/Text/Text";
+import { v4 as uuidv4 } from "uuid";
 
 import { getRecipeMethodType } from "utils/getRecipeMethodType";
 
@@ -39,7 +40,7 @@ export const Method = ({ recipeMethod, completable = true }: Props) => {
 								return (
 									<Step
 										completable={completable}
-										key={i}
+										key={uuidv4()}
 										index={i}
 										step={step}
 									/>
@@ -59,7 +60,7 @@ export const Method = ({ recipeMethod, completable = true }: Props) => {
 				return (
 					<Step
 						completable={completable}
-						key={index}
+						key={uuidv4()}
 						index={index}
 						step={step}
 					/>

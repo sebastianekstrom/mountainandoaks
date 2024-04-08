@@ -18,9 +18,9 @@ export const calculateTotalWeight = ({ ingredients, multiplier }: Params) => {
 	let totalWeight = 0;
 
 	if (isMulti) {
-		(ingredients as MultiIngredient[]).forEach((multiIngredient) => {
+		for (const multiIngredient of ingredients as MultiIngredient[]) {
 			totalWeight += getTotalWeight(multiIngredient.ingredients);
-		});
+		}
 	} else {
 		totalWeight = getTotalWeight(ingredients as Ingredient[]);
 	}
