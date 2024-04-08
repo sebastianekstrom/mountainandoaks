@@ -24,6 +24,7 @@ jobs:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
+            ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
@@ -39,7 +40,8 @@ jobs:
           path: "~/.cache/ms-playwright"
           key: "${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}"
           restore-keys: |
-            ${{ runner.os }}-playwright-
+            ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+            ${{ runner.os }}-yarn-
 
       - name: Install Playwrights dependencies
         if: steps.playwright-cache.outputs.cache-hit != 'true'
