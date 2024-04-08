@@ -6,6 +6,9 @@ test.describe("Interaction", () => {
 
 		expect(page.getByRole("toolbar").getByText("1 pizza")).toBeTruthy();
 
+
+
+		
 		await page.getByTestId("TEST_ID_INCREASE_AMOUNT").click();
 		expect(page.getByRole("toolbar").getByText("2 pizzas")).toBeTruthy();
 		await page.getByTestId("TEST_ID_DECREASE_AMOUNT").click();
