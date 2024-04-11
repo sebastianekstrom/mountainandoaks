@@ -72,7 +72,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
           </Text>
         </div>
         <div className="mt-4 flex gap-4">
-          <a href="https://github.com/sebastianekstrom/sebbebakes">
+          <a href="https://www.instagram.com/mountain.and.oakes">
             <Image
               src="/icons/github.svg"
               width={20}
