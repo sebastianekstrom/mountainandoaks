@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent, act } from "@testing-library/react";
 import React from "react";
 
 import { Header } from "./Header";
@@ -21,18 +21,24 @@ describe("Header", () => {
       name: "Open menu",
     });
 
-    fireEvent.click(mobileMenuButton);
+    await act(async () => {
+      fireEvent.click(mobileMenuButton);
+    });
 
     expect(
       await screen.findByRole("button", { name: "Close menu" }),
     ).toBeDefined();
+
     expect(await screen.findAllByText(/Pizza/i)).toBeDefined();
     expect(await screen.findAllByText(/Bread/i)).toBeDefined();
     expect(await screen.findAllByText(/Food & Drinks/i)).toBeDefined();
     expect(await screen.findAllByText(/Guides/i)).toBeDefined();
 
     const closeButton = screen.getByRole("button", { name: "Close menu" });
-    fireEvent.click(closeButton);
+
+    await act(async () => {
+      fireEvent.click(closeButton);
+    });
 
     expect(screen.queryByRole("button", { name: "Close menu" })).toBe(null);
   });
