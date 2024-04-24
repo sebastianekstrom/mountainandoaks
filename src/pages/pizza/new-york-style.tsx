@@ -1,7 +1,7 @@
 import React from "react";
 
 import metaImage from "public/images/pizza/ny-style/thumbnails/meta.png";
-import heroImage from "public/images/pizza/ny-style/thumbnails/tall.jpg";
+import heroImage from "public/images/pizza/ny-style/thumbnails/tall.png";
 
 import { Alert } from "components/Alert/Alert";
 import { Ingredients } from "components/Ingredients/Ingredients";
