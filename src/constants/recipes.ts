@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Bordelaise sauce",
+    url: "/food-and-drinks/bordelaise-sauce",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/bordelaise-sauce/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/bordelaise-sauce/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/bordelaise-sauce/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/bordelaise-sauce/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/bordelaise-sauce/thumbnails/meta.png"),
+    },
+    description:
+      "Bordelaise sauce is a classic French sauce named after France’s Bordeaux region, which is well-known for its wine. It’s a flavorful sauce made from dry red wine, bone marrow, butter, shallots, and demi-glace.",
+  },
+  {
     title: "Asian pork marinade",
     url: "/recipes/asian-pork-marinade",
     category: CATEGORIES["food-and-drinks"],
@@ -51,6 +65,20 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "Made with Manitoba flour, these rolls combine a chewy interior with a crispy cheese topping. Ideal for a sandwich that's satisfyingly cheesy and crunchy.",
+  },
+  {
+    title: "New York style pizza dough",
+    url: "/pizza/new-york-style",
+    category: CATEGORIES.pizza,
+    thumbnails: {
+      hero: require("../../public/images/pizza/ny-style/thumbnails/hero.png"),
+      tall: require("../../public/images/pizza/ny-style/thumbnails/tall.png"),
+      wide: require("../../public/images/pizza/ny-style/thumbnails/wide.png"),
+      square: require("../../public/images/pizza/ny-style/thumbnails/square.png"),
+      meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
+    },
+    description:
+      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
     title: "Chili oil noodles",
@@ -93,20 +121,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "These tacos are a standout in the world of Mexican cuisine. At the heart of this recipe is the slow-cooked meat, steeped in the sweetness of Guajillo chilies.",
-  },
-  {
-    title: "Bordelaise sauce",
-    url: "/food-and-drinks/bordelaise-sauce",
-    category: CATEGORIES["food-and-drinks"],
-    thumbnails: {
-      hero: require("../../public/images/recipes/bordelaise-sauce/thumbnails/hero.png"),
-      tall: require("../../public/images/recipes/bordelaise-sauce/thumbnails/tall.png"),
-      wide: require("../../public/images/recipes/bordelaise-sauce/thumbnails/wide.png"),
-      square: require("../../public/images/recipes/bordelaise-sauce/thumbnails/square.png"),
-      meta: require("../../public/images/recipes/bordelaise-sauce/thumbnails/meta.png"),
-    },
-    description:
-      "Bordelaise sauce is a classic French sauce named after France’s Bordeaux region, which is well-known for its wine. It’s a flavorful sauce made from dry red wine, bone marrow, butter, shallots, and demi-glace.",
   },
   {
     title: "Pasta alla puttanesca",
@@ -177,20 +191,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours. The outcome is a delicious sauce with an amazing texture and depth that'll make your taste buds dance with joy.",
-  },
-  {
-    title: "New York style pizza dough",
-    url: "/pizza/new-york-style",
-    category: CATEGORIES.pizza,
-    thumbnails: {
-      hero: require("../../public/images/pizza/ny-style/thumbnails/hero.png"),
-      tall: require("../../public/images/pizza/ny-style/thumbnails/tall.png"),
-      wide: require("../../public/images/pizza/ny-style/thumbnails/wide.png"),
-      square: require("../../public/images/pizza/ny-style/thumbnails/square.png"),
-      meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
-    },
-    description:
-      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
     title: "Banh mi bun",
