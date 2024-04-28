@@ -5,8 +5,6 @@ import image2 from "public/images/recipes/bordelaise-sauce/2.png";
 import image3 from "public/images/recipes/bordelaise-sauce/3_1.png";
 import image4 from "public/images/recipes/bordelaise-sauce/4.png";
 import image5 from "public/images/recipes/bordelaise-sauce/5.png";
-import image7 from "public/images/recipes/bordelaise-sauce/7.png";
-import image8 from "public/images/recipes/bordelaise-sauce/8.png";
 import metaImage from "public/images/recipes/bordelaise-sauce/thumbnails/meta.png";
 import heroImage from "public/images/recipes/bordelaise-sauce/thumbnails/tall.png";
 
@@ -175,8 +173,7 @@ const STEPS = [
   <Text
     extra={
       <>
-        <MethodImage src={image7} alt="" />
-        <MethodImage src={image8} alt="" />
+        <MethodImage src={heroImage} alt="" />
       </>
     }
   >
