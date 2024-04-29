@@ -39,6 +39,34 @@ export const RECIPES: Recipe[] = [
       "Bordelaise sauce is a classic French sauce named after France’s Bordeaux region, which is well-known for its wine. It’s a flavorful sauce made from dry red wine, bone marrow, butter, shallots, and demi-glace.",
   },
   {
+    title: "Pasta alla puttanesca",
+    url: "/food-and-drinks/puttanesca",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/puttanesca/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/puttanesca/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/puttanesca/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/puttanesca/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/puttanesca/thumbnails/meta.png"),
+    },
+    description:
+      "Pasta alla Puttanesca is a rustic, hearty dish from southern Italy. Made with simple, robust ingredients like olives, capers, tomatoes, and anchovies, this pasta dish delivers a sauce that's packed with authentic, homely flavors.",
+  },
+  {
+    title: "New York style pizza dough",
+    url: "/pizza/new-york-style",
+    category: CATEGORIES.pizza,
+    thumbnails: {
+      hero: require("../../public/images/pizza/ny-style/thumbnails/hero.png"),
+      tall: require("../../public/images/pizza/ny-style/thumbnails/tall.png"),
+      wide: require("../../public/images/pizza/ny-style/thumbnails/wide.png"),
+      square: require("../../public/images/pizza/ny-style/thumbnails/square.png"),
+      meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
+    },
+    description:
+      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
+  },
+  {
     title: "Asian pork marinade",
     url: "/recipes/asian-pork-marinade",
     category: CATEGORIES["food-and-drinks"],
@@ -65,20 +93,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "Made with Manitoba flour, these rolls combine a chewy interior with a crispy cheese topping. Ideal for a sandwich that's satisfyingly cheesy and crunchy.",
-  },
-  {
-    title: "New York style pizza dough",
-    url: "/pizza/new-york-style",
-    category: CATEGORIES.pizza,
-    thumbnails: {
-      hero: require("../../public/images/pizza/ny-style/thumbnails/hero.png"),
-      tall: require("../../public/images/pizza/ny-style/thumbnails/tall.png"),
-      wide: require("../../public/images/pizza/ny-style/thumbnails/wide.png"),
-      square: require("../../public/images/pizza/ny-style/thumbnails/square.png"),
-      meta: require("../../public/images/pizza/ny-style/thumbnails/meta.png"),
-    },
-    description:
-      "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
     title: "Chili oil noodles",
@@ -121,20 +135,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "These tacos are a standout in the world of Mexican cuisine. At the heart of this recipe is the slow-cooked meat, steeped in the sweetness of Guajillo chilies.",
-  },
-  {
-    title: "Pasta alla puttanesca",
-    url: "/food-and-drinks/puttanesca",
-    category: CATEGORIES["food-and-drinks"],
-    thumbnails: {
-      hero: require("../../public/images/recipes/puttanesca/thumbnails/hero.png"),
-      tall: require("../../public/images/recipes/puttanesca/thumbnails/tall.png"),
-      wide: require("../../public/images/recipes/puttanesca/thumbnails/wide.jpg"),
-      square: require("../../public/images/recipes/puttanesca/thumbnails/square.png"),
-      meta: require("../../public/images/recipes/puttanesca/thumbnails/meta.png"),
-    },
-    description:
-      "Pasta alla Puttanesca is a rustic, hearty dish from southern Italy. Made with simple, robust ingredients like olives, capers, tomatoes, and anchovies, this pasta dish delivers a sauce that's packed with authentic, homely flavors.",
   },
   {
     title: "The 54 – A long proofed NY style pizza",
