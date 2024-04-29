@@ -1,8 +1,6 @@
 import React from "react";
 
 import image1 from "public/images/recipes/puttanesca/1.png";
-import image10 from "public/images/recipes/puttanesca/10.png";
-import image11 from "public/images/recipes/puttanesca/11.png";
 import image13 from "public/images/recipes/puttanesca/13.png";
 import image2 from "public/images/recipes/puttanesca/2.png";
 import image3 from "public/images/recipes/puttanesca/3.png";
@@ -220,8 +218,7 @@ const STEPS = [
   <Text
     extra={
       <>
-        <MethodImage src={image10} alt="" />
-        <MethodImage src={image11} alt="" />
+        <MethodImage src={heroImage} alt="" />
       </>
     }
   >
