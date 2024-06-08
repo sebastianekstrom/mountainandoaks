@@ -45,7 +45,7 @@ export const Header = () => {
             <Link href="/guides">
               <Text>Guides</Text>
             </Link>
-            <Link href="https://www.instagram.com/mountain.and.oakes">
+            <Link href="https://www.instagram.com/mountain.and.oaks">
               <Text>Instagram</Text>
             </Link>
           </Popover.Group>
@@ -111,7 +111,7 @@ export const Header = () => {
                     <Text>Guides</Text>
                   </Link>
                   <Link
-                    href="https://www.instagram.com/mountain.and.oakes"
+                    href="https://www.instagram.com/mountain.and.oaks"
                     className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Instagram</Text>
