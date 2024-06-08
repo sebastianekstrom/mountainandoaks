@@ -67,6 +67,20 @@ export const RECIPES: Recipe[] = [
       "The classic New York style pizza has a crispy crust and very thin bottom. A touch of sugar adds a bit of sweetness to it compared to the Neapolitan or Roman ones and the olive oil gives the crust a real nice color and texture. The dough is quite forgiving and it’s optimal for baking in your home oven. This dough pairs very well with my New York Style pizza sauce, and for instructions on how to bake it please see my guide on how to bake pizza in a home oven. For optimal flavor I recommend cold proofing the dough in the fridge for at least 24 hours!",
   },
   {
+    title: "Pasta Bolognese",
+    url: "/food-and-drinks/bolognese",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/bolognese/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/bolognese/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/bolognese/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/bolognese/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/bolognese/thumbnails/meta.png"),
+    },
+    description:
+      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours. The outcome is a delicious sauce with an amazing texture and depth that'll make your taste buds dance with joy.",
+  },
+  {
     title: "Asian pork marinade",
     url: "/recipes/asian-pork-marinade",
     category: CATEGORIES["food-and-drinks"],
@@ -177,20 +191,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "This recipe will produce a light and fluffy baguette with a semi open crumb. Baguettes are one of the trickier breads to make due to the shaping, but it's really fun and with practice it gets easier.",
-  },
-  {
-    title: "Pasta Bolognese",
-    url: "/food-and-drinks/bolognese",
-    category: CATEGORIES["food-and-drinks"],
-    thumbnails: {
-      hero: require("../../public/images/recipes/bolognese/thumbnails/hero.png"),
-      tall: require("../../public/images/recipes/bolognese/thumbnails/tall.png"),
-      wide: require("../../public/images/recipes/bolognese/thumbnails/wide.png"),
-      square: require("../../public/images/recipes/bolognese/thumbnails/square.png"),
-      meta: require("../../public/images/recipes/bolognese/thumbnails/meta.png"),
-    },
-    description:
-      "There are almost as many Bolognese recipes as there are Italians, each one unique. Yet, here's my favorite take on it. This tasty version combines beef, chicken stock and milk, simmering for over 2 hours. The outcome is a delicious sauce with an amazing texture and depth that'll make your taste buds dance with joy.",
   },
   {
     title: "Banh mi bun",

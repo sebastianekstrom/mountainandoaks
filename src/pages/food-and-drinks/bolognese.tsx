@@ -4,8 +4,7 @@ import image1 from "public/images/recipes/bolognese/1.jpg";
 import image2 from "public/images/recipes/bolognese/2.jpg";
 import image3 from "public/images/recipes/bolognese/3.jpg";
 import image4 from "public/images/recipes/bolognese/4.jpg";
-import image5 from "public/images/recipes/bolognese/5.png";
-import image6 from "public/images/recipes/bolognese/6.png";
+import image5 from "public/images/recipes/bolognese/thumbnails/hero.png";
 import metaImage from "public/images/recipes/bolognese/thumbnails/meta.png";
 import heroImage from "public/images/recipes/bolognese/thumbnails/tall.png";
 
@@ -277,7 +276,6 @@ const STEPS = [
   <Text
     extra={
       <>
-        <MethodImage src={image6} alt="" />
         <MethodImage src={image5} alt="" />
       </>
     }
