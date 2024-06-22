@@ -4,7 +4,7 @@ import detroit2 from "public/images/pizza/detroit/detroit-2.jpg";
 import detroit3 from "public/images/pizza/detroit/detroit-3.jpg";
 import detroit4 from "public/images/pizza/detroit/detroit-4.jpg";
 import metaImage from "public/images/pizza/detroit/thumbnails/meta.png";
-import heroImage from "public/images/pizza/detroit/thumbnails/tall.jpg";
+import heroImage from "public/images/pizza/detroit/thumbnails/tall.png";
 
 import { Alert } from "components/Alert/Alert";
 import { Ingredients } from "components/Ingredients/Ingredients";
@@ -31,7 +31,7 @@ const INGREDIENTS = [
         isWater: true,
       },
       {
-        value: 11,
+        value: 13,
         label: "Salt",
       },
       {
@@ -53,7 +53,7 @@ const INGREDIENTS = [
         label: "Canned tomatoes",
       },
       {
-        value: 30,
+        value: 20,
         label: "Olive oil",
       },
       {
@@ -65,7 +65,7 @@ const INGREDIENTS = [
         label: "Sugar",
       },
       {
-        value: 3,
+        value: 1,
         label: "Dried oregano",
       },
       {
@@ -95,7 +95,7 @@ const INGREDIENTS = [
         label: "Cheeze of your choice",
       },
       {
-        value: 340,
+        value: 300,
         label: "Sausage (pepperoni or chorizo)",
       },
       {
@@ -144,9 +144,7 @@ const STEPS = [
   >
     Time to make the pizza sauce. Add the canned tomatoes to a container and mix
     them until smooth. Heat the <b>olive oil</b> in a sauce pan over medium
-    heat. Add the <b>garlic</b>, <b>oregano</b> and <b>chili pepper flakes</b>{" "}
-    and cook for 30 seconds. Add the <b>tomatoes</b>, <b>garlic powder</b>,{" "}
-    <b>onion powder</b> and <b>sugar</b>. Bring the sauce to a simmer and let it
+    heat. Add all the ingredients and bring the sauce to a simmer and let it
     cook for 30 minutes. Season to taste with salt.
     <br />
     <br />I prefer to make the sauce the night before to make the pizza baking
@@ -178,6 +176,7 @@ const STEPS = [
       <>
         <MethodImage src={detroit3} alt="Pizza fresh from the oven" />
         <MethodImage src={detroit4} alt="Pizza cut in half" />
+        <MethodImage src={heroImage} alt="Pizza fresh from the oven" />
       </>
     }
   >

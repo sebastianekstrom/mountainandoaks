@@ -1,4 +1,4 @@
-import pizza from "public/images/pizza/detroit/thumbnails/hero.jpg";
+import pizza from "public/images/pizza/detroit/thumbnails/hero.png";
 
 import { RECIPES } from "constants/recipes";
 

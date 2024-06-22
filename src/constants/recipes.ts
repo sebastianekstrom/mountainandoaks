@@ -165,6 +165,20 @@ export const RECIPES: Recipe[] = [
       "This recipe is a modification of my New York Style pizza with the goal of having a really long proof time to develop maximum taste. To be able to have a total of 54 hour proof time the dough needs very little yeast. The recipe also includes something called Diastatic malt powder which improves the rise, texture and crust. It's not required to use, but highly encouraged.",
   },
   {
+    title: "Detroit style pizza",
+    url: "/pizza/detroit-style",
+    category: CATEGORIES.pizza,
+    thumbnails: {
+      hero: require("../../public/images/pizza/detroit/thumbnails/hero.png"),
+      tall: require("../../public/images/pizza/detroit/thumbnails/tall.png"),
+      wide: require("../../public/images/pizza/detroit/thumbnails/wide.png"),
+      square: require("../../public/images/pizza/detroit/thumbnails/square.png"),
+      meta: require("../../public/images/pizza/detroit/thumbnails/meta.png"),
+    },
+    description:
+      "The Detroit style pizza is a deep-dish pizza made in a rectangle steel pan and then cut into squares. The dough has a unusually high hydration level for a pizza which creates a fluffy, moist and delicious pizza topped with low hydration mozzarella and sausage. This recipe is inspired by J. Kenji López-Alt but with modifications to streamline the process and add a bit more flavor.",
+  },
+  {
     title: "Sebby's",
     url: "/pizza/sebbys",
     category: CATEGORIES.pizza,
@@ -233,20 +247,6 @@ export const RECIPES: Recipe[] = [
     },
     description:
       "The classic of the classics. The Neapolitan pizza has a thin base and a big and chewy crust. This dough should be cold proofed for at least 24 hours for best results. Beware, this dough is not suitable for home ovens. While it would work, the Neapolitan pizza needs to be cooked in ~90 seconds to create the correct texture. This dough pairs well with my Neapolitan style tomato sauce.",
-  },
-  {
-    title: "Detroit style pizza",
-    url: "/pizza/detroit-style",
-    category: CATEGORIES.pizza,
-    thumbnails: {
-      hero: require("../../public/images/pizza/detroit/thumbnails/hero.jpg"),
-      tall: require("../../public/images/pizza/detroit/thumbnails/tall.jpg"),
-      wide: require("../../public/images/pizza/detroit/thumbnails/wide.jpg"),
-      square: require("../../public/images/pizza/detroit/thumbnails/square.png"),
-      meta: require("../../public/images/pizza/detroit/thumbnails/meta.png"),
-    },
-    description:
-      "The Detroit style pizza is a deep-dish pizza made in a rectangle steel pan and then cut into squares. The dough has a unusually high hydration level for a pizza which creates a fluffy, moist and delicious pizza topped with low hydration mozzarella and sausage. This recipe is inspired by J. Kenji López-Alt but with modifications to streamline the process and add a bit more flavor.",
   },
   {
     title: "Simple loaf",
