@@ -77,7 +77,7 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
-            11
+            13
             g
           </p>
         </li>
@@ -188,7 +188,7 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
-            30
+            20
             g
           </p>
         </li>
@@ -245,7 +245,7 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
-            3
+            1
             g
           </p>
         </li>
@@ -377,7 +377,7 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
-            340
+            300
             g
           </p>
         </li>
