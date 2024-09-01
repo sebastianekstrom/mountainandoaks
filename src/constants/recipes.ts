@@ -449,9 +449,9 @@ export const RECIPES: Recipe[] = [
     url: "/food-and-drinks/alabama-slammer",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
-      hero: require("../../public/images/recipes/alabama-slammer/thumbnails/hero.jpg"),
-      tall: require("../../public/images/recipes/alabama-slammer/thumbnails/tall.jpg"),
-      wide: require("../../public/images/recipes/alabama-slammer/thumbnails/wide.jpg"),
+      hero: require("../../public/images/recipes/alabama-slammer/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/alabama-slammer/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/alabama-slammer/thumbnails/wide.png"),
       square: require("../../public/images/recipes/alabama-slammer/thumbnails/square.png"),
       meta: require("../../public/images/recipes/alabama-slammer/thumbnails/meta.png"),
     },
