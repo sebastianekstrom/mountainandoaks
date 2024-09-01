@@ -18,7 +18,7 @@ interface Props {
   image: any;
 }
 
-const BASE_URL = "https://sebbebakes.com";
+const BASE_URL = "https://mountainandoaks.com";
 
 export const Page = ({ children, metaTitle, description, image }: Props) => {
   const { asPath } = useRouter();
