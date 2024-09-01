@@ -34,7 +34,7 @@ const categories = [
 export default function Home() {
   return (
     <Page
-      metaTitle="Sebbe bakes"
+      metaTitle="Mountain & Oaks"
       description="Recipes, method and techniques for pizza and bread"
       image={pizza}
     >

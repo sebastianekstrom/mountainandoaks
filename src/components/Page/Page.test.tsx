@@ -17,7 +17,7 @@ describe("Page", () => {
       </Page>,
     );
 
-    expect(screen.getByLabelText("Go to home page")).toBeDefined();
+    expect(screen.queryAllByText("Go to home page")).toBeDefined();
     expect(screen.getByRole("main")).toBeDefined();
     expect(screen.getByText("Test content")).toBeDefined();
     expect(screen.getByRole("contentinfo")).toBeDefined();

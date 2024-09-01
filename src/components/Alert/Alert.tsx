@@ -9,7 +9,7 @@ interface Props {
 
 export const Alert = ({ description, title }: Props) => {
   return (
-    <div className="block p-6 mt-4 text-regular bg-pill-background">
+    <div className="block p-6 mt-4 bg-pill-background">
       <div className="flex items-center mb-2">
         <Text variant="h4">{title || "Tip!"}</Text>
       </div>

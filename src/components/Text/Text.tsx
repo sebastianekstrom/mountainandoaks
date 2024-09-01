@@ -4,7 +4,7 @@ import type React from "react";
 import { convertStringToID } from "utils/convertStringToID";
 
 const headingFont = localFont({
-  src: "../../../public/fonts/Gatile.woff2",
+  src: "../../../public/fonts/AnekGujarati.woff",
   display: "swap",
   variable: "--font-heading",
 });
@@ -14,19 +14,19 @@ const bodyFont = localFont({
   variable: "--font-sans",
   src: [
     {
-      path: "../../../public/fonts/Stolzl-Book.woff",
+      path: "../../../public/fonts/Geist-Regular.woff",
       weight: "400",
     },
     {
-      path: "../../../public/fonts/Stolzl-Medium.woff",
+      path: "../../../public/fonts/Geist-Medium.woff",
       weight: "500",
     },
     {
-      path: "../../../public/fonts/Stolzl-Regular.woff",
+      path: "../../../public/fonts/Geist-SemiBold.woff",
       weight: "600",
     },
     {
-      path: "../../../public/fonts/Stolzl-Bold.woff",
+      path: "../../../public/fonts/Geist-Bold.woff",
       weight: "700",
     },
   ],
@@ -88,7 +88,7 @@ export const Text = ({
       return (
         <h1
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading text-[44px] leading-[44px] md:text-h1 md:leading-h1 text-regular mb-8 ${additionalClasses}`}
+          className={`${headingFont.variable} font-bold font-heading text-[44px] leading-[44px] md:text-h1 md:leading-h1 text-regular mb-8 ${additionalClasses}`}
         >
           {children}
         </h1>
@@ -97,7 +97,7 @@ export const Text = ({
       const h2 = (
         <h2
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
+          className={`${headingFont.variable} font-heading font-bold text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
         >
           {children}
         </h2>
@@ -114,7 +114,7 @@ export const Text = ({
       const h3 = (
         <h3
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading text-h3 leading-h3 text-regular ${additionalClasses}`}
+          className={`${headingFont.variable} font-heading font-bold text-h3 leading-h3 text-regular ${additionalClasses}`}
         >
           {children}
         </h3>
@@ -130,7 +130,7 @@ export const Text = ({
       const h4 = (
         <h4
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading text-h4 leading-h4 text-regular ${additionalClasses}`}
+          className={`${headingFont.variable} font-heading font-bold text-h4 leading-h4 text-regular ${additionalClasses}`}
         >
           {children}
         </h4>

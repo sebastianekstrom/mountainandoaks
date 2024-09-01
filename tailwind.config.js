@@ -32,8 +32,8 @@ module.exports = {
         "background-header": "#FFF3E0",
         cta: "#CA9A4A",
         separator: "#E9E9E9",
-        outline: "#ECD7B7",
-        "pill-background": "#FFF2E0",
+        outline: "#3f41888f",
+        "pill-background": "#3f41888f",
       },
       fontFamily: {
         heading: ["var(--font-heading)"],
