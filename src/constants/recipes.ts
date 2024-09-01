@@ -365,9 +365,9 @@ export const RECIPES: Recipe[] = [
     url: "/food-and-drinks/swedish-kebab-sauce",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
-      hero: require("../../public/images/recipes/kebab-sauce/thumbnails/hero.jpg"),
-      tall: require("../../public/images/recipes/kebab-sauce/thumbnails/tall.jpg"),
-      wide: require("../../public/images/recipes/kebab-sauce/thumbnails/wide.jpg"),
+      hero: require("../../public/images/recipes/kebab-sauce/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/kebab-sauce/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/kebab-sauce/thumbnails/wide.png"),
       square: require("../../public/images/recipes/kebab-sauce/thumbnails/square.png"),
       meta: require("../../public/images/recipes/kebab-sauce/thumbnails/meta.png"),
     },

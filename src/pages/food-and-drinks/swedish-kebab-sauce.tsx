@@ -1,7 +1,7 @@
 import React from "react";
 
 import metaImage from "public/images/recipes/kebab-sauce/thumbnails/meta.png";
-import heroImage from "public/images/recipes/kebab-sauce/thumbnails/tall.jpg";
+import heroImage from "public/images/recipes/kebab-sauce/thumbnails/tall.png";
 
 import { Badge } from "components/Badge/Badge";
 import { Ingredients } from "components/Ingredients/Ingredients";
