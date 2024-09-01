@@ -15,7 +15,7 @@ exports[`Puttanesca page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Puttanesca
       </h3>
@@ -185,7 +185,7 @@ exports[`Puttanesca page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Pasta
       </h3>
@@ -223,7 +223,7 @@ exports[`Puttanesca page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Garnish
       </h3>

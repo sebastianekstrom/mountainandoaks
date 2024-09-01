@@ -16,8 +16,8 @@ export const Header = () => {
               <Image
                 width={215}
                 height={49}
-                className="w-[180px] md:w-[162px] lg:w-[215px] h-auto"
-                src="/images/misc/logo.svg"
+                className="w-[140px] lg:w-[180px] h-auto"
+                src="/images/misc/logo-v4.svg"
                 alt=""
               />
             </Link>
@@ -74,7 +74,7 @@ export const Header = () => {
                     aria-label="Go to home page"
                     className="focus-visible:outline-none"
                   >
-                    <Text variant="h4">Sebbe bakes</Text>
+                    <Text variant="h4">Mountain & Oaks</Text>
                   </Link>
                 </div>
                 <div className="-mr-2">

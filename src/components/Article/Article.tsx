@@ -35,7 +35,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           />
         </Link>
         <Link href={recipe.category.path}>
-          <Text classNames="!text-cta font-medium mt-4">
+          <Text classNames="!text-pill-background font-medium mt-4">
             {recipe.category.label}
           </Text>
         </Link>
@@ -67,7 +67,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
           />
         </Link>
         <Link href={recipe.category.path}>
-          <Text classNames="!text-cta font-medium mb-2 mt-2">
+          <Text classNames="!text-pill-background font-medium mb-2 mt-2">
             {recipe.category.label}
           </Text>
         </Link>
@@ -101,7 +101,7 @@ export const Article = ({ recipe, first, type }: ArticleProps) => {
         </Link>
         <div className="lg:ml-6 flex flex-col">
           <Link href={recipe.category.path}>
-            <Text classNames="!text-cta font-medium mb-2 mt-2 lg:mt-0">
+            <Text classNames="!text-pill-background font-medium mb-2 mt-2 lg:mt-0">
               {recipe.category.label}
             </Text>
           </Link>

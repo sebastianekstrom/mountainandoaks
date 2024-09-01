@@ -15,7 +15,7 @@ exports[`HamburgerBun page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Dough
       </h3>
@@ -221,7 +221,7 @@ exports[`HamburgerBun page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Egg wash
       </h3>
@@ -276,7 +276,7 @@ exports[`HamburgerBun page renders the correct ingredients 1`] = `
       class="mb-2"
     >
       <h3
-        class="variable font-heading text-h3 leading-h3 text-regular "
+        class="variable font-heading font-bold text-h3 leading-h3 text-regular "
       >
         Melted butter
       </h3>

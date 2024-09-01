@@ -3,11 +3,13 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Script from "next/script";
 import type React from "react";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 import { Header } from "components/Header/Header";
 import { Text } from "components/Text/Text";
 
 import { RECIPES } from "../../constants/recipes";
+import Link from "next/link";
 
 interface Props {
   children: React.ReactNode;
@@ -53,9 +55,25 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
         {children}
       </main>
       <footer className="flex mt-0 lg:mt-20 pb-10 flex-col items-center justify-center">
-        <div className="flex flex-col items-center">
-          <Text variant="h4">sebbe bakes</Text>
-          <Text variant="caption" classNames="mt-2 flex items-center">
+        <div className="flex flex-col items-center px-4">
+          <Link href="/" aria-label="Go to home page">
+            <Image
+              width={215}
+              height={49}
+              className="w-[60px] h-auto"
+              src="/images/misc/logo-v2.svg"
+              alt=""
+            />
+          </Link>
+
+          <Text variant="caption" classNames="mt-4">
+            Food and cocktails from our home kitchen
+          </Text>
+
+          <Text
+            variant="caption"
+            classNames="mt-1 flex justify-center flex-wrap"
+          >
             {RECIPES.length} recipes made with
             <Image
               src="/images/misc/rolling_pin.svg"
@@ -68,7 +86,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
               }}
               alt=""
             />
-            by Sebastian Ekström
+            by Sebastian Ekström & Jennifer Ströberg
           </Text>
         </div>
         <div className="mt-4 flex gap-4">
@@ -93,7 +111,13 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
                 height: 20,
                 width: 20,
               }}
-              alt="Visit Sebbe bakes on Instagram"
+              alt="Visit Mountain & Oaks on Instagram"
+            />
+          </a>
+          <a href="mailto:hello@mountainandoaks.com">
+            <EnvelopeIcon
+              className="h-[28px] relative top-[-4px]"
+              aria-hidden="true"
             />
           </a>
         </div>
