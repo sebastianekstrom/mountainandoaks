@@ -55,7 +55,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
         {children}
       </main>
       <footer className="flex mt-0 lg:mt-20 pb-10 flex-col items-center justify-center">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center px-4">
           <Link href="/" aria-label="Go to home page">
             <Image
               width={215}
@@ -70,7 +70,10 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
             Food and cocktails from our home kitchen
           </Text>
 
-          <Text variant="caption" classNames="mt-1 flex items-center">
+          <Text
+            variant="caption"
+            classNames="mt-1 flex justify-center flex-wrap"
+          >
             {RECIPES.length} recipes made with
             <Image
               src="/images/misc/rolling_pin.svg"
