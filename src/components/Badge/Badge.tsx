@@ -16,7 +16,7 @@ export const Badge = ({
       </div>
       <Text
         variant="caption"
-        classNames="opacity-[.62] mt-[10px] leading-[14px] text-center text-background-regular"
+        classNames="opacity-[.62] mt-[10px] leading-[14px] text-center"
       >
         {label}
       </Text>
