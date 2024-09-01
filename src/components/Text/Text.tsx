@@ -5,6 +5,7 @@ const AnekGujarati = Anek_Gujarati({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-heading",
+  weight: "600",
 });
 
 import type React from "react";
@@ -99,7 +100,7 @@ export const Text = ({
       const h2 = (
         <h2
           id={anchorID ? id : undefined}
-          className={`${AnekGujarati.variable} font-heading font-bold text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
+          className={`${AnekGujarati.variable} font-heading tracking-tight font-bold text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
         >
           {children}
         </h2>
