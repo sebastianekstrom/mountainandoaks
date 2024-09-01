@@ -1,13 +1,15 @@
 import localFont from "next/font/local";
-import type React from "react";
+import { Anek_Gujarati } from "next/font/google";
 
-import { convertStringToID } from "utils/convertStringToID";
-
-const headingFont = localFont({
-  src: "../../../public/fonts/AnekGujarati.woff",
+const AnekGujarati = Anek_Gujarati({
+  subsets: ["latin"],
   display: "swap",
   variable: "--font-heading",
 });
+
+import type React from "react";
+
+import { convertStringToID } from "utils/convertStringToID";
 
 const bodyFont = localFont({
   display: "swap",
@@ -88,7 +90,7 @@ export const Text = ({
       return (
         <h1
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-bold font-heading text-[44px] leading-[44px] md:text-h1 md:leading-h1 text-regular mb-8 ${additionalClasses}`}
+          className={`${AnekGujarati.variable} font-bold font-heading text-[44px] leading-[44px] md:text-h1 md:leading-h1 text-regular mb-8 ${additionalClasses}`}
         >
           {children}
         </h1>
@@ -97,7 +99,7 @@ export const Text = ({
       const h2 = (
         <h2
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading font-bold text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
+          className={`${AnekGujarati.variable} font-heading font-bold text-[34px] leading-[38px] md:text-h2 md:leading-h2 text-regular ${additionalClasses}`}
         >
           {children}
         </h2>
@@ -114,7 +116,7 @@ export const Text = ({
       const h3 = (
         <h3
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading font-bold text-h3 leading-h3 text-regular ${additionalClasses}`}
+          className={`${AnekGujarati.variable} font-heading font-bold text-h3 leading-h3 text-regular ${additionalClasses}`}
         >
           {children}
         </h3>
@@ -130,7 +132,7 @@ export const Text = ({
       const h4 = (
         <h4
           id={anchorID ? id : undefined}
-          className={`${headingFont.variable} font-heading font-bold text-h4 leading-h4 text-regular ${additionalClasses}`}
+          className={`${AnekGujarati.variable} font-heading font-bold text-h4 leading-h4 text-regular ${additionalClasses}`}
         >
           {children}
         </h4>
@@ -144,7 +146,7 @@ export const Text = ({
     case "logo":
       return (
         <h3
-          className={`${headingFont.variable} ${additionalClasses} font-heading text-[38px] tracking-tight md:text-logo leading-logo text-regular`}
+          className={`${AnekGujarati.variable} ${additionalClasses} font-heading text-[38px] tracking-tight md:text-logo leading-logo text-regular`}
         >
           {children}
         </h3>
