@@ -63,7 +63,7 @@ export const Post = ({
           {ingredients && <div className="mt-6 lg:mt-12">{ingredients}</div>}
         </aside>
         <main className="mt-6 lg:mt-20">
-          <Text variant="h1" classNames="max-w-[82%] hidden lg:block">
+          <Text variant="h1" classNames="hidden lg:block">
             {title}
           </Text>
           {description}
