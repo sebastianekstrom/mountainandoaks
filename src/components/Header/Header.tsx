@@ -14,8 +14,8 @@ export const Header = () => {
           <div className="flex">
             <Link href="/" aria-label="Go to home page">
               <Image
-                width={215}
-                height={49}
+                width={140}
+                height={56.6}
                 className="w-[140px] lg:w-[180px] h-auto"
                 src="/images/misc/logo-v4.svg"
                 alt=""
