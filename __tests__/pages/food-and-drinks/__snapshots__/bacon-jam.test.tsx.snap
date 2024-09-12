@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaconJam page renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Bacon
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          280
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Onion
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          100
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Shallots
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          100
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Maple syrup
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          50
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Brown sugar
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          40
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Apple cider vinegar
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          35
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Coffee
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          15
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Garlic
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+          g
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;

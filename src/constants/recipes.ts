@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Bacon jam",
+    url: "/recipes/bacon-jam",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/bacon-jam/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/bacon-jam/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/bacon-jam/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/bacon-jam/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/bacon-jam/thumbnails/meta.png"),
+    },
+    description:
+      "This savory bacon jam is perfect for grilled cheese or burgers, combining smoky bacon, sweet onions, and maple syrup for a rich, flavorful boost.",
+  },
+  {
     title: "Bordelaise sauce",
     url: "/food-and-drinks/bordelaise-sauce",
     category: CATEGORIES["food-and-drinks"],
