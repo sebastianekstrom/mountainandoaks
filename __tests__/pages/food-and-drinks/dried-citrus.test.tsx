@@ -3,7 +3,7 @@ import React from "react";
 
 import DriedCitrus from "pages/food-and-drinks/dried-citrus";
 
-describe("DriedCitrus page", () => {
+describe("DriedCitrus pagsssse", () => {
   it("renders title correctly", () => {
     render(<DriedCitrus />);
     const title = screen.queryAllByText(/Dried citrus/i);
