@@ -25,6 +25,19 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Anything-goes chicken pasta",
+    url: "/recipes/anything-goes-chicken-pasta",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/meta.png"),
+    },
+    description: "TBD",
+  },
+  {
     title: "Bacon jam",
     url: "/recipes/bacon-jam",
     category: CATEGORIES["food-and-drinks"],
