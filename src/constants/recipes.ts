@@ -35,7 +35,8 @@ export const RECIPES: Recipe[] = [
       square: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/square.png"),
       meta: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/meta.png"),
     },
-    description: "TBD",
+    description:
+      'This dish was born from a fridge-cleaning session, making it perfect for when you want to use up whatever ingredients you have on hand. Feel free to swap or add anything—this is a versatile, "anything-goes" recipe where you can improvise as needed.',
   },
   {
     title: "Bacon jam",
