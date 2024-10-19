@@ -31,17 +31,17 @@ const INGREDIENTS = [
         isWater: true,
       },
       {
+        value: 30,
+        label: "Olive oil to coat the pan",
+        exludeFromTotalWeight: true,
+      },
+      {
         value: 13,
         label: "Salt",
       },
       {
         value: 5,
         label: "Dry yeast",
-      },
-      {
-        value: 30,
-        label: "Olive oil to coat the pan",
-        exludeFromTotalWeight: true,
       },
     ],
   },
@@ -65,10 +65,6 @@ const INGREDIENTS = [
         label: "Sugar",
       },
       {
-        value: 1,
-        label: "Dried oregano",
-      },
-      {
         value: 3,
         label: "Garlic powder",
       },
@@ -81,11 +77,19 @@ const INGREDIENTS = [
         label: "Cloves of garlic",
         valueSuffix: false,
       },
+      {
+        value: 1,
+        label: "Dried oregano",
+      },
     ],
   },
   {
     label: "Toppings",
     ingredients: [
+      {
+        value: 300,
+        label: "Sausage (pepperoni or chorizo)",
+      },
       {
         value: 170,
         label: "Mozzarella (low moisture)",
@@ -95,12 +99,14 @@ const INGREDIENTS = [
         label: "Cheeze of your choice",
       },
       {
-        value: 300,
-        label: "Sausage (pepperoni or chorizo)",
+        value: 20,
+        label: "Finely shredded Parmesan",
       },
       {
         value: 20,
-        label: "Finely shredded Parmesan",
+        label: "Oregano",
+        valueSuffix: false,
+        excludeValue: true,
       },
     ],
   },
@@ -116,7 +122,20 @@ const STEPS = [
     minutes on low speed to combine the dough, and then 10 minutes on medium to
     develop gluten strength. If you knead by hand, knead for 10-12 minutes.{" "}
   </Text>,
-  <Text>
+  <Text
+    extra={
+      <Alert
+        title="Stickiness"
+        description={
+          <>
+            The hydration (water contents) of this dough is <em>very</em> high
+            (75%), so the dough will be <em>very</em> sticky and hard to handle.
+            That's totally fine and expected, don't add any more flour!
+          </>
+        }
+      />
+    }
+  >
     Transfer the dough to a lightly oiled bowl, cover it with a damp towel and
     let it rest in room temperature until it has doubled in size, about{" "}
     <b>2 hours</b>. <br />
@@ -136,7 +155,10 @@ const STEPS = [
         description={
           <>
             Remember to over season your sauce, the dough and cheeze will absorb{" "}
-            <i>a lot of</i> the flavor.
+            <i>a lot of</i> the flavor. <br />
+            <br />
+            If you taste the sauce and think <em>"this is way too intense"</em>{" "}
+            the sauce is perfect.
           </>
         }
       />
@@ -159,7 +181,24 @@ const STEPS = [
     If you can't spread it all the way to the edges, cover the pan in plastic
     wrap and let the dough rest for 15 minutes, and then give it another try.
   </Text>,
-  <Text extra={<MethodImage src={detroit2} alt="Preparation of the pizza" />}>
+  <Text
+    extra={
+      <>
+        <MethodImage src={detroit2} alt="Preparation of the pizza" />
+        <Alert
+          title="Layer it however you like"
+          description={
+            <>
+              While having the tomato sauce on top is a classic feature of
+              Detroit-style pizza, there's nothing stopping you from layering it
+              in a more traditional way—with dough, sauce, cheese, and sausage
+              in that order.
+            </>
+          }
+        />
+      </>
+    }
+  >
     <b>Cut the cheese</b> into small cubes (1cm / 1⁄3 of an inch). Lay{" "}
     <b>half of the sausage</b> evenly over the face of the dough.{" "}
     <b>Spread the cheese</b> evently across the dough, make sure to add it to
@@ -168,7 +207,7 @@ const STEPS = [
   </Text>,
   <Text>
     Transfer the pan to oven and bake until edges are black and bubbly the
-    cheese is lightly brown, it'll take about <b>12-15 minutes</b>. Transfer the
+    cheese is lightly brown, it'll take about <b>15-20 minutes</b>. Transfer the
     pan to a trivet or folded kitchen towel on countertop.
   </Text>,
   <Text
