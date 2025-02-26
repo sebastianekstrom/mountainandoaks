@@ -71,6 +71,25 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             <p
               class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
             >
+              Olive oil to coat the pan
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            30
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
               Salt
             </p>
           </div>
@@ -97,25 +116,6 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
             5
-            g
-          </p>
-        </li>
-        <li
-          class="flex justify-between mb-1 transition-opacity "
-        >
-          <div
-            class=""
-          >
-            <p
-              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
-            >
-              Olive oil to coat the pan
-            </p>
-          </div>
-          <p
-            class="variable font-sans text-paragraph text-regular leading-paragraph "
-          >
-            30
             g
           </p>
         </li>
@@ -239,25 +239,6 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             <p
               class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
             >
-              Dried oregano
-            </p>
-          </div>
-          <p
-            class="variable font-sans text-paragraph text-regular leading-paragraph "
-          >
-            1
-            g
-          </p>
-        </li>
-        <li
-          class="flex justify-between mb-1 transition-opacity "
-        >
-          <div
-            class=""
-          >
-            <p
-              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
-            >
               Garlic powder
             </p>
           </div>
@@ -305,6 +286,25 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             1.5
           </p>
         </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Dried oregano
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+            g
+          </p>
+        </li>
       </ul>
     </div>
   </div>
@@ -324,6 +324,25 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
       class="flex flex-col"
     >
       <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Sausage (pepperoni or chorizo)
+            </p>
+          </div>
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph "
+          >
+            300
+            g
+          </p>
+        </li>
         <li
           class="flex justify-between mb-1 transition-opacity "
         >
@@ -371,13 +390,13 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             <p
               class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
             >
-              Sausage (pepperoni or chorizo)
+              Finely shredded Parmesan
             </p>
           </div>
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
           >
-            300
+            20
             g
           </p>
         </li>
@@ -390,15 +409,12 @@ exports[`DetroitStyle page renders the correct ingredients 1`] = `
             <p
               class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
             >
-              Finely shredded Parmesan
+              Oregano
             </p>
           </div>
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph "
-          >
-            20
-            g
-          </p>
+          />
         </li>
       </ul>
     </div>
