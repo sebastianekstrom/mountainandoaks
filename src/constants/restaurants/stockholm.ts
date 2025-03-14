@@ -223,7 +223,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.woodstockholm.com/",
   },
   {
-    name: "Restaurang Slipen",
+    name: "Slipen",
     coordinates: {
       longitude: 18.1016014,
       latitude: 59.3223377,
@@ -354,7 +354,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://bar-bro.se/",
   },
   {
-    name: "Restaurang Hantverket",
+    name: "Hantverket",
     coordinates: {
       longitude: 18.0766794,
       latitude: 59.3414547,
