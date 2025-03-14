@@ -33,7 +33,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
 
     setTimeout(() => {
       updateMapHeight();
-    }, 100);
+    }, 600);
 
     window.addEventListener("resize", updateMapHeight);
 
