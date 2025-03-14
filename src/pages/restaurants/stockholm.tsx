@@ -31,7 +31,10 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
       setMapHeight(window.innerWidth < 1024 ? "200px" : "600px");
     };
 
-    updateMapHeight(); // Set initial height
+    setTimeout(() => {
+      updateMapHeight();
+    }, 100);
+
     window.addEventListener("resize", updateMapHeight);
 
     return () => {
