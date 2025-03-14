@@ -732,4 +732,85 @@ export const RESTAURANTS: Restaurant[] = [
       "Exclusive tasting menu centered around premium aquatic ingredients, including fish, shellfish, seaweed, and seabirds, all prepared with skillful techniques and subtle Japanese influences.",
     website: "https://mdghs.se/en/seafood-gastro/",
   },
+  {
+    name: "Ekstedt",
+    coordinates: {
+      longitude: 18.0748854,
+      latitude: 59.3367645,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Niklas Ekstedt",
+        description: "Previously at El Bulli",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ekstedt.jpg"),
+    description:
+      "A unique dining experience where all dishes are prepared using traditional Nordic techniques over open flames, without the use of electricity or gas",
+    website: "http://www.ekstedt.nu/",
+  },
+  {
+    name: "Dashi",
+    coordinates: {
+      longitude: 18.0657924,
+      latitude: 59.3426531,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Harry Jordås",
+        description: null,
+      },
+      {
+        name: "Nathan Turley",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/dashi.jpg"),
+    description:
+      "Offers an 'osusume' tasting menu that highlights seasonal Swedish produce, with dishes featuring the eponymous dashi broth. The dining experience is complemented by a varied sake list, all within a minimalist setting that reflects both Nordic and Japanese design aesthetics.",
+    website: "https://dashisthlm.se/",
+  },
+  {
+    name: "Allegrine",
+    coordinates: {
+      longitude: 18.0610728,
+      latitude: 59.3390253,
+    },
+    ratings: {
+      michelin: "Bib",
+    },
+    chefs: [
+      {
+        name: "Danyel Couet",
+        description: "Previously at Manufacture",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/allegrine.jpg"),
+    description:
+      "Menu rooted in classic French cuisine, featuring dishes such as gaufrette with potato and caviar, and steak tartare with foie gras and truffle brioche, all served in a chic and intimate setting.",
+    website: "http://allegrine.se/",
+  },
+  {
+    name: "Freyja + Söder",
+    coordinates: {
+      longitude: 18.068535,
+      latitude: 59.3198064,
+    },
+    chefs: [
+      {
+        name: "Emma Shields",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/freja.jpg"),
+    description:
+      "Swedish cuisine with international influences and features panoramic views of Stockholm in a vibrant atmosphere.",
+    website: "https://freyjasoder.se/",
+  },
 ];
