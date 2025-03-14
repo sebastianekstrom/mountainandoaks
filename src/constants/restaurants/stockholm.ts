@@ -528,7 +528,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://chezjolie.se",
   },
   {
-    name: "Animo Restaurant",
+    name: "Animo",
     coordinates: {
       longitude: 18.0643081,
       latitude: 59.3429635,
