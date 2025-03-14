@@ -461,4 +461,112 @@ export const RESTAURANTS: Restaurant[] = [
       "Southern French and Italian cuisines, featuring classic dishes such as Vitello Tonnato, Panzanella, and Tajarin.",
     website: "http://bar-nimes.se/",
   },
+  {
+    name: "Brutalisten",
+    coordinates: {
+      longitude: 18.0674926,
+      latitude: 59.3357663,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/brutalisten.jpg"),
+    description:
+      "Offers a menu categorized into 'Orthodox Brutalist,' 'Brutalist,' and 'Semi-Brutalist' dishes, each adhering to varying degrees of minimalism by using single ingredients prepared with minimal or no additions.",
+    website: "http://www.brutalisten.com/",
+  },
+  {
+    name: "Nour",
+    coordinates: {
+      longitude: 18.0712948,
+      latitude: 59.3357595,
+    },
+    chefs: [
+      {
+        name: "Sayan Isaksson",
+        description: "Previously at Esperanto and Imouto",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nour.jpg"),
+    description:
+      "Contemporary fusion of Nordic and Japanese cuisines, utilizing seasonal Swedish ingredients to craft innovative tasting menus.",
+    website: "http://www.restaurantnour.se/",
+  },
+  {
+    name: "Främmat",
+    coordinates: {
+      longitude: 18.0453042,
+      latitude: 59.3422275,
+    },
+    chefs: [
+      {
+        name: "Kalle Nilsson",
+        description: "Previously at Punk Royale",
+      },
+      {
+        name: "Jonas Helgesson",
+        description: "Previously at Adam/Albin",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/frammat.jpg"),
+    description:
+      "Dynamic menu rooted in classic French cuisine, complemented by innovative and creative dishes that evolve regularly.",
+    website: "https://frammat.com",
+  },
+  {
+    name: "Chez Jolie",
+    coordinates: {
+      longitude: 18.0763805,
+      latitude: 59.3339065,
+    },
+    chefs: [
+      {
+        name: "Mikael Einarsson",
+        description: "Previously at Djuret and Astoria",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/chez-jolie.jpg"),
+    description:
+      "Inspired by both the French countryside and metropolitan bistros, featuring classic dishes like oysters au gratin, crispy fried frogs' legs, pâté en croûte, and crêpe soufflé.",
+    website: "https://chezjolie.se",
+  },
+  {
+    name: "Animo Restaurant",
+    coordinates: {
+      longitude: 18.0643081,
+      latitude: 59.3429635,
+    },
+    chefs: [
+      {
+        name: "Daniel Haynes",
+        description: "Previously in the Swedish Culinary Team",
+      },
+      {
+        name: "Anders Karlsson",
+        description: "Previously in the Swedish Culinary Team",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/animo.jpg"),
+    description:
+      "Dynamic à la carte menu that evolves with the seasons, emphasizing creativity and spontaneity. The innovative cocktail bar and curated wine list complement the dishes.",
+    website: "https://www.animorestaurant.se",
+  },
+  {
+    name: "Rolfs Hav",
+    coordinates: {
+      longitude: 18.0568469,
+      latitude: 59.3385233,
+    },
+    chefs: [
+      {
+        name: "Johan Jureskog",
+        description: "Restaurang AG, Rolfs Kök",
+      },
+      {
+        name: "Klas Ljungquist",
+        description: "Restaurang AG, Rolfs Kök",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/rolfs-hav.jpg"),
+    description:
+      "Specializing in fresh seafood, Rolfs Hav offers a menu featuring dishes like oysters, caviar, and Skagen, with a focus on cold preparations.",
+    website: "https://www.rolfshav.se",
+  },
 ];
