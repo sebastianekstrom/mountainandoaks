@@ -569,4 +569,130 @@ export const RESTAURANTS: Restaurant[] = [
       "Specializing in fresh seafood, Rolfs Hav offers a menu featuring dishes like oysters, caviar, and Skagen, with a focus on cold preparations.",
     website: "https://www.rolfshav.se",
   },
+  {
+    name: "Restaurang Ärla",
+    coordinates: {
+      longitude: 18.0705407,
+      latitude: 59.3444745,
+    },
+    chefs: [
+      {
+        name: "Patric Blomquist",
+        description: "Previously at Hybrid",
+      },
+      {
+        name: "Lotta Karlsson",
+        description: "Previously at Hybrid",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/arla.jpg"),
+    description:
+      "Handcrafted dishes focusing on seasonal ingredients, blending fine dining quality with a cozy neighborhood bistro atmosphere.",
+    website: "https://www.restaurangaerla.se/",
+  },
+  {
+    name: "Bar Montan",
+    coordinates: {
+      longitude: 18.0785809,
+      latitude: 59.2924085,
+    },
+    chefs: [
+      {
+        name: "Johan Montan Ahlgren",
+        description: null,
+      },
+      {
+        name: "Öner Kulbay",
+        description: null,
+      },
+      {
+        name: "Max Duhs",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bar-montan.jpg"),
+    description:
+      "Modern European cuisine with a focus on seasonal and sustainable ingredients. The menu blends Nordic simplicity with Mediterranean flavors, featuring fresh seafood, grilled meats, and vibrant vegetable dishes.",
+    website: "http://barmontan.com/",
+  },
+  {
+    name: "RiRi",
+    coordinates: {
+      longitude: 18.0305846,
+      latitude: 59.3153111,
+    },
+    chefs: [
+      {
+        name: "Elias Kvarning",
+        description: "Previously at Fäviken, Magasinet and Ett Hem",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
+    description:
+      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame.",
+    website: "https://riri.restaurant/",
+  },
+  {
+    name: "Washoku TOMO",
+    coordinates: {
+      longitude: 18.0598619,
+      latitude: 59.318761,
+    },
+    chefs: [
+      {
+        name: "Tomoko Hayashi",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/washoku.jpg"),
+    description:
+      "Omakase sushi kaiseki course, featuring approximately 16-17 servings, including small dishes, nigiri, soup, and dessert. The menu emphasizes seasonal ingredients, with seafood sourced globally, such as Spanish sea bass, Argentinian prawns, and Canadian black cod.",
+    website: "https://www.washokutomo.se/",
+  },
+  {
+    name: "Noema",
+    coordinates: {
+      longitude: 18.0644833,
+      latitude: 59.3423098,
+    },
+    chefs: [
+      {
+        name: "Acki Kokotos",
+        description: "Previously at Un poco and Balzac",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/noema.jpg"),
+    description:
+      "Blends luxury and warmth in the iconic Wallenstam building, offering refined small plates and premium meats in a lively setting. Expertly crafted dishes and a vibrant atmosphere make it a top Stockholm dining spot.",
+    website: "http://noemastockholm.se/",
+  },
+  {
+    name: "Mormors Dumplings",
+    coordinates: {
+      longitude: 18.0853485,
+      latitude: 59.3135728,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/mormor.jpg"),
+    description:
+      "Features a variety of dumplings, hotpots, and traditional dishes like Kung Pao chicken, all served in a cozy and genuine atmosphere.",
+    website:
+      "https://www.instagram.com/explore/locations/7654195/mormors-dumplings/?hl=en",
+  },
+  {
+    name: "Essence",
+    coordinates: {
+      longitude: 18.0057876,
+      latitude: 59.332306,
+    },
+    chefs: [
+      {
+        name: "Stefan Taylor",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/essence.jpg"),
+    description:
+      "A 10-seat chef's table concept, guests are served a set tasting menu that evolves daily, showcasing innovative dishes prepared in an open kitchen.",
+    website: "http://www.restaurantessence.com/",
+  },
 ];
