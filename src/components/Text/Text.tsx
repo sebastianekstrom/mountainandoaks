@@ -38,7 +38,17 @@ const bodyFont = localFont({
 interface Props {
   children: React.ReactNode;
   extra?: React.ReactNode;
-  variant?: "body" | "h1" | "h2" | "h3" | "h4" | "caption" | "ingress" | "logo";
+  variant?:
+    | "body"
+    | "h1"
+    | "h2"
+    | "h3"
+    | "h4"
+    | "h5"
+    | "caption"
+    | "ingress"
+    | "logo"
+    | "badge";
   classNames?: string;
   anchorID?: string;
 }
@@ -54,6 +64,17 @@ export const Text = ({
   const id = convertStringToID(anchorID);
 
   switch (variant) {
+    case "badge":
+      return (
+        <>
+          <p
+            className={`${bodyFont.variable} font-sans text-[12px] leading-[14px] ${additionalClasses}`}
+          >
+            {children}
+          </p>
+          {extra}
+        </>
+      );
     case "caption":
       return (
         <>
@@ -143,6 +164,21 @@ export const Text = ({
       }
 
       return h4;
+    }
+    case "h5": {
+      const h5 = (
+        <h4
+          id={anchorID ? id : undefined}
+          className={`${AnekGujarati.variable} font-heading font-bold text-h5 leading-h5 text-regular ${additionalClasses}`}
+        >
+          {children}
+        </h4>
+      );
+      if (anchorID) {
+        return <a href={`#${id}`}>{h5}</a>;
+      }
+
+      return h5;
     }
     case "logo":
       return (
