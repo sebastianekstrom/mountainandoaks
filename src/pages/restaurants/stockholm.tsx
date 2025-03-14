@@ -184,9 +184,12 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                       </Text>
                     </div>
                     <div className="relative">
-                      <img
+                      <Image
+                        width={190}
+                        height={400}
                         className="w-full h-[190px] object-cover mb-2"
                         src={restaurant.image}
+                        key={`${restaurant.name}-star-${index + 1}`}
                         alt=""
                       />
                     </div>
