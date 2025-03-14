@@ -570,7 +570,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.rolfshav.se",
   },
   {
-    name: "Restaurang Ärla",
+    name: "Ärla",
     coordinates: {
       longitude: 18.0705407,
       latitude: 59.3444745,
