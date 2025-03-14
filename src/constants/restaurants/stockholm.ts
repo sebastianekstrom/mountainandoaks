@@ -27,6 +27,208 @@ interface Restaurant {
 
 export const RESTAURANTS: Restaurant[] = [
   {
+    name: "Aloë",
+    coordinates: {
+      longitude: 17.9854555,
+      latitude: 59.2842603,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
+    ratings: {
+      michelin: 2,
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Daniel Höglander",
+        description: null,
+      },
+      {
+        name: "Niclas Jönsson",
+        description: null,
+      },
+    ],
+    description:
+      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
+    website: "http://aloerestaurant.se/",
+  },
+  {
+    name: "Punk Royale",
+    coordinates: {
+      longitude: 18.0875824,
+      latitude: 59.3154739,
+    },
+    ratings: {
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Joakim Almqvist",
+        description: null,
+      },
+      {
+        name: "Kalle Nilsson",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
+    description:
+      "Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways. ",
+    website: "https://punkroyale.se/punk-royale-sthlm",
+  },
+  {
+    name: "Miyakodori",
+    coordinates: {
+      longitude: 18.0539402,
+      latitude: 59.3368766,
+    },
+    ratings: {
+      "m&o": 8.5,
+    },
+    chefs: [
+      {
+        name: "Max Westerlund Inazawa",
+        description: "Previously at Frantzén",
+      },
+      {
+        name: "John Forsell",
+        description: "Previously at Restaurang AG, Rolfs Kök",
+      },
+      {
+        name: "Lars Brennwald",
+        description: "Previously at Frantzén, Adam/Albin",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/miyakodori.jpg"),
+    description:
+      "Japanese izakaya featuring a variety of grilled skewers, including meat, fish, and vegetarian options, alongside small dishes like salmon sashimi and deep-fried kara-age chicken.",
+    website: "https://miyakodori.se/",
+  },
+  {
+    name: "Hantverket",
+    coordinates: {
+      longitude: 18.0766794,
+      latitude: 59.3414547,
+    },
+    chefs: [{ name: "Stefan Ekengren", description: null }],
+    ratings: {
+      "m&o": 8.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
+    description:
+      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors.",
+    website: "http://restauranghantverket.se/",
+  },
+  {
+    name: "Woodstockholm",
+    coordinates: {
+      longitude: 18.0749719,
+      latitude: 59.3177645,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
+    description:
+      "Offers a themed menu that changes every two months, focusing on organically produced food and wine. The ambiance is intimate and cozy, featuring handcrafted furnishings and a vibrant atmosphere.",
+    website: "http://www.woodstockholm.com/",
+  },
+  {
+    name: "Restaurant AG",
+    coordinates: {
+      longitude: 18.0346802,
+      latitude: 59.3352467,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Johan Jureskog",
+        description: "Rolfs Kök",
+      },
+      {
+        name: "Klas Ljungqvist",
+        description: "Rolfs Kök",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ag.jpg"),
+    description:
+      "Renowned steakhouse specializing in premium meats, Restaurang AG offers a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
+    website: "http://www.restaurangag.se/",
+  },
+  {
+    name: "Barbro",
+    coordinates: {
+      longitude: 18.033092,
+      latitude: 59.314362,
+    },
+    ratings: {
+      "m&o": 7.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/barbro.jpg"),
+    description:
+      "Asian fusion offering a menu featuring sushi, dumplings, and other Asian-inspired dishes, all designed for sharing.",
+    website: "http://bar-bro.se/",
+  },
+  {
+    name: "Rolfs Kök",
+    coordinates: {
+      longitude: 18.056967,
+      latitude: 59.3387009,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    chefs: [
+      {
+        name: "Johan Jureskog",
+        description: null,
+      },
+      {
+        name: "Klas Ljungquist",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/rolfs-kok.jpg"),
+    description:
+      "Modern bistro focusing on simplicity and high-quality ingredients, featuring dishes like confit pork belly and reindeer schnitzel.",
+    website: "https://rolfskok.se/",
+  },
+  {
+    name: "Brasseri Astoria",
+    coordinates: {
+      longitude: 18.0772553,
+      latitude: 59.3348538,
+    },
+    ratings: {
+      "m&o": 6.5,
+    },
+    chefs: [
+      {
+        name: "Björn Frantzén",
+        description: "Frantzén, Zén, FZN",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/astoria.jpg"),
+    description:
+      "Housed in the meticulously restored former Astoria Cinema from the 1870s, Brasserie Astoria offers a menu of modern brasserie classics with occasional Asian influences, utilizing quality produce.",
+    website: "https://www.brasserieastoria.com/",
+  },
+  {
+    name: "Yono Sabo",
+    coordinates: {
+      longitude: 18.0618303,
+      latitude: 59.3392377,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
+    description:
+      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls, with influences from Asian cuisines, served in a cozy and vibrant atmosphere.",
+    website: "https://www.yonosabo.se",
+  },
+  {
     name: "Babette",
     coordinates: {
       longitude: 18.0615475,
@@ -98,21 +300,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Modernized Swedish classics, featuring robust and well-composed dishes that deliver on flavor.",
     website: "https://babette.se/",
-  },
-  {
-    name: "Hantverket",
-    coordinates: {
-      longitude: 18.0766794,
-      latitude: 59.3414547,
-    },
-    chefs: [{ name: "Stefan Ekengren", description: null }],
-    ratings: {
-      "m&o": 8.5,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
-    description:
-      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors.",
-    website: "http://restauranghantverket.se/",
   },
   {
     name: "Allegrine",
@@ -193,69 +380,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.celesterestaurant.se",
   },
   {
-    name: "Aloë",
-    coordinates: {
-      longitude: 17.9854555,
-      latitude: 59.2842603,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
-    ratings: {
-      michelin: 2,
-      "m&o": 10,
-    },
-    chefs: [
-      {
-        name: "Daniel Höglander",
-        description: null,
-      },
-      {
-        name: "Niclas Jönsson",
-        description: null,
-      },
-    ],
-    description:
-      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
-    website: "http://aloerestaurant.se/",
-  },
-  {
-    name: "Woodstockholm",
-    coordinates: {
-      longitude: 18.0749719,
-      latitude: 59.3177645,
-    },
-    ratings: {
-      "m&o": 8,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
-    description:
-      "Offers a themed menu that changes every two months, focusing on organically produced food and wine. The ambiance is intimate and cozy, featuring handcrafted furnishings and a vibrant atmosphere.",
-    website: "http://www.woodstockholm.com/",
-  },
-  {
-    name: "Punk Royale",
-    coordinates: {
-      longitude: 18.0875824,
-      latitude: 59.3154739,
-    },
-    ratings: {
-      "m&o": 10,
-    },
-    chefs: [
-      {
-        name: "Joakim Almqvist",
-        description: null,
-      },
-      {
-        name: "Kalle Nilsson",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
-    description:
-      "Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways. ",
-    website: "https://punkroyale.se/punk-royale-sthlm",
-  },
-  {
     name: "Aira",
     coordinates: {
       longitude: 18.1235938,
@@ -280,152 +404,164 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://babette.se/",
   },
   {
-    name: "Rolfs Kök",
+    name: "Bar Montan",
     coordinates: {
-      longitude: 18.056967,
-      latitude: 59.3387009,
-    },
-    ratings: {
-      "m&o": 7,
+      longitude: 18.0785809,
+      latitude: 59.2924085,
     },
     chefs: [
       {
-        name: "Johan Jureskog",
+        name: "Johan Montan Ahlgren",
         description: null,
       },
       {
-        name: "Klas Ljungquist",
+        name: "Öner Kulbay",
+        description: null,
+      },
+      {
+        name: "Max Duhs",
         description: null,
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/rolfs-kok.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bar-montan.jpg"),
     description:
-      "Modern bistro focusing on simplicity and high-quality ingredients, featuring dishes like confit pork belly and reindeer schnitzel.",
-    website: "https://rolfskok.se/",
+      "Modern European cuisine with a focus on seasonal and sustainable ingredients. The menu blends Nordic simplicity with Mediterranean flavors, featuring fresh seafood, grilled meats, and vibrant vegetable dishes.",
+    website: "http://barmontan.com/",
   },
   {
-    name: "Brasseri Astoria",
+    name: "RiRi",
     coordinates: {
-      longitude: 18.0772553,
-      latitude: 59.3348538,
-    },
-    ratings: {
-      "m&o": 6.5,
+      longitude: 18.0305846,
+      latitude: 59.3153111,
     },
     chefs: [
       {
-        name: "Björn Frantzén",
-        description: "Frantzén, Zén, FZN",
+        name: "Elias Kvarning",
+        description: "Previously at Fäviken, Magasinet and Ett Hem",
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/astoria.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
     description:
-      "Housed in the meticulously restored former Astoria Cinema from the 1870s, Brasserie Astoria offers a menu of modern brasserie classics with occasional Asian influences, utilizing quality produce.",
-    website: "https://www.brasserieastoria.com/",
+      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame.",
+    website: "https://riri.restaurant/",
   },
   {
-    name: "Yono Sabo",
+    name: "Washoku TOMO",
     coordinates: {
-      longitude: 18.0618303,
-      latitude: 59.3392377,
-    },
-    ratings: {
-      "m&o": 6,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
-    description:
-      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls, with influences from Asian cuisines, served in a cozy and vibrant atmosphere.",
-    website: "https://www.yonosabo.se",
-  },
-  {
-    name: "Restaurant AG",
-    coordinates: {
-      longitude: 18.0346802,
-      latitude: 59.3352467,
-    },
-    ratings: {
-      "m&o": 8,
+      longitude: 18.0598619,
+      latitude: 59.318761,
     },
     chefs: [
       {
-        name: "Johan Jureskog",
-        description: "Rolfs Kök",
-      },
-      {
-        name: "Klas Ljungqvist",
-        description: "Rolfs Kök",
+        name: "Tomoko Hayashi",
+        description: null,
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/ag.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/washoku.jpg"),
     description:
-      "Renowned steakhouse specializing in premium meats, Restaurang AG offers a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
-    website: "http://www.restaurangag.se/",
+      "Omakase sushi kaiseki course, featuring approximately 16-17 servings, including small dishes, nigiri, soup, and dessert. The menu emphasizes seasonal ingredients, with seafood sourced globally, such as Spanish sea bass, Argentinian prawns, and Canadian black cod.",
+    website: "https://www.washokutomo.se/",
   },
   {
-    name: "Miyakodori",
+    name: "Noema",
     coordinates: {
-      longitude: 18.0539402,
-      latitude: 59.3368766,
-    },
-    ratings: {
-      "m&o": 8.5,
+      longitude: 18.0644833,
+      latitude: 59.3423098,
     },
     chefs: [
       {
-        name: "Max Westerlund Inazawa",
-        description: "Previously at Frantzén",
-      },
-      {
-        name: "John Forsell",
-        description: "Previously at Restaurang AG, Rolfs Kök",
-      },
-      {
-        name: "Lars Brennwald",
-        description: "Previously at Frantzén, Adam/Albin",
+        name: "Acki Kokotos",
+        description: "Previously at Un poco and Balzac",
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/miyakodori.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/noema.jpg"),
     description:
-      "Japanese izakaya featuring a variety of grilled skewers, including meat, fish, and vegetarian options, alongside small dishes like salmon sashimi and deep-fried kara-age chicken.",
-    website: "https://miyakodori.se/",
+      "Blends luxury and warmth in the iconic Wallenstam building, offering refined small plates and premium meats in a lively setting. Expertly crafted dishes and a vibrant atmosphere make it a top Stockholm dining spot.",
+    website: "http://noemastockholm.se/",
   },
   {
-    name: "Adam/Albin",
+    name: "Mormors Dumplings",
     coordinates: {
-      longitude: 18.066069,
-      latitude: 59.3430723,
+      longitude: 18.0853485,
+      latitude: 59.3135728,
     },
-    ratings: {
-      michelin: 1,
+    image: require("../../../public/images/restaurants/stockholm/restaurants/mormor.jpg"),
+    description:
+      "Features a variety of dumplings, hotpots, and traditional dishes like Kung Pao chicken, all served in a cozy and genuine atmosphere.",
+    website:
+      "https://www.instagram.com/explore/locations/7654195/mormors-dumplings/?hl=en",
+  },
+  {
+    name: "Essence",
+    coordinates: {
+      longitude: 18.0057876,
+      latitude: 59.332306,
     },
     chefs: [
       {
-        name: "Adam Dahlberg",
-        description: "Solen, MISSHUMASSHU",
-      },
-      {
-        name: "Albin Wessman",
-        description: "Solen, MISSHUMASSHU",
+        name: "Stefan Taylor",
+        description: null,
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/adam-albin.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/essence.jpg"),
     description:
-      "Offers a tasting menu that showcases luxury Nordic produce with global influences, featuring dishes like artichoke barigoule and mushroom chawanmushi.",
-    website: "http://adamalbin.se",
+      "A 10-seat chef's table concept, guests are served a set tasting menu that evolves daily, showcasing innovative dishes prepared in an open kitchen.",
+    website: "http://www.restaurantessence.com/",
   },
   {
-    name: "Barbro",
+    name: "Ergo",
     coordinates: {
-      longitude: 18.033092,
-      latitude: 59.314362,
+      longitude: 18.0809041,
+      latitude: 59.3337489,
     },
-    ratings: {
-      "m&o": 7.5,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/barbro.jpg"),
+    chefs: [
+      {
+        name: "Petter Johansson",
+        description: "Previously at Frantzén, Per Se and Bon Lloc",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ergo.jpg"),
     description:
-      "Asian fusion offering a menu featuring sushi, dumplings, and other Asian-inspired dishes, all designed for sharing.",
-    website: "http://bar-bro.se/",
+      "Modern fine dining experience with a seasonal 5-course evening menu and a 3-course prix fixe lunch menu, both showcasing French culinary techniques and seasonal ingredients.",
+    website: "https://www.restaurantergo.se",
+  },
+  {
+    name: "Freyja + Söder",
+    coordinates: {
+      longitude: 18.068535,
+      latitude: 59.3198064,
+    },
+    chefs: [
+      {
+        name: "Emma Shields",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/freja.jpg"),
+    description:
+      "Swedish cuisine with international influences and features panoramic views of Stockholm in a vibrant atmosphere.",
+    website: "https://freyjasoder.se/",
+  },
+  {
+    name: "Ärla",
+    coordinates: {
+      longitude: 18.0705407,
+      latitude: 59.3444745,
+    },
+    chefs: [
+      {
+        name: "Patric Blomquist",
+        description: "Previously at Hybrid",
+      },
+      {
+        name: "Lotta Karlsson",
+        description: "Previously at Hybrid",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/arla.jpg"),
+    description:
+      "Handcrafted dishes focusing on seasonal ingredients, blending fine dining quality with a cozy neighborhood bistro atmosphere.",
+    website: "https://www.restaurangaerla.se/",
   },
   {
     name: "Racamaca",
@@ -652,165 +788,5 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Specializing in fresh seafood, Rolfs Hav offers a menu featuring dishes like oysters, caviar, and Skagen, with a focus on cold preparations.",
     website: "https://www.rolfshav.se",
-  },
-  {
-    name: "Ärla",
-    coordinates: {
-      longitude: 18.0705407,
-      latitude: 59.3444745,
-    },
-    chefs: [
-      {
-        name: "Patric Blomquist",
-        description: "Previously at Hybrid",
-      },
-      {
-        name: "Lotta Karlsson",
-        description: "Previously at Hybrid",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/arla.jpg"),
-    description:
-      "Handcrafted dishes focusing on seasonal ingredients, blending fine dining quality with a cozy neighborhood bistro atmosphere.",
-    website: "https://www.restaurangaerla.se/",
-  },
-  {
-    name: "Bar Montan",
-    coordinates: {
-      longitude: 18.0785809,
-      latitude: 59.2924085,
-    },
-    chefs: [
-      {
-        name: "Johan Montan Ahlgren",
-        description: null,
-      },
-      {
-        name: "Öner Kulbay",
-        description: null,
-      },
-      {
-        name: "Max Duhs",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/bar-montan.jpg"),
-    description:
-      "Modern European cuisine with a focus on seasonal and sustainable ingredients. The menu blends Nordic simplicity with Mediterranean flavors, featuring fresh seafood, grilled meats, and vibrant vegetable dishes.",
-    website: "http://barmontan.com/",
-  },
-  {
-    name: "RiRi",
-    coordinates: {
-      longitude: 18.0305846,
-      latitude: 59.3153111,
-    },
-    chefs: [
-      {
-        name: "Elias Kvarning",
-        description: "Previously at Fäviken, Magasinet and Ett Hem",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
-    description:
-      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame.",
-    website: "https://riri.restaurant/",
-  },
-  {
-    name: "Washoku TOMO",
-    coordinates: {
-      longitude: 18.0598619,
-      latitude: 59.318761,
-    },
-    chefs: [
-      {
-        name: "Tomoko Hayashi",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/washoku.jpg"),
-    description:
-      "Omakase sushi kaiseki course, featuring approximately 16-17 servings, including small dishes, nigiri, soup, and dessert. The menu emphasizes seasonal ingredients, with seafood sourced globally, such as Spanish sea bass, Argentinian prawns, and Canadian black cod.",
-    website: "https://www.washokutomo.se/",
-  },
-  {
-    name: "Noema",
-    coordinates: {
-      longitude: 18.0644833,
-      latitude: 59.3423098,
-    },
-    chefs: [
-      {
-        name: "Acki Kokotos",
-        description: "Previously at Un poco and Balzac",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/noema.jpg"),
-    description:
-      "Blends luxury and warmth in the iconic Wallenstam building, offering refined small plates and premium meats in a lively setting. Expertly crafted dishes and a vibrant atmosphere make it a top Stockholm dining spot.",
-    website: "http://noemastockholm.se/",
-  },
-  {
-    name: "Mormors Dumplings",
-    coordinates: {
-      longitude: 18.0853485,
-      latitude: 59.3135728,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/mormor.jpg"),
-    description:
-      "Features a variety of dumplings, hotpots, and traditional dishes like Kung Pao chicken, all served in a cozy and genuine atmosphere.",
-    website:
-      "https://www.instagram.com/explore/locations/7654195/mormors-dumplings/?hl=en",
-  },
-  {
-    name: "Essence",
-    coordinates: {
-      longitude: 18.0057876,
-      latitude: 59.332306,
-    },
-    chefs: [
-      {
-        name: "Stefan Taylor",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/essence.jpg"),
-    description:
-      "A 10-seat chef's table concept, guests are served a set tasting menu that evolves daily, showcasing innovative dishes prepared in an open kitchen.",
-    website: "http://www.restaurantessence.com/",
-  },
-  {
-    name: "Ergo",
-    coordinates: {
-      longitude: 18.0809041,
-      latitude: 59.3337489,
-    },
-    chefs: [
-      {
-        name: "Petter Johansson",
-        description: "Previously at Frantzén, Per Se and Bon Lloc",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/ergo.jpg"),
-    description:
-      "Modern fine dining experience with a seasonal 5-course evening menu and a 3-course prix fixe lunch menu, both showcasing French culinary techniques and seasonal ingredients.",
-    website: "https://www.restaurantergo.se",
-  },
-  {
-    name: "Freyja + Söder",
-    coordinates: {
-      longitude: 18.068535,
-      latitude: 59.3198064,
-    },
-    chefs: [
-      {
-        name: "Emma Shields",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/freja.jpg"),
-    description:
-      "Swedish cuisine with international influences and features panoramic views of Stockholm in a vibrant atmosphere.",
-    website: "https://freyjasoder.se/",
   },
 ];
