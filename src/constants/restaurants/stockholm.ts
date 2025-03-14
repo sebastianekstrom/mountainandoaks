@@ -52,6 +52,30 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://babette.se/",
   },
   {
+    name: "Dashi",
+    coordinates: {
+      longitude: 18.0657924,
+      latitude: 59.3426531,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Harry Jordås",
+        description: null,
+      },
+      {
+        name: "Nathan Turley",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/dashi.jpg"),
+    description:
+      "Offers an 'osusume' tasting menu that highlights seasonal Swedish produce, with dishes featuring the eponymous dashi broth. The dining experience is complemented by a varied sake list, all within a minimalist setting that reflects both Nordic and Japanese design aesthetics.",
+    website: "https://dashisthlm.se/",
+  },
+  {
     name: "Lilla Ego",
     coordinates: {
       longitude: 18.0454852,
@@ -76,18 +100,184 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://babette.se/",
   },
   {
-    name: "Yono Sabo",
+    name: "Hantverket",
     coordinates: {
-      longitude: 18.0618303,
-      latitude: 59.3392377,
+      longitude: 18.0766794,
+      latitude: 59.3414547,
+    },
+    chefs: [{ name: "Stefan Ekengren", description: null }],
+    ratings: {
+      "m&o": 8.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
+    description:
+      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors.",
+    website: "http://restauranghantverket.se/",
+  },
+  {
+    name: "Allegrine",
+    coordinates: {
+      longitude: 18.0610728,
+      latitude: 59.3390253,
     },
     ratings: {
-      "m&o": 6,
+      michelin: "Bib",
     },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
+    chefs: [
+      {
+        name: "Danyel Couet",
+        description: "Previously at Manufacture",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/allegrine.jpg"),
     description:
-      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls, with influences from Asian cuisines, served in a cozy and vibrant atmosphere.",
-    website: "https://www.yonosabo.se",
+      "Menu rooted in classic French cuisine, featuring dishes such as gaufrette with potato and caviar, and steak tartare with foie gras and truffle brioche, all served in a chic and intimate setting.",
+    website: "http://allegrine.se/",
+  },
+  {
+    name: "Ekstedt",
+    coordinates: {
+      longitude: 18.0748854,
+      latitude: 59.3367645,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Niklas Ekstedt",
+        description: "Previously at El Bulli",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ekstedt.jpg"),
+    description:
+      "A unique dining experience where all dishes are prepared using traditional Nordic techniques over open flames, without the use of electricity or gas",
+    website: "http://www.ekstedt.nu/",
+  },
+  {
+    name: "Seafood Gastro",
+    coordinates: {
+      longitude: 18.0762633,
+      latitude: 59.3293149,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Mathias Dahlgren",
+        description: "Winner of Bocuse d'Or. Matsalen, Rutabaga and Bon Lloc.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/seafood.jpg"),
+    description:
+      "Exclusive tasting menu centered around premium aquatic ingredients, including fish, shellfish, seaweed, and seabirds, all prepared with skillful techniques and subtle Japanese influences.",
+    website: "https://mdghs.se/en/seafood-gastro/",
+  },
+  {
+    name: "Celeste",
+    coordinates: {
+      longitude: 18.0573847,
+      latitude: 59.3166183,
+    },
+    chefs: [
+      { name: "Jonas Lagerström", description: "Etoile" },
+      { name: "Rachel Wennemo", description: "Etoile" },
+    ],
+    ratings: {
+      michelin: 2,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/celeste.jpg"),
+    description:
+      "Celeste offers a modern tasting menu that evolves with the seasons, showcasing precision and balance in each dish, such as their tartlet filled with Swedish beef tartare.",
+    website: "http://www.celesterestaurant.se",
+  },
+  {
+    name: "Aloë",
+    coordinates: {
+      longitude: 17.9854555,
+      latitude: 59.2842603,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
+    ratings: {
+      michelin: 2,
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Daniel Höglander",
+        description: null,
+      },
+      {
+        name: "Niclas Jönsson",
+        description: null,
+      },
+    ],
+    description:
+      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
+    website: "http://aloerestaurant.se/",
+  },
+  {
+    name: "Woodstockholm",
+    coordinates: {
+      longitude: 18.0749719,
+      latitude: 59.3177645,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
+    description:
+      "Offers a themed menu that changes every two months, focusing on organically produced food and wine. The ambiance is intimate and cozy, featuring handcrafted furnishings and a vibrant atmosphere.",
+    website: "http://www.woodstockholm.com/",
+  },
+  {
+    name: "Punk Royale",
+    coordinates: {
+      longitude: 18.0875824,
+      latitude: 59.3154739,
+    },
+    ratings: {
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Joakim Almqvist",
+        description: null,
+      },
+      {
+        name: "Kalle Nilsson",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
+    description:
+      "Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways. ",
+    website: "https://punkroyale.se/punk-royale-sthlm",
+  },
+  {
+    name: "Aira",
+    coordinates: {
+      longitude: 18.1235938,
+      latitude: 59.3208925,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
+    ratings: {
+      michelin: 2,
+    },
+    chefs: [
+      {
+        name: "Tommy Myllymäki",
+        description: "Previously at restaurant Niklas",
+      },
+      {
+        name: "Pi Le",
+        description: "Gold winner with the junior national chef team",
+      },
+    ],
+    description:
+      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
+    website: "https://babette.se/",
   },
   {
     name: "Rolfs Kök",
@@ -96,7 +286,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3387009,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 7,
     },
     chefs: [
       {
@@ -134,6 +324,44 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.brasserieastoria.com/",
   },
   {
+    name: "Yono Sabo",
+    coordinates: {
+      longitude: 18.0618303,
+      latitude: 59.3392377,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
+    description:
+      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls, with influences from Asian cuisines, served in a cozy and vibrant atmosphere.",
+    website: "https://www.yonosabo.se",
+  },
+  {
+    name: "Restaurant AG",
+    coordinates: {
+      longitude: 18.0346802,
+      latitude: 59.3352467,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Johan Jureskog",
+        description: "Rolfs Kök",
+      },
+      {
+        name: "Klas Ljungqvist",
+        description: "Rolfs Kök",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ag.jpg"),
+    description:
+      "Renowned steakhouse specializing in premium meats, Restaurang AG offers a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
+    website: "http://www.restaurangag.se/",
+  },
+  {
     name: "Miyakodori",
     coordinates: {
       longitude: 18.0539402,
@@ -162,136 +390,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://miyakodori.se/",
   },
   {
-    name: "Aloë",
-    coordinates: {
-      longitude: 17.9854555,
-      latitude: 59.2842603,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
-    ratings: {
-      michelin: 2,
-      "m&o": 10,
-    },
-    chefs: [
-      {
-        name: "Daniel Höglander",
-        description: null,
-      },
-      {
-        name: "Niclas Jönsson",
-        description: null,
-      },
-    ],
-    description:
-      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
-    website: "http://aloerestaurant.se/",
-  },
-  {
-    name: "Racamaca",
-    coordinates: {
-      longitude: 18.0638492,
-      latitude: 59.3168579,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/racamaca.jpg"),
-    description:
-      "Racamaca offers a menu inspired by Basque cuisine, featuring pintxos and small dishes such as garbanzo beans, boquerones, and chistorra sausage. The ambiance is intimate and lively, complemented by a curated selection of wines and beers.",
-    website: "http://www.racamaca.se/",
-  },
-  {
-    name: "Café Nizza",
-    coordinates: {
-      longitude: 18.086638,
-      latitude: 59.3146593,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
-    description:
-      "Offers a menu blending French and Italian culinary traditions, featuring dishes such as 'Fermentata cacio e pepe' and 'Agnolotti with ricotta, capers & taggiasca olives'.",
-    website: "http://www.cafenizza.se/",
-  },
-  {
-    name: "Woodstockholm",
-    coordinates: {
-      longitude: 18.0749719,
-      latitude: 59.3177645,
-    },
-    ratings: {
-      "m&o": 8,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
-    description:
-      "Offers a themed menu that changes every two months, focusing on organically produced food and wine. The ambiance is intimate and cozy, featuring handcrafted furnishings and a vibrant atmosphere.",
-    website: "http://www.woodstockholm.com/",
-  },
-  {
-    name: "Slipen",
-    coordinates: {
-      longitude: 18.1016014,
-      latitude: 59.3223377,
-    },
-    chefs: [
-      {
-        name: "David Zetterström",
-        description: null,
-      },
-      {
-        name: "Lotta Zetterström",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/slipen.jpg"),
-    description:
-      "Menu inspired by European cuisine, featuring hearty and uncomplicated dishes such as oysters, tartare, bone-in beef, and cod loin.",
-    website: "https://slipen.se/",
-  },
-  {
-    name: "Aira",
-    coordinates: {
-      longitude: 18.1235938,
-      latitude: 59.3208925,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
-    ratings: {
-      michelin: 2,
-    },
-    chefs: [
-      {
-        name: "Tommy Myllymäki",
-        description: "Previously at restaurant Niklas",
-      },
-      {
-        name: "Pi Le",
-        description: "Gold winner with the junior national chef team",
-      },
-    ],
-    description:
-      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
-    website: "https://babette.se/",
-  },
-  {
-    name: "Restaurant AG",
-    coordinates: {
-      longitude: 18.0346802,
-      latitude: 59.3352467,
-    },
-    ratings: {
-      "m&o": 8,
-    },
-    chefs: [
-      {
-        name: "Johan Jureskog",
-        description: "Rolfs Kök",
-      },
-      {
-        name: "Klas Ljungqvist",
-        description: "Rolfs Kök",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/ag.jpg"),
-    description:
-      "Renowned steakhouse specializing in premium meats, Restaurang AG offers a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
-    website: "http://www.restaurangag.se/",
-  },
-  {
     name: "Adam/Albin",
     coordinates: {
       longitude: 18.066069,
@@ -316,30 +414,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://adamalbin.se",
   },
   {
-    name: "Punk Royale",
-    coordinates: {
-      longitude: 18.0875824,
-      latitude: 59.3154739,
-    },
-    ratings: {
-      "m&o": 10,
-    },
-    chefs: [
-      {
-        name: "Joakim Almqvist",
-        description: null,
-      },
-      {
-        name: "Kalle Nilsson",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
-    description:
-      "Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways. ",
-    website: "https://punkroyale.se/punk-royale-sthlm",
-  },
-  {
     name: "Barbro",
     coordinates: {
       longitude: 18.033092,
@@ -354,37 +428,47 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://bar-bro.se/",
   },
   {
-    name: "Hantverket",
+    name: "Racamaca",
     coordinates: {
-      longitude: 18.0766794,
-      latitude: 59.3414547,
+      longitude: 18.0638492,
+      latitude: 59.3168579,
     },
-    chefs: [{ name: "Stefan Ekengren", description: null }],
-    ratings: {
-      "m&o": 8.5,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/racamaca.jpg"),
     description:
-      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors.",
-    website: "http://restauranghantverket.se/",
+      "Racamaca offers a menu inspired by Basque cuisine, featuring pintxos and small dishes such as garbanzo beans, boquerones, and chistorra sausage. The ambiance is intimate and lively, complemented by a curated selection of wines and beers.",
+    website: "http://www.racamaca.se/",
   },
   {
-    name: "Celeste",
+    name: "Café Nizza",
     coordinates: {
-      longitude: 18.0573847,
-      latitude: 59.3166183,
+      longitude: 18.086638,
+      latitude: 59.3146593,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
+    description:
+      "Offers a menu blending French and Italian culinary traditions, featuring dishes such as 'Fermentata cacio e pepe' and 'Agnolotti with ricotta, capers & taggiasca olives'.",
+    website: "http://www.cafenizza.se/",
+  },
+  {
+    name: "Slipen",
+    coordinates: {
+      longitude: 18.1016014,
+      latitude: 59.3223377,
     },
     chefs: [
-      { name: "Jonas Lagerström", description: "Etoile" },
-      { name: "Rachel Wennemo", description: "Etoile" },
+      {
+        name: "David Zetterström",
+        description: null,
+      },
+      {
+        name: "Lotta Zetterström",
+        description: null,
+      },
     ],
-    ratings: {
-      michelin: 2,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/celeste.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/slipen.jpg"),
     description:
-      "Celeste offers a modern tasting menu that evolves with the seasons, showcasing precision and balance in each dish, such as their tartlet filled with Swedish beef tartare.",
-    website: "http://www.celesterestaurant.se",
+      "Menu inspired by European cuisine, featuring hearty and uncomplicated dishes such as oysters, tartare, bone-in beef, and cod loin.",
+    website: "https://slipen.se/",
   },
   {
     name: "Persona",
@@ -711,90 +795,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Modern fine dining experience with a seasonal 5-course evening menu and a 3-course prix fixe lunch menu, both showcasing French culinary techniques and seasonal ingredients.",
     website: "https://www.restaurantergo.se",
-  },
-  {
-    name: "Seafood Gastro",
-    coordinates: {
-      longitude: 18.0762633,
-      latitude: 59.3293149,
-    },
-    ratings: {
-      michelin: 1,
-    },
-    chefs: [
-      {
-        name: "Mathias Dahlgren",
-        description: "Winner of Bocuse d'Or. Matsalen, Rutabaga and Bon Lloc.",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/seafood.jpg"),
-    description:
-      "Exclusive tasting menu centered around premium aquatic ingredients, including fish, shellfish, seaweed, and seabirds, all prepared with skillful techniques and subtle Japanese influences.",
-    website: "https://mdghs.se/en/seafood-gastro/",
-  },
-  {
-    name: "Ekstedt",
-    coordinates: {
-      longitude: 18.0748854,
-      latitude: 59.3367645,
-    },
-    ratings: {
-      michelin: 1,
-    },
-    chefs: [
-      {
-        name: "Niklas Ekstedt",
-        description: "Previously at El Bulli",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/ekstedt.jpg"),
-    description:
-      "A unique dining experience where all dishes are prepared using traditional Nordic techniques over open flames, without the use of electricity or gas",
-    website: "http://www.ekstedt.nu/",
-  },
-  {
-    name: "Dashi",
-    coordinates: {
-      longitude: 18.0657924,
-      latitude: 59.3426531,
-    },
-    ratings: {
-      michelin: 1,
-    },
-    chefs: [
-      {
-        name: "Harry Jordås",
-        description: null,
-      },
-      {
-        name: "Nathan Turley",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/dashi.jpg"),
-    description:
-      "Offers an 'osusume' tasting menu that highlights seasonal Swedish produce, with dishes featuring the eponymous dashi broth. The dining experience is complemented by a varied sake list, all within a minimalist setting that reflects both Nordic and Japanese design aesthetics.",
-    website: "https://dashisthlm.se/",
-  },
-  {
-    name: "Allegrine",
-    coordinates: {
-      longitude: 18.0610728,
-      latitude: 59.3390253,
-    },
-    ratings: {
-      michelin: "Bib",
-    },
-    chefs: [
-      {
-        name: "Danyel Couet",
-        description: "Previously at Manufacture",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/allegrine.jpg"),
-    description:
-      "Menu rooted in classic French cuisine, featuring dishes such as gaufrette with potato and caviar, and steak tartare with foie gras and truffle brioche, all served in a chic and intimate setting.",
-    website: "http://allegrine.se/",
   },
   {
     name: "Freyja + Söder",
