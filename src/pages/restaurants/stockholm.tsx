@@ -201,9 +201,9 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                         <div>
                           {restaurant.ratings.michelin === "Bib" ? (
                             <Image
-                              width={16}
-                              height={16}
-                              className="w-[16px] h-auto"
+                              width={20}
+                              height={20}
+                              className="w-[20px] h-auto"
                               src="/images/misc/bib-gourmand.png"
                               alt="Bib Gourmand"
                             />
@@ -213,9 +213,9 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                                 length: restaurant.ratings.michelin ?? 0,
                               }).map((_, index) => (
                                 <Image
-                                  width={16}
-                                  height={16}
-                                  className="w-[16px] h-auto"
+                                  width={20}
+                                  height={20}
+                                  className="w-[20px] h-auto"
                                   src="/images/misc/michelin-star.svg"
                                   alt="Bib Gourmand"
                                   key={`${restaurant.name}-star-${index + 1}`}
@@ -230,7 +230,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                           <Image
                             width={140}
                             height={56.6}
-                            className="w-[16px] h-auto"
+                            className="w-[20px] h-auto"
                             src="/images/misc/logo-squircle.svg"
                             alt=""
                           />
