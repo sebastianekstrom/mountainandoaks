@@ -695,4 +695,41 @@ export const RESTAURANTS: Restaurant[] = [
       "A 10-seat chef's table concept, guests are served a set tasting menu that evolves daily, showcasing innovative dishes prepared in an open kitchen.",
     website: "http://www.restaurantessence.com/",
   },
+  {
+    name: "Ergo",
+    coordinates: {
+      longitude: 18.0809041,
+      latitude: 59.3337489,
+    },
+    chefs: [
+      {
+        name: "Petter Johansson",
+        description: "Previously at Frantzén, Per Se and Bon Lloc",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ergo.jpg"),
+    description:
+      "Modern fine dining experience with a seasonal 5-course evening menu and a 3-course prix fixe lunch menu, both showcasing French culinary techniques and seasonal ingredients.",
+    website: "https://www.restaurantergo.se",
+  },
+  {
+    name: "Seafood Gastro",
+    coordinates: {
+      longitude: 18.0762633,
+      latitude: 59.3293149,
+    },
+    ratings: {
+      michelin: 1,
+    },
+    chefs: [
+      {
+        name: "Mathias Dahlgren",
+        description: "Winner of Bocuse d'Or. Matsalen, Rutabaga and Bon Lloc.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/seafood.jpg"),
+    description:
+      "Exclusive tasting menu centered around premium aquatic ingredients, including fish, shellfish, seaweed, and seabirds, all prepared with skillful techniques and subtle Japanese influences.",
+    website: "https://mdghs.se/en/seafood-gastro/",
+  },
 ];
