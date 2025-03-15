@@ -27,6 +27,31 @@ interface Restaurant {
 
 export const RESTAURANTS: Restaurant[] = [
   {
+    name: "Bar Agrikultur",
+    coordinates: {
+      longitude: 18.0833116,
+      latitude: 59.3128813,
+    },
+    ratings: {
+      michelin: "Bib",
+      "m&o": 9.5,
+    },
+    chefs: [
+      {
+        name: "Filip Fastén",
+        description: "Winner of the Swedish 'Chef of the year'",
+      },
+      {
+        name: "Joel Åhlin",
+        description: "Previously at Agrikultur",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/agrikultur.jpg"),
+    description:
+      "Modern interpretations of classic Swedish small plates, using seasonal and locally sourced ingredients.",
+    website: "https://baragrikultur.com",
+  },
+  {
     name: "Aloë",
     coordinates: {
       longitude: 17.9854555,
@@ -788,5 +813,38 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Specializing in fresh seafood, Rolfs Hav offers a menu featuring dishes like oysters, caviar, and Skagen, with a focus on cold preparations.",
     website: "https://www.rolfshav.se",
+  },
+  {
+    name: "Forma",
+    coordinates: {
+      longitude: 18.0344602,
+      latitude: 59.3161265,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/forma.jpg"),
+    description:
+      "Combining French techniques with Asian and Swedish influences, focusing on seasonal and sustainably sourced ingredients.",
+    website: "https://www.restaurangforma.se",
+  },
+  {
+    name: "Voisine",
+    coordinates: {
+      longitude: 18.0904208,
+      latitude: 59.3139738,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/voisine.jpg"),
+    description:
+      "Modern bistro-style dishes with French and Swedish influences, complemented by an extensive wine list.",
+    website: "http://www.voisine.se",
+  },
+  {
+    name: "Tengu",
+    coordinates: {
+      longitude: 18.0694741,
+      latitude: 59.3434181,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tengu.jpg"),
+    description:
+      "Japanese-inspired food in a minimalist setting. The menu includes small dishes like shiitake skewers, ramen, and hamachi crudo.",
+    website: "http://tengu.se",
   },
 ];

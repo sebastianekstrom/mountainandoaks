@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import metaImage from "public/images/restaurants/stockholm/metaImage.jpg";
 import MapBox, { Marker } from "react-map-gl/mapbox";
@@ -24,11 +24,11 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
   const mapRef = useRef<MapRef>();
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
-  const [mapHeight, setMapHeight] = React.useState("200px");
+  const [mapHeight, setMapHeight] = useState<number | null>(null);
 
   useEffect(() => {
     const updateMapHeight = () => {
-      setMapHeight(window.innerWidth < 1024 ? "200px" : "600px");
+      setMapHeight(window.innerWidth < 1024 ? 200 : 600);
     };
 
     setTimeout(() => {
@@ -90,6 +90,8 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
   useEffect(() => {
     sectionRefs.current = sectionRefs.current.slice(0, RESTAURANTS.length);
   }, []);
+
+  if (!mapHeight) return null;
 
   return (
     <Page
@@ -167,7 +169,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
         </MapBox>
 
         <div
-          className="overflow-auto overflow-y-scroll flex h-[600px] mt-4 lg:mt-0"
+          className="overflow-auto overflow-y-scroll flex lg:h-[600px] mt-4 lg:mt-0"
           ref={scrollContainerRef}
         >
           <section className="w-full lg:w-[400px] lg:ml-4 lg:pr-4">
@@ -203,7 +205,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                             <Image
                               width={20}
                               height={20}
-                              className="w-[20px] h-auto"
+                              className="w-[25px] lg:w-[20px] h-auto"
                               src="/images/misc/bib-gourmand.png"
                               alt="Bib Gourmand"
                             />
@@ -215,7 +217,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                                 <Image
                                   width={20}
                                   height={20}
-                                  className="w-[20px] h-auto"
+                                  className="w-[25px] lg:w-[20px] h-auto"
                                   src="/images/misc/michelin-star.svg"
                                   alt="Bib Gourmand"
                                   key={`${restaurant.name}-star-${index + 1}`}
@@ -230,7 +232,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                           <Image
                             width={140}
                             height={56.6}
-                            className="w-[20px] h-auto"
+                            className="w-[30px] lg:w-[20px] h-auto"
                             src="/images/misc/logo-squircle.svg"
                             alt=""
                           />
