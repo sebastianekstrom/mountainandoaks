@@ -847,4 +847,153 @@ export const RESTAURANTS: Restaurant[] = [
       "Japanese-inspired food in a minimalist setting. The menu includes small dishes like shiitake skewers, ramen, and hamachi crudo.",
     website: "http://tengu.se",
   },
+  {
+    name: "Triton",
+    coordinates: {
+      longitude: 18.0662201,
+      latitude: 59.3084311,
+    },
+    ratings: {
+      michelin: "Bib",
+      "m&o": 9,
+    },
+    chefs: [
+      {
+        name: "Erik Eriksson",
+        description: null,
+      },
+      {
+        name: "Patric Kling",
+        description: null,
+      },
+      {
+        name: "Saga Söderman",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/triton.jpg"),
+    description:
+      "Fixed three-course menu that changes frequently, focusing on high-quality ingredients, in a cozy, homely atmosphere.",
+    website: "https://www.triton.restaurant",
+  },
+  {
+    name: "Tegelbacken",
+    coordinates: {
+      longitude: 18.063029,
+      latitude: 59.3283298,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    chefs: [
+      {
+        name: "Markus Aujalay",
+        description: "Chef of the Year (2004), previously at Operakällaren",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tegelbacken.jpg"),
+    description:
+      "European-inspired small plates in a warm, colorful setting with a touch of glamour.",
+    website: "http://tegelbacken.com/",
+  },
+  {
+    name: "Tjoget",
+    coordinates: {
+      longitude: 18.0348638,
+      latitude: 59.3161676,
+    },
+    ratings: {
+      "m&o": 5.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tjoget.jpg"),
+    description:
+      "Hip eatery with a cafe & a wine bar serving Mediterranean-inspired dishes in an industrial ambiance.",
+    website: "http://tjoget.com/",
+  },
+  {
+    name: "DoMa",
+    coordinates: {
+      longitude: 18.0810174,
+      latitude: 59.3389821,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Tea Malmegård",
+        description: "Previously at Edsbacka Krog",
+      },
+      {
+        name: "Viktor Lejon",
+        description: "Previously at Edsbacka Krog",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/doma.jpg"),
+    description:
+      "European and Scandinavian-inspired dishes in a cozy and lively atmosphere.",
+    website: "https://www.doma.se/restaurangen",
+  },
+  {
+    name: "Solen",
+    coordinates: {
+      longitude: 18.0778464,
+      latitude: 59.2921392,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Adam Dahlberg",
+        description: "Adam/Albin, MISSHUMASSHU",
+      },
+      {
+        name: "Albin Wessman",
+        description: "Adam/Albin, MISSHUMASSHU",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/solen.jpg"),
+    description:
+      "Fire-cooked dishes with influences from the Mediterranean, Middle East, and South America in a lively, casual setting.",
+    website: "https://www.solen.se",
+  },
+  {
+    name: "Minh Mat",
+    coordinates: {
+      longitude: 18.0414414,
+      latitude: 59.3407248,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/minh-mat.jpg"),
+    description:
+      "Charming Vietnamese restaurant pairs nostalgic decor with a relaxed atmosphere, serving flavorful dishes like quality grilled prawns with a smooth cream of corn sauce.",
+    website: "http://minhmat.se/",
+  },
+  {
+    name: "Adam/Albin",
+    coordinates: {
+      longitude: 18.0661549,
+      latitude: 59.3430771,
+    },
+    chefs: [
+      {
+        name: "Adam Dahlberg",
+        description: "Solen, MISSHUMASSHU",
+      },
+      {
+        name: "Albin Wessman",
+        description: "Solen, MISSHUMASSHU",
+      },
+    ],
+    ratings: {
+      michelin: 1,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/adam-albin.jpg"),
+    description:
+      "Tasting menu that showcases luxury Nordic produce with global influences, featuring dishes like artichoke barigoule and mushroom chawanmushi.",
+    website: "http://adamalbin.se",
+  },
 ];
