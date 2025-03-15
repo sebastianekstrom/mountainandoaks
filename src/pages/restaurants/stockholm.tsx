@@ -169,7 +169,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
         </MapBox>
 
         <div
-          className="overflow-auto overflow-y-scroll flex lg:h-[600px] mt-4 lg:mt-0"
+          className="overflow-auto overflow-y-scroll flex h-[600px] mt-4 lg:mt-0"
           ref={scrollContainerRef}
         >
           <section className="w-full lg:w-[400px] lg:ml-4 lg:pr-4">
