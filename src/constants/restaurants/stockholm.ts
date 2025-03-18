@@ -77,6 +77,27 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://aloerestaurant.se/",
   },
   {
+    name: "Frantzén",
+    coordinates: {
+      longitude: 18.0585303,
+      latitude: 59.3338871,
+    },
+    ratings: {
+      michelin: 3,
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Björn Frantzén",
+        description: "Zén, FZN, Brasserie Astoria",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/frantzen.jpg"),
+    description:
+      "Menu rooted in Nordic cuisine with Japanese influences, providing an immersive dining experience.",
+    website: "http://restaurantfrantzen.com",
+  },
+  {
     name: "Punk Royale",
     coordinates: {
       longitude: 18.0875824,
@@ -220,7 +241,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://rolfskok.se/",
   },
   {
-    name: "Brasseri Astoria",
+    name: "Brasserie Astoria",
     coordinates: {
       longitude: 18.0772553,
       latitude: 59.3348538,
@@ -301,6 +322,23 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers an 'osusume' tasting menu that highlights seasonal Swedish produce, with dishes featuring the eponymous dashi broth. The dining experience is complemented by a varied sake list, all within a minimalist setting that reflects both Nordic and Japanese design aesthetics.",
     website: "https://dashisthlm.se/",
+  },
+  {
+    name: "Bord",
+    coordinates: {
+      longitude: 18.0568196,
+      latitude: 59.3493788,
+    },
+    chefs: [
+      {
+        name: "Joel Aronsson",
+        description: "Previously head chef at Fäviken",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bord.jpg"),
+    description:
+      "Mediterranean-inspired menu featuring seasonal, high-quality ingredients, with dishes like turbot from the wood-fired oven.",
+    website: "http://bord.restaurant",
   },
   {
     name: "Lilla Ego",
