@@ -99,6 +99,13 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
       description="Restaurants to visit in Stockholm"
       image={metaImage}
     >
+      <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
+        <Text variant="h4">Stockholm</Text>
+        <Text>
+          A carefully curated list of restaurants we've visited or wish to visit
+          in Stockholm.
+        </Text>
+      </div>
       <div className="relative flex flex-col lg:flex-row">
         <MapBox
           ref={mapRef as any}
