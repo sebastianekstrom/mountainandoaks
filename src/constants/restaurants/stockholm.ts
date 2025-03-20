@@ -414,6 +414,62 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://tjoget.com/",
   },
   {
+    name: "Pat's Place",
+    coordinates: {
+      longitude: 18.089584,
+      latitude: 59.3154548,
+    },
+    ratings: {
+      "m&o": 7.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/pats-place.jpg"),
+    description:
+      "Thai restaurant known for its inventive tapas-style dishes and Thai-inspired cocktails in a relaxed and friendly atmosphere.",
+    website: "https://www.patsplace.se/",
+  },
+  {
+    name: "Farang",
+    coordinates: {
+      longitude: 18.0625271,
+      latitude: 59.3416893,
+    },
+    ratings: {
+      "m&o": 7.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/farang.jpg"),
+    description:
+      "Stylish eatery with an industrial-chic finish & Pan-Asian dishes cooked in an open kitchen.",
+    website: "http://www.farang.se/",
+  },
+  {
+    name: "Det Arroganta Svinet",
+    coordinates: {
+      longitude: 18.1123574,
+      latitude: 59.1489192,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/arroganta-svinet.jpg"),
+    description:
+      "Texas-style barbecue, offering a casual and rustic dining experience with a focus on slow-cooked meats and smoky flavors.",
+    website: "http://detarrogantasvinet.se/",
+  },
+  {
+    name: "Funky Chicken",
+    coordinates: {
+      longitude: 18.1617267,
+      latitude: 59.3167265,
+    },
+    ratings: {
+      "m&o": 8.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/funky-chicken.jpg"),
+    description:
+      "Ranked Sweden’s best burger spot for five years, serves expertly crafted smash burgers with a signature crispy crust, drawing long queues, especially in summer.",
+    website: "http://funkychickenfoodtruck.se/",
+  },
+  {
     name: "Dashi",
     coordinates: {
       longitude: 18.0657924,
