@@ -27,6 +27,35 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://baragrikultur.com",
   },
   {
+    name: "Triton",
+    coordinates: {
+      longitude: 18.0662201,
+      latitude: 59.3084311,
+    },
+    ratings: {
+      michelin: "Bib",
+      "m&o": 9,
+    },
+    chefs: [
+      {
+        name: "Erik Eriksson",
+        description: null,
+      },
+      {
+        name: "Patric Kling",
+        description: null,
+      },
+      {
+        name: "Saga Söderman",
+        description: null,
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/triton.jpg"),
+    description:
+      "Fixed three-course menu that changes frequently, focusing on high-quality ingredients, in a cozy, homely atmosphere.",
+    website: "https://www.triton.restaurant",
+  },
+  {
     name: "Aloë",
     coordinates: {
       longitude: 17.9854555,
@@ -140,6 +169,30 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://restauranghantverket.se/",
   },
   {
+    name: "DoMa",
+    coordinates: {
+      longitude: 18.0810174,
+      latitude: 59.3389821,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Tea Malmegård",
+        description: "Previously at Edsbacka Krog",
+      },
+      {
+        name: "Viktor Lejon",
+        description: "Previously at Edsbacka Krog",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/doma.jpg"),
+    description:
+      "European and Scandinavian-inspired dishes in a cozy and lively atmosphere.",
+    website: "https://www.doma.se/restaurangen",
+  },
+  {
     name: "Woodstockholm",
     coordinates: {
       longitude: 18.0749719,
@@ -160,7 +213,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3352467,
     },
     ratings: {
-      "m&o": 8,
+      "m&o": 7,
     },
     chefs: [
       {
@@ -192,6 +245,26 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://bar-bro.se/",
   },
   {
+    name: "Tegelbacken",
+    coordinates: {
+      longitude: 18.063029,
+      latitude: 59.3283298,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    chefs: [
+      {
+        name: "Markus Aujalay",
+        description: "Chef of the Year (2004), previously at Operakällaren",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tegelbacken.jpg"),
+    description:
+      "European-inspired small plates in a warm, colorful setting with a touch of glamour.",
+    website: "http://tegelbacken.com/",
+  },
+  {
     name: "Rolfs Kök",
     coordinates: {
       longitude: 18.056967,
@@ -214,6 +287,20 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Modern bistro focusing on simplicity and high-quality ingredients, featuring dishes like confit pork belly and reindeer schnitzel.",
     website: "https://rolfskok.se/",
+  },
+  {
+    name: "Minh Mat",
+    coordinates: {
+      longitude: 18.0414414,
+      latitude: 59.3407248,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/minh-mat.jpg"),
+    description:
+      "Charming Vietnamese restaurant pairs nostalgic decor with a relaxed atmosphere, serving flavorful dishes like quality grilled prawns with a smooth cream of corn sauce.",
+    website: "http://minhmat.se/",
   },
   {
     name: "Brasserie Astoria",
@@ -273,6 +360,58 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Wood-fired pizzas and small plates with Southern European influences in an intimate and lively setting.",
     website: "https://babette.se/",
+  },
+  {
+    name: "Solen",
+    coordinates: {
+      longitude: 18.0778464,
+      latitude: 59.2921392,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Adam Dahlberg",
+        description: "Adam/Albin, MISSHUMASSHU",
+      },
+      {
+        name: "Albin Wessman",
+        description: "Adam/Albin, MISSHUMASSHU",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/solen.jpg"),
+    description:
+      "Fire-cooked dishes with influences from the Mediterranean, Middle East, and South America in a lively, casual setting.",
+    website: "https://www.solen.se",
+  },
+  {
+    name: "Voisine",
+    ratings: {
+      "m&o": 8,
+    },
+    coordinates: {
+      longitude: 18.0904208,
+      latitude: 59.3139738,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/voisine.jpg"),
+    description:
+      "Modern bistro-style dishes with French and Swedish influences, complemented by an extensive wine list.",
+    website: "http://www.voisine.se",
+  },
+  {
+    name: "Tjoget",
+    coordinates: {
+      longitude: 18.0348638,
+      latitude: 59.3161676,
+    },
+    ratings: {
+      "m&o": 5.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tjoget.jpg"),
+    description:
+      "Hip eatery with a cafe & a wine bar serving Mediterranean-inspired dishes in an industrial ambiance.",
+    website: "http://tjoget.com/",
   },
   {
     name: "Dashi",
@@ -839,17 +978,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.restaurangforma.se",
   },
   {
-    name: "Voisine",
-    coordinates: {
-      longitude: 18.0904208,
-      latitude: 59.3139738,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/voisine.jpg"),
-    description:
-      "Modern bistro-style dishes with French and Swedish influences, complemented by an extensive wine list.",
-    website: "http://www.voisine.se",
-  },
-  {
     name: "Tengu",
     coordinates: {
       longitude: 18.0694741,
@@ -859,131 +987,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Japanese-inspired food in a minimalist setting. The menu includes small dishes like shiitake skewers, ramen, and hamachi crudo.",
     website: "http://tengu.se",
-  },
-  {
-    name: "Triton",
-    coordinates: {
-      longitude: 18.0662201,
-      latitude: 59.3084311,
-    },
-    ratings: {
-      michelin: "Bib",
-      "m&o": 9,
-    },
-    chefs: [
-      {
-        name: "Erik Eriksson",
-        description: null,
-      },
-      {
-        name: "Patric Kling",
-        description: null,
-      },
-      {
-        name: "Saga Söderman",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/triton.jpg"),
-    description:
-      "Fixed three-course menu that changes frequently, focusing on high-quality ingredients, in a cozy, homely atmosphere.",
-    website: "https://www.triton.restaurant",
-  },
-  {
-    name: "Tegelbacken",
-    coordinates: {
-      longitude: 18.063029,
-      latitude: 59.3283298,
-    },
-    ratings: {
-      "m&o": 7,
-    },
-    chefs: [
-      {
-        name: "Markus Aujalay",
-        description: "Chef of the Year (2004), previously at Operakällaren",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/tegelbacken.jpg"),
-    description:
-      "European-inspired small plates in a warm, colorful setting with a touch of glamour.",
-    website: "http://tegelbacken.com/",
-  },
-  {
-    name: "Tjoget",
-    coordinates: {
-      longitude: 18.0348638,
-      latitude: 59.3161676,
-    },
-    ratings: {
-      "m&o": 5.5,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/tjoget.jpg"),
-    description:
-      "Hip eatery with a cafe & a wine bar serving Mediterranean-inspired dishes in an industrial ambiance.",
-    website: "http://tjoget.com/",
-  },
-  {
-    name: "DoMa",
-    coordinates: {
-      longitude: 18.0810174,
-      latitude: 59.3389821,
-    },
-    ratings: {
-      "m&o": 8,
-    },
-    chefs: [
-      {
-        name: "Tea Malmegård",
-        description: "Previously at Edsbacka Krog",
-      },
-      {
-        name: "Viktor Lejon",
-        description: "Previously at Edsbacka Krog",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/doma.jpg"),
-    description:
-      "European and Scandinavian-inspired dishes in a cozy and lively atmosphere.",
-    website: "https://www.doma.se/restaurangen",
-  },
-  {
-    name: "Solen",
-    coordinates: {
-      longitude: 18.0778464,
-      latitude: 59.2921392,
-    },
-    ratings: {
-      "m&o": 8,
-    },
-    chefs: [
-      {
-        name: "Adam Dahlberg",
-        description: "Adam/Albin, MISSHUMASSHU",
-      },
-      {
-        name: "Albin Wessman",
-        description: "Adam/Albin, MISSHUMASSHU",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/solen.jpg"),
-    description:
-      "Fire-cooked dishes with influences from the Mediterranean, Middle East, and South America in a lively, casual setting.",
-    website: "https://www.solen.se",
-  },
-  {
-    name: "Minh Mat",
-    coordinates: {
-      longitude: 18.0414414,
-      latitude: 59.3407248,
-    },
-    ratings: {
-      "m&o": 7,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/minh-mat.jpg"),
-    description:
-      "Charming Vietnamese restaurant pairs nostalgic decor with a relaxed atmosphere, serving flavorful dishes like quality grilled prawns with a smooth cream of corn sauce.",
-    website: "http://minhmat.se/",
   },
   {
     name: "Adam/Albin",
