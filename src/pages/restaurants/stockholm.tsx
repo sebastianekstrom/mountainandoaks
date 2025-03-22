@@ -11,6 +11,7 @@ import { Text } from "components/Text/Text";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import { RESTAURANTS } from "../../constants/restaurants/stockholm";
+import { FilterButtons } from "components/FilterButtons/FilterButtons";
 
 export const getStaticProps = async () => {
   return {
@@ -25,10 +26,11 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const [mapHeight, setMapHeight] = useState<number | null>(null);
+  const [filter, setFilter] = useState<string>("all");
 
   useEffect(() => {
     const updateMapHeight = () => {
-      setMapHeight(window.innerWidth < 1024 ? 200 : 600);
+      setMapHeight(window.innerWidth < 1024 ? 150 : 600);
     };
 
     setTimeout(() => {
@@ -91,6 +93,32 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
     sectionRefs.current = sectionRefs.current.slice(0, RESTAURANTS.length);
   }, []);
 
+  const handleFilterChange = (newFilter: string) => {
+    setFilter(newFilter);
+  };
+
+  const filteredRestaurants = RESTAURANTS.filter((restaurant) => {
+    if (filter === "all") return true;
+    if (filter === "visited") return restaurant.ratings?.["m&o"] !== undefined;
+    if (filter === "not_visited")
+      return restaurant.ratings?.["m&o"] === undefined;
+    return true;
+  });
+
+  const allCount = RESTAURANTS.length;
+  const visitedCount = RESTAURANTS.filter(
+    (restaurant) => restaurant.ratings?.["m&o"] !== undefined,
+  ).length;
+  const notVisitedCount = RESTAURANTS.filter(
+    (restaurant) => restaurant.ratings?.["m&o"] === undefined,
+  ).length;
+
+  const filterLabels = [
+    { label: `All (${allCount})`, value: "all" },
+    { label: `Visited (${visitedCount})`, value: "visited" },
+    { label: `Not visited (${notVisitedCount})`, value: "not_visited" },
+  ];
+
   if (!mapHeight) return null;
 
   return (
@@ -102,23 +130,30 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
       <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
         <Text variant="h4">Stockholm</Text>
         <Text>
-          A carefully curated list of {RESTAURANTS.length} restaurants we've
-          visited or wish to visit in Stockholm.
+          A carefully curated list of a few selected restaurants we've visited
+          or wish to visit in Stockholm.
         </Text>
+        <div className="flex mt-2 justify-center md:justify-start">
+          <FilterButtons
+            filters={filterLabels}
+            onFilterChange={handleFilterChange}
+            activeFilter={filter}
+          />
+        </div>
       </div>
       <div className="relative flex flex-col lg:flex-row">
         <MapBox
           ref={mapRef as any}
           mapboxAccessToken={mapboxKey}
           initialViewState={{
-            latitude: RESTAURANTS[0].coordinates.latitude,
-            longitude: RESTAURANTS[0].coordinates.longitude,
+            latitude: filteredRestaurants[0].coordinates.latitude,
+            longitude: filteredRestaurants[0].coordinates.longitude,
             zoom: 14,
           }}
           style={{ width: "100%", height: mapHeight }}
           mapStyle="mapbox://styles/mapbox/streets-v9"
         >
-          {RESTAURANTS.map((restaurant, index) => {
+          {filteredRestaurants.map((restaurant, index) => {
             const latitude = restaurant.coordinates.latitude;
             const longitude = restaurant.coordinates.longitude;
             return (
@@ -180,7 +215,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
           ref={scrollContainerRef}
         >
           <section className="w-full lg:w-[400px] lg:ml-4 lg:pr-4">
-            {RESTAURANTS.map((restaurant, index) => {
+            {filteredRestaurants.map((restaurant, index) => {
               return (
                 <div
                   key={restaurant.name}
@@ -206,6 +241,20 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                       />
                     </div>
                     <div className="mb-2 flex justify-between">
+                      {restaurant.ratings?.["m&o"] ? (
+                        <div className="flex items-center justify-center gap-1">
+                          <Image
+                            width={140}
+                            height={56.6}
+                            className="w-[30px] lg:w-[20px] h-auto"
+                            src="/images/misc/logo-squircle.svg"
+                            alt=""
+                          />
+                          <Text variant="badge">
+                            {restaurant.ratings?.["m&o"]}/10
+                          </Text>
+                        </div>
+                      ) : null}
                       {restaurant.ratings ? (
                         <div>
                           {restaurant.ratings.michelin === "Bib" ? (
@@ -232,20 +281,6 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                               ))}
                             </div>
                           )}
-                        </div>
-                      ) : null}
-                      {restaurant.ratings?.["m&o"] ? (
-                        <div className="flex items-center justify-center gap-1">
-                          <Image
-                            width={140}
-                            height={56.6}
-                            className="w-[30px] lg:w-[20px] h-auto"
-                            src="/images/misc/logo-squircle.svg"
-                            alt=""
-                          />
-                          <Text variant="badge">
-                            {restaurant.ratings?.["m&o"]}/10
-                          </Text>
                         </div>
                       ) : null}
                     </div>
