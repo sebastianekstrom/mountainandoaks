@@ -532,7 +532,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     description:
       "Modernized Swedish classics, featuring robust and well-composed dishes that deliver on flavor.",
-    website: "https://babette.se/",
+    website: "https://www.lillaego.com/",
   },
   {
     name: "Allegrine",
