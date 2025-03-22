@@ -56,6 +56,14 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
     });
   };
 
+  const filteredRestaurants = RESTAURANTS.filter((restaurant) => {
+    if (filter === "all") return true;
+    if (filter === "visited") return restaurant.ratings?.["m&o"] !== undefined;
+    if (filter === "not_visited")
+      return restaurant.ratings?.["m&o"] === undefined;
+    return true;
+  });
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -65,7 +73,8 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
               entry.target as HTMLDivElement,
             );
             if (index !== -1) {
-              const { longitude, latitude } = RESTAURANTS[index].coordinates;
+              const { longitude, latitude } =
+                filteredRestaurants[index].coordinates;
               flyEaglesFly({ longitude, latitude });
             }
           }
@@ -87,23 +96,23 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
         if (section) observer.unobserve(section);
       }
     };
-  }, [flyEaglesFly]);
+  }, [flyEaglesFly, filteredRestaurants]);
 
   useEffect(() => {
-    sectionRefs.current = sectionRefs.current.slice(0, RESTAURANTS.length);
-  }, []);
+    // Update sectionRefs to match the filtered list
+    sectionRefs.current = sectionRefs.current.slice(
+      0,
+      filteredRestaurants.length,
+    );
+  }, [filteredRestaurants.length]);
 
   const handleFilterChange = (newFilter: string) => {
     setFilter(newFilter);
+    // Recalculate scroll position after filtering
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
-
-  const filteredRestaurants = RESTAURANTS.filter((restaurant) => {
-    if (filter === "all") return true;
-    if (filter === "visited") return restaurant.ratings?.["m&o"] !== undefined;
-    if (filter === "not_visited")
-      return restaurant.ratings?.["m&o"] === undefined;
-    return true;
-  });
 
   const allCount = RESTAURANTS.length;
   const visitedCount = RESTAURANTS.filter(
