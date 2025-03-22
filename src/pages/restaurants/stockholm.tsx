@@ -105,6 +105,20 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
     return true;
   });
 
+  const allCount = RESTAURANTS.length;
+  const visitedCount = RESTAURANTS.filter(
+    (restaurant) => restaurant.ratings?.["m&o"] !== undefined,
+  ).length;
+  const notVisitedCount = RESTAURANTS.filter(
+    (restaurant) => restaurant.ratings?.["m&o"] === undefined,
+  ).length;
+
+  const filterLabels = [
+    { label: `All (${allCount})`, value: "all" },
+    { label: `Visited (${visitedCount})`, value: "visited" },
+    { label: `Not visited (${notVisitedCount})`, value: "not_visited" },
+  ];
+
   if (!mapHeight) return null;
 
   return (
@@ -116,16 +130,12 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
       <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
         <Text variant="h4">Stockholm</Text>
         <Text>
-          A carefully curated list of {RESTAURANTS.length} restaurants we've
-          visited or wish to visit in Stockholm.
+          A carefully curated list of a few selected restaurants we've visited
+          or wish to visit in Stockholm.
         </Text>
         <div className="flex mt-2 justify-center md:justify-start">
           <FilterButtons
-            filters={[
-              { label: "All", value: "all" },
-              { label: "Visited", value: "visited" },
-              { label: "Not visited", value: "not_visited" },
-            ]}
+            filters={filterLabels}
             onFilterChange={handleFilterChange}
             activeFilter={filter}
           />
