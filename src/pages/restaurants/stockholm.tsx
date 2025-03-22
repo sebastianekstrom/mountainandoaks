@@ -11,7 +11,7 @@ import { Text } from "components/Text/Text";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import { RESTAURANTS } from "../../constants/restaurants/stockholm";
-import { FilterButtons } from "./components/FilterButtons";
+import { FilterButtons } from "components/FilterButtons/FilterButtons";
 
 export const getStaticProps = async () => {
   return {
