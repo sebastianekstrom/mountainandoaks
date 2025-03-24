@@ -750,7 +750,7 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Petter Johansson",
-        description: "Previously at Frantzén, Per Se and Bon Lloc",
+        description: "Previously at Frantzén, Per Se and Zén",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/ergo.jpg"),
