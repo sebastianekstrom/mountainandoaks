@@ -634,7 +634,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     description:
       "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
-    website: "https://babette.se/",
+    website: "https://aira.se/",
   },
   {
     name: "Bar Montan",
