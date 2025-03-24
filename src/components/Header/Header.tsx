@@ -45,6 +45,9 @@ export const Header = () => {
             <Link href="/guides">
               <Text>Guides</Text>
             </Link>
+            <Link href="/restaurants">
+              <Text>Restaurants</Text>
+            </Link>
             <Link href="https://www.instagram.com/mountain.and.oaks">
               <Text>Instagram</Text>
             </Link>
@@ -109,6 +112,12 @@ export const Header = () => {
                     className="-m-3 flex items-center p-3 hover:bg-gray-50"
                   >
                     <Text>Guides</Text>
+                  </Link>
+                  <Link
+                    href="/restaurants"
+                    className="-m-3 flex items-center p-3 hover:bg-gray-50"
+                  >
+                    <Text>Restaurants</Text>
                   </Link>
                   <Link
                     href="https://www.instagram.com/mountain.and.oaks"

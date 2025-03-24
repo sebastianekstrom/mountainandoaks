@@ -247,6 +247,7 @@ export default function Stockholm({ mapboxKey }: { mapboxKey: string }) {
                         src={restaurant.image}
                         key={`${restaurant.name}-star-${index + 1}`}
                         alt=""
+                        quality={100}
                       />
                     </div>
                     <div className="mb-2 flex justify-between">
