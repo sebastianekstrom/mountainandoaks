@@ -442,6 +442,20 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.farang.se/",
   },
   {
+    name: "Café Nizza",
+    coordinates: {
+      longitude: 18.086638,
+      latitude: 59.3146593,
+    },
+    ratings: {
+      "m&o": 6.5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
+    description:
+      "Offers a menu blending French and Italian culinary traditions, featuring dishes such as 'Fermentata cacio e pepe' and 'Agnolotti with ricotta, capers & taggiasca olives'.",
+    website: "http://www.cafenizza.se/",
+  },
+  {
     name: "Det Arroganta Svinet",
     coordinates: {
       longitude: 18.1123574,
@@ -806,17 +820,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Racamaca offers a menu inspired by Basque cuisine, featuring pintxos and small dishes such as garbanzo beans, boquerones, and chistorra sausage. The ambiance is intimate and lively, complemented by a curated selection of wines and beers.",
     website: "http://www.racamaca.se/",
-  },
-  {
-    name: "Café Nizza",
-    coordinates: {
-      longitude: 18.086638,
-      latitude: 59.3146593,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
-    description:
-      "Offers a menu blending French and Italian culinary traditions, featuring dishes such as 'Fermentata cacio e pepe' and 'Agnolotti with ricotta, capers & taggiasca olives'.",
-    website: "http://www.cafenizza.se/",
   },
   {
     name: "Slipen",
