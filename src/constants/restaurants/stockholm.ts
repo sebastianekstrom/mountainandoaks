@@ -448,7 +448,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3146593,
     },
     ratings: {
-      "m&o": 6.5,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
     description:
