@@ -573,26 +573,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.lillaego.com/",
   },
   {
-    name: "Allegrine",
-    coordinates: {
-      longitude: 18.0610728,
-      latitude: 59.3390253,
-    },
-    ratings: {
-      michelin: "Bib",
-    },
-    chefs: [
-      {
-        name: "Danyel Couet",
-        description: "Previously at Manufacture",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/allegrine.jpg"),
-    description:
-      "Menu rooted in classic French cuisine, featuring dishes such as gaufrette with potato and caviar, and steak tartare with foie gras and truffle brioche, all served in a chic and intimate setting.",
-    website: "http://allegrine.se/",
-  },
-  {
     name: "Ekstedt",
     coordinates: {
       longitude: 18.0748854,
