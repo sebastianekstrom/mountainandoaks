@@ -204,11 +204,11 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Kalle Nilsson",
-        description: "Previously at Punk Royale",
+        description: "Bacchanale, Previously at Punk Royale",
       },
       {
         name: "Jonas Helgesson",
-        description: "Previously at Adam/Albin",
+        description: "Bacchanale, Previously at Adam/Albin",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/frammat.jpg"),
@@ -1053,5 +1053,25 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Tasting menu that showcases luxury Nordic produce with global influences, featuring dishes like artichoke barigoule and mushroom chawanmushi.",
     website: "http://adamalbin.se",
+  },
+  {
+    name: "Bacchanale",
+    coordinates: {
+      longitude: 18.0784967,
+      latitude: 59.3077732,
+    },
+    chefs: [
+      {
+        name: "Kalle Nilsson",
+        description: "Främmat, Previously at Punk Royale",
+      },
+      {
+        name: "Jonas Helgesson",
+        description: "Främmat, Previously at Adam/Albin",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bacchanale.jpg"),
+    description: "French classics with a twist.",
+    website: "https://www.bacchanalesthlm.com",
   },
 ];
