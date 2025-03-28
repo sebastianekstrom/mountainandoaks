@@ -193,6 +193,30 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.doma.se/restaurangen",
   },
   {
+    name: "Främmat",
+    coordinates: {
+      longitude: 18.0453042,
+      latitude: 59.3422275,
+    },
+    ratings: {
+      "m&o": 8,
+    },
+    chefs: [
+      {
+        name: "Kalle Nilsson",
+        description: "Previously at Punk Royale",
+      },
+      {
+        name: "Jonas Helgesson",
+        description: "Previously at Adam/Albin",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/frammat.jpg"),
+    description:
+      "Dynamic menu rooted in classic French cuisine, complemented by innovative and creative dishes that evolve regularly.",
+    website: "https://frammat.com",
+  },
+  {
     name: "Woodstockholm",
     coordinates: {
       longitude: 18.0749719,
@@ -944,27 +968,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Contemporary fusion of Nordic and Japanese cuisines, utilizing seasonal Swedish ingredients to craft innovative tasting menus.",
     website: "http://www.restaurantnour.se/",
-  },
-  {
-    name: "Främmat",
-    coordinates: {
-      longitude: 18.0453042,
-      latitude: 59.3422275,
-    },
-    chefs: [
-      {
-        name: "Kalle Nilsson",
-        description: "Previously at Punk Royale",
-      },
-      {
-        name: "Jonas Helgesson",
-        description: "Previously at Adam/Albin",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/frammat.jpg"),
-    description:
-      "Dynamic menu rooted in classic French cuisine, complemented by innovative and creative dishes that evolve regularly.",
-    website: "https://frammat.com",
   },
   {
     name: "Chez Jolie",
