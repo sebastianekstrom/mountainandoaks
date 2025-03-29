@@ -549,6 +549,31 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://bord.restaurant",
   },
   {
+    name: "Aira",
+    coordinates: {
+      longitude: 18.1235938,
+      latitude: 59.3208925,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
+    ratings: {
+      michelin: 2,
+      "m&o": 9,
+    },
+    chefs: [
+      {
+        name: "Tommy Myllymäki",
+        description: "Previously at restaurant Niklas",
+      },
+      {
+        name: "Pi Le",
+        description: "Gold winner with the junior national chef team",
+      },
+    ],
+    description:
+      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
+    website: "https://aira.se/",
+  },
+  {
     name: "Lilla Ego",
     coordinates: {
       longitude: 18.0454852,
@@ -629,30 +654,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Celeste offers a modern tasting menu that evolves with the seasons, showcasing precision and balance in each dish, such as their tartlet filled with Swedish beef tartare.",
     website: "http://www.celesterestaurant.se",
-  },
-  {
-    name: "Aira",
-    coordinates: {
-      longitude: 18.1235938,
-      latitude: 59.3208925,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
-    ratings: {
-      michelin: 2,
-    },
-    chefs: [
-      {
-        name: "Tommy Myllymäki",
-        description: "Previously at restaurant Niklas",
-      },
-      {
-        name: "Pi Le",
-        description: "Gold winner with the junior national chef team",
-      },
-    ],
-    description:
-      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
-    website: "https://aira.se/",
   },
   {
     name: "Bar Montan",
