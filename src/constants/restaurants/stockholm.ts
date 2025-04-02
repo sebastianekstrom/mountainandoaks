@@ -1075,4 +1075,15 @@ export const RESTAURANTS: Restaurant[] = [
     description: "French classics with a twist.",
     website: "https://www.bacchanalesthlm.com",
   },
+  {
+    name: "Surfers",
+    coordinates: {
+      longitude: 18.0712113,
+      latitude: 59.3358149,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/surfers.jpg"),
+    description:
+      "Chinese cuisine, with a focus on honoring and exploring one of the world’s oldest culinary traditions through a modern and heartfelt approach.",
+    website: "https://surfersstockholm.se/en/",
+  },
 ];
