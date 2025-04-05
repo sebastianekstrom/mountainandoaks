@@ -21,7 +21,6 @@
 | Code coverage    | [![codecov](https://codecov.io/gh/sebastianekstrom/sebbebakes/branch/main/graph/badge.svg?token=83G7VKF6FS)](https://codecov.io/gh/sebastianekstrom/sebbebakes)                                      |
 | Lint             | [![💅 Lint](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lint.yml)                         |
 | Tests            | [![🧪 Tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/test.yml)                        |
-| Lighthouse       | [![💡 Lighthouse](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/lighthouse.yml)       |
 | TypeScript check | [![🕵🏻 Type check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/type-check.yml)       |
 | E2E              | [![👀 End-to-end tests](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/playwright.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/playwright.yml) |
 | Dead code        | [![💀 Dead code check](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/dead-code.yml/badge.svg)](https://github.com/sebastianekstrom/sebbebakes/actions/workflows/dead-code.yml)    |
@@ -97,8 +96,6 @@ The Github actions runs the following tests:
 - **Type checks**
   - TypeScript type checks are ran with the `tsc` command
   - Run `yarn run tsc` to run the tests locally
-- **Lighthouse**
-  - [Lighthouse](https://github.com/GoogleChrome/lighthouse) checks to test performance, a11y and SEO
 
 ## 🎨 Storybook
 
