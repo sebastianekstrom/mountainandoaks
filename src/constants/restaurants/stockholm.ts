@@ -827,27 +827,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.racamaca.se/",
   },
   {
-    name: "Slipen",
-    coordinates: {
-      longitude: 18.1016014,
-      latitude: 59.3223377,
-    },
-    chefs: [
-      {
-        name: "David Zetterström",
-        description: null,
-      },
-      {
-        name: "Lotta Zetterström",
-        description: null,
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/slipen.jpg"),
-    description:
-      "Menu inspired by European cuisine, featuring hearty and uncomplicated dishes such as oysters, tartare, bone-in beef, and cod loin.",
-    website: "https://slipen.se/",
-  },
-  {
     name: "Persona",
     coordinates: {
       longitude: 18.0889679,
