@@ -6,8 +6,8 @@ jest.mock("constants/restaurants/stockholm", () => ({
   RESTAURANTS: Array(10).fill({ name: "Test Stockholm Restaurant" }),
 }));
 
-jest.mock("constants/restaurants/new-york", () => ({
-  RESTAURANTS: Array(5).fill({ name: "Test Paris Restaurant" }),
+jest.mock("constants/restaurants/london", () => ({
+  RESTAURANTS: Array(5).fill({ name: "Test London Restaurant" }),
 }));
 
 jest.mock(
@@ -32,7 +32,7 @@ describe("Restaurants index page", () => {
     expect(screen.getByText("Stockholm")).toBeInTheDocument();
     expect(screen.getByText("10 restaurants")).toBeInTheDocument();
 
-    expect(screen.getByText("New York")).toBeInTheDocument();
+    expect(screen.getByText("London")).toBeInTheDocument();
     expect(screen.getByText("5 restaurants")).toBeInTheDocument();
   });
 
@@ -42,7 +42,7 @@ describe("Restaurants index page", () => {
     const stockholmLink = screen.getByRole("link", { name: /Stockholm/i });
     expect(stockholmLink).toHaveAttribute("href", "/restaurants/stockholm");
 
-    const parisLink = screen.getByRole("link", { name: /New York/i });
-    expect(parisLink).toHaveAttribute("href", "/restaurants/new-york");
+    const londonLink = screen.getByRole("link", { name: /London/i });
+    expect(londonLink).toHaveAttribute("href", "/restaurants/london");
   });
 });
