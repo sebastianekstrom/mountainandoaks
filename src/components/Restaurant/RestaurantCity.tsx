@@ -272,6 +272,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                               className="w-[25px] lg:w-[20px] h-auto"
                               src="/images/misc/bib-gourmand.png"
                               alt="Bib Gourmand"
+                              title="Bib Gourmand: good quality, good value cooking"
                             />
                           ) : (
                             <div className="flex gap-[3px]">

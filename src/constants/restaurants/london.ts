@@ -78,6 +78,20 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://roerestaurant.co.uk/",
   },
   {
+    name: "The Palomar",
+    coordinates: {
+      latitude: 51.5115,
+      longitude: -0.1318,
+    },
+    ratings: {
+      michelin: "Bib",
+    },
+    image: require("../../../public/images/restaurants/london/restaurants/palomar.jpg"),
+    description:
+      "A vibrant Soho restaurant offering modern Jerusalem cuisine, influenced by the rich cultures of Southern Spain, North Africa, and the Levant. Known for its lively atmosphere and open kitchen bar.",
+    website: "https://thepalomar.co.uk/",
+  },
+  {
     name: "Ikoyi",
     coordinates: {
       latitude: 51.5123768,
@@ -202,6 +216,9 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 51.5135,
       longitude: -0.1355,
     },
+    ratings: {
+      michelin: "Bib",
+    },
     image: require("../../../public/images/restaurants/london/restaurants/bao.jpg"),
     description:
       "A Taiwanese-inspired restaurant in Soho, London, renowned for its steamed buns (bao) and small plates, offering a modern take on Taiwanese street food.",
@@ -252,8 +269,8 @@ export const RESTAURANTS: Restaurant[] = [
   {
     name: "Humble Chicken",
     coordinates: {
-      latitude: 51.5135,
-      longitude: -0.1318,
+      latitude: 51.5139868,
+      longitude: -0.1318371,
     },
     ratings: {
       michelin: 2,
@@ -310,5 +327,103 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A Soho restaurant blending Spanish and Welsh culinary traditions, focusing on wood-fired cooking techniques and high-quality, seasonal British produce.",
     website: "https://mountainbeakstreet.com/",
+  },
+  {
+    name: "Alain Ducasse at The Dorchester",
+    coordinates: {
+      latitude: 51.5074,
+      longitude: -0.1527,
+    },
+    ratings: {
+      michelin: 3,
+    },
+    chefs: [
+      {
+        name: "Jean-Philippe Blondet",
+        description:
+          "Executive Chef at Alain Ducasse at The Dorchester. Previously worked at Spoon at Sanderson in London and Le Louis XV in Monaco.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/london/restaurants/alain-ducasse.jpg"),
+    description:
+      "A prestigious French restaurant located within The Dorchester Hotel in Mayfair, London, offering contemporary French cuisine with an emphasis on seasonal British and French ingredients. Renowned for its elegant setting and exceptional service.",
+    website: "https://www.alainducasse-dorchester.com/",
+  },
+  {
+    name: "The Fat Duck",
+    coordinates: {
+      latitude: 51.5095,
+      longitude: -0.701,
+    },
+    ratings: {
+      michelin: 3,
+    },
+    chefs: [
+      {
+        name: "Heston Blumenthal",
+        description:
+          "A self-taught chef renowned for pioneering molecular gastronomy. Previously worked in various restaurants in France to gain experience before opening The Fat Duck in 1995.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/london/restaurants/the-fat-duck.jpg"),
+    description:
+      "A three-Michelin-starred restaurant in Bray, Berkshire, celebrated for its innovative and multi-sensory approach to cooking, offering a tasting menu that explores the boundaries of traditional cuisine.",
+    website: "https://thefatduck.co.uk/",
+  },
+  {
+    name: "St. JOHN Bread and Wine",
+    coordinates: {
+      latitude: 51.5195,
+      longitude: -0.0731,
+    },
+    ratings: {
+      michelin: "Bib",
+    },
+    chefs: [
+      {
+        name: "Farokh Talati",
+        description:
+          "Head Chef at St. JOHN Bread and Wine. Previously worked at various renowned establishments, bringing a wealth of experience to the kitchen.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/london/restaurants/bread-and-wine.jpg"),
+    description:
+      "A sister restaurant to the original St. JOHN, located in Spitalfields, London, emphasizing the 'nose-to-tail' dining philosophy with a focus on traditional British dishes and an in-house bakery.",
+    website: "https://stjohnrestaurant.com/a/restaurants/bread-and-wine",
+  },
+  {
+    name: "Kiln",
+    coordinates: {
+      latitude: 51.5125,
+      longitude: -0.1355,
+    },
+    ratings: {
+      michelin: "Bib",
+    },
+    chefs: [
+      {
+        name: "Meedu Saad",
+        description:
+          "Head Chef at Kiln. Previously Senior Sous Chef at Smoking Goat in Shoreditch.",
+      },
+    ],
+    image: require("../../../public/images/restaurants/london/restaurants/kiln.jpg"),
+    description:
+      "A vibrant Soho restaurant offering Thai-inspired cuisine, focusing on wood-fired dishes influenced by the flavors of northern Thailand, Burma, and Laos.",
+    website: "https://kilnsoho.com/",
+  },
+  {
+    name: "Hoppers",
+    coordinates: {
+      latitude: 51.5135,
+      longitude: -0.1318,
+    },
+    ratings: {
+      michelin: "Bib",
+    },
+    image: require("../../../public/images/restaurants/london/restaurants/hoppers.jpg"),
+    description:
+      "A vibrant restaurant in Soho, London, inspired by Sri Lanka's village toddy shops, offering hoppers, dosas, kothus, and roasts, complemented by a tropical drinks list.",
+    website: "https://www.hopperslondon.com/soho/",
   },
 ];
