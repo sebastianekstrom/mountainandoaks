@@ -7,9 +7,9 @@ describe("FilterButtons", () => {
     const { getByText } = render(
       <FilterButtons
         filters={[
-          { label: "All", value: "all" },
-          { label: "Visited", value: "visited" },
-          { label: "Not visited", value: "not_visited" },
+          { label: "All", value: "all", disabled: false },
+          { label: "Visited", value: "visited", disabled: false },
+          { label: "Not visited", value: "not_visited", disabled: false },
         ]}
         onFilterChange={mockOnFilterChange}
         activeFilter="all"

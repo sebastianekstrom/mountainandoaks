@@ -329,7 +329,7 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://mountainbeakstreet.com/",
   },
   {
-    name: "Alain Ducasse at The Dorchester",
+    name: "The Dorchester",
     coordinates: {
       latitude: 51.5074,
       longitude: -0.1527,
