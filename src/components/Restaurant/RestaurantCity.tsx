@@ -7,6 +7,7 @@ import { Text } from "components/Text/Text";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { Restaurant } from "../../constants/restaurants/types";
 import { FilterButtons } from "components/FilterButtons/FilterButtons";
+import { MapPinIcon, ViewColumnsIcon } from "@heroicons/react/24/outline";
 
 interface RestaurantCityProps {
   restaurants: Restaurant[];
@@ -288,14 +289,22 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                 viewMode === "map" ? "bg-brand" : "bg-brand-secondary"
               }`}
             >
-              <Text
-                variant="badge"
-                classNames={`${
-                  viewMode === "map" ? "text-white" : "text-black"
-                }`}
-              >
-                Map
-              </Text>
+              <div className="flex items-center gap-[2px]">
+                <MapPinIcon
+                  className={`h-4 w-4 ${
+                    viewMode === "map" ? "text-white" : "text-black"
+                  }`}
+                  aria-hidden="true"
+                />
+                <Text
+                  variant="badge"
+                  classNames={`${
+                    viewMode === "map" ? "text-white" : "text-black"
+                  }`}
+                >
+                  Map
+                </Text>
+              </div>
             </button>
             <button
               type="button"
@@ -304,14 +313,22 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                 viewMode === "grid" ? "bg-brand" : "bg-brand-secondary"
               }`}
             >
-              <Text
-                variant="badge"
-                classNames={`${
-                  viewMode === "map" ? "text-black" : "text-white"
-                }`}
-              >
-                Grid
-              </Text>
+              <div className="flex items-center gap-[2px]">
+                <ViewColumnsIcon
+                  className={`h-4 w-4 ${
+                    viewMode === "grid" ? "text-white" : "text-black"
+                  }`}
+                  aria-hidden="true"
+                />
+                <Text
+                  variant="badge"
+                  classNames={`${
+                    viewMode === "map" ? "text-black" : "text-white"
+                  }`}
+                >
+                  Grid
+                </Text>
+              </div>
             </button>
           </div>
         </div>
