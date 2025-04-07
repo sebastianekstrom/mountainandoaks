@@ -20,14 +20,14 @@ export const FilterButtons = ({
           type="button"
           onClick={() => onFilterChange(filter.value)}
           className={`bg-brand text-black px-2 py-1 rounded-md ${
-            activeFilter === filter.value ? "bg-brand-secondary" : ""
+            activeFilter !== filter.value ? "bg-brand-secondary" : ""
           }`}
           disabled={filter.disabled}
         >
           <Text
             variant="badge"
             classNames={`${
-              activeFilter === filter.value ? "text-black" : "text-white"
+              activeFilter !== filter.value ? "text-black" : "text-white"
             }`}
           >
             {filter.label}
