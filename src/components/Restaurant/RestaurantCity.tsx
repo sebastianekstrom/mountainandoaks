@@ -124,9 +124,17 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
   ).length;
 
   const filterLabels = [
-    { label: `All (${allCount})`, value: "all" },
-    { label: `Visited (${visitedCount})`, value: "visited" },
-    { label: `Not visited (${notVisitedCount})`, value: "not_visited" },
+    { label: `All (${allCount})`, value: "all", disabled: allCount === 0 },
+    {
+      label: `Visited (${visitedCount})`,
+      value: "visited",
+      disabled: visitedCount === 0,
+    },
+    {
+      label: `Not visited (${notVisitedCount})`,
+      value: "not_visited",
+      disabled: notVisitedCount === 0,
+    },
   ];
 
   if (!mapHeight || filteredRestaurants.length === 0) return null;

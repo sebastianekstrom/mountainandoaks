@@ -2,7 +2,7 @@ import type React from "react";
 import { Text } from "components/Text/Text";
 
 interface FilterButtonsProps {
-  filters: { label: string; value: string }[];
+  filters: { label: string; value: string; disabled: boolean }[];
   onFilterChange: (filter: string) => void;
   activeFilter: string;
 }
@@ -22,6 +22,7 @@ export const FilterButtons = ({
           className={`bg-brand text-black px-2 py-1 rounded-md ${
             activeFilter === filter.value ? "bg-brand-secondary" : ""
           }`}
+          disabled={filter.disabled}
         >
           <Text
             variant="badge"
