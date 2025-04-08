@@ -327,6 +327,30 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://minhmat.se/",
   },
   {
+    name: "Animo",
+    coordinates: {
+      longitude: 18.0643081,
+      latitude: 59.3429635,
+    },
+    ratings: {
+      "m&o": 9.5,
+    },
+    chefs: [
+      {
+        name: "Daniel Haynes",
+        description: "Previously in the Swedish Culinary Team",
+      },
+      {
+        name: "Anders Karlsson",
+        description: "Previously in the Swedish Culinary Team",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/animo.jpg"),
+    description:
+      "Dynamic à la carte menu that evolves with the seasons, emphasizing creativity and spontaneity. The innovative cocktail bar and curated wine list complement the dishes.",
+    website: "https://www.animorestaurant.se",
+  },
+  {
     name: "Brasserie Astoria",
     coordinates: {
       longitude: 18.0772553,
@@ -466,6 +490,31 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.farang.se/",
   },
   {
+    name: "Aira",
+    coordinates: {
+      longitude: 18.1235938,
+      latitude: 59.3208925,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
+    ratings: {
+      michelin: 2,
+      "m&o": 9,
+    },
+    chefs: [
+      {
+        name: "Tommy Myllymäki",
+        description: "Previously at restaurant Niklas",
+      },
+      {
+        name: "Pi Le",
+        description: "Gold winner with the junior national chef team",
+      },
+    ],
+    description:
+      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
+    website: "https://aira.se/",
+  },
+  {
     name: "Café Nizza",
     coordinates: {
       longitude: 18.086638,
@@ -531,6 +580,7 @@ export const RESTAURANTS: Restaurant[] = [
       "Offers an 'osusume' tasting menu that highlights seasonal Swedish produce, with dishes featuring the eponymous dashi broth. The dining experience is complemented by a varied sake list, all within a minimalist setting that reflects both Nordic and Japanese design aesthetics.",
     website: "https://dashisthlm.se/",
   },
+
   {
     name: "Bord",
     coordinates: {
@@ -547,31 +597,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Mediterranean-inspired menu featuring seasonal, high-quality ingredients, with dishes like turbot from the wood-fired oven.",
     website: "http://bord.restaurant",
-  },
-  {
-    name: "Aira",
-    coordinates: {
-      longitude: 18.1235938,
-      latitude: 59.3208925,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
-    ratings: {
-      michelin: 2,
-      "m&o": 9,
-    },
-    chefs: [
-      {
-        name: "Tommy Myllymäki",
-        description: "Previously at restaurant Niklas",
-      },
-      {
-        name: "Pi Le",
-        description: "Gold winner with the junior national chef team",
-      },
-    ],
-    description:
-      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
-    website: "https://aira.se/",
   },
   {
     name: "Lilla Ego",
@@ -945,27 +970,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Inspired by both the French countryside and metropolitan bistros, featuring classic dishes like oysters au gratin, crispy fried frogs' legs, pâté en croûte, and crêpe soufflé.",
     website: "https://chezjolie.se",
-  },
-  {
-    name: "Animo",
-    coordinates: {
-      longitude: 18.0643081,
-      latitude: 59.3429635,
-    },
-    chefs: [
-      {
-        name: "Daniel Haynes",
-        description: "Previously in the Swedish Culinary Team",
-      },
-      {
-        name: "Anders Karlsson",
-        description: "Previously in the Swedish Culinary Team",
-      },
-    ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/animo.jpg"),
-    description:
-      "Dynamic à la carte menu that evolves with the seasons, emphasizing creativity and spontaneity. The innovative cocktail bar and curated wine list complement the dishes.",
-    website: "https://www.animorestaurant.se",
   },
   {
     name: "Rolfs Hav",
