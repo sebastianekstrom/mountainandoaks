@@ -940,8 +940,8 @@ export const RESTAURANTS: Restaurant[] = [
   {
     name: "Nour",
     coordinates: {
-      longitude: 18.0712948,
-      latitude: 59.3357595,
+      longitude: 18.0712029,
+      latitude: 59.3356275,
     },
     chefs: [
       {
@@ -1068,5 +1068,23 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Chinese cuisine, with a focus on honoring and exploring one of the world’s oldest culinary traditions through a modern and heartfelt approach.",
     website: "https://surfersstockholm.se/en/",
+  },
+  {
+    name: "Black Milk Gastro Bar",
+    coordinates: {
+      latitude: 59.3371,
+      longitude: 18.0792,
+    },
+    chefs: [
+      {
+        name: "Julian Marti Melo",
+        description:
+          "Previously co-founded the two-Michelin-starred restaurant Aloë in Stockholm.",
+      },
+    ],
+    description:
+      "An omakase-style restaurant, offering an eight-course tasting menu that fuses Japanese tradition with global culinary artistry. The cuisine draws influences from South America, Asia, and Europe, utilizing modern techniques and luxury ingredients like Oscietra caviar and Périgord truffles.",
+    website: "https://blackmilkgastrobar.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/black-milk.jpg"),
   },
 ];
