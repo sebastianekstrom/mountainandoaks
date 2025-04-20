@@ -2,25 +2,26 @@ import type { Restaurant } from "./types";
 
 export const RESTAURANTS: Restaurant[] = [
   {
-    name: "Aska",
+    name: "Dhamaka",
     coordinates: {
-      latitude: 40.712293,
-      longitude: -73.966408,
+      latitude: 40.718,
+      longitude: -73.9885,
     },
     ratings: {
-      michelin: 2,
+      michelin: "Bib",
     },
     chefs: [
       {
-        name: "Fredrik Berselius",
+        name: "Chintan Pandya",
         description:
-          "Chef-owner of Aska. Previously worked at Per Se, Aquavit, and Corton in New York City.",
+          "Previously worked at Rahi and Adda in New York City. Known for his 'Unapologetic Indian' approach, highlighting bold, regional Indian dishes.",
       },
     ],
     description:
-      "Offering a multi-course tasting menu rooted in Nordic sensibilities, utilizing hyper-seasonal and locally foraged ingredients.",
-    website: "https://www.askanyc.com/",
-    image: require("../../../public/images/restaurants/new-york/restaurants/aska.jpg"),
+      "Located in Manhattan's Essex Market, Dhamaka offers a bold exploration of India's lesser-known regional cuisines. The menu features dishes like goat neck dum biryani, gurda kapoora (goat kidney and testicles), and champaran meat cooked with an entire bulb of garlic. The restaurant emphasizes complex spices and fierce heat levels, providing an 'unapologetic' dining experience.",
+    website: "https://www.dhamaka.nyc/",
+    image:
+      require("../../../public/images/restaurants/new-york/restaurants/dhamaka.jpg"),
   },
   {
     name: "Le Bernardin",
@@ -42,6 +43,27 @@ export const RESTAURANTS: Restaurant[] = [
       "A renowned French seafood restaurant in Midtown Manhattan, New York City, celebrated for its refined and innovative seafood dishes, maintaining three Michelin stars since 2005.",
     website: "https://www.le-bernardin.com/",
     image: require("../../../public/images/restaurants/new-york/restaurants/le-bernadin.jpg"),
+  },
+  {
+    name: "Aska",
+    coordinates: {
+      latitude: 40.712293,
+      longitude: -73.966408,
+    },
+    ratings: {
+      michelin: 2,
+    },
+    chefs: [
+      {
+        name: "Fredrik Berselius",
+        description:
+          "Chef-owner of Aska. Previously worked at Per Se, Aquavit, and Corton in New York City.",
+      },
+    ],
+    description:
+      "Offering a multi-course tasting menu rooted in Nordic sensibilities, utilizing hyper-seasonal and locally foraged ingredients.",
+    website: "https://www.askanyc.com/",
+    image: require("../../../public/images/restaurants/new-york/restaurants/aska.jpg"),
   },
   {
     name: "Per Se",
@@ -150,28 +172,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://thepotluckclubny.com/",
     image:
       require("../../../public/images/restaurants/new-york/restaurants/potluck-club.jpg"),
-  },
-  {
-    name: "Dhamaka",
-    coordinates: {
-      latitude: 40.718,
-      longitude: -73.9885,
-    },
-    ratings: {
-      michelin: "Bib",
-    },
-    chefs: [
-      {
-        name: "Chintan Pandya",
-        description:
-          "Previously worked at Rahi and Adda in New York City. Known for his 'Unapologetic Indian' approach, highlighting bold, regional Indian dishes.",
-      },
-    ],
-    description:
-      "Located in Manhattan's Essex Market, Dhamaka offers a bold exploration of India's lesser-known regional cuisines. The menu features dishes like goat neck dum biryani, gurda kapoora (goat kidney and testicles), and champaran meat cooked with an entire bulb of garlic. The restaurant emphasizes complex spices and fierce heat levels, providing an 'unapologetic' dining experience.",
-    website: "https://www.dhamaka.nyc/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/dhamaka.jpg"),
   },
   {
     name: "Momofuku Noodle Bar",
