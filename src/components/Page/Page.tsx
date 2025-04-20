@@ -48,6 +48,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
         <meta property="twitter:title" content={metaTitle} />
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={imageUrl} />
+        <link rel="preconnect" href="https://api.mapbox.com" />
       </Head>
       <Header />
 

@@ -176,6 +176,8 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               key={`${restaurant.name}-image`}
               alt=""
               quality={100}
+              priority={index === 0}
+              placeholder="blur"
             />
           </div>
           {hasRatings ? (

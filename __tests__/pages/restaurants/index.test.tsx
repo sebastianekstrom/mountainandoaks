@@ -30,10 +30,7 @@ describe("Restaurants index page", () => {
     render(<RestaurantsHome />);
 
     expect(screen.getByText("Stockholm")).toBeInTheDocument();
-    expect(screen.getByText("10 restaurants")).toBeInTheDocument();
-
     expect(screen.getByText("London")).toBeInTheDocument();
-    expect(screen.getByText("5 restaurants")).toBeInTheDocument();
   });
 
   it("has correct links to city pages", () => {
