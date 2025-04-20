@@ -167,24 +167,26 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
         }`}
       >
         <div>
-          <div className="flex items-center gap-4">
-            <Text variant="h4" classNames="mb-2">
-              {restaurant.name}
-            </Text>
-          </div>
-          <div className="relative">
-            <Image
-              width={190}
-              height={400}
-              className="w-full h-[190px] object-cover mb-2"
-              src={restaurant.image}
-              key={`${restaurant.name}-image`}
-              alt=""
-              quality={100}
-              priority={index === 0}
-              placeholder="blur"
-            />
-          </div>
+          <a href={restaurant.website}>
+            <div className="flex items-center gap-4">
+              <Text variant="h4" classNames="mb-2">
+                {restaurant.name}
+              </Text>
+            </div>
+            <div className="relative">
+              <Image
+                width={190}
+                height={400}
+                className="w-full h-[190px] object-cover mb-2"
+                src={restaurant.image}
+                key={`${restaurant.name}-image`}
+                alt=""
+                quality={100}
+                priority={index === 0}
+                placeholder="blur"
+              />
+            </div>
+          </a>
           {hasRatings ? (
             <div className="mb-2 flex justify-between">
               {restaurant.ratings?.["m&o"] ? (
@@ -265,14 +267,6 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               About
             </Text>
             <Text>{restaurant.description}</Text>
-          </div>
-          <div className="mb-2">
-            <Text variant="h5" classNames="mb-1 mt-4">
-              Learn more
-            </Text>
-            <Text>
-              <a href={restaurant.website}>Website</a>
-            </Text>
           </div>
         </div>
         {viewMode === "map" && (
@@ -440,7 +434,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredRestaurants.map((restaurant, index) =>
             renderRestaurantCard(restaurant, index),
           )}
