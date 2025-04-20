@@ -32,25 +32,38 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
   const [mapHeight, setMapHeight] = useState<number | null>(null);
   const [filter, setFilter] = useState<string>("all");
   const [viewMode, setViewMode] = useState<ViewMode>("map");
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+  const isCompactMode = isMobile && viewMode === "map";
 
   useEffect(() => {
-    const isMobile = window.innerWidth < 1024;
+    const checkIsMobile = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      return mobile;
+    };
 
     const updateMapHeight = () => {
-      setMapHeight(isMobile ? 150 : 600);
+      const mobile = checkIsMobile();
+      setMapHeight(mobile ? 200 : 600);
     };
 
     const updateViewMode = () => {
-      setViewMode(isMobile ? "grid" : "map");
+      const mobile = checkIsMobile();
+      setViewMode(mobile ? "grid" : "map");
     };
 
     updateMapHeight();
     updateViewMode();
 
-    window.addEventListener("resize", updateMapHeight);
+    const handleResize = () => {
+      updateMapHeight();
+      updateViewMode();
+    };
+
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", updateMapHeight);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -172,7 +185,9 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               <Image
                 width={190}
                 height={400}
-                className="w-full h-[190px] object-cover mb-2"
+                className={`w-full object-cover mb-2 ${
+                  isCompactMode ? "h-[120px]" : "h-[190px]"
+                }`}
                 src={restaurant.image}
                 key={`${restaurant.name}-image`}
                 alt=""
@@ -288,9 +303,13 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
       description={description}
       image={metaImage}
     >
-      <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
+      <div
+        className={`lg:mt-0 lg:mb-6 text-center lg:text-left ${
+          isCompactMode ? "mt-0 mb-4" : "mt-4 mb-8"
+        }`}
+      >
         <Text variant="h4">{cityName}</Text>
-        <Text>{description}</Text>
+        {!isCompactMode && <Text>{description}</Text>}
         <div className="flex mt-2 justify-center md:justify-start flex-wrap gap-2 md:gap-8">
           {visitedCount > 0 && (
             <FilterButtons
