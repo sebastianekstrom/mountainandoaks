@@ -69,7 +69,7 @@ export default function RestaurantsHome() {
     (total, city) => total + city.count,
     0,
   );
-  const description = `A carefully curated list of ${totalRestaurants} restaurants we've visited or wish to visit`;
+  const description = `A carefully curated list of ${totalRestaurants} restaurants we've visited or wish to visit across the world.`;
 
   return (
     <Page
@@ -78,17 +78,19 @@ export default function RestaurantsHome() {
       image={stockholmImage}
     >
       <div>
-        <Text variant="h2" classNames="mb-4 max-w-[75%] mb-8 hidden lg:block">
-          {description}
-        </Text>
+        <div className="mb-8 max-w-[75%] hidden lg:block">
+          <Text variant="h4">Restaurants</Text>
+          <Text classNames="">{description}</Text>
+        </div>
 
-        <Text variant="h4" classNames="mb-4 max-w-[75%] mb-8 lg:hidden mt-4">
-          {description}
-        </Text>
+        <div className="lg:hidden mb-8 mt-4 text-center">
+          <Text variant="h4">Restaurants</Text>
+          <Text classNames="">{description}</Text>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cities.map((city) => (
-            <article key={city.slug} className="flex mb-6 flex-col">
+            <article key={city.slug} className="flex flex-col">
               <Link
                 href={`/restaurants/${city.slug}`}
                 className="w-full h-full"
