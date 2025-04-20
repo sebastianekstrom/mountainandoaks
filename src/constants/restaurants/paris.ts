@@ -239,6 +239,24 @@ export const RESTAURANTS: Restaurant[] = [
     image: require("../../../public/images/restaurants/paris/restaurants/le-george.jpg"),
   },
   {
+    name: "Clown Bar",
+    coordinates: {
+      latitude: 48.8631,
+      longitude: 2.3706,
+    },
+    chefs: [
+      {
+        name: "Sota Atsumi",
+        description:
+          "Clown Bar, Saturne, Toyo, and Michel Troisgros in Roanne.",
+      },
+    ],
+    description:
+      "A historic bistro near Paris's Cirque d’Hiver, Clown Bar features Belle Époque interiors with whimsical clown-themed ceramic tiles. The menu offers inventive French cuisine with Japanese influences, including dishes like veal brain in tosazu broth and foie gras pithiviers. The restaurant is also noted for its selection of natural wines.",
+    website: "https://www.clown-bar-paris.fr/",
+    image: require("../../../public/images/restaurants/paris/restaurants/clown-bar.jpg"),
+  },
+  {
     name: "L'Arpège",
     coordinates: {
       latitude: 48.855701,
@@ -311,24 +329,13 @@ export const RESTAURANTS: Restaurant[] = [
       {
         name: "Sota Atsumi",
         description:
-          "Previously worked at Clown Bar, Saturne, Toyo, and Michel Troisgros in Roanne.",
+          "Clown Bar, Saturne, Toyo, and Michel Troisgros in Roanne.",
       },
     ],
     description:
       "A refined restaurant in Paris's 11th arrondissement, offering a seasonal tasting menu that blends French culinary techniques with Japanese aesthetics. The intimate setting features an open kitchen and a communal eight-meter-long wooden table.",
     website: "https://en.maison-sota.com/",
     image: require("../../../public/images/restaurants/paris/restaurants/maison.jpg"),
-  },
-  {
-    name: "Clown Bar",
-    coordinates: {
-      latitude: 48.8631,
-      longitude: 2.3706,
-    },
-    description:
-      "A historic bistro near Paris's Cirque d’Hiver, Clown Bar features Belle Époque interiors with whimsical clown-themed ceramic tiles. The menu offers inventive French cuisine with Japanese influences, including dishes like veal brain in tosazu broth and foie gras pithiviers. The restaurant is also noted for its selection of natural wines.",
-    website: "https://www.clown-bar-paris.fr/",
-    image: require("../../../public/images/restaurants/paris/restaurants/clown-bar.jpg"),
   },
   {
     name: "Le Chateaubriand",
