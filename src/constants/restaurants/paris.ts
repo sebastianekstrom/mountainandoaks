@@ -2,6 +2,29 @@ import type { Restaurant } from "./types";
 
 export const RESTAURANTS: Restaurant[] = [
   {
+    name: "Plénitude",
+    coordinates: {
+      latitude: 48.8595,
+      longitude: 2.3411,
+    },
+    ratings: {
+      michelin: 3,
+    },
+    chefs: [
+      {
+        name: "Arnaud Donckele",
+        description:
+          "Previously held three Michelin stars at La Vague d'Or in Saint-Tropez.",
+      },
+    ],
+    description:
+      "A three-Michelin-starred restaurant located within the Cheval Blanc Paris hotel, offering a creative French cuisine that emphasizes sauces and seasonal ingredients in an intimate setting overlooking the Seine.",
+    website:
+      "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
+    image:
+      require("../../../public/images/restaurants/paris/restaurants/plenitude.jpg"),
+  },
+  {
     name: "Pages",
     coordinates: {
       latitude: 48.8701,
@@ -76,29 +99,6 @@ export const RESTAURANTS: Restaurant[] = [
       "A modern Parisian restaurant in the 11th arrondissement, offering seasonal French cuisine with a focus on sustainability and local sourcing. Known for its minimalist, industrial-chic interior and a commitment to reducing food waste.",
     website: "https://www.septime-charonne.fr/en/",
     image: require("../../../public/images/restaurants/paris/restaurants/septime.jpg"),
-  },
-  {
-    name: "Plénitude",
-    coordinates: {
-      latitude: 48.8595,
-      longitude: 2.3411,
-    },
-    ratings: {
-      michelin: 3,
-    },
-    chefs: [
-      {
-        name: "Arnaud Donckele",
-        description:
-          "Previously held three Michelin stars at La Vague d'Or in Saint-Tropez.",
-      },
-    ],
-    description:
-      "A three-Michelin-starred restaurant located within the Cheval Blanc Paris hotel, offering a creative French cuisine that emphasizes sauces and seasonal ingredients in an intimate setting overlooking the Seine.",
-    website:
-      "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
-    image:
-      require("../../../public/images/restaurants/paris/restaurants/plenitude.jpg"),
   },
   {
     name: "La Tour d'Argent",
