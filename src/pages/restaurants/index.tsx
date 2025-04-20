@@ -36,16 +36,16 @@ export default function RestaurantsHome() {
       count: LONDON_RESTAURANTS.length,
     },
     {
-      name: "New York",
-      slug: "new-york",
-      image: newYorkImage,
-      count: NEW_YORK_RESTAURANTS.length,
-    },
-    {
       name: "Paris",
       slug: "paris",
       image: parisImage,
       count: PARIS_RESTAURANTS.length,
+    },
+    {
+      name: "New York",
+      slug: "new-york",
+      image: newYorkImage,
+      count: NEW_YORK_RESTAURANTS.length,
     },
   ];
 
