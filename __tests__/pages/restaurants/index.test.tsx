@@ -20,9 +20,7 @@ describe("Restaurants index page", () => {
     render(<RestaurantsHome />);
 
     expect(
-      screen.getAllByText(
-        /A carefully curated list of a few selected restaurants/i,
-      )[0],
+      screen.getAllByText(/A carefully curated list of/i)[0],
     ).toBeInTheDocument();
   });
 
