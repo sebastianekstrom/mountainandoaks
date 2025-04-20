@@ -206,7 +206,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                   {restaurant.ratings?.michelin ? (
                     <>
                       {restaurant.ratings.michelin === "Bib" ? (
-                        <div>
+                        <div className="relative top-[-1px]">
                           <Image
                             width={20}
                             height={20}
@@ -436,7 +436,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {filteredRestaurants.map((restaurant, index) =>
             renderRestaurantCard(restaurant, index),
           )}
