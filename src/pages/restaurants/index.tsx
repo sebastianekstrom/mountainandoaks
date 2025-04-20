@@ -9,9 +9,11 @@ import { Text } from "components/Text/Text";
 import stockholmImage from "public/images/restaurants/stockholm/metaImage.jpg";
 import londonImage from "public/images/restaurants/london/metaImage.jpg";
 import newYorkImage from "public/images/restaurants/new-york/metaImage.jpg";
+import parisImage from "public/images/restaurants/paris/metaImage.jpg";
 import { RESTAURANTS as STOCKHOLM_RESTAURANTS } from "../../constants/restaurants/stockholm";
 import { RESTAURANTS as LONDON_RESTAURANTS } from "../../constants/restaurants/london";
 import { RESTAURANTS as NEW_YORK_RESTAURANTS } from "../../constants/restaurants/new-york";
+import { RESTAURANTS as PARIS_RESTAURANTS } from "../../constants/restaurants/paris";
 interface CityCard {
   name: string;
   slug: string;
@@ -38,6 +40,12 @@ export default function RestaurantsHome() {
       slug: "new-york",
       image: newYorkImage,
       count: NEW_YORK_RESTAURANTS.length,
+    },
+    {
+      name: "Paris",
+      slug: "paris",
+      image: parisImage,
+      count: PARIS_RESTAURANTS.length,
     },
   ];
 
