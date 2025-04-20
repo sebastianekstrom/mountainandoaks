@@ -168,11 +168,6 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
       >
         <div>
           <a href={restaurant.website}>
-            <div className="flex items-center gap-4">
-              <Text variant="h4" classNames="mb-2">
-                {restaurant.name}
-              </Text>
-            </div>
             <div className="relative">
               <Image
                 width={190}
@@ -186,59 +181,70 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                 placeholder="blur"
               />
             </div>
-          </a>
-          {hasRatings ? (
-            <div className="mb-2 flex justify-between">
-              {restaurant.ratings?.["m&o"] ? (
-                <div className="flex items-center justify-center gap-1">
-                  <Image
-                    width={140}
-                    height={56.6}
-                    className="w-[30px] lg:w-[20px] h-auto"
-                    src="/images/misc/logo-squircle.svg"
-                    alt=""
-                    title="Rating from Mountain & Oaks"
-                  />
-                  <Text variant="badge">{restaurant.ratings?.["m&o"]}/10</Text>
-                </div>
-              ) : null}
-              {restaurant.ratings ? (
-                <div>
-                  {restaurant.ratings.michelin === "Bib" ? (
-                    <Image
-                      width={20}
-                      height={20}
-                      className="w-[25px] lg:w-[20px] h-auto"
-                      src="/images/misc/bib-gourmand.png"
-                      alt=""
-                      title="Bib Gourmand: good quality, good value cooking"
-                    />
-                  ) : (
-                    <div className="flex gap-[3px]">
-                      {Array.from({
-                        length: restaurant.ratings.michelin ?? 0,
-                      }).map((_, starIndex) => {
-                        const stars = restaurant.ratings?.michelin ?? 0;
-                        return (
+            <div className="flex items-center justify-between">
+              <Text variant="h4" classNames="relative top-[2px]">
+                {restaurant.name}
+              </Text>
+
+              {hasRatings ? (
+                <div className="flex justify-between gap-3 items-center">
+                  {restaurant.ratings?.["m&o"] ? (
+                    <div className="flex items-center justify-center gap-1">
+                      <Image
+                        width={140}
+                        height={56.6}
+                        className="w-[30px] lg:w-[20px] h-auto"
+                        src="/images/misc/logo-squircle.svg"
+                        alt=""
+                        title="Rating from Mountain & Oaks"
+                      />
+                      <Text variant="badge">
+                        {restaurant.ratings?.["m&o"]}/10
+                      </Text>
+                    </div>
+                  ) : null}
+                  {restaurant.ratings?.michelin ? (
+                    <>
+                      {restaurant.ratings.michelin === "Bib" ? (
+                        <div>
                           <Image
                             width={20}
                             height={20}
                             className="w-[25px] lg:w-[20px] h-auto"
-                            src="/images/misc/michelin-star.svg"
+                            src="/images/misc/bib-gourmand.png"
                             alt=""
-                            title={`${stars} Michelin star${
-                              stars === 1 ? "" : "s"
-                            }`}
-                            key={`${restaurant.name}-star-${starIndex + 1}`}
+                            title="Bib Gourmand: good quality, good value cooking"
                           />
-                        );
-                      })}
-                    </div>
-                  )}
+                        </div>
+                      ) : (
+                        <div className="flex gap-[3px]">
+                          {Array.from({
+                            length: restaurant.ratings.michelin ?? 0,
+                          }).map((_, starIndex) => {
+                            const stars = restaurant.ratings?.michelin ?? 0;
+                            return (
+                              <Image
+                                width={20}
+                                height={20}
+                                className="w-[25px] lg:w-[20px] h-auto"
+                                src="/images/misc/michelin-star.svg"
+                                alt=""
+                                title={`${stars} Michelin star${
+                                  stars === 1 ? "" : "s"
+                                }`}
+                                key={`${restaurant.name}-star-${starIndex + 1}`}
+                              />
+                            );
+                          })}
+                        </div>
+                      )}
+                    </>
+                  ) : null}
                 </div>
               ) : null}
             </div>
-          ) : null}
+          </a>
+
           {restaurant.chefs ? (
             <div className="mb-2 mt-4">
               <Text variant="h5" classNames="mb-1 mt-4">
