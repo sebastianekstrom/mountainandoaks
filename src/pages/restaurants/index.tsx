@@ -10,10 +10,12 @@ import stockholmImage from "public/images/restaurants/stockholm/metaImage.jpg";
 import londonImage from "public/images/restaurants/london/metaImage.jpg";
 import newYorkImage from "public/images/restaurants/new-york/metaImage.jpg";
 import parisImage from "public/images/restaurants/paris/metaImage.jpg";
+import torontoImage from "public/images/restaurants/toronto/metaImage.jpg";
 import { RESTAURANTS as STOCKHOLM_RESTAURANTS } from "../../constants/restaurants/stockholm";
 import { RESTAURANTS as LONDON_RESTAURANTS } from "../../constants/restaurants/london";
 import { RESTAURANTS as NEW_YORK_RESTAURANTS } from "../../constants/restaurants/new-york";
 import { RESTAURANTS as PARIS_RESTAURANTS } from "../../constants/restaurants/paris";
+import { RESTAURANTS as TORONTO_RESTAURANTS } from "../../constants/restaurants/toronto";
 interface CityCard {
   name: string;
   slug: string;
@@ -40,6 +42,12 @@ export default function RestaurantsHome() {
       slug: "paris",
       image: parisImage,
       count: PARIS_RESTAURANTS.length,
+    },
+    {
+      name: "Toronto",
+      slug: "toronto",
+      image: torontoImage,
+      count: TORONTO_RESTAURANTS.length,
     },
     {
       name: "New York",
