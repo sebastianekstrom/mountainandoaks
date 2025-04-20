@@ -57,21 +57,25 @@ export default function RestaurantsHome() {
     },
   ];
 
+  const totalRestaurants = cities.reduce(
+    (total, city) => total + city.count,
+    0,
+  );
+  const description = `A carefully curated list of ${totalRestaurants} restaurants we've visited or wish to visit`;
+
   return (
     <Page
       metaTitle="Restaurants"
-      description="A carefully curated list of a few selected restaurants we've visited or wish to visit"
+      description={description}
       image={stockholmImage}
     >
       <div>
         <Text variant="h2" classNames="mb-4 max-w-[75%] mb-8 hidden lg:block">
-          A carefully curated list of a few selected restaurants we've visited
-          or wish to visit
+          {description}
         </Text>
 
         <Text variant="h4" classNames="mb-4 max-w-[75%] mb-8 lg:hidden mt-4">
-          A carefully curated list of a few selected restaurants we've visited
-          or wish to visit
+          {description}
         </Text>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

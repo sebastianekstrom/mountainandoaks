@@ -34,13 +34,18 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
   const [viewMode, setViewMode] = useState<ViewMode>("map");
 
   useEffect(() => {
+    const isMobile = window.innerWidth < 1024;
+
     const updateMapHeight = () => {
-      setMapHeight(window.innerWidth < 1024 ? 150 : 600);
+      setMapHeight(isMobile ? 150 : 600);
     };
 
-    setTimeout(() => {
-      updateMapHeight();
-    }, 600);
+    const updateViewMode = () => {
+      setViewMode(isMobile ? "grid" : "map");
+    };
+
+    updateMapHeight();
+    updateViewMode();
 
     window.addEventListener("resize", updateMapHeight);
 
@@ -190,6 +195,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                     className="w-[30px] lg:w-[20px] h-auto"
                     src="/images/misc/logo-squircle.svg"
                     alt=""
+                    title="Rating from Mountain & Oaks"
                   />
                   <Text variant="badge">{restaurant.ratings?.["m&o"]}/10</Text>
                 </div>
@@ -202,23 +208,29 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                       height={20}
                       className="w-[25px] lg:w-[20px] h-auto"
                       src="/images/misc/bib-gourmand.png"
-                      alt="Bib Gourmand"
+                      alt=""
                       title="Bib Gourmand: good quality, good value cooking"
                     />
                   ) : (
                     <div className="flex gap-[3px]">
                       {Array.from({
                         length: restaurant.ratings.michelin ?? 0,
-                      }).map((_, starIndex) => (
-                        <Image
-                          width={20}
-                          height={20}
-                          className="w-[25px] lg:w-[20px] h-auto"
-                          src="/images/misc/michelin-star.svg"
-                          alt="Michelin star"
-                          key={`${restaurant.name}-star-${starIndex + 1}`}
-                        />
-                      ))}
+                      }).map((_, starIndex) => {
+                        const stars = restaurant.ratings?.michelin ?? 0;
+                        return (
+                          <Image
+                            width={20}
+                            height={20}
+                            className="w-[25px] lg:w-[20px] h-auto"
+                            src="/images/misc/michelin-star.svg"
+                            alt=""
+                            title={`${stars} Michelin star${
+                              stars === 1 ? "" : "s"
+                            }`}
+                            key={`${restaurant.name}-star-${starIndex + 1}`}
+                          />
+                        );
+                      })}
                     </div>
                   )}
                 </div>
@@ -279,14 +291,20 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
       <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
         <Text variant="h4">{cityName}</Text>
         <Text>{description}</Text>
-        <div className="flex mt-2 justify-between md:justify-start flex-wrap gap-2">
-          <FilterButtons
-            filters={filterLabels}
-            onFilterChange={handleFilterChange}
-            activeFilter={filter}
-          />
+        <div
+          className={`flex mt-2 md:justify-start flex-wrap md:gap-8 ${
+            visitedCount > 0 ? "justify-between" : "justify-center"
+          }`}
+        >
+          {visitedCount > 0 && (
+            <FilterButtons
+              filters={filterLabels}
+              onFilterChange={handleFilterChange}
+              activeFilter={filter}
+            />
+          )}
 
-          <div className="flex lg:ml-6 border border-brand rounded-md overflow-hidden">
+          <div className="flex border border-brand rounded-md overflow-hidden">
             <button
               type="button"
               onClick={() => handleViewModeChange("map")}
@@ -331,7 +349,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
                     viewMode === "map" ? "text-black" : "text-white"
                   }`}
                 >
-                  Grid
+                  List
                 </Text>
               </div>
             </button>
