@@ -52,16 +52,16 @@ export default function RestaurantsHome() {
       count: GOTHENBURG_RESTAURANTS.length,
     },
     {
-      name: "Toronto",
-      slug: "toronto",
-      image: torontoImage,
-      count: TORONTO_RESTAURANTS.length,
-    },
-    {
       name: "New York",
       slug: "new-york",
       image: newYorkImage,
       count: NEW_YORK_RESTAURANTS.length,
+    },
+    {
+      name: "Toronto",
+      slug: "toronto",
+      image: torontoImage,
+      count: TORONTO_RESTAURANTS.length,
     },
   ];
 
