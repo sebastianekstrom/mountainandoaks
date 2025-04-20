@@ -150,6 +150,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
   if (!mapHeight || filteredRestaurants.length === 0) return null;
 
   const renderRestaurantCard = (restaurant: Restaurant, index: number) => {
+    const hasRatings = restaurant.ratings?.["m&o"] || restaurant.ratings;
     return (
       <div
         key={restaurant.name}
@@ -177,49 +178,51 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               quality={100}
             />
           </div>
-          <div className="mb-2 flex justify-between">
-            {restaurant.ratings?.["m&o"] ? (
-              <div className="flex items-center justify-center gap-1">
-                <Image
-                  width={140}
-                  height={56.6}
-                  className="w-[30px] lg:w-[20px] h-auto"
-                  src="/images/misc/logo-squircle.svg"
-                  alt=""
-                />
-                <Text variant="badge">{restaurant.ratings?.["m&o"]}/10</Text>
-              </div>
-            ) : null}
-            {restaurant.ratings ? (
-              <div>
-                {restaurant.ratings.michelin === "Bib" ? (
+          {hasRatings ? (
+            <div className="mb-2 flex justify-between">
+              {restaurant.ratings?.["m&o"] ? (
+                <div className="flex items-center justify-center gap-1">
                   <Image
-                    width={20}
-                    height={20}
-                    className="w-[25px] lg:w-[20px] h-auto"
-                    src="/images/misc/bib-gourmand.png"
-                    alt="Bib Gourmand"
-                    title="Bib Gourmand: good quality, good value cooking"
+                    width={140}
+                    height={56.6}
+                    className="w-[30px] lg:w-[20px] h-auto"
+                    src="/images/misc/logo-squircle.svg"
+                    alt=""
                   />
-                ) : (
-                  <div className="flex gap-[3px]">
-                    {Array.from({
-                      length: restaurant.ratings.michelin ?? 0,
-                    }).map((_, starIndex) => (
-                      <Image
-                        width={20}
-                        height={20}
-                        className="w-[25px] lg:w-[20px] h-auto"
-                        src="/images/misc/michelin-star.svg"
-                        alt="Michelin star"
-                        key={`${restaurant.name}-star-${starIndex + 1}`}
-                      />
-                    ))}
-                  </div>
-                )}
-              </div>
-            ) : null}
-          </div>
+                  <Text variant="badge">{restaurant.ratings?.["m&o"]}/10</Text>
+                </div>
+              ) : null}
+              {restaurant.ratings ? (
+                <div>
+                  {restaurant.ratings.michelin === "Bib" ? (
+                    <Image
+                      width={20}
+                      height={20}
+                      className="w-[25px] lg:w-[20px] h-auto"
+                      src="/images/misc/bib-gourmand.png"
+                      alt="Bib Gourmand"
+                      title="Bib Gourmand: good quality, good value cooking"
+                    />
+                  ) : (
+                    <div className="flex gap-[3px]">
+                      {Array.from({
+                        length: restaurant.ratings.michelin ?? 0,
+                      }).map((_, starIndex) => (
+                        <Image
+                          width={20}
+                          height={20}
+                          className="w-[25px] lg:w-[20px] h-auto"
+                          src="/images/misc/michelin-star.svg"
+                          alt="Michelin star"
+                          key={`${restaurant.name}-star-${starIndex + 1}`}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : null}
+            </div>
+          ) : null}
           {restaurant.chefs ? (
             <div className="mb-2 mt-4">
               <Text variant="h5" classNames="mb-1 mt-4">
