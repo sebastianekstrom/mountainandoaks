@@ -285,11 +285,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
       <div className="mb-8 mt-4 lg:mt-0 lg:mb-6 text-center lg:text-left">
         <Text variant="h4">{cityName}</Text>
         <Text>{description}</Text>
-        <div
-          className={`flex mt-2 md:justify-start flex-wrap md:gap-8 ${
-            visitedCount > 0 ? "justify-between" : "justify-center"
-          }`}
-        >
+        <div className="flex mt-2 justify-center md:justify-start flex-wrap gap-2 md:gap-8">
           {visitedCount > 0 && (
             <FilterButtons
               filters={filterLabels}
