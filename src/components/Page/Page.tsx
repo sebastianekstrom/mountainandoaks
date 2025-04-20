@@ -115,7 +115,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
               alt="Visit Mountain & Oaks on Instagram"
             />
           </a>
-          <a href="mailto:hello@mountainandoaks.com">
+          <a href="mailto:hello@mountainandoaks.com" aria-label="Email us">
             <EnvelopeIcon
               className="h-[28px] relative top-[-4px]"
               aria-hidden="true"

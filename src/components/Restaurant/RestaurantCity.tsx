@@ -358,6 +358,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               return (
                 <button
                   key={restaurant.name}
+                  aria-label={restaurant.name}
                   type="button"
                   onClick={(e) => {
                     e.preventDefault();
