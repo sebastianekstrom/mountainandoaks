@@ -211,7 +211,9 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
               flyToLocation={flyToLocation}
               mapboxKey={mapboxKey}
             />
-          ) : null}
+          ) : (
+            <div className="w-full" />
+          )}
           <RestaurantList
             restaurants={filteredRestaurants}
             viewMode={viewMode}
