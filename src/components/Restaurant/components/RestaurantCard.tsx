@@ -5,14 +5,12 @@ import type { Restaurant } from "../../../constants/restaurants/types";
 interface RestaurantCardProps {
   restaurant: Restaurant;
   isCompactMode: boolean;
-  viewMode: "map" | "grid";
   index: number;
 }
 
 export const RestaurantCard: React.FC<RestaurantCardProps> = ({
   restaurant,
   isCompactMode,
-  viewMode,
   index,
 }) => {
   const hasRatings = restaurant.ratings?.["m&o"] || restaurant.ratings;
@@ -47,7 +45,7 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
                   <Image
                     width={140}
                     height={56.6}
-                    className="w-[30px] lg:w-[20px] h-auto"
+                    className="w-[30px] lg:w-[24px] h-auto"
                     src="/images/misc/logo-squircle.svg"
                     alt=""
                     title="Rating from Mountain & Oaks"

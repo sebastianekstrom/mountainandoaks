@@ -56,31 +56,6 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://www.triton.restaurant",
   },
   {
-    name: "Aloë",
-    coordinates: {
-      longitude: 17.9854555,
-      latitude: 59.2842603,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
-    ratings: {
-      michelin: 2,
-      "m&o": 10,
-    },
-    chefs: [
-      {
-        name: "Daniel Höglander",
-        description: null,
-      },
-      {
-        name: "Niclas Jönsson",
-        description: null,
-      },
-    ],
-    description:
-      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
-    website: "http://aloerestaurant.se/",
-  },
-  {
     name: "Frantzén",
     coordinates: {
       longitude: 18.0585303,
@@ -191,6 +166,31 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "European and Scandinavian-inspired dishes in a cozy and lively atmosphere.",
     website: "https://www.doma.se/restaurangen",
+  },
+  {
+    name: "Aloë",
+    coordinates: {
+      longitude: 17.9854555,
+      latitude: 59.2842603,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
+    ratings: {
+      michelin: 2,
+      "m&o": 10,
+    },
+    chefs: [
+      {
+        name: "Daniel Höglander",
+        description: null,
+      },
+      {
+        name: "Niclas Jönsson",
+        description: null,
+      },
+    ],
+    description:
+      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
+    website: "http://aloerestaurant.se/",
   },
   {
     name: "Främmat",

@@ -83,7 +83,13 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
     });
   };
 
-  const filteredRestaurants = restaurants.filter((restaurant) => {
+  const sortedRestaurants = [...restaurants].sort((a, b) => {
+    const ratingA = a.ratings?.["m&o"] ?? 0;
+    const ratingB = b.ratings?.["m&o"] ?? 0;
+    return ratingB - ratingA;
+  });
+
+  const filteredRestaurants = sortedRestaurants.filter((restaurant) => {
     if (filter === "all") return true;
     if (filter === "visited") return restaurant.ratings?.["m&o"] !== undefined;
     if (filter === "not_visited")
