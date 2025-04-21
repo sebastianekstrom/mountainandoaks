@@ -1,7 +1,7 @@
 import { FilterButtons } from "components/FilterButtons/FilterButtons";
 import { MapPinIcon, ViewColumnsIcon } from "@heroicons/react/24/outline";
 import { Text } from "components/Text/Text";
-
+import { bodyFont } from "components/Text/Text";
 type ViewMode = "map" | "grid";
 
 interface FilterLabelType {
@@ -17,6 +17,8 @@ interface RestaurantFiltersProps {
   onFilterChange: (filter: string) => void;
   onViewModeChange: (mode: ViewMode) => void;
   visitedCount: number;
+  searchQuery: string;
+  handleSearchChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export const RestaurantFilters: React.FC<RestaurantFiltersProps> = ({
@@ -26,6 +28,8 @@ export const RestaurantFilters: React.FC<RestaurantFiltersProps> = ({
   onFilterChange,
   onViewModeChange,
   visitedCount,
+  searchQuery,
+  handleSearchChange,
 }) => {
   return (
     <div className="flex mt-2 justify-center md:justify-start flex-wrap gap-2 md:gap-8">
@@ -83,6 +87,15 @@ export const RestaurantFilters: React.FC<RestaurantFiltersProps> = ({
           </div>
         </button>
       </div>
+
+      <input
+        type="text"
+        placeholder="Search..."
+        value={searchQuery}
+        autoComplete="off"
+        onChange={handleSearchChange}
+        className={`${bodyFont.variable} focus:outline-none focus:shadow-outline bg-brand-secondary placeholder-slate-500 appearance-none text-black font-sans text-[16px] md:text-[12px] leading-[14px] border border-brand rounded-md px-3 py-1`}
+      />
     </div>
   );
 };

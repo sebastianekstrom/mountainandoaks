@@ -33,6 +33,7 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
   const [viewMode, setViewMode] = useState<ViewMode>("map");
   const [isMobile, setIsMobile] = useState<boolean>(false);
   const isCompactMode = isMobile && viewMode === "map";
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -89,12 +90,20 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
     return ratingB - ratingA;
   });
 
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.target.value);
+  };
+
   const filteredRestaurants = sortedRestaurants.filter((restaurant) => {
-    if (filter === "all") return true;
-    if (filter === "visited") return restaurant.ratings?.["m&o"] !== undefined;
+    const matchesSearch = restaurant.name
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase());
+    if (filter === "all") return matchesSearch;
+    if (filter === "visited")
+      return matchesSearch && restaurant.ratings?.["m&o"] !== undefined;
     if (filter === "not_visited")
-      return restaurant.ratings?.["m&o"] === undefined;
-    return true;
+      return matchesSearch && restaurant.ratings?.["m&o"] === undefined;
+    return matchesSearch;
   });
 
   useEffect(() => {
@@ -196,6 +205,8 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
           onFilterChange={handleFilterChange}
           onViewModeChange={handleViewModeChange}
           visitedCount={visitedCount}
+          searchQuery={searchQuery}
+          handleSearchChange={handleSearchChange}
         />
       </div>
 

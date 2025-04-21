@@ -12,7 +12,7 @@ import type React from "react";
 
 import { convertStringToID } from "utils/convertStringToID";
 
-const bodyFont = localFont({
+export const bodyFont = localFont({
   display: "swap",
   variable: "--font-sans",
   src: [

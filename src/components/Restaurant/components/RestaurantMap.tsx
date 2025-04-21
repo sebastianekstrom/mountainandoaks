@@ -33,8 +33,10 @@ export const RestaurantMap: React.FC<RestaurantMapProps> = ({
       ref={mapRef as any}
       mapboxAccessToken={mapboxKey || process.env.NEXT_PUBLIC_MAPBOX_KEY || ""}
       initialViewState={{
-        latitude: restaurants[0].coordinates.latitude,
-        longitude: restaurants[0].coordinates.longitude,
+        latitude:
+          restaurants.length > 0 ? restaurants[0].coordinates.latitude : 0,
+        longitude:
+          restaurants.length > 0 ? restaurants[0].coordinates.longitude : 0,
         zoom: 14,
       }}
       style={{ width: "100%", height: mapHeight }}

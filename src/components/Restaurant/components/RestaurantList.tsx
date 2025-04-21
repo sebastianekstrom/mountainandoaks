@@ -1,6 +1,7 @@
 import type { RefObject } from "react";
 import { RestaurantCard } from "./RestaurantCard";
 import type { Restaurant } from "../../../constants/restaurants/types";
+import { Text } from "components/Text/Text";
 
 interface RestaurantListProps {
   restaurants: Restaurant[];
@@ -17,6 +18,25 @@ export const RestaurantList: React.FC<RestaurantListProps> = ({
   sectionRefs,
   scrollContainerRef,
 }) => {
+  if (restaurants.length === 0) {
+    if (viewMode === "map") {
+      return (
+        <div className="overflow-auto overflow-y-scroll flex h-[600px] mt-4 lg:mt-0">
+          <section className="w-full lg:w-[500px] lg:ml-4 lg:pr-4">
+            <div className="text-center">
+              <Text variant="h4">No restaurants found</Text>
+            </div>
+          </section>
+        </div>
+      );
+    }
+    return (
+      <div className="text-center">
+        <Text variant="h4">No restaurants found</Text>
+      </div>
+    );
+  }
+
   if (viewMode === "map") {
     return (
       <div

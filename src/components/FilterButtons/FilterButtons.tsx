@@ -19,7 +19,7 @@ export const FilterButtons = ({
           key={filter.value}
           type="button"
           onClick={() => onFilterChange(filter.value)}
-          className={`bg-brand text-black px-2 py-1 rounded-md ${
+          className={`bg-brand text-black px-3 py-2 md:px-2 md:py-1 rounded-md ${
             activeFilter !== filter.value ? "bg-brand-secondary" : ""
           }`}
           disabled={filter.disabled}
