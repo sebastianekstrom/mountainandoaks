@@ -23,7 +23,7 @@ export const RestaurantList: React.FC<RestaurantListProps> = ({
         className="overflow-auto overflow-y-scroll flex h-[600px] mt-4 lg:mt-0"
         ref={scrollContainerRef}
       >
-        <section className="w-full lg:w-[400px] lg:ml-4 lg:pr-4">
+        <section className="w-full lg:w-[500px] lg:ml-4 lg:pr-4">
           {restaurants.map((restaurant, index) => (
             <div
               key={restaurant.name}
@@ -37,7 +37,6 @@ export const RestaurantList: React.FC<RestaurantListProps> = ({
               <RestaurantCard
                 restaurant={restaurant}
                 isCompactMode={isCompactMode}
-                viewMode={viewMode}
                 index={index}
               />
               <span className="bg-separator h-[2px] w-full block mt-8 mb-6" />
@@ -63,7 +62,6 @@ export const RestaurantList: React.FC<RestaurantListProps> = ({
           <RestaurantCard
             restaurant={restaurant}
             isCompactMode={isCompactMode}
-            viewMode={viewMode}
             index={index}
           />
         </div>

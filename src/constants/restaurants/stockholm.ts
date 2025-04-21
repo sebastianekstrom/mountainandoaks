@@ -39,15 +39,15 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Erik Eriksson",
-        description: null,
+        description: "Previously at Gastrologik",
+      },
+      {
+        name: "Adrià Lorenzo",
+        description: "Previously at Ekstedt",
       },
       {
         name: "Patric Kling",
-        description: null,
-      },
-      {
-        name: "Saga Söderman",
-        description: null,
+        description: "Previously at Oaxen Slip",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/triton.jpg"),
@@ -88,11 +88,7 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Joakim Almqvist",
-        description: null,
-      },
-      {
-        name: "Kalle Nilsson",
-        description: null,
+        description: "Also at Coco & Carmen",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
@@ -134,7 +130,9 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0766794,
       latitude: 59.3414547,
     },
-    chefs: [{ name: "Stefan Ekengren", description: null }],
+    chefs: [
+      { name: "Stefan Ekengren", description: "Previously at Görvälns Slott" },
+    ],
     ratings: {
       "m&o": 8,
     },
@@ -1048,11 +1046,11 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Kalle Nilsson",
-        description: "Främmat, Previously at Punk Royale",
+        description: "Also at Främmat. Previously at Punk Royale",
       },
       {
         name: "Jonas Helgesson",
-        description: "Främmat, Previously at Adam/Albin",
+        description: "Also at Främmat. Previously at Adam/Albin",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bacchanale.jpg"),
