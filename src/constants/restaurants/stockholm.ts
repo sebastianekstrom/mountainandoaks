@@ -376,7 +376,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3392377,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
     description:
@@ -520,7 +520,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3146593,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
     description:
@@ -1085,5 +1085,454 @@ export const RESTAURANTS: Restaurant[] = [
       "An omakase-style restaurant, offering an eight-course tasting menu that fuses Japanese tradition with global culinary artistry. The cuisine draws influences from South America, Asia, and Europe, utilizing modern techniques and luxury ingredients like Oscietra caviar and Périgord truffles.",
     website: "https://blackmilkgastrobar.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/black-milk.jpg"),
+  },
+  {
+    name: "Flippin' Burgers",
+    coordinates: {
+      latitude: 59.3406545,
+      longitude: 18.0507107,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    chefs: [
+      {
+        name: "Jon Widegren",
+        description:
+          "Traveled across the U.S. in 2010 to study American burger culture before opening Flippin' Burgers in 2012.",
+      },
+    ],
+    description:
+      "Renowned for its dedication to classic American-style hamburgers. Established in 2012, the restaurant emphasizes quality ingredients, sourcing meat from small-scale Swedish producers and buns from local bakeries.",
+    website: "https://flippinburgers.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/flippin-burgers.jpg"),
+  },
+  {
+    name: "La Vecchia Signora",
+    coordinates: {
+      latitude: 59.3144578,
+      longitude: 18.084841,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato, complemented by an extensive Italian wine list.",
+    website: "https://www.lavecchiasignora.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/la-vecchia-signora.jpg"),
+  },
+  {
+    name: "B.A.R.",
+    coordinates: {
+      latitude: 59.3299701,
+      longitude: 18.077056,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    chefs: [
+      {
+        name: "Henrik Norström",
+        description:
+          "Co-owner and creative leader of B.A.R. Previously opened Michelin-starred Lux Stockholm.",
+      },
+    ],
+    description:
+      "Seafood-focused restaurant in Stockholm's Blasieholmen district, offering a unique dining experience where guests can select fresh fish or meat from an in-house market counter. The chosen items are prepared to order, accompanied by a variety of sauces and sides.",
+    website: "https://restaurangbar.se/en/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/bar-blasieholmen.jpg"),
+  },
+  {
+    name: "Ho's Kina",
+    coordinates: {
+      latitude: 59.315006,
+      longitude: 18.0326057,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    chefs: [
+      {
+        name: "Manne Ho",
+        description:
+          "Owner and head chef of Ho's Kina. Son of founder Shiu Tung Ho, who opened the restaurant in 1988 after relocating from Hong Kong to Sweden.",
+      },
+    ],
+    description:
+      "Ho's Kina is a family-owned Chinese restaurant located in Stockholm's Hornstull district. Established in 1988 by Shiu Tung Ho, the restaurant offers generous portions of rustic Chinese dishes inspired by Cantonese, Sichuan, and Shanghai cuisines.",
+    website: "https://restauranghos.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/hos-kina.jpg"),
+  },
+  {
+    name: "Urban Deli Nytorget",
+    coordinates: {
+      latitude: 59.3125041,
+      longitude: 18.0824946,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    chefs: [
+      {
+        name: "Jessie Sommarström",
+        description:
+          "Creative leader at Urban Deli. Previously worked at Sturehof and Esperanto. Named Chef of the Year in 2022 and recognized for her work in food sustainability.",
+      },
+    ],
+    description:
+      "Known for its vibrant atmosphere, it offers a menu featuring Nordic and international flavors, with an emphasis on sustainability and quality ingredients. The establishment also includes a grocery store and bakery, making it a popular spot for both dining and shopping.",
+    website: "https://www.urbandeli.org/nytorget",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/urban-deli-nytorget.jpg"),
+  },
+  {
+    name: "La Neta",
+    coordinates: {
+      latitude: 59.336627,
+      longitude: 18.0582477,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    chefs: [
+      {
+        name: "David Licona",
+        description:
+          "Originally from Monterrey, Mexico, he moved to Stockholm in 2008 and co-founded La Neta in 2009 to bring authentic Mexican street food to the city.",
+      },
+      {
+        name: "Ricardo Medrano",
+        description:
+          "Also from Monterrey, Mexico, he partnered with David Licona to establish the restaurant.",
+      },
+    ],
+    description:
+      "La Neta is a taquería in Stockholm offering authentic Mexican street food. Established in 2009 by two Monterrey natives, it serves tacos and quesadillas with homemade corn tortillas and freshly made salsas. The restaurant features a self-service salsa bar and a casual, communal dining atmosphere.",
+    website: "https://www.laneta.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/la-neta.jpg"),
+  },
+  {
+    name: "Fotografiska",
+    coordinates: {
+      latitude: 59.3179802,
+      longitude: 18.0848078,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    chefs: [
+      {
+        name: "Paul Svensson",
+        description:
+          "Executive Head Chef at Fotografiska. Previously worked with Marco Pierre White in London and Mathias Dahlgren at Bon Lloc in Stockholm.",
+      },
+    ],
+    description:
+      "Located atop Stockholm's Fotografiska museum, the restaurant offers panoramic views and a sustainable, plant-forward menu. Dishes emphasize seasonal, locally sourced vegetables, with optional sustainable meat or fish sides. The establishment is committed to zero-waste practices, including reusing materials like mussel shells for plates and repurposing old wine bottles into glassware.",
+    website: "https://stockholm.fotografiska.com/en/restaurants/the-restaurant",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/fotografiska.jpg"),
+  },
+  {
+    name: "Bistro Bananas",
+    coordinates: {
+      latitude: 59.3118075,
+      longitude: 18.0753039,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "Housed in a distinctive flatiron building, it offers a diverse menu featuring Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare and Middle Eastern-inspired options such as lemon falafel.",
+    website: "https://bistrobananas.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/bistro-bananas.jpg"),
+  },
+  {
+    name: "Nytorget 6",
+    coordinates: {
+      latitude: 59.3120883,
+      longitude: 18.0827863,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    chefs: [
+      {
+        name: "Fredrik Larsson",
+        description:
+          "Previously part of the Swedish Culinary Team. Known for his 'inclusive gastronomy' approach, blending Swedish classics with Southern European influences.",
+      },
+    ],
+    description:
+      "The restaurant offers a menu that combines Swedish classics with Southern European flavors, featuring dishes like meatballs, omelets, and seafood pasta. With a vibrant atmosphere, it serves breakfast, lunch, and dinner, and includes a cocktail bar where skilled bartenders craft a variety of drinks.",
+    website: "https://www.nytorget6.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/nytorget-6.jpg"),
+  },
+  {
+    name: "Meatballs for the People",
+    coordinates: {
+      latitude: 59.3146005,
+      longitude: 18.0812414,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    chefs: [
+      {
+        name: "Mathias Pilblad",
+        description:
+          "Head Chef at Meatballs for the People. Co-authored the restaurant's cookbook, sharing recipes that range from classic Swedish meatballs to innovative variations.",
+      },
+    ],
+    description:
+      "Sweden's first and only restaurant dedicated exclusively to meatballs. The establishment offers a diverse selection of handmade, organic meatballs crafted from high-quality, locally sourced meats, including traditional options like beef and pork, as well as more adventurous choices such as moose, reindeer, and bear.",
+    website: "https://meatball.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/meatballs-for-the-people.jpg"),
+  },
+  {
+    name: "Riche",
+    coordinates: {
+      latitude: 59.3334698,
+      longitude: 18.0757636,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    chefs: [
+      {
+        name: "Björn Wahlund",
+        description:
+          "Previously served as Head Chef at Moderna Museet's restaurant, bringing extensive experience in Swedish and French cuisine.",
+      },
+    ],
+    description:
+      "Established in 1893, Riche is a storied brasserie located in Stockholm's Östermalm district. Inspired by Café Riche in Paris, the restaurant blends French elegance with Swedish culinary traditions. The menu features a mix of classic dishes and contemporary creations, all prepared from scratch using seasonal, high-quality ingredients.",
+    website: "https://riche.se/en/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/riche.jpg"),
+  },
+  {
+    name: "YUC!",
+    coordinates: {
+      latitude: 59.3423442,
+      longitude: 18.051285,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    chefs: [],
+    description:
+      "YUC! Mexican is a vibrant restaurant in Stockholm's Vasastan district, offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options. The lively atmosphere, enhanced by music and a colorful interior, makes it a popular spot for both dining and socializing.",
+    website: "https://yucmexican.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/yuc.jpg"),
+  },
+  {
+    name: "Lådan",
+    coordinates: {
+      latitude: 59.3403855,
+      longitude: 18.0601468,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    chefs: [
+      {
+        name: "Jon Widegren",
+        description:
+          "Founder of Lådan and Flippin' Burgers. Known for pioneering Stockholm's craft burger scene and expanding into beer-forward street food concepts.",
+      },
+    ],
+    description:
+      "Lådan is a casual beer hall and street food restaurant located in Stockholm's Vasastan district. Established in 2017 by Jon Widegren, the founder of Flippin' Burgers, Lådan offers a menu featuring sliders, Chicago-style pizza slices, and various sides, all prepared from scratch.",
+    website: "https://ladansthlm.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/ladan.jpg"),
+  },
+  {
+    name: "Grus Grus",
+    coordinates: {
+      latitude: 59.3431556,
+      longitude: 18.0490735,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    chefs: [
+      {
+        name: "Bill Allison",
+        description:
+          "Head Chef at Grus Grus. Originally from Canada with Jamaican roots, he brings a diverse culinary background to the restaurant.",
+      },
+    ],
+    description:
+      "Grus Grus is a wine bar located in Stockholm's Vasastan district, adjacent to its sister restaurant, Tranan. The establishment focuses on craft wines, offering selections ranging from obscure grape varieties to classic bottles. The menu features seasonal small plates designed for sharing, utilizing local Swedish produce.",
+    website: "https://grusgrusvinbaren.se/en/home/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/grus-grus.jpg"),
+  },
+  {
+    name: "Den Gyldene Freden",
+    coordinates: {
+      latitude: 59.32316,
+      longitude: 18.0737972,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "Established in 1722, Den Gyldene Freden is one of the world's oldest restaurants still operating in its original location. Situated in Stockholm's Gamla Stan, it offers a menu rooted in traditional Swedish cuisine, featuring dishes like meatballs with lingonberries and creamy potato purée.",
+    website: "https://gyldenefreden.se/en/startpage/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/den-gyldene-freden.jpg"),
+  },
+  {
+    name: "Knut",
+    coordinates: {
+      latitude: 59.3381566,
+      longitude: 18.0529088,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    chefs: [
+      {
+        name: "Martin Sjölander",
+        description:
+          "Born in Timrå, he began working in restaurants at age 14 and traveled globally as a chef before opening Knut in 2013. His culinary vision blends northern Swedish traditions with international influences.",
+      },
+    ],
+    description:
+      "Offering northern Swedish cuisine with a modern twist. Established in 2013 by Martin Sjölander, the restaurant draws inspiration from the founder's upbringing in Norrland, incorporating traditional ingredients like reindeer, moose, and cloudberries into contemporary dishes.",
+    website: "https://restaurangknut.se/en/home/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/knut.jpg"),
+  },
+  {
+    name: "Deli Di Luca",
+    coordinates: {
+      latitude: 59.3154053,
+      longitude: 18.0841642,
+    },
+    ratings: {
+      "m&o": 2,
+    },
+    chefs: [
+      {
+        name: "Michele Sganzerla",
+        description:
+          "Head Chef at Deli Di Luca. Collaborates with Fernando Di Luca to offer a menu that blends traditional Italian cuisine with modern interpretations, emphasizing high-quality ingredients and seasonal produce.",
+      },
+    ],
+    description:
+      "Italian restaurant and wine bar located in Stockholm's Södermalm district. The establishment offers a menu that combines traditional Italian dishes with contemporary twists, focusing on high-quality ingredients.",
+    website: "https://www.delidiluca.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/deli-di-luca.jpg"),
+  },
+  {
+    name: "Eatnam",
+    coordinates: {
+      latitude: 59.3390724,
+      longitude: 18.0687694,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Vietnamese restaurant in Stockholm offering authentic dishes inspired by the everyday food of Saigon. The menu features pho noodle soup, banh mi sandwiches, fresh spring rolls, and noodle salads, with options for meat lovers, vegetarians, and vegans.",
+    website: "https://eatnam.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/eatnam.jpg"),
+  },
+  {
+    name: "Aifur",
+    coordinates: {
+      latitude: 59.323059,
+      longitude: 18.0718389,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "Offers a unique dining experience inspired by the Viking Age. Founded by Swedish musician Martin 'E-Type' Erikson, the restaurant immerses guests in a medieval atmosphere with communal wooden tables, candlelight, and traditional Nordic music. The menu features dishes like mead-boiled mussels, moose fillet, and saffron pancakes, accompanied by beverages such as mead, ale, and wine.",
+    website: "http://aifur.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/aifur.jpg"),
+  },
+  {
+    name: "Lennart & Bror",
+    coordinates: {
+      latitude: 59.3462587,
+      longitude: 18.0618021,
+    },
+    ratings: {
+      "m&o": 7,
+    },
+    description:
+      "Lennart & Bror is a butcher shop and restaurant located in Stockholm's Vasastan district. The establishment offers a menu featuring artisanal sandwiches, sausages, and burgers made from high-quality meats. Known for its casual atmosphere, Lennart & Bror provides both dine-in and takeaway options, with a focus on delivering flavorful meat-centric dishes.",
+    website: "https://www.lennartochbror.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/lennart-bror.jpg"),
+  },
+  {
+    name: "Ett Hem",
+    coordinates: {
+      latitude: 59.3455871,
+      longitude: 18.0677353,
+    },
+    ratings: {
+      "m&o": 9,
+    },
+    chefs: [
+      {
+        name: "Leo Frodell",
+        description:
+          "Head Chef at Ett Hem. Formerly at Aquavit NYC, he leads a kitchen that emphasizes local, seasonal ingredients and in-house preparations, including house-made butter and charcuterie.",
+      },
+    ],
+    description:
+      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home. The open kitchen serves a daily changing menu based on the freshest local and seasonal ingredients, with dishes such as grilled pike perch with yellow beets and house-made 'nduja.",
+    website: "https://www.etthem.se/kitchen/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
+  },
+  {
+    name: "Nalen",
+    coordinates: {
+      latitude: 59.3371552,
+      longitude: 18.067765,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "Dating back to 1888, Nalen has long been a center for music and cultural events. The restaurant offers a refined take on traditional Swedish cuisine with modern influences, emphasizing sustainability and organic, locally sourced ingredients. Guests can enjoy dishes like Jerusalem artichoke soup with scallop, lamb brisket with sweetbread, and classic meatballs with cream sauce.",
+    website: "https://www.nalen.com/restaurang/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/nalen.jpg"),
+  },
+  {
+    name: "Monster Chicken",
+    coordinates: {
+      latitude: 59.3076991,
+      longitude: 18.0776832,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    description:
+      "Korean fried chicken and soju bar located in Stockholm's Södermalm district. Known for its crispy, flavorful chicken, the restaurant offers a variety of sauces and spice levels, including options like 'Pa'Padak' and 'Monstrous Flame'.",
+    website: "https://www.monsterchicken.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/monster-chicken.jpg"),
   },
 ];
