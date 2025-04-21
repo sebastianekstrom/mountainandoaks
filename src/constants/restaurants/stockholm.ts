@@ -9,7 +9,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       michelin: "Bib",
-      "m&o": 9.5,
+      "m&o": 9,
     },
     chefs: [
       {
@@ -83,7 +83,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3154739,
     },
     ratings: {
-      "m&o": 10,
+      "m&o": 9,
     },
     chefs: [
       {
@@ -107,7 +107,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3368766,
     },
     ratings: {
-      "m&o": 8.5,
+      "m&o": 8,
     },
     chefs: [
       {
@@ -136,7 +136,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     chefs: [{ name: "Stefan Ekengren", description: null }],
     ratings: {
-      "m&o": 8.5,
+      "m&o": 8,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
     description:
@@ -261,7 +261,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.314362,
     },
     ratings: {
-      "m&o": 7.5,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/barbro.jpg"),
     description:
@@ -333,7 +333,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3429635,
     },
     ratings: {
-      "m&o": 9.5,
+      "m&o": 9,
     },
     chefs: [
       {
@@ -357,7 +357,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3348538,
     },
     ratings: {
-      "m&o": 6.5,
+      "m&o": 6,
     },
     chefs: [
       {
@@ -436,7 +436,7 @@ export const RESTAURANTS: Restaurant[] = [
   {
     name: "Voisine",
     ratings: {
-      "m&o": 8,
+      "m&o": 7,
     },
     coordinates: {
       longitude: 18.0904208,
@@ -454,7 +454,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3161676,
     },
     ratings: {
-      "m&o": 5.5,
+      "m&o": 5,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/tjoget.jpg"),
     description:
@@ -468,7 +468,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3154548,
     },
     ratings: {
-      "m&o": 7.5,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/pats-place.jpg"),
     description:
@@ -482,7 +482,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3416893,
     },
     ratings: {
-      "m&o": 7.5,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/farang.jpg"),
     description:
@@ -535,7 +535,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.1489192,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/arroganta-svinet.jpg"),
     description:
@@ -549,7 +549,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3167265,
     },
     ratings: {
-      "m&o": 8.5,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/funky-chicken.jpg"),
     description:
