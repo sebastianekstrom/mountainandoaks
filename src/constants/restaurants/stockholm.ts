@@ -181,11 +181,12 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Daniel Höglander",
-        description: null,
+        description:
+          "Previously at Ulla Winbladh, Villa Dagmar, Esperanto and Operakällaren",
       },
       {
         name: "Niclas Jönsson",
-        description: null,
+        description: "Previously at Black Milk Sushi and Villa Dagmar",
       },
     ],
     description:
