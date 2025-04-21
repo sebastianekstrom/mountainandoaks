@@ -60,9 +60,11 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
     };
 
     window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", updateMapHeight);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", updateMapHeight);
     };
   }, []);
 
@@ -167,8 +169,6 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
     },
   ];
 
-  if (!mapHeight || filteredRestaurants.length === 0) return null;
-
   return (
     <Page
       metaTitle={`Restaurants / ${cityName}`}
@@ -195,16 +195,17 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
 
       {viewMode === "map" ? (
         <div className="relative flex flex-col lg:flex-row">
-          <RestaurantMap
-            mapRef={mapRef}
-            restaurants={filteredRestaurants}
-            mapHeight={mapHeight}
-            sectionRefs={sectionRefs}
-            scrollContainerRef={scrollContainerRef}
-            flyToLocation={flyToLocation}
-            mapboxKey={mapboxKey}
-          />
-
+          {mapHeight ? (
+            <RestaurantMap
+              mapRef={mapRef}
+              restaurants={filteredRestaurants}
+              mapHeight={mapHeight}
+              sectionRefs={sectionRefs}
+              scrollContainerRef={scrollContainerRef}
+              flyToLocation={flyToLocation}
+              mapboxKey={mapboxKey}
+            />
+          ) : null}
           <RestaurantList
             restaurants={filteredRestaurants}
             viewMode={viewMode}
