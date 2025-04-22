@@ -810,7 +810,7 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Emma Shields",
-        description: null,
+        description: "Previously at Djuret, Flickan, Volt and Oaxen",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/freja.jpg"),
