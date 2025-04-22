@@ -9,6 +9,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       michelin: 1,
+      "m&o": 8,
     },
     chefs: [
       {
