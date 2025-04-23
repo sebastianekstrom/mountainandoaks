@@ -274,7 +274,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3283298,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
     },
     chefs: [
       {
@@ -467,7 +467,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3154548,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 8,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/pats-place.jpg"),
     description:
@@ -520,7 +520,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3146593,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 7,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
     description:
@@ -1115,7 +1115,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.084841,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 6,
     },
     description:
       "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato, complemented by an extensive Italian wine list.",
@@ -1245,7 +1245,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0753039,
     },
     ratings: {
-      "m&o": 4,
+      "m&o": 6,
     },
     description:
       "Housed in a distinctive flatiron building, it offers a diverse menu featuring Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare and Middle Eastern-inspired options such as lemon falafel.",
@@ -1328,7 +1328,6 @@ export const RESTAURANTS: Restaurant[] = [
     ratings: {
       "m&o": 5,
     },
-    chefs: [],
     description:
       "YUC! Mexican is a vibrant restaurant in Stockholm's Vasastan district, offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options. The lively atmosphere, enhanced by music and a colorful interior, makes it a popular spot for both dining and socializing.",
     website: "https://yucmexican.se/",
@@ -1364,7 +1363,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0490735,
     },
     ratings: {
-      "m&o": 3,
+      "m&o": 4,
     },
     chefs: [
       {
@@ -1490,17 +1489,16 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0677353,
     },
     ratings: {
-      "m&o": 9,
+      "m&o": 10,
     },
     chefs: [
       {
         name: "Leo Frodell",
-        description:
-          "Head Chef at Ett Hem. Formerly at Aquavit NYC, he leads a kitchen that emphasizes local, seasonal ingredients and in-house preparations, including house-made butter and charcuterie.",
+        description: "Head Chef at Ett Hem. Formerly at Aquavit NYC.",
       },
     ],
     description:
-      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home. The open kitchen serves a daily changing menu based on the freshest local and seasonal ingredients, with dishes such as grilled pike perch with yellow beets and house-made 'nduja.",
+      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home. The open kitchen serves a daily changing menu based on the freshest local and seasonal ingredients.",
     website: "https://www.etthem.se/kitchen/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
@@ -1579,7 +1577,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0812146,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 6,
     },
     description:
       "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes, all prepared with high-quality ingredients. The interior is inspired by 1950s American diners, creating a nostalgic atmosphere for guests.",
