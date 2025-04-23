@@ -1535,4 +1535,369 @@ export const RESTAURANTS: Restaurant[] = [
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/monster-chicken.jpg"),
   },
+  {
+    name: "Nya Carnegiebryggeriet",
+    coordinates: {
+      latitude: 59.3054483,
+      longitude: 18.0986223,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Nya Carnegiebryggeriet is a modern craft brewery and gastropub located in the historic Luma lightbulb factory in Stockholm's Hammarby Sjöstad district. Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
+    website: "https://www.nyacarnegiebryggeriet.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/nya-carnegiebryggeriet.jpg"),
+  },
+  {
+    name: "Svartengrens",
+    coordinates: {
+      latitude: 59.3458781,
+      longitude: 18.0589782,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    chefs: [
+      {
+        name: "Göran Svartengren",
+        description:
+          "Chef and co-founder of Svartengrens, Göran emphasizes sustainable meat sourcing and in-house preparation techniques, including dry-aging, smoking, and sausage making.",
+      },
+    ],
+    description:
+      "Svartengrens is a meat-focused restaurant and cocktail bar located in Stockholm's Vasastan district. Founded in 2011, the establishment is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago and preparing all dishes from scratch. The menu changes daily based on available ingredients, featuring cuts like butcher’s steak and entrecôte, complemented by inventive sides.",
+    website: "https://www.svartengrens.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/svartengrens.jpg"),
+  },
+  {
+    name: "Rockin Grill",
+    coordinates: {
+      latitude: 59.3030848,
+      longitude: 18.0812146,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes, all prepared with high-quality ingredients. The interior is inspired by 1950s American diners, creating a nostalgic atmosphere for guests.",
+    website: "https://www.rockingrill.se/",
+    image:
+      require("../../../public/images/restaurants/stockholm/restaurants/rockin-grill.jpg"),
+  },
+  {
+    name: "BAP",
+    coordinates: {
+      latitude: 59.3367325,
+      longitude: 18.0822406,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "New York-style burgers and house-smoked pastrami sandwiches made with premium brisket from Fällmans Kött.",
+    website: "https://www.bap-burgersandpastrami.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bap-burgers-and-pastrami.jpg"),
+  },
+  {
+    name: "Copper Club",
+    coordinates: {
+      latitude: 59.3020974,
+      longitude: 18.0987279,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Asian fusion bistro and gin bar serving sushi, dim sum, and massaman curry alongside house-distilled gins and craft cocktails.",
+    website: "https://copperclub.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/copper-club.jpg"),
+  },
+  {
+    name: "Lydmar Hotel",
+    coordinates: {
+      latitude: 59.3290245,
+      longitude: 18.0770716,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Upscale brasserie offering European classics like steak tartare and Sicilian fish, with seasonal ingredients and waterfront views.",
+    website: "https://www.lydmar.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/lydmar-hotel.jpg"),
+    chefs: [
+      {
+        name: "Jakob Levén",
+        description:
+          "Head Chef at Lydmar Hotel. Previously at Lisa Elmqvist, Gyldene Freden, and Hotel du Vin in England. Known for his seasonal, ingredient-driven cuisine with Scandinavian influence.",
+      },
+    ],
+  },
+  {
+    name: "NOI (Nobis Hotel)",
+    coordinates: {
+      latitude: 59.3326,
+      longitude: 18.0722,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Modern European cuisine with seasonal Swedish ingredients, offering dishes like Kalix bleak roe and spice-roasted duck in a Scandinavian-designed setting.",
+    website: "https://www.nobishotel.se/en",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nobis-hotel.jpg"),
+    chefs: [
+      {
+        name: "Emmanouil Spilianakis",
+        description:
+          "Executive Head Chef at Nobis Hotel Stockholm, leading both NOI and Bino with a focus on seasonal European cuisine. Previously at Operakällaren.",
+      },
+    ],
+  },
+  {
+    name: "Chelas",
+    coordinates: {
+      latitude: 59.3177887,
+      longitude: 18.0316426,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Authentic Mexican eatery in Hornstull offering dishes like bone marrow tacos, enchiladas, and cochinita pibil, emphasizing fresh ingredients and traditional flavors.",
+    website: "https://www.chelas.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/chelas.jpg"),
+  },
+  {
+    name: "Stella Pizza",
+    coordinates: {
+      latitude: 59.3111459,
+      longitude: 18.0963649,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Modern pizzeria blending Swedish classics with Neapolitan techniques—think kebab, banana curry, and truffle pizzas made with house-fermented dough and local ingredients.",
+    website: "https://www.stellapizza.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/stella.jpg"),
+    chefs: [
+      {
+        name: "Jonas Lagerström",
+        description:
+          "Michelin-starred chef and co-founder of Stella Pizza and Etoile. Former member of the Swedish National Culinary Team.",
+      },
+      {
+        name: "Danny Falkeman",
+        description:
+          "Co-founder of Stella Pizza and Etoile. Competed in Chef of the Year and serves as a jury member for the Pizza Champion Cup.",
+      },
+    ],
+  },
+  {
+    name: "Akkurat",
+    coordinates: {
+      latitude: 59.3197228,
+      longitude: 18.0681573,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Gastropub known for its extensive beer and whisky selection, offering Swedish classics like mussels and steak tartare in a rustic setting.",
+    website: "https://akkurat.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/akkurat.jpg"),
+    chefs: [
+      {
+        name: "Kerim Gudmundson",
+        description:
+          "Head Chef at Akkurat. Educated at Culinary Arts Academy Switzerland, leading the kitchen with a focus on quality ingredients and traditional Swedish cuisine.",
+      },
+    ],
+  },
+  {
+    name: "Ångbåtsbryggan",
+    coordinates: {
+      latitude: 59.3311056,
+      longitude: 18.0832036,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Seasonal Swedish seafood and brasserie fare served aboard a WWII-era barge moored on Strandvägen, with views over Nybroviken.",
+    website: "https://angbatsbryggan.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/angbatsbryggan.jpg"),
+  },
+  {
+    name: "Restaurang J",
+    coordinates: {
+      latitude: 59.3181288,
+      longitude: 18.1602932,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    description:
+      "Maritime brasserie offering Swedish seafood and American-inspired dishes in a New England-style setting with panoramic views of Stockholm's inlet.",
+    website: "https://restaurangj.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/restaurang-j.jpg"),
+    chefs: [
+      {
+        name: "Henrik Wittgren",
+        description:
+          "Head Chef at Restaurang J. Known for his seasonal, seafood-focused cuisine, blending Swedish and American coastal influences.",
+      },
+    ],
+  },
+  {
+    name: "Lulu Sushi",
+    coordinates: {
+      latitude: 59.3126363,
+      longitude: 18.0988882,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Latin-Asian fusion spot offering sushi, poké bowls, and ceviche, blending Japanese precision with South American heat and citrus.",
+    website: "https://restauranglulu.se/kungsholmen/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/lulu.jpg"),
+  },
+  {
+    name: "SQ (Elite Marina Tower)",
+    coordinates: {
+      latitude: 59.314757,
+      longitude: 18.1091846,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    description:
+      "Waterfront hotel in a historic redbrick mill offering Swedish brasserie fare at SQ Bar & Restaurant, with panoramic views of Stockholm's inlet.",
+    website: "https://www.restaurangsq.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/sq.jpg"),
+    chefs: [
+      {
+        name: "Daniel Pettersson",
+        description:
+          "Head Chef at SQ Bar & Restaurant, Elite Hotel Marina Tower. Crafts seasonal menus focusing on Swedish brasserie classics and modern European flavors.",
+      },
+    ],
+  },
+  {
+    name: "Villa Foresta",
+    coordinates: {
+      latitude: 59.360077,
+      longitude: 18.1205572,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "Historic hotel and dining destination on Lidingö offering seasonal Swedish cuisine with Northern Italian influences in a castle-inspired setting.",
+    website: "https://villaforesta.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/villa-foresta.jpg"),
+    chefs: [
+      {
+        name: "Gustav Otterberg",
+        description:
+          "Head Chef at Villa Foresta. Formerly at Leijontornet, Ekstedt, and Villa Pauli, he emphasizes seasonal Swedish ingredients and culinary craftsmanship.",
+      },
+    ],
+  },
+  {
+    name: "At Six",
+    coordinates: {
+      latitude: 59.3309915,
+      longitude: 18.0668371,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Contemporary luxury hotel featuring Dining Room, a modern European restaurant with seasonal, globally influenced cuisine, and a curated art collection.",
+    website: "https://hotelatsix.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/at-six.jpg"),
+  },
+  {
+    name: "Indian Street Food & Co",
+    coordinates: {
+      latitude: 59.3091415,
+      longitude: 18.1037442,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Modern Indian street food concept offering dishes like kathi rolls, butter chicken, and deconstructed samosas, blending traditional flavors with contemporary presentation.",
+    website: "https://www.indianstreetfood.com/se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/indian-street-food-co.jpg"),
+    chefs: [
+      {
+        name: "Dheeraj Singh",
+        description:
+          "Founder and Executive Chef of Indian Street Food & Co. Formerly Head Chef at Hurry Curry, he has cooked for Indian dignitaries and is known for integrating classical Indian cooking with modern tastes.",
+      },
+    ],
+  },
+  {
+    name: "Ellery Beach House",
+    coordinates: {
+      latitude: 59.3642411,
+      longitude: 18.2539899,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Retro-inspired beach resort on Lidingö featuring Mediterranean and Middle Eastern cuisine at Palmers, and Cali-style fare at Coco Beach Club, with pools, saunas, and cabanas.",
+    website: "https://www.ellerybeachhouse.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ellery-beach-house.jpg"),
+  },
+  {
+    name: "Bank Hotel",
+    coordinates: {
+      latitude: 59.3313931,
+      longitude: 18.0746401,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Luxury hotel in a former 1910 bank building, featuring Bonnie's restaurant offering French-influenced modern European cuisine, and rooftop bar Le Hibou with panoramic city views.",
+    website: "https://bankhotel.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bank-hotel.jpg"),
+    chefs: [
+      {
+        name: "Fanny Rönnblom",
+        description:
+          "Head Chef at Bank Hotel. Formerly at Arnold’s and various restaurants in Macao and Stockholm.",
+      },
+    ],
+  },
+  {
+    name: "Stigbergets Fot",
+    coordinates: {
+      latitude: 59.3191201,
+      longitude: 18.0709325,
+    },
+    ratings: {
+      "m&o": 6,
+    },
+    description:
+      "Craft beer bar and gastropub offering experimental brews from Stigbergets Bryggeri and others, paired with elevated street food like dry-aged beef burgers and vegan currywurst.",
+    website: "https://stigbergetsfot.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/stigbergets-fot.jpg"),
+    chefs: [
+      {
+        name: "Johan Thor",
+        description:
+          "Bar Manager and 'kranoperatör' at Stigbergets Fot. Formerly at Tritonia, he curates the tap list and fosters guest interaction around craft beer.",
+      },
+    ],
+  },
 ];
