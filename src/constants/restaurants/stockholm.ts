@@ -713,7 +713,7 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Elias Kvarning",
-        description: "Previously at Fäviken, Magasinet and Ett Hem",
+        description: "Previously at Ett Hem and Fäviken***",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
