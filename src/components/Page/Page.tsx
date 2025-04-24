@@ -22,7 +22,7 @@ const BASE_URL = "https://mountainandoaks.com";
 
 export const Page = ({ children, metaTitle, description, image }: Props) => {
   const { asPath } = useRouter();
-
+  console.log("process.env.NODE_ENV", process.env.NODE_ENV);
   const url = `${BASE_URL}${asPath}`;
   const imageUrl = `${BASE_URL}${image.src}`;
 
@@ -51,6 +51,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
         <link rel="preconnect" href="https://api.mapbox.com" />
       </Head>
       <Header />
+      <div data-id={process.env.NODE_ENV} />
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 container pb-14">
         {children}
@@ -123,20 +124,24 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
           </a>
         </div>
       </footer>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-QBCXNL3P27"
-        strategy="afterInteractive"
-      />
+      {process.env.NODE_ENV === "production" && (
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-QBCXNL3P27"
+          strategy="afterInteractive"
+        />
+      )}
 
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      {process.env.NODE_ENV === "production" && (
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  gtag('config', 'G-QBCXNL3P27');
-        `}
-      </Script>
+            gtag('config', 'G-QBCXNL3P27');
+          `}
+        </Script>
+      )}
     </>
   );
 };
