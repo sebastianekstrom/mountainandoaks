@@ -60,12 +60,10 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
       updateViewMode();
     };
 
-    window.addEventListener("resize", handleResize);
-    window.addEventListener("resize", updateMapHeight);
+    document.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
-      window.removeEventListener("resize", updateMapHeight);
+      document.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -195,8 +193,12 @@ export const RestaurantCity: React.FC<RestaurantCityProps> = ({
           isCompactMode ? "mt-0 mb-4" : "mt-4 mb-8"
         }`}
       >
-        <Text variant="h4">{cityName}</Text>
-        {!isCompactMode && <Text>{description}</Text>}
+        {!isCompactMode && (
+          <>
+            <Text variant="h4">{cityName}</Text>
+            <Text>{description}</Text>
+          </>
+        )}
 
         <RestaurantFilters
           filterLabels={filterLabels}

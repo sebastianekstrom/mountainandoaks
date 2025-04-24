@@ -45,7 +45,7 @@ export const RestaurantFilters: React.FC<RestaurantFiltersProps> = ({
         <button
           type="button"
           onClick={() => onViewModeChange("map")}
-          className={`px-3 py-1 text-sm ${
+          className={`px-3 py-2 text-sm ${
             viewMode === "map" ? "bg-brand" : "bg-brand-secondary"
           }`}
         >
@@ -67,7 +67,7 @@ export const RestaurantFilters: React.FC<RestaurantFiltersProps> = ({
         <button
           type="button"
           onClick={() => onViewModeChange("grid")}
-          className={`px-3 py-1 text-sm ${
+          className={`px-3 py-2 text-sm ${
             viewMode === "grid" ? "bg-brand" : "bg-brand-secondary"
           }`}
         >

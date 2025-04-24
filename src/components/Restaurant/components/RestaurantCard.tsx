@@ -22,7 +22,7 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
           <Image
             width={190}
             height={400}
-            className={`w-full object-cover mb-2 ${
+            className={`w-full object-cover rounded-md mb-2 ${
               isCompactMode ? "h-[120px]" : "h-[190px]"
             }`}
             src={restaurant.image}
