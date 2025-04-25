@@ -710,6 +710,9 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0305846,
       latitude: 59.3153111,
     },
+    ratings: {
+      "m&o": 4,
+    },
     chefs: [
       {
         name: "Elias Kvarning",
