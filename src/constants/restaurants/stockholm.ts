@@ -1901,4 +1901,14 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
   },
+  {
+    "name": "Cong",
+    "coordinates": {
+      "latitude": 59.3229602,
+      "longitude": 18.0713832
+    },
+    "description": "Vietnamese street food spot in Gamla Stan owned by three brothers serving shareable dishes like mango salad, duck pancakes, and tofu sticks under cozy brick arches.",
+    "website": "https://cong.se/",
+    "image": require("../../../public/images/restaurants/stockholm/restaurants/cong.jpg")
+  }
 ];
