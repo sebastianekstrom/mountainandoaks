@@ -1057,7 +1057,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bacchanale.jpg"),
-    description: "French classics with a twist.",
+    "description": "Seasonal French small plates cooked over wood fire, with a menu that evolves daily based on local ingredients and chef inspiration.",
     website: "https://www.bacchanalesthlm.com",
   },
   {
