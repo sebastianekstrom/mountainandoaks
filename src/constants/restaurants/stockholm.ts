@@ -1917,4 +1917,20 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://cong.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/cong.jpg")
   },
+  {
+    name: "Agnes",
+    coordinates: {
+      latitude: 59.3325238,
+      longitude: 18.0429095
+    },
+    chefs: [
+      {
+        name: "Micke Björkman",
+        description: "Co-founder of Restaurang Agnes. Formerly Head Chef at Boqueria, Vassa Eggen, and Tennstopet, with international experience from Nobu and Asia de Cuba in London."
+      }
+    ],
+    description: "Neighborhood bistro serving seasonal small plates with Southern European influences, complemented by a curated natural wine list.",
+    website: "http://restaurangagnes.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/agnes.jpg")
+  },
 ];
