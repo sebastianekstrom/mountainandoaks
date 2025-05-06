@@ -874,6 +874,12 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0912942,
       latitude: 59.333022,
     },
+    chefs: [
+      {
+        name: "Dario Balan",
+        description: "Previously at Frantzén and Punk Royale",
+      },
+    ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/coco-carmen.jpg"),
     description:
       "From the team behind Punk Royale, Coco & Carmen offers a fixed tasting menu that blends European cuisine with Scandinavian and Japanese influences.",
@@ -1910,5 +1916,5 @@ export const RESTAURANTS: Restaurant[] = [
     description: "Vietnamese street food spot in Gamla Stan owned by three brothers serving shareable dishes like mango salad, duck pancakes, and tofu sticks under cozy brick arches.",
     website: "https://cong.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/cong.jpg")
-  }
+  },
 ];
