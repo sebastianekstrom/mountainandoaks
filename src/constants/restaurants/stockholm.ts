@@ -1936,4 +1936,20 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://restaurangagnes.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/agnes.jpg")
   },
+  {
+    name: "Bâtard",
+    coordinates: {
+      latitude: 59.3339345,
+      longitude: 18.076673
+    },
+    chefs: [
+      {
+        name: "Max Duhs",
+        description: "Previously at Svartengrens, Nook and Bar Montan"
+      }
+    ],
+    description: "Lively wine bar in Stockholm offering a menu where food takes center stage, successfully blending elegance and rustic charm.",
+    website: "https://batardsthlm.se",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/batard.jpg")
+  },
 ];
