@@ -11,8 +11,11 @@ const customJestConfig = {
   coverageDirectory: "./coverage/",
   collectCoverage: true,
   modulePathIgnorePatterns: ["./__tests__/e2e"],
-  setupFilesAfterEnv: ["<rootDir>/__tests__/setup.js"],
-  testPathIgnorePatterns: ["<rootDir>/__tests__/setup.js"],
+  setupFilesAfterEnv: ["<rootDir>/__tests__/setup.tsx"],
+  testPathIgnorePatterns: ["<rootDir>/__tests__/setup.tsx"],
+  moduleNameMapper: {
+    "^@test/(.*)$": "<rootDir>/__tests__/$1",
+  },
   collectCoverageFrom: [
     "!/node_modules/",
     "!tooling/",

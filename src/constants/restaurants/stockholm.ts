@@ -1069,7 +1069,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bacchanale.jpg"),
-    description: "Seasonal French small plates cooked over wood fire, with a menu that evolves daily based on local ingredients and chef inspiration.",
+    description:
+      "Seasonal French small plates cooked over wood fire, with a menu that evolves daily based on local ingredients and chef inspiration.",
     website: "https://www.bacchanalesthlm.com",
   },
   {
@@ -1917,42 +1918,46 @@ export const RESTAURANTS: Restaurant[] = [
     name: "Cong",
     coordinates: {
       latitude: 59.3229602,
-      longitude: 18.0713832
+      longitude: 18.0713832,
     },
-    description: "Vietnamese street food spot in Gamla Stan owned by three brothers serving shareable dishes like mango salad, duck pancakes, and tofu sticks under cozy brick arches.",
+    description:
+      "Vietnamese street food spot in Gamla Stan owned by three brothers serving shareable dishes like mango salad, duck pancakes, and tofu sticks under cozy brick arches.",
     website: "https://cong.se/",
-    image: require("../../../public/images/restaurants/stockholm/restaurants/cong.jpg")
+    image: require("../../../public/images/restaurants/stockholm/restaurants/cong.jpg"),
   },
   {
     name: "Agnes",
     coordinates: {
       latitude: 59.3325238,
-      longitude: 18.0429095
+      longitude: 18.0429095,
     },
     chefs: [
       {
         name: "Micke Björkman",
-        description: "Co-founder of Restaurang Agnes. Formerly Head Chef at Boqueria, Vassa Eggen, and Tennstopet, with international experience from Nobu and Asia de Cuba in London."
-      }
+        description:
+          "Co-founder of Restaurang Agnes. Formerly Head Chef at Boqueria, Vassa Eggen, and Tennstopet, with international experience from Nobu and Asia de Cuba in London.",
+      },
     ],
-    description: "Neighborhood bistro serving seasonal small plates with Southern European influences, complemented by a curated natural wine list.",
+    description:
+      "Neighborhood bistro serving seasonal small plates with Southern European influences, complemented by a curated natural wine list.",
     website: "http://restaurangagnes.com/",
-    image: require("../../../public/images/restaurants/stockholm/restaurants/agnes.jpg")
+    image: require("../../../public/images/restaurants/stockholm/restaurants/agnes.jpg"),
   },
   {
     name: "Bâtard",
     coordinates: {
       latitude: 59.3339345,
-      longitude: 18.076673
+      longitude: 18.076673,
     },
     chefs: [
       {
         name: "Max Duhs",
-        description: "Previously at Svartengrens, Nook and Bar Montan"
-      }
+        description: "Previously at Svartengrens, Nook and Bar Montan",
+      },
     ],
-    description: "Lively wine bar in Stockholm offering a menu where food takes center stage, successfully blending elegance and rustic charm.",
+    description:
+      "Lively wine bar in Stockholm offering a menu where food takes center stage, successfully blending elegance and rustic charm.",
     website: "https://batardsthlm.se",
-    image: require("../../../public/images/restaurants/stockholm/restaurants/batard.jpg")
+    image: require("../../../public/images/restaurants/stockholm/restaurants/batard.jpg"),
   },
 ];
