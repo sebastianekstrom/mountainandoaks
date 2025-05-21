@@ -22,7 +22,6 @@ const BASE_URL = "https://mountainandoaks.com";
 
 export const Page = ({ children, metaTitle, description, image }: Props) => {
   const { asPath } = useRouter();
-  console.log("process.env.NODE_ENV", process.env.NODE_ENV);
   const url = `${BASE_URL}${asPath}`;
   const imageUrl = `${BASE_URL}${image.src}`;
 

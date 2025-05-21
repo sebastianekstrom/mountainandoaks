@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Nuoc Cham",
+    url: "/recipes/nuoc-cham",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/nuoc-cham/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/nuoc-cham/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/nuoc-cham/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/nuoc-cham/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/nuoc-cham/thumbnails/meta.png"),
+    },
+    description:
+      "A bold and balanced Vietnamese dipping sauce, known for its sweet, sour, salty, and spicy kick. Perfect with grilled dishes, noodles, or fresh rolls—adds brightness and depth to any meal.",
+  },
+  {
     title: "Anything-goes chicken pasta",
     url: "/recipes/anything-goes-chicken-pasta",
     category: CATEGORIES["food-and-drinks"],

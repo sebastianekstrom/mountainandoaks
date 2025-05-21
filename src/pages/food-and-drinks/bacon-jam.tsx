@@ -93,7 +93,7 @@ export default function BaconJam() {
         ingredients={
           <Ingredients
             startingMultiplier={4}
-            ingredientSuffix="person"
+            ingredientSuffix="portion"
             ingredients={INGREDIENTS}
           />
         }
