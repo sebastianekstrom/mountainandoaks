@@ -12,7 +12,7 @@ describe("NuocCham page", () => {
   it("renders the ingress text", () => {
     render(<NuocCham />);
     const ingress = screen.queryAllByText(
-      /A bold and balanced Vietnamese dipping sauce, known for its sweet, sour, salty, and spicy kick. Perfect with grilled dishes, noodles, or fresh rolls—adds brightness and depth to any meal../i
+      /A bold and balanced Vietnamese dipping sauce/i,
     );
     expect(ingress).toBeDefined();
   });

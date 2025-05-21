@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { useRouter } from "next/router";
 import React from "react";
+import { setMockRouter } from "@test/setup";
 
 import { Text } from "components/Text/Text";
 
@@ -8,7 +8,7 @@ import { Post } from "./Post";
 
 describe("Post component", () => {
   beforeEach(() => {
-    (useRouter as jest.Mock).mockReturnValue({
+    setMockRouter({
       route: "/bread/sourdough",
     });
   });
