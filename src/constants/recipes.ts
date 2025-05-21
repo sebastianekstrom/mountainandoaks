@@ -26,7 +26,7 @@ export const CATEGORIES: Categories = {
 export const RECIPES: Recipe[] = [
   {
     title: "Nuoc Cham",
-    url: "/recipes/nuoc-cham",
+    url: "/food-and-drinks/nuoc-cham",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
       hero: require("../../public/images/recipes/nuoc-cham/thumbnails/hero.png"),
@@ -40,7 +40,7 @@ export const RECIPES: Recipe[] = [
   },
   {
     title: "Anything-goes chicken pasta",
-    url: "/recipes/anything-goes-chicken-pasta",
+    url: "/food-and-drinks/anything-goes-chicken-pasta",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
       hero: require("../../public/images/recipes/anything-goes-chicken-pasta/thumbnails/hero.png"),
@@ -54,7 +54,7 @@ export const RECIPES: Recipe[] = [
   },
   {
     title: "Bacon jam",
-    url: "/recipes/bacon-jam",
+    url: "/food-and-drinks/bacon-jam",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
       hero: require("../../public/images/recipes/bacon-jam/thumbnails/hero.png"),
@@ -124,7 +124,7 @@ export const RECIPES: Recipe[] = [
   },
   {
     title: "Asian pork marinade",
-    url: "/recipes/asian-pork-marinade",
+    url: "/food-and-drinks/asian-pork-marinade",
     category: CATEGORIES["food-and-drinks"],
     thumbnails: {
       hero: require("../../public/images/recipes/asian-pork-marinade/thumbnails/hero.png"),
