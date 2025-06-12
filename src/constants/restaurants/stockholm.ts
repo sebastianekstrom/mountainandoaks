@@ -950,6 +950,9 @@ export const RESTAURANTS: Restaurant[] = [
   },
   {
     name: "Nour",
+    ratings: {
+      michelin: 1,
+    },
     coordinates: {
       longitude: 18.0712029,
       latitude: 59.3356275,
