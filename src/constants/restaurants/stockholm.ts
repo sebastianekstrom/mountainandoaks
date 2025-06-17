@@ -1973,76 +1973,86 @@ export const RESTAURANTS: Restaurant[] = [
     image: require("../../../public/images/restaurants/stockholm/restaurants/batard.jpg"),
   },
   {
-    "name": "Portal",
-    "coordinates": {
-      "latitude": 59.3389675,
-      "longitude": 18.0388281
+    name: "Portal",
+    coordinates: {
+      latitude: 59.3389675,
+      longitude: 18.0388281,
     },
-    "description": "Uncomplicated Nordic‑European bistro at Sankt Eriksplan, highlighting clear flavours and top Swedish produce in a convivial, wine‑focused setting.",
-    "website": "https://portalrestaurant.se/",
-    "image": require("../../../public/images/restaurants/stockholm/restaurants/portal.jpg"),
-    "chefs": [
+    description:
+      "Uncomplicated Nordic‑European bistro at Sankt Eriksplan, highlighting clear flavours and top Swedish produce in a convivial, wine‑focused setting.",
+    website: "https://portalrestaurant.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/portal.jpg"),
+    chefs: [
       {
-        "name": "Klas Lindberg",
-        "description": "Owner & Head Chef. Swedish Chef of the Year 2012, ex‑PM & Vänner, L’Arpège (Paris), ORO (Oslo) and Nobel Banquet chef, leads kitchen since opening in 2016."
-      }
-    ]
+        name: "Klas Lindberg",
+        description:
+          "Owner & Head Chef. Swedish Chef of the Year 2012, ex‑PM & Vänner, L’Arpège (Paris), ORO (Oslo) and Nobel Banquet chef, leads kitchen since opening in 2016.",
+      },
+    ],
   },
   {
-    "name": "Bastardo",
-    "coordinates": {
-      "latitude": 59.3464313,
-      "longitude": 18.0611886
+    name: "Bastardo",
+    coordinates: {
+      latitude: 59.3464313,
+      longitude: 18.0611886,
     },
-    "description": "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates with a natural wine list.",
-    "website": "https://www.bastardosthlm.com/",
-    "image": require("../../../public/images/restaurants/stockholm/restaurants/bastardo.jpg"),
-    "chefs": [
+    description:
+      "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates with a natural wine list.",
+    website: "https://www.bastardosthlm.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bastardo.jpg"),
+    chefs: [
       {
-        "name": "Jesper Skemark",
-        "description": "Previously at Bar Nîmes and Mathias Dahlgren’s Matbaren, bringing refined Italian‑Nordic fusion to the menu."
+        name: "Jesper Skemark",
+        description:
+          "Previously at Bar Nîmes and Mathias Dahlgren’s Matbaren, bringing refined Italian‑Nordic fusion to the menu.",
       },
       {
-        "name": "Daniel Gunneriusson",
-        "description": "Roots from Gaia Matbar, part of the trio shaping Bastardo’s creative direction."
+        name: "Daniel Gunneriusson",
+        description:
+          "Roots from Gaia Matbar, part of the trio shaping Bastardo’s creative direction.",
       },
       {
-        "name": "Joakim Mering Andersson",
-        "description": "Part of the team driving Bastardo’s concept in the heritage hotel Clas på Hörnet."
-      }
-    ]
+        name: "Joakim Mering Andersson",
+        description:
+          "Part of the team driving Bastardo’s concept in the heritage hotel Clas på Hörnet.",
+      },
+    ],
   },
   {
-    "name": "Restaurang Amalia",
-    "coordinates": {
-      "latitude": 59.3373052,
-      "longitude": 18.0674711
+    name: "Restaurang Amalia",
+    coordinates: {
+      latitude: 59.3373052,
+      longitude: 18.0674711,
     },
-    "description": "Cozy bistro offering playful small‑ and medium‑plates with international flavours and a well‑curated wine list in a relaxed, welcoming setting.",
-    "website": "https://amalia.restaurant/",
-    "image": require("../../../public/images/restaurants/stockholm/restaurants/amalia.jpg")
+    description:
+      "Cozy bistro offering playful small‑ and medium‑plates with international flavours and a well‑curated wine list in a relaxed, welcoming setting.",
+    website: "https://amalia.restaurant/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/amalia.jpg"),
   },
   {
-    "name": "Etoile",
-    "coordinates": {
-      "latitude": 59.3495339,
-      "longitude": 18.0437922
+    name: "Etoile",
+    coordinates: {
+      latitude: 59.3495339,
+      longitude: 18.0437922,
     },
     ratings: {
       michelin: 1,
     },
-    "description": "One‑Michelin‑star restaurant offering a playful, creative 20‑course tasting menu blending global influences and surprising flavour twists.",
-    "website": "https://restaurantetoile.se/",
-    "image": require("../../../public/images/restaurants/stockholm/restaurants/etoile.jpg"),
-    "chefs": [
+    description:
+      "One‑Michelin‑star restaurant offering a playful, creative 20‑course tasting menu blending global influences and surprising flavour twists.",
+    website: "https://restaurantetoile.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/etoile.jpg"),
+    chefs: [
       {
-        "name": "Jonas Lagerström",
-        "description": "Owner & Head Chef. Opened Etoile in 2018 with Danny Falkeman. Former Swedish national chef, Kockarnas Kamp 2020 winner; dishes balance humour, sustainability & bold creativity."
+        name: "Jonas Lagerström",
+        description:
+          "Owner & Head Chef. Opened Etoile in 2018 with Danny Falkeman. Former Swedish national chef, Kockarnas Kamp 2020 winner; dishes balance humour, sustainability & bold creativity.",
       },
       {
-        "name": "Danny Falkeman",
-        "description": "Co‑founder & Chef. Partnered with Jonas since opening. Competed in Chef of the Year, brings global culinary perspective to Etoile’s inventive tasting menus."
-      }
-    ]
+        name: "Danny Falkeman",
+        description:
+          "Co‑founder & Chef. Partnered with Jonas since opening. Competed in Chef of the Year, brings global culinary perspective to Etoile’s inventive tasting menus.",
+      },
+    ],
   },
 ];
