@@ -1978,6 +1978,9 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3389675,
       longitude: 18.0388281,
     },
+    ratings: {
+      "m&o": 6,
+    },
     description:
       "Uncomplicated Nordic‑European bistro at Sankt Eriksplan, highlighting clear flavours and top Swedish produce in a convivial, wine‑focused setting.",
     website: "https://portalrestaurant.se/",
