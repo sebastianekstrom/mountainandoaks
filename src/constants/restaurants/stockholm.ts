@@ -1999,6 +1999,9 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3464313,
       longitude: 18.0611886,
     },
+    ratings: {
+      "m&o": 7,
+    },
     description:
       "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates with a natural wine list.",
     website: "https://www.bastardosthlm.com/",
