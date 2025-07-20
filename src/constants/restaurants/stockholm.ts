@@ -2061,4 +2061,22 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
   },
+  {
+    name: "Coup D'Etat",
+    coordinates: {
+      latitude: 59.3429543,
+      longitude: 18.0716189,
+    },
+    description:
+      "A bold Persian–French fusion restaurant in Östermalm that serves stylish sharing plates in a neon-lit, punk‑vibe setting.",
+    website: "https://restaurantetoile.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/coup-detat.jpg"),
+    chefs: [
+      {
+        name: "Erik Videgård",
+        description:
+          "An acclaimed Swedish chef behind the Michelin‑inspired DNA of the restaurant, known for his innovative menus and culinary flair.",
+      },
+    ],
+  },
 ];
