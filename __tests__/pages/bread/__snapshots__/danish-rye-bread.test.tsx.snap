@@ -21,44 +21,6 @@ exports[`Danish page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
           >
-            Bread flour (vetemjöl)
-          </p>
-        </div>
-        <p
-          class="variable font-sans text-paragraph text-regular leading-paragraph "
-        >
-          70
-          g
-        </p>
-      </li>
-      <li
-        class="flex justify-between mb-1 transition-opacity "
-      >
-        <div
-          class=""
-        >
-          <p
-            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
-          >
-            Rye flur (rågmjöl)
-          </p>
-        </div>
-        <p
-          class="variable font-sans text-paragraph text-regular leading-paragraph "
-        >
-          67
-          g
-        </p>
-      </li>
-      <li
-        class="flex justify-between mb-1 transition-opacity "
-      >
-        <div
-          class=""
-        >
-          <p
-            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
-          >
             Sour milk (filmjölk)
           </p>
         </div>
@@ -104,6 +66,44 @@ exports[`Danish page renders the correct ingredients 1`] = `
           class="variable font-sans text-paragraph text-regular leading-paragraph "
         >
           133
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Bread flour (vetemjöl)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          70
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Rye flur (rågmjöl)
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          67
           g
         </p>
       </li>
