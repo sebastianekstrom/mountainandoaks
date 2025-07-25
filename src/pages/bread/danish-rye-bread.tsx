@@ -12,16 +12,6 @@ import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {
-    value: 70,
-    label: "Bread flour (vetemjöl)",
-    isFlour: true,
-  },
-  {
-    value: 67,
-    label: "Rye flur (rågmjöl)",
-    isFlour: true,
-  },
-  {
     value: 200,
     label: "Sour milk (filmjölk)",
     isWater: true,
@@ -34,6 +24,16 @@ const INGREDIENTS = [
   {
     value: 133,
     label: "Syrup (sirap)",
+  },
+  {
+    value: 70,
+    label: "Bread flour (vetemjöl)",
+    isFlour: true,
+  },
+  {
+    value: 67,
+    label: "Rye flur (rågmjöl)",
+    isFlour: true,
   },
   {
     value: 20,
