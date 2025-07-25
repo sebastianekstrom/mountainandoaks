@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Wok Noodle Sauce",
+    url: "/recipes/wok-noodle-sauce",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/wok-noodle-sauce/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/wok-noodle-sauce/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/wok-noodle-sauce/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/wok-noodle-sauce/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/wok-noodle-sauce/thumbnails/meta.png"),
+    },
+    description:
+      "A sweet and savory sauce packed with umami—perfect for tossing with noodles, beef, and crisp veggies in a hot wok.",
+  },
+  {
     title: "Nuoc Cham",
     url: "/food-and-drinks/nuoc-cham",
     category: CATEGORIES["food-and-drinks"],
