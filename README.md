@@ -1,7 +1,7 @@
-![Logo of sebbebakes!](https://i.imgur.com/zwVABcA.png)
+![Logo of sebbebakes!](https://i.imgur.com/tO6MyhE.png)
 
 <p align="center">
-  The repostitory for <a href="https://sebbebakes.com">sebbebakes.com</a> – A place for food, pizza and bread.
+  The repostitory for <a href="https://mountainandoak.com">mountainandoak.com</a> – A place for food, pizza and bread.
 </p>
 
 <p align="center">
