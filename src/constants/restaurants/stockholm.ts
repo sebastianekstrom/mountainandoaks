@@ -711,7 +711,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3153111,
     },
     ratings: {
-      "m&o": 4,
+      "m&o": 5,
     },
     chefs: [
       {
@@ -1251,7 +1251,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0848078,
     },
     ratings: {
-      "m&o": 3,
+      "m&o": 2,
     },
     chefs: [
       {
@@ -1391,7 +1391,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0490735,
     },
     ratings: {
-      "m&o": 4,
+      "m&o": 2,
     },
     chefs: [
       {
@@ -2078,5 +2078,19 @@ export const RESTAURANTS: Restaurant[] = [
           "An acclaimed Swedish chef behind the Michelin‑inspired DNA of the restaurant, known for his innovative menus and culinary flair.",
       },
     ],
+  },
+  {
+    name: "Esperia",
+    coordinates: {
+      latitude: 59.3180508,
+      longitude: 18.0673203,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "A cozy, family‑run Greek tavern on Södermalm known for generous mezé and grilled seafood in a warm, authentic atmosphere—often booked, solid food at fair prices.",
+    website: "https://esperia.nu/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/esperia.jpg"),
   },
 ];
