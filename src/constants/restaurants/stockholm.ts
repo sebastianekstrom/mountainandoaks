@@ -1634,7 +1634,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0987279,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 4,
     },
     description:
       "Asian fusion bistro and gin bar serving sushi, dim sum, and massaman curry alongside house-distilled gins and craft cocktails.",
@@ -1877,7 +1877,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.2539899,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Retro-inspired beach resort on Lidingö featuring Mediterranean and Middle Eastern cuisine at Palmers, and Cali-style fare at Coco Beach Club, with pools, saunas, and cabanas.",
