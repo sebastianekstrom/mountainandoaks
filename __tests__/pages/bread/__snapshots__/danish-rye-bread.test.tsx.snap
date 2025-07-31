@@ -271,7 +271,7 @@ exports[`Danish page renders the correct ingredients 1`] = `
             <p
               class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
             >
-              Sea salt
+              Sea salt (optional)
             </p>
           </div>
           <p

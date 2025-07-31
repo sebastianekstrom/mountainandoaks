@@ -74,7 +74,7 @@ const INGREDIENTS = [
       },
       {
         value: 0,
-        label: "Sea salt",
+        label: "Sea salt (optional)",
         valueSuffix: false,
         excludeValue: true,
       },
