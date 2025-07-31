@@ -12,69 +12,97 @@ import { Text } from "components/Text/Text";
 
 const INGREDIENTS = [
   {
-    value: 200,
-    label: "Sour milk (filmjölk)",
-    isWater: true,
+    label: "Dough",
+    ingredients: [
+      {
+        value: 200,
+        label: "Filmjölk",
+        isWater: true,
+      },
+      {
+        value: 150,
+        label: "Beer (stout or porter)",
+        isWater: true,
+      },
+      {
+        value: 133,
+        label: "Dark syrup",
+      },
+      {
+        value: 88,
+        label: "Bread flour",
+        isFlour: true,
+      },
+      {
+        value: 85,
+        label: "Rye flour",
+        isFlour: true,
+      },
+
+      {
+        value: 7,
+        label: "Bicarbonate",
+      },
+      {
+        value: 4,
+        label: "Anise seeds",
+      },
+      {
+        value: 4,
+        label: "Fennel seeds",
+      },
+      {
+        value: 3.5,
+        label: "Salt",
+      },
+    ],
   },
   {
-    value: 150,
-    label: "Beer (stour or porter)",
-    isWater: true,
-  },
-  {
-    value: 133,
-    label: "Syrup (sirap)",
-  },
-  {
-    value: 70,
-    label: "Bread flour (vetemjöl)",
-    isFlour: true,
-  },
-  {
-    value: 67,
-    label: "Rye flur (rågmjöl)",
-    isFlour: true,
-  },
-  {
-    value: 20,
-    label: "Pumpkin seeds, for decoration",
-  },
-  {
-    value: 20,
-    label: "Oatmeal (havregryn), for decoration",
-  },
-  {
-    value: 7,
-    label: "Salt",
-  },
-  {
-    value: 7,
-    label: "Bicarbonate (bikarbonat)",
-  },
-  {
-    value: 4,
-    label: "Anise (anis)",
-  },
-  {
-    value: 4,
-    label: "Fennel seeds (fänkålsfrön)",
+    label: "Toppings",
+    ingredients: [
+      {
+        value: 0,
+        label: "Pumpkin seeds",
+        valueSuffix: false,
+        excludeValue: true,
+      },
+      {
+        value: 0,
+        label: "Oatmeal",
+        valueSuffix: false,
+        excludeValue: true,
+      },
+      {
+        value: 0,
+        label: "Sea salt",
+        valueSuffix: false,
+        excludeValue: true,
+      },
+    ],
   },
 ];
 
 const STEPS = [
   <Text>
-    Set the oven to <b>180°C/356°F</b>
+    Set the oven to <b>180°C/356°F.</b>
+  </Text>,
+  <Text>Roughly chop the pumpkin seeds</Text>,
+  <Text>
+    Add the dry ingredients (<b>bread flour</b>, <b>rye flour</b>, <b>salt</b>,{" "}
+    <b>bicarbonate</b>) to a bowl.
   </Text>,
   <Text>
-    Grind the anise and fennel seeds in a mortar until it becomes a fine powder
+    Grind the <b>anise</b> and <b>fennel</b> seeds in a mortar until it becomes
+    a fine powder. Add the mixed seeds to the bowl with dry ingredients.
   </Text>,
   <Text>
-    Mix sour milk, salt, bicarbonate and the mixed anise and fennel seeds in a
-    bowl
+    Add the wet ingredients (<b>filmjölk</b>, <b>beer</b>, <b>dark syrup</b>) to
+    the bowl.
   </Text>,
+  <Text>Mix a spatula or your hands until smooth</Text>,
   <Text>
-    Add the rye flour, bread flour, syrup and beer. Mix with a spatula or your
-    hands until smooth
+    Once mixed, let sit for <b>5 minutes</b> to make sure the flour absorbs all
+    the liquid
   </Text>,
   <Text>Pour the dough into a icing bag or a pitcher</Text>,
   <Text>
@@ -82,16 +110,19 @@ const STEPS = [
     <Link href="https://img.tradera.net/large-fit/044/506366044_3499922f-1ad7-4ac4-b11c-26aabf49e2b7.jpg">
       this
     </Link>
-    ) and pour the dough into it. Make sure only to <b>fill each slot by 2/3</b>{" "}
-    since the dough will rise in the oven
+    ) and grease it with some natural oil (e.g rapeseed oil).
+  </Text>,
+  <Text>
+    Pour the dough into the bread pan. Make sure only to{" "}
+    <b>fill each slot by 2/3</b> since the dough will rise in the oven
   </Text>,
   <Text>Sprinkle some pumpkin seeds and oat meal on top of the dough</Text>,
   <Text>
-    Bake it in the oven for about <b>13 minutes - 15 minutes</b>, the inner
-    temperature of the dough should be <b>97°C/206°F</b> when it's done
+    Bake it in the oven for about <b>20 minutes</b>, the inner temperature of
+    the dough should be <b>97°C/206°F</b> when it's done
   </Text>,
   <Text>
-    Let it cool for <b>20 minutes - 30 minutes</b>
+    Let it cool for <b>20 minutes - 30 minutes</b>, preferably on a wire rack
   </Text>,
 ];
 
@@ -115,10 +146,6 @@ export default function DanishRyeBread() {
               A delicious sweet Danish rye bread that only takes an our or so to
               make. It's great as an appetizer or snack, served with some
               marmelade. One batch makes for about 12 mini loaves of bread.
-            </Text>
-            <Text variant="ingress">
-              This recipe contains a lot of Nordic ingredients which is why the
-              ingredient list is translated to the language of vikings.
             </Text>
           </>
         }
