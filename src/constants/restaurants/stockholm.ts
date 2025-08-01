@@ -274,7 +274,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3283298,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 7,
     },
     chefs: [
       {
@@ -2066,6 +2066,9 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       latitude: 59.3429543,
       longitude: 18.0716189,
+    },
+    ratings: {
+      "m&o": 7,
     },
     description:
       "A bold Persian–French fusion restaurant in Östermalm that serves stylish sharing plates in a neon-lit, punk‑vibe setting.",
