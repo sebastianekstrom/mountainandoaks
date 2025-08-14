@@ -69,25 +69,38 @@ export const RestaurantMap: React.FC<RestaurantMapProps> = ({
             }}
           >
             <Marker longitude={longitude} latitude={latitude} anchor="bottom">
-              <div className="bg-brand flex text-brand-secondary px-2 py-1 gap-2 items-center rounded-sm relative">
-                <Image
-                  width={140}
-                  height={56.6}
-                  className="w-[10px] h-auto fill-brand-secondary"
-                  src="/images/misc/icon-food.svg"
-                  alt=""
-                />
+              <div
+                className={`${
+                  restaurant.ratings?.["m&o"] ? "bg-brand" : "bg-brand-subdued"
+                } flex text-white px-2 py-2 gap-2 items-center rounded-sm relative`}
+              >
                 <Text variant="badge" classNames="text-brand-secondary">
-                  {restaurant.name}
+                  {restaurant.name}{" "}
+                  {restaurant.ratings?.["m&o"]
+                    ? `(${restaurant.ratings["m&o"]}/10)`
+                    : ""}
                 </Text>
-                <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 text-bg-brand">
-                  <Image
-                    width={140}
-                    height={56.6}
-                    className="w-[20px] h-auto"
-                    src="/images/misc/icon-chevron.svg"
-                    alt=""
-                  />
+                <div
+                  className="absolute bottom-[-20px]"
+                  style={{ left: "calc(50% - 5px)" }}
+                >
+                  {restaurant.ratings?.["m&o"] ? (
+                    <Image
+                      width={140}
+                      height={56.6}
+                      className="w-[20px] h-auto"
+                      src="/images/misc/icon-chevron.svg"
+                      alt=""
+                    />
+                  ) : (
+                    <Image
+                      width={140}
+                      height={56.6}
+                      className="w-[20px] h-auto"
+                      src="/images/misc/icon-chevron-subdued.svg"
+                      alt=""
+                    />
+                  )}
                 </div>
               </div>
             </Marker>

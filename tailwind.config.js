@@ -33,6 +33,7 @@ module.exports = {
         cta: "#CA9A4A",
         brand: "#3f4187",
         "brand-secondary": "#f7edee",
+        "brand-subdued": "#7577B7",
         separator: "#E9E9E9",
         outline: "#3f41888f",
         "pill-background": "#3f41888f",
