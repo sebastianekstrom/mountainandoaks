@@ -356,7 +356,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3348538,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 7,
     },
     chefs: [
       {
@@ -1121,7 +1121,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0507107,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     chefs: [
       {
@@ -1568,7 +1568,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0986223,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Nya Carnegiebryggeriet is a modern craft brewery and gastropub located in the historic Luma lightbulb factory in Stockholm's Hammarby Sjöstad district. Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
@@ -1593,7 +1593,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Svartengrens is a meat-focused restaurant and cocktail bar located in Stockholm's Vasastan district. Founded in 2011, the establishment is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago and preparing all dishes from scratch. The menu changes daily based on available ingredients, featuring cuts like butcher’s steak and entrecôte, complemented by inventive sides.",
+      "Svartengrens is a meat-focused restaurant and cocktail bar and is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago and preparing all dishes from scratch.",
     website: "https://www.svartengrens.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/svartengrens.jpg"),
@@ -1605,7 +1605,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0812146,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes, all prepared with high-quality ingredients. The interior is inspired by 1950s American diners, creating a nostalgic atmosphere for guests.",
@@ -1669,7 +1669,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0722,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Modern European cuisine with seasonal Swedish ingredients, offering dishes like Kalix bleak roe and spice-roasted duck in a Scandinavian-designed setting.",
@@ -1751,7 +1751,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0832036,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 4,
     },
     description:
       "Seasonal Swedish seafood and brasserie fare served aboard a WWII-era barge moored on Strandvägen, with views over Nybroviken.",
