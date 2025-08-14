@@ -1704,7 +1704,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0963649,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Modern pizzeria blending Swedish classics with Neapolitan techniques—think kebab, banana curry, and truffle pizzas made with house-fermented dough and local ingredients.",
@@ -2095,5 +2095,222 @@ export const RESTAURANTS: Restaurant[] = [
       "A cozy, family‑run Greek tavern on Södermalm known for generous mezé and grilled seafood in a warm, authentic atmosphere—often booked, solid food at fair prices.",
     website: "https://esperia.nu/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/esperia.jpg"),
+  },
+  {
+    name: "Bar Schiacciate",
+    coordinates: {
+      latitude: 59.3164799,
+      longitude: 18.0339574,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Celebrates Italy’s culinary heritage, serving sandwiches inspired by the home-cooked flavors found all across Italy.",
+    website: "https://www.barschiacciate.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bar-schiacciate.jpg"),
+  },
+  {
+    name: "Matateljén",
+    coordinates: {
+      latitude: 59.2918225,
+      longitude: 18.0772655,
+    },
+    chefs: [
+      {
+        name: "Henrik Sauer",
+        description: "",
+      },
+      {
+        name: "Anna Klyvare",
+        description: "",
+      },
+    ],
+    description:
+      "Serving playful and precise seasonal dishes via tasting menus or à la carte in a raw, atelier-like setting with an open kitchen.",
+    website: "https://matateljen.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/matateljen.jpg"),
+  },
+  {
+    name: "Dirty Taco",
+    coordinates: {
+      latitude: 59.3153853,
+      longitude: 18.0869544,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "An Asian-fusion taco spot serving bold, street-food-style creations like bánh mì, kimchi-feta, shrimp-Parmesan, and crispy Japanese chicken, packed with multicultural flavor.",
+    website: "https://www.dirtytaco.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/dirty-taco.jpg"),
+  },
+  {
+    name: "Meat On A Stick",
+    coordinates: {
+      latitude: 59.3124066,
+      longitude: 18.0814281,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "A street-food-style kebab spot serving juicy grilled meats, fresh pita wraps, hearty bowls, and crispy sides, all made from scratch with bold, well-seasoned flavors.",
+    website: "https://www.meatonastick.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/moas.jpg"),
+  },
+  {
+    name: "Koh Phangan",
+    coordinates: {
+      latitude: 59.3122102,
+      longitude: 18.078611,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "An energetic, tropical-themed Thai restaurant in Stockholm serving familiar dishes like pad thai, spring rolls, seafood curries, and skewers—with generous portions, a fun island-style vibe, solid vegan options, and friendly service that makes it a go-to spot for casual, flavor-forward Thai eats.",
+    website: "https://kohphangan.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/koh-phangan.jpg"),
+  },
+  {
+    name: "Ta'ameya",
+    coordinates: {
+      latitude: 59.3148106,
+      longitude: 18.0771704,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "An homage to authentic Egyptian street food serving ta’ameya—crispy, fava‑bean falafel made from scratch with house‑roasted spices and freshly baked pita. Pure plant‑based goodness, minimalist vibes, natural wine and craft beer, all packed into tight, lively spots around Södermalm and Vasastan",
+    website: "https://www.taameya.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ta-meya.jpg"),
+  },
+  {
+    name: "Texas Longhorn",
+    coordinates: {
+      latitude: 59.3051708,
+      longitude: 18.0902007,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "A laid-back Texas-style steakhouse serving juicy steaks, ribs, burgers, and fajitas with hearty sides and Southern-inspired hospitality.",
+    website: "https://www.texaslonghorn.se/restaurang/hammarby-sjostad/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/texas-longhorn.jpg"),
+  },
+  {
+    name: "Mackverket",
+    coordinates: {
+      latitude: 59.3319391,
+      longitude: 18.0625469,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "A sandwich-focused street-food kitchen crafting hearty, elevated grilled sourdough creations—with meat-forward and vegan options, seasonal ingredients, and a food-truck-roots vibe turned café.",
+    website: "https://www.mackverket.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/mackverket.jpg"),
+  },
+  {
+    name: "Pazzi",
+    coordinates: {
+      latitude: 59.3108758,
+      longitude: 18.0785662,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    description:
+      "A cozy Italian pizzeria slinging high‑quality Neapolitan‑style pizzas and pastas—with thoughtful vegan options, a chewy house-made crust, and a chill, welcoming vibe.",
+    website: "https://www.pazzi.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/pazzi.jpg"),
+  },
+  {
+    name: "Subculture",
+    coordinates: {
+      latitude: 59.299561,
+      longitude: 18.0299905,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "A Global Sandwich Club in Stockholm that punches above the usual lunch fare—think hefty, well-crafted subs bursting with international flavours and generous sauces. Street‑food swagger, loyal following, and zero compromises on taste.",
+    website: "https://subculturesweden.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/subculture.jpg"),
+  },
+  {
+    name: "Çok",
+    coordinates: {
+      latitude: 59.3404212,
+      longitude: 18.0074982,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Stylish, casual spot blending fine‑dining polish with Turkish street‑food vibes—think expertly grilled döner, iskender, manti, and falafel in a cozy, modern setting that hits the sweet spot between bold flavors and comfy familiarity.",
+    website: "https://cokdoner.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/cok.jpg"),
+  },
+  {
+    name: "Shanti Classic",
+    coordinates: {
+      latitude: 59.3103927,
+      longitude: 18.0835764,
+    },
+    ratings: {
+      "m&o": 3,
+    },
+    description:
+      "Cozy Indian spot serving flavorful, well‑spiced dishes like thalis, masala dosa, and tandoori classics",
+    website: "https://shanti.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/shanti.jpg"),
+  },
+  {
+    name: "Mae Thai",
+    coordinates: {
+      latitude: 59.3095276,
+      longitude: 18.0760901,
+    },
+    ratings: {
+      "m&o": 2,
+    },
+    description:
+      "Delivering wok‑made classics like Pad Thai, curries, Tom Yum, and stir‑fry—fresh, flavorful, generous portions (often vegan‑friendly) at wallet‑smart prices, with quick service and a laid‑back vibe.",
+    website: "https://maethaiwok.se/restauranger/mae-thai-wok-skanstull/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/mae-thai.jpg"),
+  },
+  {
+    name: "The Italian Cousins",
+    coordinates: {
+      latitude: 59.3185888,
+      longitude: 18.0588018,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    description:
+      "Laid-back Italian spot serving Roman-style pizza al taglio, salumi, and tiramisu, with airy dough, natural wines, and a warm neighborhood vibe.",
+    website: "https://theitaliancousins.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/the-italian-cousins.jpg"),
+  },
+  {
+    name: "Därmedpasta",
+    coordinates: {
+      latitude: 59.3178738,
+      longitude: 18.0327916,
+    },
+    ratings: {
+      "m&o": 2,
+    },
+    description:
+      "A casual Italian-inspired spot serving fresh, handmade pasta, pizzas, and wholesome salads at friendly prices—with generous portions and “more quality, less time” energy.",
+    website: "https://goran-milutinovic-a5lk.squarespace.com/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/darmedpasta.jpg"),
   },
 ];
