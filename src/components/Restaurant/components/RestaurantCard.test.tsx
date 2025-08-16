@@ -150,7 +150,12 @@ describe("RestaurantCard component", () => {
   it("handles mixed simple ratings and rating objects", () => {
     const restaurantMixed: Restaurant = {
       ...mockRestaurant,
-      ratings: {},
+      ratings: {
+        "m&o": 8, // Simple number
+        michelin: { rating: 1, reviewUrl: "https://michelin.example.com" }, // Object with link
+        dn: 4, // Simple number
+        svd: { rating: 5, reviewUrl: "https://svd.se/review" }, // Object with link
+      },
     };
 
     render(
