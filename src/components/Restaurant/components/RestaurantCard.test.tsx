@@ -35,10 +35,9 @@ describe("RestaurantCard component", () => {
       />,
     );
 
-    expect(screen.queryByText(/\/10/)).not.toBeInTheDocument();
-    expect(screen.queryByText("DN")).not.toBeInTheDocument();
-    expect(screen.queryByText("SvD")).not.toBeInTheDocument();
-    expect(screen.queryByText("WG")).not.toBeInTheDocument();
+    expect(screen.queryByText(/\/10/)).not.toBeInTheDocument(); // M&O ratings
+    expect(screen.queryByText(/\/5/)).not.toBeInTheDocument(); // DN ratings
+    expect(screen.queryByText(/\/6/)).not.toBeInTheDocument(); // SvD and WG ratings
   });
 
   it("renders M&O rating first when available", () => {
@@ -86,12 +85,9 @@ describe("RestaurantCard component", () => {
     expect(screen.getByTitle("White Guide: 3/6")).toBeInTheDocument();
 
     expect(screen.getByText("8/10")).toBeInTheDocument();
-    expect(screen.getByText("DN")).toBeInTheDocument();
-    expect(screen.getByText("4/5")).toBeInTheDocument();
-    expect(screen.getByText("SvD")).toBeInTheDocument();
-    expect(screen.getByText("5/6")).toBeInTheDocument();
-    expect(screen.getByText("WG")).toBeInTheDocument();
-    expect(screen.getByText("3/6")).toBeInTheDocument();
+    expect(screen.getByText("4/5")).toBeInTheDocument(); // DN uses icon now, just check rating
+    expect(screen.getByText("5/6")).toBeInTheDocument(); // SvD uses icon now, just check rating
+    expect(screen.getByText("3/6")).toBeInTheDocument(); // WG uses icon now, just check rating
 
     const starImages = screen.getAllByAltText("");
     const michelinStars = starImages.filter(

@@ -99,14 +99,14 @@ describe("Rating component", () => {
     it("renders DN rating without link", () => {
       render(<Rating source="dn" value={4} />);
 
-      expect(screen.getByText("DN")).toBeInTheDocument();
-      expect(screen.getByText("4/5")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/dn-logo.png");
 
-      const dnText = screen.getByText("DN");
-      expect(dnText).toHaveClass("text-red-600", "font-bold");
+      const text = screen.getByText("4/5");
+      expect(text).toHaveClass("text-red-600");
 
-      const ratingText = screen.getByText("4/5");
-      expect(ratingText).toHaveClass("text-red-600");
+      // Should not be wrapped in a link
+      expect(screen.queryByRole("link")).not.toBeInTheDocument();
     });
 
     it("renders DN rating with link", () => {
@@ -118,7 +118,9 @@ describe("Rating component", () => {
       expect(link).toHaveAttribute("href", "https://www.dn.se/review");
       expect(link).toHaveAttribute("target", "_blank");
 
-      expect(screen.getByText("DN")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/dn-logo.png");
+
       expect(screen.getByText("5/5")).toBeInTheDocument();
     });
   });
@@ -127,14 +129,14 @@ describe("Rating component", () => {
     it("renders SvD rating without link", () => {
       render(<Rating source="svd" value={5} />);
 
-      expect(screen.getByText("SvD")).toBeInTheDocument();
-      expect(screen.getByText("5/6")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/svd-logo.png");
 
-      const svdText = screen.getByText("SvD");
-      expect(svdText).toHaveClass("text-blue-600", "font-bold");
+      const text = screen.getByText("5/6");
+      expect(text).toHaveClass("text-svd");
 
-      const ratingText = screen.getByText("5/6");
-      expect(ratingText).toHaveClass("text-blue-600");
+      // Should not be wrapped in a link
+      expect(screen.queryByRole("link")).not.toBeInTheDocument();
     });
 
     it("renders SvD rating with link", () => {
@@ -144,8 +146,11 @@ describe("Rating component", () => {
 
       const link = screen.getByRole("link");
       expect(link).toHaveAttribute("href", "https://www.svd.se/review");
+      expect(link).toHaveAttribute("target", "_blank");
 
-      expect(screen.getByText("SvD")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/svd-logo.png");
+
       expect(screen.getByText("6/6")).toBeInTheDocument();
     });
   });
@@ -154,14 +159,14 @@ describe("Rating component", () => {
     it("renders White Guide rating without link", () => {
       render(<Rating source="whiteguide" value={3} />);
 
-      expect(screen.getByText("WG")).toBeInTheDocument();
-      expect(screen.getByText("3/6")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/wg-logo.png");
 
-      const wgText = screen.getByText("WG");
-      expect(wgText).toHaveClass("text-gray-700", "font-bold");
+      const text = screen.getByText("3/6");
+      expect(text).toHaveClass("text-gray-700");
 
-      const ratingText = screen.getByText("3/6");
-      expect(ratingText).toHaveClass("text-gray-700");
+      // Should not be wrapped in a link
+      expect(screen.queryByRole("link")).not.toBeInTheDocument();
     });
 
     it("renders White Guide rating with link", () => {
@@ -175,8 +180,11 @@ describe("Rating component", () => {
 
       const link = screen.getByRole("link");
       expect(link).toHaveAttribute("href", "https://whiteguide.com/review");
+      expect(link).toHaveAttribute("target", "_blank");
 
-      expect(screen.getByText("WG")).toBeInTheDocument();
+      const image = screen.getByRole("img");
+      expect(image).toHaveAttribute("src", "/images/misc/wg-logo.png");
+
       expect(screen.getByText("4/6")).toBeInTheDocument();
     });
   });

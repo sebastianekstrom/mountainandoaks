@@ -36,18 +36,21 @@ const ratingConfig: Record<
   dn: {
     name: "Dagens Nyheter",
     maxRating: 5,
+    icon: "/images/misc/dn-logo.png",
     color: "text-red-600",
     abbreviation: "DN",
   },
   svd: {
     name: "Svenska Dagbladet",
     maxRating: 6,
-    color: "text-blue-600",
+    icon: "/images/misc/svd-logo.png",
+    color: "text-svd",
     abbreviation: "SvD",
   },
   whiteguide: {
     name: "White Guide",
     maxRating: 6,
+    icon: "/images/misc/wg-logo.png",
     color: "text-gray-700",
     abbreviation: "WG",
   },
@@ -128,19 +131,72 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
     );
   }
 
-  // Handle text-based ratings (DN, SvD, White Guide)
-  return (
-    <WrapperComponent
-      {...wrapperProps}
-      className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
-      title={`${config.name}: ${value}/${config.maxRating}`}
-    >
-      <Text variant="caption" classNames={`${config.color || ""} font-bold`}>
-        {config.abbreviation || config.name}
-      </Text>
-      <Text variant="caption" classNames={config.color || ""}>
-        {value}/{config.maxRating}
-      </Text>
-    </WrapperComponent>
-  );
+  // Handle DN rating with icon
+  if (source === "dn") {
+    return (
+      <WrapperComponent
+        {...wrapperProps}
+        className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
+        title={`${config.name}: ${value}/${config.maxRating}`}
+      >
+        <Image
+          width={30}
+          height={30}
+          className="w-[20px] h-auto"
+          src={config.icon || ""}
+          alt=""
+        />
+        <Text variant="caption" classNames={config.color}>
+          {value}/{config.maxRating}
+        </Text>
+      </WrapperComponent>
+    );
+  }
+
+  // Handle SvD rating with icon
+  if (source === "svd") {
+    return (
+      <WrapperComponent
+        {...wrapperProps}
+        className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
+        title={`${config.name}: ${value}/${config.maxRating}`}
+      >
+        <Image
+          width={30}
+          height={30}
+          className="w-[20px] h-auto"
+          src={config.icon || ""}
+          alt=""
+        />
+        <Text variant="caption" classNames={config.color}>
+          {value}/{config.maxRating}
+        </Text>
+      </WrapperComponent>
+    );
+  }
+
+  // Handle White Guide rating with icon
+  if (source === "whiteguide") {
+    return (
+      <WrapperComponent
+        {...wrapperProps}
+        className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
+        title={`${config.name}: ${value}/${config.maxRating}`}
+      >
+        <Image
+          width={30}
+          height={30}
+          className="w-[20px] h-auto"
+          src={config.icon || ""}
+          alt=""
+        />
+        <Text variant="caption" classNames={config.color}>
+          {value}/{config.maxRating}
+        </Text>
+      </WrapperComponent>
+    );
+  }
+
+  // This should never be reached since all rating sources are handled above
+  return null;
 };
