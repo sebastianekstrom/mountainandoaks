@@ -17,7 +17,7 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
   const getRatingsArray = () => {
     const ratings = [];
 
-    // M&O rating always comes first if available (no links for M&O)
+    // M&O rating always comes first if available
     if (restaurant.ratings?.["m&o"])
       ratings.push({
         source: "m&o" as const,
@@ -25,7 +25,6 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
         reviewUrl: undefined,
       });
 
-    // Then add other ratings with potential links
     if (restaurant.ratings?.michelin) {
       const michelinRating = restaurant.ratings.michelin;
       ratings.push({

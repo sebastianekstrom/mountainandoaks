@@ -53,11 +53,6 @@ const ratingConfig: Record<
   },
 };
 
-// Fixed size configuration
-const iconSize = "w-[20px] lg:w-[16px]";
-const textVariant = "caption" as const;
-const gap = "gap-1";
-
 export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
   const config = ratingConfig[source];
 
@@ -77,13 +72,13 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
       return (
         <WrapperComponent
           {...wrapperProps}
-          className={`flex items-center ${gap} ${wrapperProps.className || ""}`}
+          className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
           title="Bib Gourmand: good quality, good value cooking"
         >
           <Image
             width={25}
             height={25}
-            className={`${iconSize} h-auto`}
+            className="w-[20px] lg:w-[16px] h-auto"
             src={config.bibIcon || ""}
             alt="Bib Gourmand"
           />
@@ -95,7 +90,7 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
     return (
       <WrapperComponent
         {...wrapperProps}
-        className={`flex ${gap} ${wrapperProps.className || ""}`}
+        className={`flex gap-1 ${wrapperProps.className || ""}`}
         title={`${stars} Michelin star${stars === 1 ? "" : "s"}`}
       >
         {Array.from({ length: stars }).map((_, starIndex) => (
@@ -103,7 +98,7 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
             key={uuidv4()}
             width={25}
             height={25}
-            className={`${iconSize} h-auto`}
+            className="w-[20px] lg:w-[16px] h-auto"
             src={config.icon || ""}
             alt=""
           />
@@ -116,17 +111,17 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
   if (source === "m&o") {
     return (
       <div
-        className={`flex items-center ${gap}`}
+        className="flex items-center gap-1"
         title={`${config.name}: ${value}/${config.maxRating}`}
       >
         <Image
           width={30}
           height={30}
-          className={`${iconSize} h-auto`}
+          className="w-[20px] h-auto"
           src={config.icon || ""}
           alt=""
         />
-        <Text variant={textVariant} classNames={config.color}>
+        <Text variant="caption" classNames={config.color}>
           {value}/{config.maxRating}
         </Text>
       </div>
@@ -137,16 +132,13 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
   return (
     <WrapperComponent
       {...wrapperProps}
-      className={`flex items-center ${gap} ${wrapperProps.className || ""}`}
+      className={`flex items-center gap-1 ${wrapperProps.className || ""}`}
       title={`${config.name}: ${value}/${config.maxRating}`}
     >
-      <Text
-        variant={textVariant}
-        classNames={`${config.color || ""} font-bold`}
-      >
+      <Text variant="caption" classNames={`${config.color || ""} font-bold`}>
         {config.abbreviation || config.name}
       </Text>
-      <Text variant={textVariant} classNames={config.color || ""}>
+      <Text variant="caption" classNames={config.color || ""}>
         {value}/{config.maxRating}
       </Text>
     </WrapperComponent>
