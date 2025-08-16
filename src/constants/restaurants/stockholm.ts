@@ -191,7 +191,25 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/aloe.jpg"),
     ratings: {
-      michelin: 2,
+      michelin: {
+        rating: 2,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/aloe",
+      },
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/aloe-stjarnkrog-i-fororten-siktar-pa-tre-stjarnor/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/63d2faa0-67d0-4414-bf42-8aa4f30a29a4/har-finns-en-av-stockholms-vassaste-krogar",
+      },
+      whiteguide: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/9929-",
+      },
       "m&o": 10,
     },
     chefs: [
@@ -1536,6 +1554,15 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 10,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/ett-hem-tonsakert-och-raffinerat-pa-stockholms-hemligaste-lyxkrog/",
+      },
+      whiteguide: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/hotels/10601-",
+      },
     },
     chefs: [
       {
