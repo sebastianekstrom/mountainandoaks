@@ -356,6 +356,19 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/sthlm/snickargladjen-nar-anda-in-i-koket/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl: "https://www.svd.se/a/l3rga9/krogguiden-om-woodstockholm",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8359-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
     description:
@@ -370,6 +383,15 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/alyydM/krogrecension-ag-kan-sina-ravaror-men-nagra-markliga-missar",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/9847-",
+      },
     },
     chefs: [
       {
@@ -394,6 +416,19 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl: "https://www.dn.se/pa-stan/ata-ute/enkelt-och-genialt/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/5777901b-17ba-3e83-9506-403e42c1a139/barbro-en-riktig-goding",
+      },
+      whiteguide: {
+        rating: 3,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11038-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/barbro.jpg"),
     description:
@@ -408,6 +443,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/tegelbacken-smakstart-for-tv-kockens-citysatsning/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/7aaj3/gasterna-star-i-ko-for-att-knockas-av-smakerna",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8678-",
+      },
     },
     chefs: [
       {
@@ -428,6 +477,15 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/3d4f2c2e-1d78-315b-b78d-0068273e0f72/rolfs-kok-ett-stalle-att-rakna-med",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/5939-",
+      },
     },
     chefs: [
       {
@@ -452,6 +510,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/minh-mat-trendig-vietnames-vid-vasaparken/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/19cc2295-8c48-4cd9-9b5e-f242d7257590/en-av-stockholms-basta-asiatiska-krogar",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8457-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/minh-mat.jpg"),
     description:
@@ -504,6 +576,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/brasserie-astoria-harligt-avslappnat-men-lite-ojamnt-hos-stjarnkrogaren/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/G309gQ/lyx-a-la-glada-20-talet-ar-brasseri-ratt-ord",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11842-",
+      },
     },
     chefs: [
       {
@@ -538,7 +624,25 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/babette.jpg"),
     ratings: {
-      michelin: "Bib",
+      michelin: {
+        rating: "Bib",
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/babette",
+      },
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/babette-ett-gastabud-som-inte-nar-hela-vagen/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/LlPav9/krogguiden-om-babette-klassresan-har-inte-gatt-michelin-forbi",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11617-",
+      },
       "m&o": 8,
     },
     chefs: [
@@ -563,6 +667,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/solen-bara-de-basta-kan-foradla-enkla-livsmedel-till-gastronomiska-fulltraffar/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/8JzxP1/krogguiden-om-solen-adam-albin-far-till-ett-nytt-smakaventyr",
+      },
     },
     chefs: [
       {
@@ -583,6 +697,20 @@ export const RESTAURANTS: Restaurant[] = [
     name: "Voisine",
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/voisine-fransk-granne-som-levererar-pariskansla/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/zGOzRw/tack-och-lov-favoriten-sa-god-att-vi-vill-appladera",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/10709-",
+      },
     },
     coordinates: {
       longitude: 18.0904208,
@@ -615,6 +743,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/min-favoritkrog-pat-s-place-ar-en-unik-oas-dar-vi-ater-thaimat-med-en-egen-ide/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/4qRkb6/kvalitet-som-lamnar-kulorta-thaistallen-langt-efter-sig",
+      },
+      whiteguide: {
+        rating: 2,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12744-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/pats-place.jpg"),
     description:
@@ -629,6 +771,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/farang-asiatisk-mystik-moter-nordisk-stramhet/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/a23f7440-a384-383a-b343-92ae3d1ffdbc/sydostasiatisk-sisu",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/7630-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/farang.jpg"),
     description:
@@ -686,6 +842,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/cafe-nizza-stilrent-och-precist-tilltal-och-klart-prisvart/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/5Ewpmb/krogrecension-cave-nizza-otippat-tillbehor-menyns-hojdpunkt",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8680-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
     description:
@@ -700,6 +870,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      whiteguide: {
+        rating: 2,
+        reviewUrl:
+          "https://whiteguide.com/se/sv/restaurants/11473-det-arroganta-svinet",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/arroganta-svinet.jpg"),
     description:
@@ -1047,6 +1222,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/sthlm/coco-carmen-fulltraff-for-kombination-av-tradition-och-nybrutal-gourmetanarkism/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/6jM1XL/punk-royale-pa-ostermalm-overtraffar-soders-original",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11465-",
+      },
     },
     chefs: [
       {
@@ -1248,6 +1437,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/bacchanale-innovativa-smaker-kan-inte-radda-krogens-slarv/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/Jb6Ml4/krogrecension-bacchanale-ny-huvudattraktion-pa-sodermalm",
+      },
     },
     chefs: [
       {
@@ -1323,6 +1522,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/italiensk-dam-med-sjal-och-kvalitet/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/00c9279d-8db6-332a-a2d2-d18c17507341/efterlangtad-gammal-dam",
+      },
     },
     description:
       "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato, complemented by an extensive Italian wine list.",
@@ -2189,6 +2398,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 7,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/bastardo-lekfull-italienare-bjuder-pa-smaksensationer-for-dig-som-trottnat-pa-carbonara/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/ny2zwo/krogrecension-bastardo-masterverk-pa-rad-pa-guldklimp-till-krog",
+      },
     },
     description:
       "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates with a natural wine list.",
@@ -2256,7 +2475,17 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0716189,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/coup-d-etat-den-persiska-middagsklubben-utmanar-inte-smaklokarna/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/bGRoOq/recension-sa-bra-ar-coup-d-etat-i-stockholm",
+      },
     },
     description:
       "A bold Persian–French fusion restaurant in Östermalm that serves stylish sharing plates in a neon-lit, punk‑vibe setting.",
