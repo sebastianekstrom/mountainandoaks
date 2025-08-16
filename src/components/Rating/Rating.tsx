@@ -1,0 +1,154 @@
+import Image from "next/image";
+import { Text } from "components/Text/Text";
+import { v4 as uuidv4 } from "uuid";
+type RatingSource = "michelin" | "m&o" | "dn" | "svd" | "whiteguide";
+type MichelinRating = 1 | 2 | 3 | "Bib";
+
+interface RatingProps {
+  source: RatingSource;
+  value: number | MichelinRating;
+  reviewUrl?: string;
+}
+
+const ratingConfig: Record<
+  RatingSource,
+  {
+    name: string;
+    maxRating: number;
+    icon?: string;
+    bibIcon?: string;
+    color?: string;
+    abbreviation?: string;
+  }
+> = {
+  michelin: {
+    name: "Michelin",
+    maxRating: 3,
+    icon: "/images/misc/michelin-star.svg",
+    bibIcon: "/images/misc/bib-gourmand.png",
+  },
+  "m&o": {
+    name: "Mountain & Oaks",
+    maxRating: 10,
+    icon: "/images/misc/logo-squircle.svg",
+    color: "text-brand",
+  },
+  dn: {
+    name: "Dagens Nyheter",
+    maxRating: 5,
+    color: "text-red-600",
+    abbreviation: "DN",
+  },
+  svd: {
+    name: "Svenska Dagbladet",
+    maxRating: 6,
+    color: "text-blue-600",
+    abbreviation: "SvD",
+  },
+  whiteguide: {
+    name: "White Guide",
+    maxRating: 6,
+    color: "text-gray-700",
+    abbreviation: "WG",
+  },
+};
+
+// Fixed size configuration
+const iconSize = "w-[20px] lg:w-[16px]";
+const textVariant = "caption" as const;
+const gap = "gap-1";
+
+export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
+  const config = ratingConfig[source];
+
+  const WrapperComponent = reviewUrl ? "a" : "div";
+  const wrapperProps = reviewUrl
+    ? {
+        href: reviewUrl,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        className: "hover:opacity-75 transition-opacity",
+      }
+    : {};
+
+  // Handle Michelin rating specially
+  if (source === "michelin") {
+    if (value === "Bib") {
+      return (
+        <WrapperComponent
+          {...wrapperProps}
+          className={`flex items-center ${gap} ${wrapperProps.className || ""}`}
+          title="Bib Gourmand: good quality, good value cooking"
+        >
+          <Image
+            width={25}
+            height={25}
+            className={`${iconSize} h-auto`}
+            src={config.bibIcon || ""}
+            alt="Bib Gourmand"
+          />
+        </WrapperComponent>
+      );
+    }
+
+    const stars = value as number;
+    return (
+      <WrapperComponent
+        {...wrapperProps}
+        className={`flex ${gap} ${wrapperProps.className || ""}`}
+        title={`${stars} Michelin star${stars === 1 ? "" : "s"}`}
+      >
+        {Array.from({ length: stars }).map((_, starIndex) => (
+          <Image
+            key={uuidv4()}
+            width={25}
+            height={25}
+            className={`${iconSize} h-auto`}
+            src={config.icon || ""}
+            alt=""
+          />
+        ))}
+      </WrapperComponent>
+    );
+  }
+
+  // Handle M&O rating with icon (no links for M&O)
+  if (source === "m&o") {
+    return (
+      <div
+        className={`flex items-center ${gap}`}
+        title={`${config.name}: ${value}/${config.maxRating}`}
+      >
+        <Image
+          width={30}
+          height={30}
+          className={`${iconSize} h-auto`}
+          src={config.icon || ""}
+          alt=""
+        />
+        <Text variant={textVariant} classNames={config.color}>
+          {value}/{config.maxRating}
+        </Text>
+      </div>
+    );
+  }
+
+  // Handle text-based ratings (DN, SvD, White Guide)
+  return (
+    <WrapperComponent
+      {...wrapperProps}
+      className={`flex items-center ${gap} ${wrapperProps.className || ""}`}
+      title={`${config.name}: ${value}/${config.maxRating}`}
+    >
+      <Text
+        variant={textVariant}
+        classNames={`${config.color || ""} font-bold`}
+      >
+        {config.abbreviation || config.name}
+      </Text>
+      <Text variant={textVariant} classNames={config.color || ""}>
+        {value}/{config.maxRating}
+      </Text>
+    </WrapperComponent>
+  );
+};
