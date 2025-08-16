@@ -167,6 +167,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/miyakodori-japansk-gastrobar-ett-av-arets-stora-krogfynd/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/O8ywx3/kroggioden-om-miyakodori-en-riktig-izakaya-i-stockholm",
+      },
     },
     chefs: [
       {
@@ -198,6 +208,20 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/hantverket-generost-och-unikt-med-lekfullheten-i-centrum/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/VP4qjJ/krogguiden-om-hantverket-underhallande-och-utsokt",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8650-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
     description:
@@ -212,6 +236,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/doma-lekfullt-och-varierat-i-uppgraderad-hemma-hos-restaurang/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/JxpQxm/allra-bast-nogger-och-88-an-far-karleksbarn",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11674-",
+      },
     },
     chefs: [
       {
@@ -280,6 +318,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 8,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/frammat-lyckad-remix-av-lokala-och-globala-smaker/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/EaR6zj/paradratten-sa-god-att-vi-kivas-om-sista-rakan",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11779-",
+      },
     },
     chefs: [
       {
@@ -591,7 +643,25 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/aira.jpg"),
     ratings: {
-      michelin: 2,
+      michelin: {
+        rating: 2,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/aira",
+      },
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/aira-genuin-trivsel-och-precision-pa-extremt-valkoreograferad-stjarnkrog/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/RrX11a/krogguiden-om-aira-sallsynt-klanderfri-kokkonst",
+      },
+      whiteguide: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11770-",
+      },
       "m&o": 9,
     },
     chefs: [
@@ -997,6 +1067,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 9,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/misshumasshu-humorhojande-svensk-japansk-mix-med-sjalvklar-pondus/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/zGxwA1/borde-locka-fler-an-otrogna-generation-nudelsoppa",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11227-",
+      },
     },
     chefs: [
       {
