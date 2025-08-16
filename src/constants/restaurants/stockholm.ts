@@ -8,7 +8,25 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3128813,
     },
     ratings: {
-      michelin: "Bib",
+      michelin: {
+        rating: "Bib",
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/bar-agrikultur",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/bar-agrikultur-smaratter-i-sallskap-av-gindrinkar/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/Wr6ag/vem-kommer-ens-pa-att-grilla-en-saltgurka",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8785-",
+      },
       "m&o": 9,
     },
     chefs: [
@@ -33,7 +51,20 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3084311,
     },
     ratings: {
-      michelin: "Bib",
+      michelin: {
+        rating: "Bib",
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/triton",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/triton-kompetent-kvartett-som-borde-ta-ut-svangarna-annu-mer/",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12523-",
+      },
       "m&o": 9,
     },
     chefs: [
@@ -102,6 +133,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 9,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/punk-royale-ett-krogbesok-som-blir-till-performance/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/c7099ec9-6709-4b84-8ad6-4aa414f04356/krogguiden-grabbigt-arrogant-och-ljuvliga-smaker",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8439-",
+      },
     },
     chefs: [
       {
@@ -369,6 +414,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 9,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/animo-ambition-och-omsorg-som-gor-att-man-blir-pa-gott-humor/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/v57yqL/krogguiden-om-animo-fine-dining-till-rimliga-priser",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12133-",
+      },
     },
     chefs: [
       {
