@@ -62,8 +62,26 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3338871,
     },
     ratings: {
-      michelin: 3,
+      michelin: {
+        rating: 3,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/frantzen",
+      },
       "m&o": 10,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/frantzen-sublim-verklighetsflykt-som-stors-av-stadning-och-skamliga-forslag/",
+      },
+      svd: {
+        rating: 6,
+        reviewUrl:
+          "https://www.svd.se/a/JPMvX/inte-bara-fantastisk-mat-det-har-ar-perfektion",
+      },
+      whiteguide: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8822",
+      },
     },
     chefs: [
       {

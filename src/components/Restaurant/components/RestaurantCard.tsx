@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Text } from "components/Text/Text";
+import { Rating } from "components/Rating/Rating";
 import type { Restaurant } from "../../../constants/restaurants/types";
 
 interface RestaurantCardProps {
@@ -13,7 +14,71 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
   isCompactMode,
   index,
 }) => {
-  const hasRatings = restaurant.ratings?.["m&o"] || restaurant.ratings;
+  const getRatingsArray = () => {
+    const ratings = [];
+
+    // M&O rating always comes first if available
+    if (restaurant.ratings?.["m&o"])
+      ratings.push({
+        source: "m&o" as const,
+        value: restaurant.ratings["m&o"],
+        reviewUrl: undefined,
+      });
+
+    if (restaurant.ratings?.michelin) {
+      const michelinRating = restaurant.ratings.michelin;
+      ratings.push({
+        source: "michelin" as const,
+        value:
+          typeof michelinRating === "object"
+            ? michelinRating.rating
+            : michelinRating,
+        reviewUrl:
+          typeof michelinRating === "object"
+            ? michelinRating.reviewUrl
+            : undefined,
+      });
+    }
+
+    if (restaurant.ratings?.dn) {
+      const dnRating = restaurant.ratings.dn;
+      ratings.push({
+        source: "dn" as const,
+        value: typeof dnRating === "object" ? dnRating.rating : dnRating,
+        reviewUrl:
+          typeof dnRating === "object" ? dnRating.reviewUrl : undefined,
+      });
+    }
+
+    if (restaurant.ratings?.svd) {
+      const svdRating = restaurant.ratings.svd;
+      ratings.push({
+        source: "svd" as const,
+        value: typeof svdRating === "object" ? svdRating.rating : svdRating,
+        reviewUrl:
+          typeof svdRating === "object" ? svdRating.reviewUrl : undefined,
+      });
+    }
+
+    if (restaurant.ratings?.whiteguide) {
+      const whiteguideRating = restaurant.ratings.whiteguide;
+      ratings.push({
+        source: "whiteguide" as const,
+        value:
+          typeof whiteguideRating === "object"
+            ? whiteguideRating.rating
+            : whiteguideRating,
+        reviewUrl:
+          typeof whiteguideRating === "object"
+            ? whiteguideRating.reviewUrl
+            : undefined,
+      });
+    }
+
+    return ratings;
+  };
+
+  const ratingsArray = getRatingsArray();
 
   return (
     <div>
@@ -33,67 +98,27 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
             placeholder="blur"
           />
         </div>
-        <div className="flex items-center justify-between">
+      </a>
+      <div>
+        <a href={restaurant.website}>
           <Text variant="h4" classNames="relative top-[2px]">
             {restaurant.name}
           </Text>
+        </a>
 
-          {hasRatings && (
-            <div className="flex justify-between gap-3 items-center">
-              {restaurant.ratings?.["m&o"] && (
-                <div className="flex items-center justify-center gap-1">
-                  <Image
-                    width={140}
-                    height={56.6}
-                    className="w-[30px] lg:w-[24px] h-auto"
-                    src="/images/misc/logo-squircle.svg"
-                    alt=""
-                    title="Rating from Mountain & Oaks"
-                  />
-                  <Text variant="badge">{restaurant.ratings?.["m&o"]}/10</Text>
-                </div>
-              )}
-              {restaurant.ratings?.michelin && (
-                <>
-                  {restaurant.ratings.michelin === "Bib" ? (
-                    <div className="relative top-[-1px]">
-                      <Image
-                        width={20}
-                        height={20}
-                        className="w-[25px] lg:w-[20px] h-auto"
-                        src="/images/misc/bib-gourmand.png"
-                        alt=""
-                        title="Bib Gourmand: good quality, good value cooking"
-                      />
-                    </div>
-                  ) : (
-                    <div className="flex gap-[3px]">
-                      {Array.from({
-                        length: restaurant.ratings.michelin ?? 0,
-                      }).map((_, starIndex) => {
-                        const stars = restaurant.ratings?.michelin ?? 0;
-                        return (
-                          <Image
-                            width={20}
-                            height={20}
-                            className="w-[25px] lg:w-[20px] h-auto"
-                            src="/images/misc/michelin-star.svg"
-                            alt=""
-                            title={`${stars} Michelin star${
-                              stars === 1 ? "" : "s"
-                            }`}
-                            key={`${restaurant.name}-star-${starIndex + 1}`}
-                          />
-                        );
-                      })}
-                    </div>
-                  )}
-                </>
-              )}
-            </div>
-          )}
-        </div>
-      </a>
+        {ratingsArray.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-2">
+            {ratingsArray.map((rating) => (
+              <Rating
+                key={rating.source}
+                source={rating.source}
+                value={rating.value}
+                reviewUrl={rating.reviewUrl}
+              />
+            ))}
+          </div>
+        )}
+      </div>
 
       {restaurant.chefs && (
         <div className="mb-2 mt-4">
