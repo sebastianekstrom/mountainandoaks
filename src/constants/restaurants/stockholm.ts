@@ -293,7 +293,7 @@ export const RESTAURANTS: Restaurant[] = [
         rating: 6,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/9929-",
       },
-      "m&o": 10,
+      "m&o": 9,
     },
     chefs: [
       {
@@ -1933,7 +1933,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Known for its vibrant atmosphere, it offers a menu featuring Nordic and international flavors, with an emphasis on sustainability and quality ingredients. The establishment also includes a grocery store and bakery, making it a popular spot for both dining and shopping.",
+      "Offers a menu featuring Nordic and international flavors, with an emphasis on sustainability and quality ingredients. The establishment also includes a grocery store and bakery, making it a popular spot for both dining and shopping.",
     website: "https://www.urbandeli.org/nytorget",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/urban-deli-nytorget.jpg"),
@@ -2049,7 +2049,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "The restaurant offers a menu that combines Swedish classics with Southern European flavors, featuring dishes like meatballs, omelets, and seafood pasta. With a vibrant atmosphere, it serves breakfast, lunch, and dinner, and includes a cocktail bar where skilled bartenders craft a variety of drinks.",
+      "Offers a menu that combines Swedish classics with Southern European flavors, featuring dishes like meatballs, omelets, and seafood pasta. With a vibrant atmosphere, it serves breakfast, lunch, and dinner, and includes a cocktail bar where skilled bartenders craft a variety of drinks.",
     website: "https://www.nytorget6.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/nytorget-6.jpg"),
@@ -2123,7 +2123,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "YUC! Mexican is a vibrant restaurant in Stockholm's Vasastan district, offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options. The lively atmosphere, enhanced by music and a colorful interior, makes it a popular spot for both dining and socializing.",
+      "Offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options.",
     website: "https://yucmexican.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/yuc.jpg"),
@@ -2354,7 +2354,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home. The open kitchen serves a daily changing menu based on the freshest local and seasonal ingredients.",
+      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home.",
     website: "https://www.etthem.se/kitchen/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
@@ -2419,7 +2419,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Nya Carnegiebryggeriet is a modern craft brewery and gastropub located in the historic Luma lightbulb factory in Stockholm's Hammarby Sjöstad district. Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
+      "Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
     website: "https://www.nyacarnegiebryggeriet.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/nya-carnegiebryggeriet.jpg"),
@@ -3220,7 +3220,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "An homage to authentic Egyptian street food serving ta’ameya—crispy, fava‑bean falafel made from scratch with house‑roasted spices and freshly baked pita. Pure plant‑based goodness, minimalist vibes, natural wine and craft beer, all packed into tight, lively spots around Södermalm and Vasastan",
+      "An homage to authentic Egyptian street food serving ta’ameya—crispy, fava‑bean falafel made from scratch with house‑roasted spices and freshly baked pita. Pure plant‑based goodness, minimalist vibes, natural wine and craft beer.",
     website: "https://www.taameya.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/ta-meya.jpg"),
   },
@@ -3309,7 +3309,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Cozy Indian spot serving flavorful, well‑spiced dishes like thalis, masala dosa, and tandoori classics",
+      "Serving flavorful, well‑spiced dishes like thalis, masala dosa, and tandoori classics",
     website: "https://shanti.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/shanti.jpg"),
   },
