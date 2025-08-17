@@ -902,7 +902,20 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3426531,
     },
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/dashi",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/dashi-blygsam-matsal-som-ar-en-ljuspunkt-i-bistra-tider/",
+      },
+      svd: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12516-",
+      },
     },
     chefs: [
       {
@@ -926,6 +939,22 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0568196,
       latitude: 59.3493788,
     },
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/bord-kompetent-och-frestande-meny-men-stokig-servering/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/xgVxgl/krogguiden-om-bord-val-snalla-smaker",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12443-",
+      },
+    },
     chefs: [
       {
         name: "Joel Aronsson",
@@ -944,7 +973,16 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3436373,
     },
     ratings: {
-      michelin: "Bib",
+      michelin: {
+        rating: "Bib",
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/lilla-ego",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/abJe6A/krogguiden-om-lilla-ego-avspant-sjalvsaker-matkonst",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/lilla-ego.jpg"),
     chefs: [
@@ -968,7 +1006,25 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3367645,
     },
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/ekstedt",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/ekstedt-tv-kocken-haller-lagan-vid-liv/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/1ec380b7-c306-3ad8-a3d7-3cfc5136a5fc/rykande-nara-full-pott",
+      },
+      whiteguide: {
+        rating: 5,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/7420-",
+      },
     },
     chefs: [
       {
@@ -988,7 +1044,16 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3293149,
     },
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/seafood-gastro",
+      },
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/seafood-gastro-wow-kanslan-uteblir-pa-dahlgrens-finns-i-sjon-krog/",
+      },
     },
     chefs: [
       {
@@ -1012,7 +1077,21 @@ export const RESTAURANTS: Restaurant[] = [
       { name: "Rachel Wennemo", description: "Etoile" },
     ],
     ratings: {
-      michelin: 2,
+      michelin: {
+        rating: 2,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/celeste-1209889",
+      },
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/celeste-imponerande-meny-med-humor-som-en-viktig-krydda/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/ale56M/krogrecension-celeste-undangomd-ljuvlig-stjarnkrog-pa-sodermalm",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/celeste.jpg"),
     description:
@@ -1024,6 +1103,22 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 18.0785809,
       latitude: 59.2924085,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/bar-montan-antligen-vagar-vi-tro-att-slakthusomradet-kan-bli-en-kulinarisk-hotspot/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/8J4Br2/krogguiden-om-bar-montan-vard-sin-omvag-till-slakthusomradet",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
+      },
     },
     chefs: [
       {
@@ -1084,6 +1179,18 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0598619,
       latitude: 59.318761,
     },
+    ratings: {
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/washoku-tomo-inget-speciellt-bara-fantastisk-japansk-mat-till-rimligt-pris/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/xmE9BR/krogrecension-washoku-tomo-prisvard-fulltraff-for-japankannare",
+      },
+    },
     chefs: [
       {
         name: "Tomoko Hayashi",
@@ -1100,6 +1207,18 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 18.0644833,
       latitude: 59.3423098,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/noema-kottet-dominerar-pa-trevlig-krog-med-kontinental-kansla/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/Ll8Vo1/noema-krogrecension-hejdundrande-kvall-i-vackra-lokaler",
+      },
     },
     chefs: [
       {
@@ -1142,13 +1261,26 @@ export const RESTAURANTS: Restaurant[] = [
     website: "http://www.restaurantessence.com/",
   },
   {
-    name: "Ergo",
+    name: "ergo.",
     coordinates: {
       longitude: 18.0809041,
       latitude: 59.3337489,
     },
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/ergo",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/ergo-lyxig-finkrog-borde-kunna-ta-ut-svangarna-mer/",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12442-",
+      },
     },
     chefs: [
       {
@@ -1620,6 +1752,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 3,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/eea01ff0-684c-3f62-b25f-92c5e877b673/trangt-men-trivsamt",
+      },
     },
     chefs: [
       {
@@ -1674,6 +1811,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 2,
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/fotografiskas-restaurang-ett-maste-for-alla-matalskare/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/13fd508b-3d10-3680-8209-c308ea883d13/lyckad-museikrog-med-gront-i-fokus",
+      },
     },
     chefs: [
       {
@@ -1854,6 +2001,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 2,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/21WdgR/modigt-att-ta-in-de-vinerna-men-var-ar-servicen",
+      },
     },
     chefs: [
       {
@@ -2343,6 +2495,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 3,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/f3f68ac6-c09e-4a35-a0c1-0aa30c795f73/topplage-lyfter-krog",
+      },
     },
     description:
       "Maritime brasserie offering Swedish seafood and American-inspired dishes in a New England-style setting with panoramic views of Stockholm's inlet.",
@@ -2916,6 +3073,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 3,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/97a4d997-460a-31ca-ab38-3c8b3fe71189/popular-oas-i-soders-hjarta",
+      },
     },
     description:
       "Cozy Indian spot serving flavorful, well‑spiced dishes like thalis, masala dosa, and tandoori classics",
