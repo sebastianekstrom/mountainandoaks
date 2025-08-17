@@ -2177,6 +2177,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/copper-club-det-spretar-och-svajar-bland-ginflaskor-och-asiatiska-tapas/",
+      },
     },
     description:
       "Asian fusion bistro and gin bar serving sushi, dim sum, and massaman curry alongside house-distilled gins and craft cocktails.",
@@ -2314,6 +2319,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/medelmattigt-pa-ett-av-stans-basta-kajlagen/?channel=desktop",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/0VG6ro/krogrecension-angbatsbryggan-vid-strandvagen-nara-turistfalla",
+      },
     },
     description:
       "Seasonal Swedish seafood and brasserie fare served aboard a WWII-era barge moored on Strandvägen, with views over Nybroviken.",
@@ -2774,6 +2789,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/moas-frascht-pinnkott-kryddar-bort-sig/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/56G3W/varldens-basta-kebab-finns-inte-i-vasastan",
+      },
     },
     description:
       "A street-food-style kebab spot serving juicy grilled meats, fresh pita wraps, hearty bowls, and crispy sides, all made from scratch with bold, well-seasoned flavors.",
