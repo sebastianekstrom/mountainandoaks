@@ -1299,6 +1299,18 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.068535,
       latitude: 59.3198064,
     },
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/freyja-mycket-kan-forlatas-om-man-far-ett-bord-med-utsikt-men-inte-allt/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/y6KqbK/krogguiden-om-freyja-utsikten-sticker-ut",
+      },
+    },
     chefs: [
       {
         name: "Emma Shields",
@@ -1317,7 +1329,21 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3444745,
     },
     ratings: {
-      michelin: "Bib",
+      michelin: {
+        rating: "Bib",
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/arla",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/arla-inte-manga-som-erbjuder-lika-mycket-vardagslyx-for-pengarna/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/15Q52G/krogrecension-av-arla-mat-och-bemotande-i-absolut-toppklass",
+      },
     },
     chefs: [
       {
@@ -1340,6 +1366,13 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0638492,
       latitude: 59.3168579,
     },
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/tema-smaratter-hallmans-och-racamaca-driver-demokratisk-tapastrend/",
+      },
+    },
     image: require("../../../public/images/restaurants/stockholm/restaurants/racamaca.jpg"),
     description:
       "Racamaca offers a menu inspired by Basque cuisine, featuring pintxos and small dishes such as garbanzo beans, boquerones, and chistorra sausage. The ambiance is intimate and lively, complemented by a curated selection of wines and beers.",
@@ -1350,6 +1383,18 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 18.0889679,
       latitude: 59.3331662,
+    },
+    ratings: {
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/kultur/persona-finkrog-som-overraskar-med-britpop-och-egen-attityd/",
+      },
+      svd: {
+        rating: 6,
+        reviewUrl:
+          "https://www.svd.se/a/onqxr7/krogguiden-om-persona-hogst-betyg-till-doldis-pa-ostermalm",
+      },
     },
     chefs: [
       { name: "Louis Cespedes", description: "Previously at Frantzén" },
@@ -1433,21 +1478,22 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://misshumasshu.se",
   },
   {
-    name: "E&G",
-    coordinates: {
-      longitude: 18.0607129,
-      latitude: 59.3479443,
-    },
-    image: require("../../../public/images/restaurants/stockholm/restaurants/eg.jpg"),
-    description:
-      "Rustic European-inspired dishes that change regularly to highlight seasonal ingredients. Offerings range from snacks and small plates to more substantial dishes, catering to both vegetarians and meat lovers.",
-    website: "http://www.eochg.se/",
-  },
-  {
     name: "Bar Nîmes",
     coordinates: {
       longitude: 18.0654578,
       latitude: 59.342484,
+    },
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/bar-nimes-snallt-men-menlost-nar-asiatiska-smaker-bytts-ut-mot-franska/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/onVxQV/krogguiden-om-bar-nimes-svajig-leverans",
+      },
     },
     chefs: [
       {
@@ -1466,6 +1512,22 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0674926,
       latitude: 59.3357663,
     },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/brutalisten-konceptkrog-som-tar-ravaru-vurmen-till-en-ny-niva/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/pWaobo/kroggioden-om-britalisten-piggt-och-sympatiskt",
+      },
+      whiteguide: {
+        rating: 5,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12145-",
+      },
+    },
     image: require("../../../public/images/restaurants/stockholm/restaurants/brutalisten.jpg"),
     description:
       "Offers a menu categorized into 'Orthodox Brutalist,' 'Brutalist,' and 'Semi-Brutalist' dishes, each adhering to varying degrees of minimalism by using single ingredients prepared with minimal or no additions.",
@@ -1474,7 +1536,16 @@ export const RESTAURANTS: Restaurant[] = [
   {
     name: "Nour",
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/nour",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/nour-ett-parlband-av-sma-konstverk-pa-lyxig-stjarnkrog/",
+      },
     },
     coordinates: {
       longitude: 18.0712029,
@@ -1497,6 +1568,18 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0763805,
       latitude: 59.3339065,
     },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/chez-jolie-den-exklusiva-matsalen-ar-bade-varm-och-inbjudande/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/WRkQ92/krogguiden-om-chez-jolie-kan-bli-en-fransk-klassiker",
+      },
+    },
     chefs: [
       {
         name: "Mikael Einarsson",
@@ -1513,6 +1596,23 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 18.0568469,
       latitude: 59.3385233,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/rolfs-hav-chosefri-skaldjurskrog-med-attityd-och-glimt-i-ogat/",
+      },
+
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/l3xx6L/krogguiden-om-rolfs-hav-syndigt-goda-fisk-och-skaldjursratter",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
+      },
     },
     chefs: [
       {
@@ -1535,6 +1635,17 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0344602,
       latitude: 59.3161265,
     },
+    ratings: {
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/kultur/forma-svajigt-resultat-nar-man-vill-erbjuda-allt-till-alla/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl: "https://www.svd.se/a/XbLrG7/krogguiden-om-forma",
+      },
+    },
     image: require("../../../public/images/restaurants/stockholm/restaurants/forma.jpg"),
     description:
       "Combining French techniques with Asian and Swedish influences, focusing on seasonal and sustainably sourced ingredients.",
@@ -1545,6 +1656,22 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 18.0694741,
       latitude: 59.3434181,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/tengu-mycket-att-tycka-om-pa-trendigt-nudelstalle/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/7dka1B/krogguiden-om-tengu-efter-saltchock-kul-att-vi-utmanas",
+      },
+      whiteguide: {
+        rating: 3,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12132-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/tengu.jpg"),
     description:
@@ -1568,7 +1695,25 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/adam-albin",
+      },
+      dn: {
+        rating: 5,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/adamalbin-hog-ambitionsniva-men-hjartat-ar-med/",
+      },
+      svd: {
+        rating: 6,
+        reviewUrl:
+          "https://www.svd.se/a/AmVPz/en-krog-dar-allt-stammer-det-godaste-jag-atit",
+      },
+      whiteguide: {
+        rating: 6,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8301-",
+      },
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/adam-albin.jpg"),
     description:
@@ -1615,6 +1760,22 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0712113,
       latitude: 59.3358149,
     },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/surfers-enkla-men-briljanta-smaker-i-surfmiljo/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/JQaBX7/krogguiden-om-surfers-fa-stallen-har-kinesisk-mat-pa-denna-niva",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8443-",
+      },
+    },
     image: require("../../../public/images/restaurants/stockholm/restaurants/surfers.jpg"),
     description:
       "Chinese cuisine, with a focus on honoring and exploring one of the world’s oldest culinary traditions through a modern and heartfelt approach.",
@@ -1625,6 +1786,12 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       latitude: 59.3371,
       longitude: 18.0792,
+    },
+    ratings: {
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "htthttps://whiteguide.com/se/sv/restaurants/12524-",
+      },
     },
     chefs: [
       {
@@ -2691,6 +2858,13 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3229602,
       longitude: 18.0713832,
     },
+    ratings: {
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/kwjKz9/krogrecension-cong-vietnamesisk-gatumat-golvar-oss",
+      },
+    },
     description:
       "Vietnamese street food spot in Gamla Stan owned by three brothers serving shareable dishes like mango salad, duck pancakes, and tofu sticks under cozy brick arches.",
     website: "https://cong.se/",
@@ -2701,6 +2875,17 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       latitude: 59.3325238,
       longitude: 18.0429095,
+    },
+    ratings: {
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/4oeAXR/krogguiden-om-agnes-pa-kungsholmen-utskallt-koncept-far-revansch",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8521-",
+      },
     },
     chefs: [
       {
@@ -2719,6 +2904,13 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       latitude: 59.3339345,
       longitude: 18.076673,
+    },
+    ratings: {
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/Avw7Ox/krogguiden-recenserar-vinbaren-batard",
+      },
     },
     chefs: [
       {
@@ -2808,10 +3000,22 @@ export const RESTAURANTS: Restaurant[] = [
     ],
   },
   {
-    name: "Restaurang Amalia",
+    name: "Amalia",
     coordinates: {
       latitude: 59.3373052,
       longitude: 18.0674711,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/amalia-ny-bistro-i-city-har-chans-att-bli-bade-uppskattad-och-omtyckt/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/yEwO8g/krogrecension-av-amalia-vi-blir-knockade-av-oansenliga-ratten",
+      },
     },
     description:
       "Cozy bistro offering playful small‑ and medium‑plates with international flavours and a well‑curated wine list in a relaxed, welcoming setting.",
@@ -2825,7 +3029,25 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0437922,
     },
     ratings: {
-      michelin: 1,
+      michelin: {
+        rating: 1,
+        reviewUrl:
+          "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/etoile",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/etoile-kaxig-nykomling-bjuder-pa-mycket-smak-pa-liten-yta/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/BJK2Av/ovantade-smakexplosioner-far-oss-att-le-och-le-igen",
+      },
+      whiteguide: {
+        rating: 5,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/9183-",
+      },
     },
     description:
       "One‑Michelin‑star restaurant offering a playful, creative 20‑course tasting menu blending global influences and surprising flavour twists.",
@@ -2908,6 +3130,13 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       latitude: 59.2918225,
       longitude: 18.0772655,
+    },
+    ratings: {
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/vgL9wj/matateljen-slakthusomradet-recension-allt-tillagat-med-precision",
+      },
     },
     chefs: [
       {
