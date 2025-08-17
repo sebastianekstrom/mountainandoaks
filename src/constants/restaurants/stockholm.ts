@@ -1052,6 +1052,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/riri-eldfangd-matlagning-av-kockar-som-brinner-for-kokkonsten/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/151BAl/riri-vid-hornstull-pa-sodermalm-recension-opretentios-krogparla",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12580-",
+      },
     },
     chefs: [
       {
@@ -1500,6 +1514,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/4c361b64-1a0d-3ec6-80fe-d6f3727c8e6e/inte-snabbt-men-gott",
+      },
     },
     chefs: [
       {
@@ -1547,6 +1566,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/krogkommissionen-lyxvardag-hos-bar/",
+      },
     },
     chefs: [
       {
@@ -1569,6 +1593,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/30e6904f-4bb4-39ec-b694-89d3d43358d3/valsmakande-och-genuint",
+      },
     },
     chefs: [
       {
@@ -1613,6 +1642,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/snabbmaten-pa-la-neta-vard-en-omvag/",
+      },
     },
     chefs: [
       {
@@ -1662,6 +1696,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/9dd0fb1d-c17f-4258-9973-69b366bdb65f/tokiga-priser-pa-bananas",
+      },
     },
     description:
       "Housed in a distinctive flatiron building, it offers a diverse menu featuring Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare and Middle Eastern-inspired options such as lemon falafel.",
@@ -1677,6 +1716,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/aptitligt-och-trevligt-men-inte-kittlande/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/1aebc624-ed14-324b-a60d-6abb36b66472/bondfagel-battre-an-lamm",
+      },
     },
     chefs: [
       {
@@ -1721,6 +1770,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/29j0y/ojamnt-och-slarvigt-pa-anrik-krog",
+      },
     },
     chefs: [
       {
@@ -1743,6 +1797,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/yuc-latinamerikanskt-utan-farg-och-hetta/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/69c22691-2fcf-404f-879b-1cdc14689bb1/nasta-gang-stannar-vi-i-baren",
+      },
     },
     description:
       "YUC! Mexican is a vibrant restaurant in Stockholm's Vasastan district, offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options. The lively atmosphere, enhanced by music and a colorful interior, makes it a popular spot for both dining and socializing.",
@@ -1758,6 +1822,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/ladan-hogt-over-huvudstadens-vanliga-bars-och-burgar-stallen/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/ejRjM/nagra-av-stans-godaste-burgare-borgar-for-succe",
+      },
     },
     chefs: [
       {
@@ -1802,6 +1876,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/den-gyldene-freden-husmanskost-och-franska-klassiker-utan-utropstecken/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/0nWyOB/kanske-ar-detta-inte-en-krog-for-oss-stockholmare",
+      },
+      whiteguide: {
+        rating: 3,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/5824-",
+      },
     },
     description:
       "Established in 1722, Den Gyldene Freden is one of the world's oldest restaurants still operating in its original location. Situated in Stockholm's Gamla Stan, it offers a menu rooted in traditional Swedish cuisine, featuring dishes like meatballs with lingonberries and creamy potato purée.",
@@ -1816,7 +1904,17 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0529088,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/knut-bar-ett-horn-av-norrland-pa-regeringsgatan/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/7235cb43-4cb4-3639-a438-0ea34e16e1d8/norrlandskt-smakaventyr",
+      },
     },
     chefs: [
       {
@@ -1860,7 +1958,17 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0687694,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/eatnam-tveksamt-om-mormor-i-saigon-hade-blivit-nojd/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/p643kW/en-slurp-och-du-ar-i-saigon-men-ta-inte-med-dejten",
+      },
     },
     description:
       "Vietnamese restaurant in Stockholm offering authentic dishes inspired by the everyday food of Saigon. The menu features pho noodle soup, banh mi sandwiches, fresh spring rolls, and noodle salads, with options for meat lovers, vegetarians, and vegans.",
@@ -1876,6 +1984,10 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 3,
+        reviewUrl: "https://www.dn.se/pa-stan/ata-ute/miljon-battre-an-maten/",
+      },
     },
     description:
       "Offers a unique dining experience inspired by the Viking Age. Founded by Swedish musician Martin 'E-Type' Erikson, the restaurant immerses guests in a medieval atmosphere with communal wooden tables, candlelight, and traditional Nordic music. The menu features dishes like mead-boiled mussels, moose fillet, and saffron pancakes, accompanied by beverages such as mead, ale, and wine.",
@@ -1936,6 +2048,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 4,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/krogkommissionen-nojespalats-haller-stilen/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/8459ea77-935a-35b5-9ce9-cc484361d5a0/vackert-men-ovassat",
+      },
     },
     description:
       "Dating back to 1888, Nalen has long been a center for music and cultural events. The restaurant offers a refined take on traditional Swedish cuisine with modern influences, emphasizing sustainability and organic, locally sourced ingredients. Guests can enjoy dishes like Jerusalem artichoke soup with scallop, lamb brisket with sweetbread, and classic meatballs with cream sauce.",
@@ -1966,6 +2088,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/eloge-for-olsatsning-men-maten-spretar",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/7c3ad2da-0941-3a44-b7c6-6d5bf34ecc59/olhall-som-smaller-hogt",
+      },
     },
     description:
       "Nya Carnegiebryggeriet is a modern craft brewery and gastropub located in the historic Luma lightbulb factory in Stockholm's Hammarby Sjöstad district. Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
@@ -1981,6 +2113,19 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 3,
+        reviewUrl: "https://www.dn.se/pa-stan/ata-ute/kk-testar-svartengrens/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/f2ff5fbe-3c5b-38ba-aa04-a8c26a02ae98/kottigt-men-ojamnt",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/7419-",
+      },
     },
     chefs: [
       {
@@ -2060,13 +2205,23 @@ export const RESTAURANTS: Restaurant[] = [
     ],
   },
   {
-    name: "NOI (Nobis Hotel)",
+    name: "NOI",
     coordinates: {
       latitude: 59.3326,
       longitude: 18.0722,
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/noi-stabilt-och-smidigt-men-nysatsningen-sticker-inte-ut/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/G1LGOl/stjarnkockens-meny-en-falla-for-valbestallda-turister",
+      },
     },
     description:
       "Modern European cuisine with seasonal Swedish ingredients, offering dishes like Kalix bleak roe and spice-roasted duck in a Scandinavian-designed setting.",
@@ -2088,6 +2243,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/sthlm/chelas-efterlangtat-tillskott-i-det-smakrika-mexikanska-koket/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/vQG2wm/servitoren-varnar-oss-for-matvalet-uppfriskande",
+      },
     },
     description:
       "Authentic Mexican eatery in Hornstull offering dishes like bone marrow tacos, enchiladas, and cochinita pibil, emphasizing fresh ingredients and traditional flavors.",
@@ -2240,6 +2405,16 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/sthlm/at-six-hotellets-restaurang-ger-sig-ut-pa-tunn-is/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/A2zL7x/suverant-att-gasterna-ar-fa-det-enda-som-forbryllar",
+      },
     },
     description:
       "Contemporary luxury hotel featuring Dining Room, a modern European restaurant with seasonal, globally influenced cuisine, and a curated art collection.",
@@ -2254,6 +2429,11 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/indian-street-food-co-inte-ens-den-legendariska-garam-masalan-sticker-ut/",
+      },
     },
     description:
       "Modern Indian street food concept offering dishes like kathi rolls, butter chicken, and deconstructed samosas, blending traditional flavors with contemporary presentation.",
@@ -2282,13 +2462,23 @@ export const RESTAURANTS: Restaurant[] = [
     image: require("../../../public/images/restaurants/stockholm/restaurants/ellery-beach-house.jpg"),
   },
   {
-    name: "Bank Hotel",
+    name: "Bonnie's",
     coordinates: {
       latitude: 59.3313931,
       longitude: 18.0746401,
     },
     ratings: {
       "m&o": 5,
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/bonnies-onodigt-opersonlig-matlagning-men-hog-wow-faktor/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/yvwRRe/lyxiga-bankpalatset-har-att-lara-av-sin-pampiga-syster",
+      },
     },
     description:
       "Luxury hotel in a former 1910 bank building, featuring Bonnie's restaurant offering French-influenced modern European cuisine, and rooftop bar Le Hibou with panoramic city views.",
@@ -2377,6 +2567,20 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       "m&o": 6,
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/sthlm/portal-som-hamtat-ur-en-romantisk-komedi/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/Vze6G4/krocrecension-portal-vi-har-aldrig-atit-en-battre-tillredd-torsk",
+      },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/11130-",
+      },
     },
     description:
       "Uncomplicated Nordic‑European bistro at Sankt Eriksplan, highlighting clear flavours and top Swedish produce in a convivial, wine‑focused setting.",
@@ -2583,7 +2787,12 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.078611,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 4,
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.svd.se/a/26c8266f-0358-33a2-95e8-cd15c87b0199/turistfalla-av-thai-typ",
+      },
     },
     description:
       "An energetic, tropical-themed Thai restaurant in Stockholm serving familiar dishes like pad thai, spring rolls, seafood curries, and skewers—with generous portions, a fun island-style vibe, solid vegan options, and friendly service that makes it a go-to spot for casual, flavor-forward Thai eats.",
