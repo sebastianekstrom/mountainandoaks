@@ -107,15 +107,48 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
         </a>
 
         {ratingsArray.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-2">
-            {ratingsArray.map((rating) => (
-              <Rating
-                key={rating.source}
-                source={rating.source}
-                value={rating.value}
-                reviewUrl={rating.reviewUrl}
-              />
-            ))}
+          <div className="mt-2">
+            {/* Our rating section */}
+            {ratingsArray.some((rating) => rating.source === "m&o") && (
+              <div className="mb-3">
+                <Text variant="h5" classNames="mb-1">
+                  Our rating
+                </Text>
+                <div className="flex flex-wrap gap-2">
+                  {ratingsArray
+                    .filter((rating) => rating.source === "m&o")
+                    .map((rating) => (
+                      <Rating
+                        key={rating.source}
+                        source={rating.source}
+                        value={rating.value}
+                        reviewUrl={rating.reviewUrl}
+                      />
+                    ))}
+                </div>
+              </div>
+            )}
+
+            {/* Other ratings section */}
+            {ratingsArray.some((rating) => rating.source !== "m&o") && (
+              <div>
+                <Text variant="h5" classNames="mb-1">
+                  Other ratings
+                </Text>
+                <div className="flex flex-wrap gap-2">
+                  {ratingsArray
+                    .filter((rating) => rating.source !== "m&o")
+                    .map((rating) => (
+                      <Rating
+                        key={rating.source}
+                        source={rating.source}
+                        value={rating.value}
+                        reviewUrl={rating.reviewUrl}
+                      />
+                    ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

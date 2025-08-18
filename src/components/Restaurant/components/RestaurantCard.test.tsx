@@ -40,7 +40,7 @@ describe("RestaurantCard component", () => {
     expect(screen.queryByText(/\/6/)).not.toBeInTheDocument(); // SvD and WG ratings
   });
 
-  it("renders M&O rating first when available", () => {
+  it("renders M&O rating in 'Our rating' section when available", () => {
     const restaurantWithMO: Restaurant = {
       ...mockRestaurant,
       ratings: { "m&o": 8 },
@@ -54,11 +54,13 @@ describe("RestaurantCard component", () => {
       />,
     );
 
+    expect(screen.getByText("Our rating")).toBeInTheDocument();
+    expect(screen.queryByText("Other ratings")).not.toBeInTheDocument();
     expect(screen.getByTitle("Mountain & Oaks: 8/10")).toBeInTheDocument();
     expect(screen.getByText("8/10")).toBeInTheDocument();
   });
 
-  it("renders all rating types with correct order", () => {
+  it("renders all rating types with correct sections", () => {
     const restaurantWithAllRatings: Restaurant = {
       ...mockRestaurant,
       ratings: {
@@ -78,6 +80,9 @@ describe("RestaurantCard component", () => {
       />,
     );
 
+    expect(screen.getByText("Our rating")).toBeInTheDocument();
+    expect(screen.getByText("Other ratings")).toBeInTheDocument();
+
     expect(screen.getByTitle("Mountain & Oaks: 8/10")).toBeInTheDocument();
     expect(screen.getByTitle("2 Michelin stars")).toBeInTheDocument();
     expect(screen.getByTitle("Dagens Nyheter: 4/5")).toBeInTheDocument();
@@ -94,6 +99,29 @@ describe("RestaurantCard component", () => {
       (img) => img.getAttribute("src") === "/images/misc/michelin-star.svg",
     );
     expect(michelinStars).toHaveLength(2);
+  });
+
+  it("renders only 'Other ratings' section when no M&O rating", () => {
+    const restaurantWithoutMO: Restaurant = {
+      ...mockRestaurant,
+      ratings: {
+        michelin: 1,
+        dn: 4,
+      },
+    };
+
+    render(
+      <RestaurantCard
+        restaurant={restaurantWithoutMO}
+        isCompactMode={false}
+        index={0}
+      />,
+    );
+
+    expect(screen.queryByText("Our rating")).not.toBeInTheDocument();
+    expect(screen.getByText("Other ratings")).toBeInTheDocument();
+    expect(screen.getByTitle("1 Michelin star")).toBeInTheDocument();
+    expect(screen.getByTitle("Dagens Nyheter: 4/5")).toBeInTheDocument();
   });
 
   it("handles rating objects with review links", () => {
