@@ -3006,6 +3006,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0674711,
     },
     ratings: {
+      "m&o": 8,
       dn: {
         rating: 4,
         reviewUrl:
