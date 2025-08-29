@@ -3142,6 +3142,11 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/vgL9wj/matateljen-slakthusomradet-recension-allt-tillagat-med-precision",
       },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/matateljen-sma-konstverk-i-industriell-krogmiljo/",
+      },
     },
     chefs: [
       {
