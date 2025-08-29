@@ -177,6 +177,10 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/O8ywx3/kroggioden-om-miyakodori-en-riktig-izakaya-i-stockholm",
       },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12756-miyakodori",
+      },
     },
     chefs: [
       {
