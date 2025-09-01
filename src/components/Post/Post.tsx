@@ -58,11 +58,15 @@ export const Post = ({
 
   return (
     <article>
-      <NewsletterPopup />
-      <CookieBanner />
-      <ChaoticYouTubeVideo />
-      <FinalNewsletter />
-      <StickyBabySharkVideo />
+      {isChaosModeEnabled && (
+        <>
+          <NewsletterPopup />
+          <CookieBanner />
+          <ChaoticYouTubeVideo />
+          <FinalNewsletter />
+          <StickyBabySharkVideo />
+        </>
+      )}
 
       <div className="flex flex-col lg:flex-row">
         <aside className="shrink-0 lg:mr-20 lg:w-[460px] mt-4 lg:mt-0">
@@ -100,7 +104,7 @@ export const Post = ({
 
           {description}
 
-          <RandomBourdainImage />
+          {isChaosModeEnabled && <RandomBourdainImage />}
 
           {isChaosModeEnabled && (
             <div className="hidden lg:block">

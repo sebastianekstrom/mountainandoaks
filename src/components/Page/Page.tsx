@@ -39,9 +39,6 @@ const FooterChaosButton: React.FC = () => {
           ? "bg-red-500 text-white animate-bounce"
           : "bg-brand text-white hover:bg-brand-subdued"
       }`}
-      title={
-        isChaosModeEnabled ? "Make it stop!" : "Make it like other recipe sites"
-      }
     >
       <Text variant="caption">
         {isChaosModeEnabled

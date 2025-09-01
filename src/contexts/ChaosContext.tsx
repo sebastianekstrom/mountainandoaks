@@ -70,7 +70,6 @@ export const ChaosProvider: React.FC<ChaosProviderProps> = ({ children }) => {
   const dismissCookies = () => {
     setChaosSequence((prev) => ({ ...prev, showCookies: false }));
 
-    // Wait 3 seconds, then show newsletter
     setTimeout(() => {
       setChaosSequence((prev) => ({ ...prev, showNewsletter: true }));
     }, 1000);
@@ -79,7 +78,6 @@ export const ChaosProvider: React.FC<ChaosProviderProps> = ({ children }) => {
   const dismissNewsletter = () => {
     setChaosSequence((prev) => ({ ...prev, showNewsletter: false }));
 
-    // Wait 4 seconds, then show YouTube
     setTimeout(() => {
       setChaosSequence((prev) => ({ ...prev, showYouTube: true }));
     }, 1500);
@@ -88,7 +86,6 @@ export const ChaosProvider: React.FC<ChaosProviderProps> = ({ children }) => {
   const dismissYouTube = () => {
     setChaosSequence((prev) => ({ ...prev, showYouTube: false }));
 
-    // Wait 3 seconds, then show final newsletter
     setTimeout(() => {
       setChaosSequence((prev) => ({ ...prev, showFinalNewsletter: true }));
     }, 1000);
@@ -97,7 +94,6 @@ export const ChaosProvider: React.FC<ChaosProviderProps> = ({ children }) => {
   const dismissFinalNewsletter = () => {
     setChaosSequence((prev) => ({ ...prev, showFinalNewsletter: false }));
 
-    // Wait 2 seconds, then show sticky video
     setTimeout(() => {
       setChaosSequence((prev) => ({ ...prev, showStickyVideo: true }));
     }, 2000);
