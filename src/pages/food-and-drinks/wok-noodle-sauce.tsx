@@ -19,7 +19,7 @@ const INGREDIENTS = [
   { value: 8.33, label: "Oyster sauce" },
   { value: 3.33, label: "Concentrated chicken stock" },
   { value: 3.33, label: "Rice vinegar" },
-  { value: 3.33, label: "Cornstarch" },
+  { value: 2, label: "Cornstarch" },
   { value: 0.67, label: "MSG" },
   { value: 0.67, label: "Sesame oil" },
   { value: 0.17, label: "Five spice" },
