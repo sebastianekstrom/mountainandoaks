@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Åland Sour",
+    url: "/recipes/aland-sour",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/aland-sour/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/aland-sour/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/aland-sour/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/aland-sour/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/aland-sour/thumbnails/meta.png"),
+    },
+    description:
+      "A refreshing gin cocktail where the crisp flavor of fresh pressed apple takes the lead, rounded out with bright citrus and a touch of elderflower sweetness.",
+  },
+  {
     title: "Wok Noodle Sauce",
     url: "/recipes/wok-noodle-sauce",
     category: CATEGORIES["food-and-drinks"],
