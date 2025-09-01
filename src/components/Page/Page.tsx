@@ -7,6 +7,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 import { Header } from "components/Header/Header";
 import { Text } from "components/Text/Text";
+import { ChaosProvider, useChaos } from "contexts/ChaosContext";
 
 import { RECIPES } from "../../constants/recipes";
 import Link from "next/link";
@@ -20,13 +21,41 @@ interface Props {
 
 const BASE_URL = "https://mountainandoaks.com";
 
+const FooterChaosButton: React.FC = () => {
+  const { isChaosModeEnabled, toggleChaosMode } = useChaos();
+
+  const handleChaosToggle = () => {
+    toggleChaosMode();
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleChaosToggle}
+      className={`mt-6 px-4 py-2 rounded-full transition-all ${
+        isChaosModeEnabled
+          ? "bg-red-500 text-white animate-bounce"
+          : "bg-brand text-white hover:bg-brand-subdued"
+      }`}
+    >
+      <Text variant="caption">
+        {isChaosModeEnabled
+          ? "MAKE IT STOP"
+          : "This does not look like a recipe website..."}
+      </Text>
+    </button>
+  );
+};
+
 export const Page = ({ children, metaTitle, description, image }: Props) => {
   const { asPath } = useRouter();
   const url = `${BASE_URL}${asPath}`;
   const imageUrl = `${BASE_URL}${image.src}`;
 
   return (
-    <>
+    <ChaosProvider>
       <Head>
         <title>{metaTitle}</title>
         <meta name="description" content={description} />
@@ -122,6 +151,7 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
             />
           </a>
         </div>
+        <FooterChaosButton />
       </footer>
       {process.env.NODE_ENV === "production" && (
         <Script
@@ -141,6 +171,6 @@ export const Page = ({ children, metaTitle, description, image }: Props) => {
           `}
         </Script>
       )}
-    </>
+    </ChaosProvider>
   );
 };

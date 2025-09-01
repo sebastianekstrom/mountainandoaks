@@ -3,6 +3,7 @@ import React from "react";
 import { setMockRouter } from "@test/setup";
 
 import { Text } from "components/Text/Text";
+import { ChaosProvider } from "contexts/ChaosContext";
 
 import { Post } from "./Post";
 
@@ -13,7 +14,11 @@ describe("Post component", () => {
     });
   });
   it("renders the Post component with the provided title", () => {
-    render(<Post title="Test Title" />);
+    render(
+      <ChaosProvider>
+        <Post title="Test Title" />
+      </ChaosProvider>,
+    );
     expect(screen.getAllByText("Test Title")).toBeDefined();
   });
 
@@ -21,14 +26,20 @@ describe("Post component", () => {
     const ingredients = <Text>Test Ingredients</Text>;
     const method = <Text>Test Method</Text>;
     render(
-      <Post title="Test Title" ingredients={ingredients} method={method} />,
+      <ChaosProvider>
+        <Post title="Test Title" ingredients={ingredients} method={method} />
+      </ChaosProvider>,
     );
     expect(screen.getByText("Test Ingredients")).toBeDefined();
     expect(screen.getByText("Test Method")).toBeDefined();
   });
 
   it("renders the recommended section with the correct category title", () => {
-    render(<Post title="Test Title" />);
+    render(
+      <ChaosProvider>
+        <Post title="Test Title" />
+      </ChaosProvider>,
+    );
     expect(screen.getByText("More delicious bread")).toBeDefined();
   });
 });

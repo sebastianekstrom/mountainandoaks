@@ -4,6 +4,19 @@ import type React from "react";
 
 import { Recommended } from "components/Recommended/Recommended";
 import { Text } from "components/Text/Text";
+import { useChaos } from "contexts/ChaosContext";
+import {
+  FakeAd,
+  ExcessiveBackstory,
+  NewsletterPopup,
+  SocialMediaChaos,
+  FakeComments,
+  CookieBanner,
+  ChaoticYouTubeVideo,
+  FinalNewsletter,
+  StickyBabySharkVideo,
+  RandomBourdainImage,
+} from "components/ChaosMode/ChaosComponents";
 
 interface Props {
   children?: React.ReactNode;
@@ -23,6 +36,7 @@ export const Post = ({
   method,
 }: Props) => {
   const router = useRouter();
+  const { isChaosModeEnabled } = useChaos();
   const findCategory = router.route.split("/")[1];
   const category = findCategory || null;
   let recommendedTitle: string;
@@ -44,11 +58,22 @@ export const Post = ({
 
   return (
     <article>
+      {isChaosModeEnabled && (
+        <>
+          <NewsletterPopup />
+          <CookieBanner />
+          <ChaoticYouTubeVideo />
+          <FinalNewsletter />
+          <StickyBabySharkVideo />
+        </>
+      )}
+
       <div className="flex flex-col lg:flex-row">
         <aside className="shrink-0 lg:mr-20 lg:w-[460px] mt-4 lg:mt-0">
           <Text variant="h1" classNames="max-w-[82%] mt-6 lg:hidden">
             {title}
           </Text>
+
           <Image
             className="w-full h-auto lg:h-[560px]"
             src={heroImage}
@@ -60,19 +85,41 @@ export const Post = ({
             quality={100}
             priority
           />
+          {isChaosModeEnabled && (
+            <div className="lg:hidden">
+              <ExcessiveBackstory recipeTitle={title} />
+            </div>
+          )}
+
+          {isChaosModeEnabled && <SocialMediaChaos />}
+
           {ingredients && <div className="mt-6 lg:mt-12">{ingredients}</div>}
         </aside>
         <main className="mt-6 lg:mt-20">
           <Text variant="h1" classNames="hidden lg:block">
             {title}
           </Text>
+
+          {isChaosModeEnabled && <FakeAd />}
+
           {description}
+
+          {isChaosModeEnabled && <RandomBourdainImage />}
+
+          {isChaosModeEnabled && (
+            <div className="hidden lg:block">
+              <ExcessiveBackstory recipeTitle={title} />
+            </div>
+          )}
+
           {method && (
             <div className="mt-20">
               <Text variant="h2">Method</Text>
               {method}
             </div>
           )}
+
+          {isChaosModeEnabled && <FakeComments />}
         </main>
       </div>
       {children}
