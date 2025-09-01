@@ -1,26 +1,42 @@
 import { useState, useEffect } from "react";
 import { Text } from "components/Text/Text";
 import { useChaos } from "contexts/ChaosContext";
-
+import Image from "next/image";
 // Fake Advertisement Component
 export const FakeAd: React.FC<{ className?: string }> = ({
   className = "",
 }) => (
   <div
-    className={`bg-yellow-200 border-2 border-red-500 p-4 my-4 animate-pulse ${className}`}
+    className={`bg-yellow-200 border-2 border-red-500 p-4 my-4 ${className}`}
   >
-    <Text variant="h4" classNames="text-red-600 font-bold text-center">
-      🔥 SOME WEIRD KITCHEN GADGET! 🔥
-    </Text>
-    <Text variant="body" classNames="text-center mt-2">
-      Get 50% OFF this life-changing thing that will REVOLUTIONIZE your cooking!
-    </Text>
-    <button
-      type="button"
-      className="bg-red-600 text-white px-6 py-2 rounded-full mx-auto block mt-3 font-bold hover:bg-red-700"
-    >
-      <Text classNames="text-white">BUY NOW!</Text>
-    </button>
+    <div className="flex flex-row items-center">
+      <Image
+        width={215}
+        height={49}
+        className="lg:w-[260px] w-[160px] h-auto rounded-m"
+        src="/images/misc/thataintaknife.jpg"
+        alt=""
+      />
+      <div className="p-4">
+        <Text variant="h4" classNames="text-red-600 font-bold text-center">
+          🔥 WIN THIS ODD KITCHEN GADGET!
+        </Text>
+        <Text variant="body" classNames="text-center mt-2">
+          Enter your email to win whatever this is!
+        </Text>
+        <input
+          type="email"
+          placeholder="Enter your email..."
+          className="w-full p-3 border-2 border-pink-300 rounded mb-4"
+        />
+        <button
+          type="button"
+          className="bg-red-600 text-white px-6 py-2 rounded-full mx-auto block mt-3 font-bold hover:bg-red-700"
+        >
+          <Text classNames="text-white">ENTER THE RAFFLE!</Text>
+        </button>
+      </div>
+    </div>
   </div>
 );
 
@@ -68,7 +84,7 @@ export const ExcessiveBackstory: React.FC<{ recipeTitle: string }> = ({
   recipeTitle,
 }) => {
   const backstories = [
-    `Oh my goodness, where do I even begin with this ${recipeTitle}? It all started when I was seven years old, visiting my grandmother's cottage in the countryside. The smell of fresh herbs wafting through the kitchen window, the sound of birds chirping outside, and the way the morning sunlight danced across the worn wooden floors - it was pure magic.`,
+    `Where do I even begin with this ${recipeTitle}? It all started when I was seven years old, visiting my grandmother's cottage in the countryside. The smell of fresh herbs wafting through the kitchen window, the sound of birds chirping outside, and the way the morning sunlight danced across the worn wooden floors - it was pure magic.`,
 
     "I remember it like it was yesterday. My grandmother, bless her soul, would wake up at 5 AM every single day to prepare breakfast. She had this incredible ritual where she would first meditate for 20 minutes, then water her herb garden, and only then would she start cooking. The patience she had was extraordinary.",
 
@@ -76,9 +92,9 @@ export const ExcessiveBackstory: React.FC<{ recipeTitle: string }> = ({
 
     "During my time there, I learned that cooking isn't just about following a recipe - it's about understanding the soul of the ingredients. Each tomato has a story, each herb has been kissed by the sun in its own unique way. This philosophy completely transformed how I approach cooking today.",
 
-    "When I returned home, I was determined to recreate those magical moments. I spent months experimenting, failing, learning, and growing. My poor husband had to endure countless experimental dinners that didn't quite hit the mark. But he was so supportive through it all!",
+    "When I returned home, I was determined to recreate those magical moments. I spent months experimenting, failing, learning, and growing. My poor wife had to endure countless experimental dinners that didn't quite hit the mark. But he was so supportive through it all!",
 
-    "Speaking of my husband, did I mention how we met? It was actually at a farmers market! I was selecting the most perfect bunch of basil (I'm very particular about my herbs), and he was right next to me, also examining herbs with the same level of intensity. We started chatting about the importance of fresh ingredients, and three hours later, we were still talking over coffee at a nearby café.",
+    "Speaking of my wife, did I mention how we met? It was actually at a farmers market! I was selecting the most perfect bunch of basil (I'm very particular about my herbs), and he was right next to me, also examining herbs with the same level of intensity. We started chatting about the importance of fresh ingredients, and three hours later, we were still talking over coffee at a nearby café.",
 
     `But I'm getting ahead of myself - let me tell you about this specific ${recipeTitle}. The inspiration came to me during a particularly stressful week at work. I was feeling overwhelmed, disconnected from my creative side, and desperately needed something to ground me. Cooking has always been my therapy, my way of reconnecting with what truly matters.`,
 
@@ -149,7 +165,9 @@ export const SocialMediaChaos: React.FC = () => (
 
 // Comment Section Chaos
 export const FakeComments: React.FC = () => {
-  const comments = [
+  const [loadCount, setLoadCount] = useState(0);
+
+  const initialComments = [
     {
       name: "BakingMom2023",
       comment:
@@ -186,13 +204,92 @@ export const FakeComments: React.FC = () => {
     },
   ];
 
+  // Progressively more derailed comments
+  const derailedComments = [
+    // Load 1 - Slightly off-topic
+    [
+      {
+        name: "HealthyEater101",
+        comment:
+          "Great recipe! BTW does anyone know what happened to my cat? He's been missing since Tuesday.",
+        likes: 12,
+      },
+      {
+        name: "GrandmaKnowsBest",
+        comment:
+          "This reminds me of my late husband Gerald. He used to make something similar but with more salt. Miss you Gerald ❤️",
+        likes: 45,
+      },
+    ],
+    // Load 2 - Getting weirder
+    [
+      {
+        name: "AlienHunter",
+        comment:
+          "The ingredients list is clearly a coded message. WAKE UP SHEEPLE! The government is watching our recipes!",
+        likes: 3,
+      },
+      {
+        name: "TimeTraveler1985",
+        comment:
+          "I made this in 2087 and it was still good. Time travel is real, don't let them tell you otherwise.",
+        likes: 156,
+      },
+      {
+        name: "CatLady47",
+        comment:
+          "My 23 cats all tried this recipe and Mr. Whiskers said it needs more tuna. The others agreed by knocking things off the counter.",
+        likes: 78,
+      },
+    ],
+    // Load 3 - Complete chaos
+    [
+      {
+        name: "DefinitelyNotARobot",
+        comment:
+          "AS A FELLOW HUMAN, I ENJOY CONSUMING ORGANIC MATTER. THIS RECIPE SATISFIES MY HUMAN HUNGER PROTOCOLS.",
+        likes: 234,
+      },
+      {
+        name: "ShakespeareCooks",
+        comment:
+          "To bake, or not to bake, that is the question: Whether 'tis nobler to suffer the pangs of outrageous hunger...",
+        likes: 891,
+      },
+      {
+        name: "ExistentialCrisis",
+        comment:
+          "What is food? What is taste? Are we just atoms pretending to enjoy flavor? This recipe made me question everything.",
+        likes: 42,
+      },
+      {
+        name: "CAPS_LOCK_STUCK",
+        comment:
+          "I CAN'T TURN OFF CAPS LOCK BUT THIS RECIPE IS GREAT!!! HELP ME PLEASE!!! ALSO MY KEYBOARD IS ON FIRE!!!",
+        likes: 999,
+      },
+    ],
+  ];
+
+  const loadMoreComments = () => {
+    setLoadCount((prev) => Math.min(prev + 1, derailedComments.length));
+  };
+
+  const allComments = [
+    ...initialComments,
+    ...derailedComments.slice(0, loadCount).flat(),
+  ];
+
   return (
     <div className="bg-gray-100 p-6 my-8 rounded-lg">
       <Text variant="h3" classNames="mb-6 text-center">
         Comments
       </Text>
-      {comments.map((comment) => (
-        <div key={comment.name} className="bg-white p-4 mb-4 rounded-lg shadow">
+      {allComments.map((comment, index) => (
+        <div
+          key={`${comment.name}-${index}`}
+          className="bg-white p-4 mb-4 rounded-lg shadow"
+        >
           <div className="flex justify-between items-start mb-2">
             <Text variant="body" classNames="font-bold text-blue-600">
               {comment.name}
@@ -206,14 +303,26 @@ export const FakeComments: React.FC = () => {
           </Text>
         </div>
       ))}
-      <div className="text-center mt-6">
-        <button
-          type="button"
-          className="bg-blue-600 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700"
-        >
-          <Text variant="caption">Load 47 More Comments!</Text>
-        </button>
-      </div>
+      {loadCount < derailedComments.length && (
+        <div className="text-center mt-6">
+          <button
+            type="button"
+            onClick={loadMoreComments}
+            className="bg-blue-600 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700"
+          >
+            <Text variant="caption">
+              Load {47 - loadCount * 15} More Comments!
+            </Text>
+          </button>
+        </div>
+      )}
+      {loadCount >= derailedComments.length && (
+        <div className="text-center mt-6">
+          <Text variant="caption" classNames="text-gray-500">
+            You've reached the bottom of the internet. Congratulations! 🎉
+          </Text>
+        </div>
+      )}
     </div>
   );
 };
@@ -249,7 +358,7 @@ export const ChaoticYouTubeVideo: React.FC = () => {
             variant="caption"
             classNames="text-yellow-200 text-center block"
           >
-            It has this silly rice and stuff!!!
+            It has this silly rice and stuff!
           </Text>
         </div>
         <iframe
@@ -366,6 +475,91 @@ export const StickyBabySharkVideo: React.FC = () => {
           Learn to cook like Baby Shark! This essential cooking tutorial will
           change your life forever! Doo doo doo doo doo doo! 🎵
         </Text>
+      </div>
+    </div>
+  );
+};
+
+// Random Food Image that causes page jumps
+export const RandomBourdainImage: React.FC = () => {
+  const { isChaosModeEnabled } = useChaos();
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (!isChaosModeEnabled) {
+      setIsVisible(false);
+      return;
+    }
+
+    const showHideImage = () => {
+      // Show for 1-3 seconds
+      setIsVisible(true);
+      const hideTimeout = setTimeout(
+        () => {
+          setIsVisible(false);
+        },
+        1000 + Math.random() * 2000,
+      );
+
+      return hideTimeout;
+    };
+
+    // Initial delay, then show/hide at random intervals to cause page jumps
+    const initialTimeout = setTimeout(
+      () => {
+        const hideTimeout = showHideImage();
+
+        const interval = setInterval(
+          () => {
+            clearTimeout(hideTimeout);
+            showHideImage();
+          },
+          2000 + Math.random() * 4000, // Every 2-6 seconds for maximum chaos
+        );
+
+        return () => {
+          clearInterval(interval);
+          clearTimeout(hideTimeout);
+        };
+      },
+      2000 + Math.random() * 3000, // Initial delay 2-5 seconds
+    );
+
+    return () => {
+      clearTimeout(initialTimeout);
+    };
+  }, [isChaosModeEnabled]);
+
+  // Don't render anything if chaos mode is off
+  if (!isChaosModeEnabled) return null;
+
+  // Use display: none/block to cause layout shifts and page jumping
+  return (
+    <div
+      className="w-full flex justify-center my-8"
+      style={{
+        display: isVisible ? "block" : "none",
+      }}
+    >
+      <div className="bg-gradient-to-r from-orange-400 to-red-500 p-6 rounded-lg border-4 border-yellow-400 shadow-2xl">
+        <div className="flex items-center gap-4">
+          <img
+            alt=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/1200px-Good_Food_Display_-_NCI_Visuals_Online.jpg"
+            className="w-24 h-24 rounded-full border-4 border-white shadow-lg animate-pulse"
+            style={{
+              filter: "sepia(20%) saturate(120%) hue-rotate(15deg)",
+            }}
+          />
+          <div className="text-center">
+            <Text variant="h4" classNames="text-white mb-2">
+              🍽️ FOOD INSPIRATION! 🍽️
+            </Text>
+            <Text variant="body" classNames="text-white">
+              Look at this delicious food! Isn't it amazing? Food ❤️
+            </Text>
+          </div>
+        </div>
       </div>
     </div>
   );

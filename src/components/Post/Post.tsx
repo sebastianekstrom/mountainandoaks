@@ -15,6 +15,7 @@ import {
   ChaoticYouTubeVideo,
   FinalNewsletter,
   StickyBabySharkVideo,
+  RandomBourdainImage,
 } from "components/ChaosMode/ChaosComponents";
 
 interface Props {
@@ -95,15 +96,17 @@ export const Post = ({
             {title}
           </Text>
 
+          {isChaosModeEnabled && <FakeAd />}
+
           {description}
+
+          <RandomBourdainImage />
 
           {isChaosModeEnabled && (
             <div className="hidden lg:block">
               <ExcessiveBackstory recipeTitle={title} />
             </div>
           )}
-
-          {isChaosModeEnabled && <FakeAd />}
 
           {method && (
             <div className="mt-20">
