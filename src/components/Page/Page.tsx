@@ -23,12 +23,19 @@ const BASE_URL = "https://mountainandoaks.com";
 
 const FooterChaosButton: React.FC = () => {
   const { isChaosModeEnabled, toggleChaosMode } = useChaos();
+  const { asPath } = useRouter();
+
+  // Only show on recipe pages (not on index pages like /bread, /pizza, etc.)
+  const isRecipePage = asPath.split("/").length > 2;
 
   const handleChaosToggle = () => {
     toggleChaosMode();
 
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  // Don't render the button if not on a recipe page
+  if (!isRecipePage) return null;
 
   return (
     <button
@@ -39,6 +46,9 @@ const FooterChaosButton: React.FC = () => {
           ? "bg-red-500 text-white animate-bounce"
           : "bg-brand text-white hover:bg-brand-subdued"
       }`}
+      title={
+        isChaosModeEnabled ? "Make it stop!" : "Make it like other recipe sites"
+      }
     >
       <Text variant="caption">
         {isChaosModeEnabled

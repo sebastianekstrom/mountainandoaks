@@ -450,7 +450,7 @@ export const StickyBabySharkVideo: React.FC = () => {
           <iframe
             width="200"
             height="113"
-            src="https://www.youtube.com/embed/XqZsoesa55w?autoplay=1&mute=1&loop=1controls=0&modestbranding=1&rel=0"
+            src="https://www.youtube.com/embed/XqZsoesa55w?autoplay=1&mute=1&loop=1controls=0&modestbranding=1&rel=0&t=27"
             title="Baby Shark Recipe Tutorial"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
