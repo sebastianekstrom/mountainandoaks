@@ -987,6 +987,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/abJe6A/krogguiden-om-lilla-ego-avspant-sjalvsaker-matkonst",
       },
+      "m&o": 10,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/lilla-ego.jpg"),
     chefs: [
@@ -1000,7 +1001,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Modernized Swedish classics, featuring robust and well-composed dishes that deliver on flavor.",
+      "This was our 95th restaurant visit in Stockholm and one of the absolute favorites. Immaculate service, beautiful presentation and incredible flavors. The vibe is also amazing. Highly, highly recommended!",
     website: "https://www.lillaego.com/",
   },
   {
