@@ -12,12 +12,14 @@ import newYorkImage from "public/images/restaurants/new-york/metaImage.jpg";
 import parisImage from "public/images/restaurants/paris/metaImage.jpg";
 import torontoImage from "public/images/restaurants/toronto/metaImage.jpg";
 import gothenburgImage from "public/images/restaurants/gothenburg/metaImage.jpg";
+import ostersundImage from "public/images/restaurants/ostersund/metaImage.jpg";
 import { RESTAURANTS as STOCKHOLM_RESTAURANTS } from "../../constants/restaurants/stockholm";
 import { RESTAURANTS as LONDON_RESTAURANTS } from "../../constants/restaurants/london";
 import { RESTAURANTS as NEW_YORK_RESTAURANTS } from "../../constants/restaurants/new-york";
 import { RESTAURANTS as PARIS_RESTAURANTS } from "../../constants/restaurants/paris";
 import { RESTAURANTS as TORONTO_RESTAURANTS } from "../../constants/restaurants/toronto";
 import { RESTAURANTS as GOTHENBURG_RESTAURANTS } from "../../constants/restaurants/gothenburg";
+import { RESTAURANTS as OSTERSUND_RESTAURANTS } from "../../constants/restaurants/ostersund";
 interface CityCard {
   name: string;
   slug: string;
@@ -34,6 +36,18 @@ export default function RestaurantsHome() {
       count: STOCKHOLM_RESTAURANTS.length,
     },
     {
+      name: "Gothenburg",
+      slug: "gothenburg",
+      image: gothenburgImage,
+      count: GOTHENBURG_RESTAURANTS.length,
+    },
+    {
+      name: "Östersund",
+      slug: "ostersund",
+      image: ostersundImage,
+      count: OSTERSUND_RESTAURANTS.length,
+    },
+    {
       name: "London",
       slug: "london",
       image: londonImage,
@@ -44,12 +58,6 @@ export default function RestaurantsHome() {
       slug: "paris",
       image: parisImage,
       count: PARIS_RESTAURANTS.length,
-    },
-    {
-      name: "Gothenburg",
-      slug: "gothenburg",
-      image: gothenburgImage,
-      count: GOTHENBURG_RESTAURANTS.length,
     },
     {
       name: "New York",
