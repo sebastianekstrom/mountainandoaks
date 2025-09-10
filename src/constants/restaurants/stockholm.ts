@@ -3366,4 +3366,29 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://goran-milutinovic-a5lk.squarespace.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/darmedpasta.jpg"),
   },
+  {
+    name: "Gaijin",
+    coordinates: {
+      latitude: 59.3399154,
+      longitude: 18.0627008,
+    },
+    chefs: [
+      {
+        name: "Kalle Nilsson",
+        description: "Bacchanale and Främmat. Previously at Punk Royale",
+      },
+      {
+        name: "Jonas Helgesson",
+        description: "Bacchanale and Främmat. Previously at Adam/Albin",
+      },
+      {
+        name: "Bagi",
+        description: "Soyokaze",
+      },
+    ],
+    description:
+      "Kalle and Jonas teamed up with Bagi from Soyokaze to create a relaxed sushi restaurant designed for lingering over good food and drinks, not just a quick bite. Expect inventive Japanese dishes with bold flavors—like their magical corn, miso, and butter combo.",
+    website: "https://gaijinsthlm.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/gaijin.jpg"),
+  },
 ];
