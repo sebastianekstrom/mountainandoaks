@@ -25,6 +25,20 @@ export const CATEGORIES: Categories = {
 
 export const RECIPES: Recipe[] = [
   {
+    title: "Basic pickling liquid",
+    url: "/recipes/basic-pickling-liquid",
+    category: CATEGORIES["food-and-drinks"],
+    thumbnails: {
+      hero: require("../../public/images/recipes/basic-pickling-liquid/thumbnails/hero.png"),
+      tall: require("../../public/images/recipes/basic-pickling-liquid/thumbnails/tall.png"),
+      wide: require("../../public/images/recipes/basic-pickling-liquid/thumbnails/wide.png"),
+      square: require("../../public/images/recipes/basic-pickling-liquid/thumbnails/square.png"),
+      meta: require("../../public/images/recipes/basic-pickling-liquid/thumbnails/meta.png"),
+    },
+    description:
+      "A quick, flexible pickling base that’s easy to make and can be scaled for any amount of vegetables.",
+  },
+  {
     title: "Åland Sour",
     url: "/recipes/aland-sour",
     category: CATEGORIES["food-and-drinks"],
