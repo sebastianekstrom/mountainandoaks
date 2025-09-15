@@ -178,8 +178,7 @@ const STEPS = [
   <Text
     extra={
       <>
-        <MethodImage src={finalBread} alt="" />
-        <MethodImage src={finalImage} alt="" />
+        <MethodImage src={heroImage} alt="" />
       </>
     }
   >
