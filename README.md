@@ -36,53 +36,6 @@ $ yarn run dev
 
 The site will be available on [http://localhost:3000](http://localhost:3000).
 
-## 🧑‍🍳 Adding a new recipe
-
-To create a new recipe, please follow the steps below.
-
-### 1. Generate boilerplate code for the new recipe
-
-The following script will generate everything needed to create a new recipe:
-
-```
-yarn run new-recipe
-```
-
-Follow the promps and the output will be:
-
-```tsx
-// Recipe page
-src/pages/{{category}}/{{slug}}.tsx
-
-// Tests
-__tests__/pages/{{category}}/{{slug}}.test.tsx
-
-// Required image placeholders
-public/images/{{category}}/{{slug}}/thumbnails/hero.png
-public/images/{{category}}/{{slug}}/thumbnails/meta.png
-public/images/{{category}}/{{slug}}/thumbnails/square.png
-public/images/{{category}}/{{slug}}/thumbnails/tall.png
-public/images/{{category}}/{{slug}}/thumbnails/wide.png
-```
-
-As well an entry inside of `src/constants/recipes.ts`. After the script is done the new page will open automatically in the browser.
-
-### 2. Add the images
-
-A recipe requires multiple image dimensions, these have been added as placeholders in the previous step. The dimensions are as follows:
-
-- `hero.png` – 1226px x 966px
-- `tall.png` – 918px x 1120px
-- `wide.png` – 816px x 392px
-- `square.png` – 900px x 900px
-- `meta.png` – 1200px x 627px
-
-Update the placeholder images inside of `public/images/{{category}}/{{slug}}/thumbnails/` with the proper ones.
-
-### 3. Create the PR
-
-After that create a PR, as soon as all the checks are green you can go a head and merge and it'll be available on https://sebbebakes.com within a few minutes!
-
 ## 🧪 Testing
 
 The Github actions runs the following tests:
