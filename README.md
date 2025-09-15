@@ -1,4 +1,4 @@
-![Logo of sebbebakes!](https://i.imgur.com/tO6MyhE.png)
+![Logo of Mountain and oaks!](https://mountainandoaks.com/images/misc/gh-banner.png)
 
 <p align="center">
   The repostitory for <a href="https://mountainandoaks.com">mountainandoaks.com</a> – Where I share my recipes for food, cocktails and bread.
