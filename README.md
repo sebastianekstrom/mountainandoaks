@@ -11,10 +11,12 @@
 ---
 
 <p align="center">
-  ⭐️ <a href="#-getting-started">Getting started</a> • <a href="#-adding-a-new-recipe">Adding a new recipe</a> • <a href="#-testing">Testing</a> • <a href="#-storybook">Storybook</a> • <a href="#-deployment">Deployment</a> ⭐️
+  ⭐️ <a href="#-ci-checks">CI checks</a> • <a href="#-getting-started">Getting started</a> • <a href="#-testing">Testing</a> • <a href="#-storybook">Storybook</a> • <a href="#-deployment">Deployment</a> ⭐️
 </p>
 
 ---
+
+## 📋 CI checks
 
 | Tool             | Status                                                                                                                                                                                               |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
