@@ -28,7 +28,7 @@ function copyAndRenameImage(sourcePath, targetDir, fileName, category, slug) {
     targetDir
       .replace("{{category}}", adjustedCategory)
       .replace("{{slug}}", slug),
-    fileName
+    fileName,
   );
 
   // Ensure the target directory exists
@@ -58,7 +58,7 @@ function formatFile(filePath) {
 module.exports = (plop) => {
   plop.setActionType("formatCode", async (answers, config) => {
     const paths = config.paths.map((templatePath) =>
-      plop.renderString(templatePath, answers)
+      plop.renderString(templatePath, answers),
     );
 
     // Loop through each path and format the file
@@ -86,7 +86,7 @@ module.exports = (plop) => {
         });
       } else {
         console.error(
-          "Failed to open URL since nothing is running on port 3000. Please start your server."
+          "Failed to open URL since nothing is running on port 3000. Please start your server.",
         );
       }
     });
@@ -95,7 +95,7 @@ module.exports = (plop) => {
   plop.setActionType("copyPlaceholderImages", (answers) => {
     const sourcePath = path.join(
       __dirname,
-      "tooling/plop-templates/placeholder.png"
+      "tooling/plop-templates/placeholder.png",
     );
     const targetDir = "public/images/{{category}}/{{slug}}/thumbnails";
     const fileNames = [
@@ -112,7 +112,7 @@ module.exports = (plop) => {
         targetDir,
         fileName,
         answers.category,
-        answers.slug
+        answers.slug,
       );
     });
   });
@@ -186,9 +186,7 @@ module.exports = (plop) => {
           description: "Formatting code",
         },
         () => {
-          console.log(
-            "The recipe set up for is done 🎉 If you haven't added the images for the recipe, please do so. See https://github.com/sebastianekstrom/sebbebakes/blob/main/README.md#-adding-a-new-recipe for more details"
-          );
+          console.log("The recipe set up for is done 🎉");
           return ""; // Return an empty string to fulfill the action's requirement
         },
         {

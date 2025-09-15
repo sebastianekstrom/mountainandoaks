@@ -9,16 +9,16 @@ import type { Recipe } from "types/recipe";
 
 const categories = [
   {
-    title: "More delicious pizza",
-    filter: (recipe: Recipe) => recipe.category.value === "pizza",
+    title: "More food",
+    filter: (recipe: Recipe) => recipe.category.value === "food-and-drinks",
   },
   {
     title: "Mmmm... bread",
     filter: (recipe: Recipe) => recipe.category.value === "bread",
   },
   {
-    title: "More food",
-    filter: (recipe: Recipe) => recipe.category.value === "food-and-drinks",
+    title: "Pizza",
+    filter: (recipe: Recipe) => recipe.category.value === "pizza",
   },
   {
     title: "Level up",

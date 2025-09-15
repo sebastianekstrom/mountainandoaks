@@ -12,7 +12,7 @@ type Story = StoryObj<typeof Link>;
 
 export const Component: Story = {
   args: {
-    href: "https://sebbebakes.com",
+    href: "https://mountainandoaks.com",
     children: "Sebbe Bakes",
   },
 };

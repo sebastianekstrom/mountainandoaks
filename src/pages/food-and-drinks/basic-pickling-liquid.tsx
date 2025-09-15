@@ -10,6 +10,7 @@ import heroImage from "public/images/recipes/basic-pickling-liquid/thumbnails/ta
 import metaImage from "public/images/recipes/basic-pickling-liquid/thumbnails/meta.png";
 
 import { Method } from "components/Method/Method";
+import { Badge } from "components/Badge/Badge";
 
 const INGREDIENTS = [
   {
@@ -52,7 +53,15 @@ export default function BasicPicklingLiquid() {
         title="Basic pickling liquid"
         heroImage={heroImage}
         ingredients={
-          <Ingredients ingredientSuffix="batch" ingredients={INGREDIENTS} />
+          <Ingredients
+            ingredientSuffix="batch"
+            ingredients={INGREDIENTS}
+            additionalMeta={
+              <>
+                <Badge value="20min" label="Prep time" />
+              </>
+            }
+          />
         }
         method={<Method recipeMethod={STEPS} />}
         description={

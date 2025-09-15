@@ -45,6 +45,7 @@ export const Header = () => {
             <Link href="/guides">
               <Text>Guides</Text>
             </Link>
+            <div className="h-[22px] w-[2px] bg-separator" />
             <Link href="/restaurants">
               <Text>Restaurants</Text>
             </Link>
