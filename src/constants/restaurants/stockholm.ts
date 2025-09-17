@@ -3399,7 +3399,30 @@ export const RESTAURANTS: Restaurant[] = [
     },
     description:
       "A Mexican restaurant that started as a food truck in 2023 and opened a permanent location in 2024, focusing on authentic street food—especially birria—combined with creative twists.",
-    website: "https://gaijinsthlm.se/",
+    website: "https://www.elbirria.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/el-birria.jpg"),
+  },
+  {
+    name: "Kanon",
+    coordinates: {
+      latitude: 59.3163238,
+      longitude: 18.0839744,
+    },
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/kanon-grillen-star-i-centrum-pa-varm-kvarterskrog/",
+      },
+      svd: {
+        rating: 3,
+        reviewUrl:
+          "https://www.svd.se/a/wgbLOP/krogrecension-kanon-tillbehoren-overglanser-grillratterna",
+      },
+    },
+    description:
+      "Serves a mix of Mediterranean, Arabic, and South American flavors with the charcoal grill at its heart. The spacious venue offers a warm, relaxed atmosphere where guests are encouraged to share dishes and mix sides.",
+    website: "https://kanon.restaurant/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/kanon.jpg"),
   },
 ];
