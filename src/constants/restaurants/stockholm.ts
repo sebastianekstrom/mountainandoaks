@@ -3391,4 +3391,15 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://gaijinsthlm.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/gaijin.jpg"),
   },
+  {
+    name: "El Birria",
+    coordinates: {
+      latitude: 59.3143009,
+      longitude: 18.0683234,
+    },
+    description:
+      "A Mexican restaurant that started as a food truck in 2023 and opened a permanent location in 2024, focusing on authentic street food—especially birria—combined with creative twists.",
+    website: "https://gaijinsthlm.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/el-birria.jpg"),
+  },
 ];
