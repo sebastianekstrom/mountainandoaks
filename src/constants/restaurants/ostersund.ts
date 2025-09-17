@@ -8,6 +8,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 63.1774453,
     },
     ratings: {
+      "m&o": 6,
       whiteguide: {
         rating: 4,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12639-bua",
@@ -23,6 +24,9 @@ export const RESTAURANTS: Restaurant[] = [
     coordinates: {
       longitude: 14.639245,
       latitude: 63.1766117,
+    },
+    ratings: {
+      "m&o": 4,
     },
     image: require("../../../public/images/restaurants/ostersund/restaurants/artut.jpg"),
     description:
