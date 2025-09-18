@@ -24,7 +24,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/Wr6ag/vem-kommer-ens-pa-att-grilla-en-saltgurka",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8785-",
       },
       "m&o": 9,
@@ -62,7 +62,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.dn.se/kultur/triton-kompetent-kvartett-som-borde-ta-ut-svangarna-annu-mer/",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12523-",
       },
       "m&o": 9,
@@ -110,7 +110,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/JPMvX/inte-bara-fantastisk-mat-det-har-ar-perfektion",
       },
       whiteguide: {
-        rating: 6,
+        rating: 5,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8822",
       },
     },
@@ -144,7 +144,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/c7099ec9-6709-4b84-8ad6-4aa414f04356/krogguiden-grabbigt-arrogant-och-ljuvliga-smaker",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8439-",
       },
     },
@@ -178,7 +178,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/O8ywx3/kroggioden-om-miyakodori-en-riktig-izakaya-i-stockholm",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12756-miyakodori",
       },
     },
@@ -223,7 +223,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/VP4qjJ/krogguiden-om-hantverket-underhallande-och-utsokt",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8650-",
       },
     },
@@ -251,7 +251,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/JxpQxm/allra-bast-nogger-och-88-an-far-karleksbarn",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11674-",
       },
     },
@@ -294,7 +294,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/63d2faa0-67d0-4414-bf42-8aa4f30a29a4/har-finns-en-av-stockholms-vassaste-krogar",
       },
       whiteguide: {
-        rating: 6,
+        rating: 5,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/9929-",
       },
       "m&o": 9,
@@ -333,7 +333,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/EaR6zj/paradratten-sa-god-att-vi-kivas-om-sista-rakan",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11779-",
       },
     },
@@ -370,7 +370,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl: "https://www.svd.se/a/l3rga9/krogguiden-om-woodstockholm",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8359-",
       },
     },
@@ -393,7 +393,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/alyydM/krogrecension-ag-kan-sina-ravaror-men-nagra-markliga-missar",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/9847-",
       },
     },
@@ -430,7 +430,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/5777901b-17ba-3e83-9506-403e42c1a139/barbro-en-riktig-goding",
       },
       whiteguide: {
-        rating: 3,
+        rating: 2,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11038-",
       },
     },
@@ -458,7 +458,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/7aaj3/gasterna-star-i-ko-for-att-knockas-av-smakerna",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8678-",
       },
     },
@@ -487,7 +487,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/3d4f2c2e-1d78-315b-b78d-0068273e0f72/rolfs-kok-ett-stalle-att-rakna-med",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/5939-",
       },
     },
@@ -525,7 +525,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/19cc2295-8c48-4cd9-9b5e-f242d7257590/en-av-stockholms-basta-asiatiska-krogar",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8457-",
       },
     },
@@ -553,7 +553,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/v57yqL/krogguiden-om-animo-fine-dining-till-rimliga-priser",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12133-",
       },
     },
@@ -591,7 +591,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/G309gQ/lyx-a-la-glada-20-talet-ar-brasseri-ratt-ord",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11842-",
       },
     },
@@ -644,7 +644,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/LlPav9/krogguiden-om-babette-klassresan-har-inte-gatt-michelin-forbi",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11617-",
       },
       "m&o": 8,
@@ -712,7 +712,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/zGOzRw/tack-och-lov-favoriten-sa-god-att-vi-vill-appladera",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/10709-",
       },
     },
@@ -758,7 +758,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/4qRkb6/kvalitet-som-lamnar-kulorta-thaistallen-langt-efter-sig",
       },
       whiteguide: {
-        rating: 2,
+        rating: 1,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12744-",
       },
     },
@@ -786,7 +786,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/a23f7440-a384-383a-b343-92ae3d1ffdbc/sydostasiatisk-sisu",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/7630-",
       },
     },
@@ -819,7 +819,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/RrX11a/krogguiden-om-aira-sallsynt-klanderfri-kokkonst",
       },
       whiteguide: {
-        rating: 6,
+        rating: 5,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11770-",
       },
       "m&o": 9,
@@ -857,7 +857,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/5Ewpmb/krogrecension-cave-nizza-otippat-tillbehor-menyns-hojdpunkt",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8680-",
       },
     },
@@ -875,7 +875,7 @@ export const RESTAURANTS: Restaurant[] = [
     ratings: {
       "m&o": 6,
       whiteguide: {
-        rating: 2,
+        rating: 1,
         reviewUrl:
           "https://whiteguide.com/se/sv/restaurants/11473-det-arroganta-svinet",
       },
@@ -955,7 +955,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/xgVxgl/krogguiden-om-bord-val-snalla-smaker",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12443-",
       },
     },
@@ -1027,7 +1027,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/1ec380b7-c306-3ad8-a3d7-3cfc5136a5fc/rykande-nara-full-pott",
       },
       whiteguide: {
-        rating: 5,
+        rating: 4,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/7420-",
       },
     },
@@ -1121,7 +1121,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/8J4Br2/krogguiden-om-bar-montan-vard-sin-omvag-till-slakthusomradet",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
       },
     },
@@ -1163,7 +1163,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/151BAl/riri-vid-hornstull-pa-sodermalm-recension-opretentios-krogparla",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12580-",
       },
     },
@@ -1283,7 +1283,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.dn.se/kultur/ergo-lyxig-finkrog-borde-kunna-ta-ut-svangarna-mer/",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12442-",
       },
     },
@@ -1429,7 +1429,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/6jM1XL/punk-royale-pa-ostermalm-overtraffar-soders-original",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11465-",
       },
     },
@@ -1463,7 +1463,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/zGxwA1/borde-locka-fler-an-otrogna-generation-nudelsoppa",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11227-",
       },
     },
@@ -1529,7 +1529,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/pWaobo/kroggioden-om-britalisten-piggt-och-sympatiskt",
       },
       whiteguide: {
-        rating: 5,
+        rating: 4,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12145-",
       },
     },
@@ -1608,14 +1608,13 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/rolfs-hav-chosefri-skaldjurskrog-med-attityd-och-glimt-i-ogat/",
       },
-
       svd: {
         rating: 5,
         reviewUrl:
           "https://www.svd.se/a/l3xx6L/krogguiden-om-rolfs-hav-syndigt-goda-fisk-och-skaldjursratter",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
       },
     },
@@ -1674,7 +1673,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/7dka1B/krogguiden-om-tengu-efter-saltchock-kul-att-vi-utmanas",
       },
       whiteguide: {
-        rating: 3,
+        rating: 2,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12132-",
       },
     },
@@ -1716,7 +1715,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/AmVPz/en-krog-dar-allt-stammer-det-godaste-jag-atit",
       },
       whiteguide: {
-        rating: 6,
+        rating: 5,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8301-",
       },
     },
@@ -1777,7 +1776,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/JQaBX7/krogguiden-om-surfers-fa-stallen-har-kinesisk-mat-pa-denna-niva",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8443-",
       },
     },
@@ -1794,7 +1793,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     ratings: {
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "htthttps://whiteguide.com/se/sv/restaurants/12524-",
       },
     },
@@ -2211,7 +2210,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/0nWyOB/kanske-ar-detta-inte-en-krog-for-oss-stockholmare",
       },
       whiteguide: {
-        rating: 3,
+        rating: 2,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/5824-",
       },
     },
@@ -2348,7 +2347,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.dn.se/kultur/ett-hem-tonsakert-och-raffinerat-pa-stockholms-hemligaste-lyxkrog/",
       },
       whiteguide: {
-        rating: 6,
+        rating: 5,
         reviewUrl: "https://whiteguide.com/se/sv/hotels/10601-",
       },
     },
@@ -2447,7 +2446,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/f2ff5fbe-3c5b-38ba-aa04-a8c26a02ae98/kottigt-men-ojamnt",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/7419-",
       },
     },
@@ -2888,7 +2887,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/4oeAXR/krogguiden-om-agnes-pa-kungsholmen-utskallt-koncept-far-revansch",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/8521-",
       },
     },
@@ -2947,7 +2946,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/Vze6G4/krocrecension-portal-vi-har-aldrig-atit-en-battre-tillredd-torsk",
       },
       whiteguide: {
-        rating: 4,
+        rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/11130-",
       },
     },
@@ -3051,7 +3050,7 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.svd.se/a/BJK2Av/ovantade-smakexplosioner-far-oss-att-le-och-le-igen",
       },
       whiteguide: {
-        rating: 5,
+        rating: 4,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/9183-",
       },
     },
@@ -3418,6 +3417,10 @@ export const RESTAURANTS: Restaurant[] = [
         rating: 3,
         reviewUrl:
           "https://www.svd.se/a/wgbLOP/krogrecension-kanon-tillbehoren-overglanser-grillratterna",
+      },
+      whiteguide: {
+        rating: 3,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12685-kanon",
       },
     },
     description:

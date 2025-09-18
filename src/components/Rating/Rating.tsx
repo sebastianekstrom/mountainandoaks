@@ -49,7 +49,7 @@ const ratingConfig: Record<
   },
   whiteguide: {
     name: "White Guide",
-    maxRating: 6,
+    maxRating: 5,
     icon: "/images/misc/wg-logo.png",
     color: "text-gray-700",
     abbreviation: "WG",
