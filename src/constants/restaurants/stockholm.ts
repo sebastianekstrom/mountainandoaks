@@ -3413,6 +3413,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/kanon-grillen-star-i-centrum-pa-varm-kvarterskrog/",
       },
+      "m&o": 5,
       svd: {
         rating: 3,
         reviewUrl:
