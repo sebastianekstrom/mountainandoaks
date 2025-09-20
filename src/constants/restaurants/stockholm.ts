@@ -1083,7 +1083,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     ratings: {
       michelin: {
-        rating: 2,
+        rating: 1,
         reviewUrl:
           "https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/celeste-1209889",
       },
