@@ -1458,9 +1458,9 @@ export const RESTAURANTS: Restaurant[] = [
           "https://www.dn.se/pa-stan/ata-ute/misshumasshu-humorhojande-svensk-japansk-mix-med-sjalvklar-pondus/",
       },
       svd: {
-        rating: 5,
+        rating: 3,
         reviewUrl:
-          "https://www.svd.se/a/zGxwA1/borde-locka-fler-an-otrogna-generation-nudelsoppa",
+          "https://www.svd.se/a/Pp7lGp/recension-av-misshumasshu-vi-forvantar-oss-mer-av-adam-och-albin",
       },
       whiteguide: {
         rating: 3,
