@@ -3493,4 +3493,27 @@ export const RESTAURANTS: Restaurant[] = [
     website: "https://operakallaren.se",
     image: require("../../../public/images/restaurants/stockholm/restaurants/operakallaren.jpg"),
   },
+  {
+    name: "Berns Asiatiska",
+    coordinates: {
+      latitude: 59.3322675,
+      longitude: 18.0736792,
+    },
+    ratings: {
+      whiteguide: {
+        rating: 1,
+        reviewUrl:
+          "https://whiteguide.com/se/sv/restaurants/6325-berns-asiatiska",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/66xeqo/fina-smaker-och-en-lokal-i-sarklass",
+      },
+    },
+    description:
+      "A historic pan-Asian restaurant located in Stockholm’s Berns, offering a menu spanning Chinese, Japanese, Korean, Thai and other Asian cuisines in an ornate Belle Époque setting with gilded ceilings and grand chandeliers.",
+    website: "https://berns.se/sv/restaurang/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/berns.jpg"),
+  },
 ];
