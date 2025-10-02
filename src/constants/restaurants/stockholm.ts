@@ -120,9 +120,9 @@ export const RESTAURANTS: Restaurant[] = [
         description: "Zén, FZN, Brasserie Astoria",
       },
     ],
-    image: require("../../../public/images/restaurants/stockholm/restaurants/frantzen.jpg"),
     description:
       "Menu rooted in Nordic cuisine with Japanese influences, providing an immersive dining experience.",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/frantzen.jpg"),
     website: "http://restaurantfrantzen.com",
   },
   {
@@ -3428,5 +3428,69 @@ export const RESTAURANTS: Restaurant[] = [
       "Serves a mix of Mediterranean, Arabic, and South American flavors with the charcoal grill at its heart. The spacious venue offers a warm, relaxed atmosphere where guests are encouraged to share dishes and mix sides.",
     website: "https://kanon.restaurant/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/kanon.jpg"),
+  },
+  {
+    name: "Lejontornet",
+    coordinates: {
+      latitude: 59.3244161,
+      longitude: 18.068168,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/leijontornet-overflod-och-stora-smaker-nar-klassisk-krog-gor-comeback/",
+      },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/Q74x4Q/krogguiden-om-leijontornet-lyx-som-ar-sa-fel-att-vi-blir-lyckliga",
+      },
+    },
+    description:
+      "An ultra-vinous restaurant and wine bar in Gamla Stan, Stockholm, boasting a wine cellar of around 3,000 bottles. Its cuisine leans on classic French and southern European influences, with generous, bold flavors and a strong focus on premium ingredients.",
+    website: "https://start.leijontornet.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/lejontornet.jpg"),
+  },
+  {
+    name: "ok ok",
+    coordinates: {
+      latitude: 59.3419181,
+      longitude: 18.0970446,
+    },
+    ratings: {
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/eMk1nR/krogrecension-ok-ok-nastan-kulinarisk-dopning-pa-hemlig-ciderbar",
+      },
+    },
+    description:
+      "A laid-back neighborhood spot in Östermalm, opened in 2023, offering seasonal midsize dishes and a curated selection of natural ciders in an intimate 22-seat setting.",
+    website: "https://www.instagram.com/okokstockholm",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/okok.jpg"),
+  },
+  {
+    name: "Operakällaren",
+    coordinates: {
+      latitude: 59.3298253,
+      longitude: 18.0713407,
+    },
+    ratings: {
+      dn: {
+        rating: 2,
+        reviewUrl:
+          "https://www.dn.se/kultur/operakallaren-sveriges-mest-anrika-krog-famlar-nar-de-vill-uppdatera-konceptet/",
+      },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/667qbL/krogguiden-om-operakallaren-stundtals-magnifikt",
+      },
+    },
+    description:
+      "A grand, historic fine-dining institution inside Stockholm’s Royal Opera House dating back to 1787, known for its opulent dining room, vaulted ceilings, chandeliers and a cuisine blending classical and modern haute cuisine.",
+    website: "https://operakallaren.se",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/operakallaren.jpg"),
   },
 ];
