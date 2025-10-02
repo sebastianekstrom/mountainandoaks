@@ -25,8 +25,10 @@ const FooterChaosButton: React.FC = () => {
   const { isChaosModeEnabled, toggleChaosMode } = useChaos();
   const { asPath } = useRouter();
 
-  // Only show on recipe pages (not on index pages like /bread, /pizza, etc.)
-  const isRecipePage = asPath.split("/").length > 2;
+  const recipeCategories = ["/bread/", "/pizza/", "/food-and-drinks/"];
+  const isRecipePage = recipeCategories.some(
+    (category) => asPath.startsWith(category) && asPath.split("/").length > 2,
+  );
 
   const handleChaosToggle = () => {
     toggleChaosMode();
