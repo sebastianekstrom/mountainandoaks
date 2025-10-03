@@ -3505,6 +3505,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://whiteguide.com/se/sv/restaurants/6325-berns-asiatiska",
       },
+      "m&o": 5,
       svd: {
         rating: 4,
         reviewUrl:
