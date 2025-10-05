@@ -211,7 +211,7 @@ export const RESTAURANTS: Restaurant[] = [
       { name: "Stefan Ekengren", description: "Previously at Görvälns Slott" },
     ],
     ratings: {
-      "m&o": 8,
+      "m&o": 7,
       dn: {
         rating: 5,
         reviewUrl:
@@ -1451,7 +1451,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3338151,
     },
     ratings: {
-      "m&o": 9,
+      "m&o": 8,
       dn: {
         rating: 4,
         reviewUrl:
@@ -1613,6 +1613,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/l3xx6L/krogguiden-om-rolfs-hav-syndigt-goda-fisk-och-skaldjursratter",
       },
+      "m&o": 9,
       whiteguide: {
         rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12683-rolfs-hav-1",
@@ -3516,5 +3517,19 @@ export const RESTAURANTS: Restaurant[] = [
       "A historic pan-Asian restaurant located in Stockholm’s Berns, offering a menu spanning Chinese, Japanese, Korean, Thai and other Asian cuisines in an ornate Belle Époque setting with gilded ceilings and grand chandeliers.",
     website: "https://berns.se/sv/restaurang/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/berns.jpg"),
+  },
+  {
+    name: "Deglabbet",
+    coordinates: {
+      latitude: 59.3372549,
+      longitude: 18.0537223,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    description:
+      "A Stockholm pizzeria lab obsessing over dough and flavor combinations in a casual, cozy setting. Their menu features inventive pies like “Maggan” (tomato sauce, burrata, fior di latte, basil) and “Guanciale” (tomato sauce, scamorza, guanciale, chili oil) alongside vegan/vegetarian options.",
+    website: "https://deglabbet.se/",
+    image: require("../../../public/images/restaurants/stockholm/restaurants/deglabbet.jpg"),
   },
 ];
