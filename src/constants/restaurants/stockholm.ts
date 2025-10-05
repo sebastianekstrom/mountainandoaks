@@ -1615,7 +1615,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
       whiteguide: {
         rating: 3,
-        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12683-rolfs-hav-1",
       },
     },
     chefs: [
