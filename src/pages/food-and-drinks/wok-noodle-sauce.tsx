@@ -17,6 +17,7 @@ const INGREDIENTS = [
   { value: 11.67, label: "Dark soy sauce" },
   { value: 11.67, label: "Sugar" },
   { value: 8.33, label: "Oyster sauce" },
+  { value: 6.5, label: "Sambal badjak" },
   { value: 3.33, label: "Concentrated chicken stock" },
   { value: 3.33, label: "Rice vinegar" },
   { value: 2, label: "Cornstarch" },
