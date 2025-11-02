@@ -1315,6 +1315,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/y6KqbK/krogguiden-om-freyja-utsikten-sticker-ut",
       },
+      "m&o": 6,
     },
     chefs: [
       {
@@ -3392,17 +3393,6 @@ export const RESTAURANTS: Restaurant[] = [
     image: require("../../../public/images/restaurants/stockholm/restaurants/gaijin.jpg"),
   },
   {
-    name: "El Birria",
-    coordinates: {
-      latitude: 59.3143009,
-      longitude: 18.0683234,
-    },
-    description:
-      "A Mexican restaurant that started as a food truck in 2023 and opened a permanent location in 2024, focusing on authentic street food—especially birria—combined with creative twists.",
-    website: "https://www.elbirria.se/",
-    image: require("../../../public/images/restaurants/stockholm/restaurants/el-birria.jpg"),
-  },
-  {
     name: "Kanon",
     coordinates: {
       latitude: 59.3163238,
@@ -3431,7 +3421,7 @@ export const RESTAURANTS: Restaurant[] = [
     image: require("../../../public/images/restaurants/stockholm/restaurants/kanon.jpg"),
   },
   {
-    name: "Lejontornet",
+    name: "Leijontornet",
     coordinates: {
       latitude: 59.3244161,
       longitude: 18.068168,
@@ -3447,6 +3437,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/Q74x4Q/krogguiden-om-leijontornet-lyx-som-ar-sa-fel-att-vi-blir-lyckliga",
       },
+      "m&o": 8,
     },
     description:
       "An ultra-vinous restaurant and wine bar in Gamla Stan, Stockholm, boasting a wine cellar of around 3,000 bottles. Its cuisine leans on classic French and southern European influences, with generous, bold flavors and a strong focus on premium ingredients.",
@@ -3531,5 +3522,30 @@ export const RESTAURANTS: Restaurant[] = [
       "A Stockholm pizzeria lab obsessing over dough and flavor combinations in a casual, cozy setting. Their menu features inventive pies like “Maggan” (tomato sauce, burrata, fior di latte, basil) and “Guanciale” (tomato sauce, scamorza, guanciale, chili oil) alongside vegan/vegetarian options.",
     website: "https://deglabbet.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/deglabbet.jpg"),
+  },
+  {
+    name: "Krog Agrikultur",
+    coordinates: {
+      longitude: 18.0734328,
+      latitude: 59.320603,
+    },
+    ratings: {
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/kultur/agrikultur-nyoppnad-krog-visar-vagen-ut-ur-slussenelandet/",
+      },
+    },
+    chefs: [
+      {
+        name: "Filip Fastén",
+        description:
+          "Previously at Agrikultur, currently at Bar Agrikultur. Winner of the Swedish 'Chef of the year'",
+      },
+    ],
+    image: require("../../../public/images/restaurants/stockholm/restaurants/krog-agrikultur.jpg"),
+    description:
+      "The revived version of the acclaimed restaurant by chef Filip Fastén, relocated under the Guldbron at Slussen in Stockholm. It trades fine-dining formality for a lively brasserie vibe, inviting sharing plates, strong raw ingredients and a social, city-centre energy.",
+    website: "https://agrikultur.se/",
   },
 ];
