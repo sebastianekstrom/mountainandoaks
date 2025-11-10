@@ -3535,6 +3535,11 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/agrikultur-nyoppnad-krog-visar-vagen-ut-ur-slussenelandet/",
       },
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/73X9Jv/krog-agrikultur-recension-rustik-och-trivsamt",
+      }
     },
     chefs: [
       {
