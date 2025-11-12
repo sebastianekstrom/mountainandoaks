@@ -3553,4 +3553,29 @@ export const RESTAURANTS: Restaurant[] = [
       "The revived version of the acclaimed restaurant by chef Filip Fastén, relocated under the Guldbron at Slussen in Stockholm. It trades fine-dining formality for a lively brasserie vibe, inviting sharing plates, strong raw ingredients and a social, city-centre energy.",
     website: "https://agrikultur.se/",
   },
+  {
+    name: "Matrosen Smörrebröd",
+    coordinates: {
+      longitude: 18.0752562,
+      latitude: 59.3245113,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/matrosen.jpg"),
+    description:
+      "Serving Danish-style smørrebrød with a Swedish twist, using seasonal Nordic ingredients, in a relaxed atmosphere with Danish beer and snaps to complement the meal.",
+    website: "https://matrosensmorrebrod.se/",
+  },
+  {
+    name: "Nabowich",
+    coordinates: {
+      longitude: 18.0702308,
+      latitude: 59.3197233,
+    },
+    ratings: {
+      "m&o": 5,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nabowich.jpg"),
+    description:
+      "Serves creative, flavor-packed sandwiches made with their own signature bread and top-quality local ingredients. A relaxed spot blending deli vibes with small-plate dining.",
+    website: "https://nabowich.se/home",
+  },
 ];
