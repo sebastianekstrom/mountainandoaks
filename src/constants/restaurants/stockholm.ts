@@ -773,6 +773,12 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0625271,
       latitude: 59.3416893,
     },
+    chefs: [
+      {
+        name: "Kim Öhman",
+        description: "Bar Nîmes, previously at Per Se & The Fat Duck",
+      },
+    ],
     ratings: {
       "m&o": 7,
       dn: {
@@ -1504,7 +1510,7 @@ export const RESTAURANTS: Restaurant[] = [
     chefs: [
       {
         name: "Kim Öhman",
-        description: "Previously at Farang",
+        description: "Farang, previously at Per Se & The Fat Duck",
       },
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bar-nimes.jpg"),
@@ -3539,7 +3545,7 @@ export const RESTAURANTS: Restaurant[] = [
         rating: 4,
         reviewUrl:
           "https://www.svd.se/a/73X9Jv/krog-agrikultur-recension-rustik-och-trivsamt",
-      }
+      },
     },
     chefs: [
       {
