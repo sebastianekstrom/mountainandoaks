@@ -3584,4 +3584,27 @@ export const RESTAURANTS: Restaurant[] = [
       "Serves creative, flavor-packed sandwiches made with their own signature bread and top-quality local ingredients. A relaxed spot blending deli vibes with small-plate dining.",
     website: "https://nabowich.se/home",
   },
+  {
+    name: "Nook",
+    coordinates: {
+      longitude: 18.0633019,
+      latitude: 59.3155605,
+    },
+    ratings: {
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/JbPMJm/recension-av-restaurang-nook-elegant-och-prisvart-vi-faller-pladask",
+      },
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/nook-omtyckt-matparadis-gor-comeback-pa-ny-adress/",
+      },
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nook.jpg"),
+    description:
+      "Nook has reopened near Mariatorget in a smaller, more intimate space, blending polished cooking with a relaxed neighborhood vibe at unusually fair prices. The two set menus deliver thoughtful, deeply flavored dishes, strong wine pairing, and warmly precise service. It’s essentially mature, small-scale fine dining disguised as a local spot.",
+    website: "https://www.restaurangnook.se/",
+  },
 ];

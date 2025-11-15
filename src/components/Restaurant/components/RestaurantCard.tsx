@@ -133,7 +133,9 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
             {ratingsArray.some((rating) => rating.source !== "m&o") && (
               <div>
                 <Text variant="h5" classNames="mb-1">
-                  Other ratings
+                  {ratingsArray.some((rating) => rating.source === "m&o")
+                    ? "Other ratings"
+                    : "Ratings"}
                 </Text>
                 <div className="flex flex-wrap gap-2">
                   {ratingsArray
