@@ -3565,6 +3565,9 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0752562,
       latitude: 59.3245113,
     },
+    ratings: {
+      "m&o": 3,
+    },
     image: require("../../../public/images/restaurants/stockholm/restaurants/matrosen.jpg"),
     description:
       "Serving Danish-style smørrebrød with a Swedish twist, using seasonal Nordic ingredients, in a relaxed atmosphere with Danish beer and snaps to complement the meal.",
