@@ -41,7 +41,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/agrikultur.jpg"),
     description:
-      "Modern interpretations of classic Swedish small plates, using seasonal and locally sourced ingredients.",
+      "Our go-to restaurant in Stockholm. Modern interpretations of classic Swedish small plates, using seasonal and locally sourced ingredients. Make sure to try the mashed potatoes and cucumber.",
     website: "https://baragrikultur.com",
   },
   {
@@ -83,7 +83,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/triton.jpg"),
     description:
-      "Fixed three-course menu that changes frequently, focusing on high-quality ingredients, in a cozy, homely atmosphere.",
+      "Fixed three-course menu that's affordable and changes frequently, focusing on high-quality ingredients, in a cozy, homely atmosphere.",
     website: "https://www.triton.restaurant",
   },
   {
@@ -121,7 +121,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Menu rooted in Nordic cuisine with Japanese influences, providing an immersive dining experience.",
+      "World class food and world class service. Often revered as the best restaurant in the world. Menu rooted in Nordic cuisine with Japanese influences, providing an immersive dining experience. They also had a Chartreuse from 1940, nice.",
     image: require("../../../public/images/restaurants/stockholm/restaurants/frantzen.jpg"),
     website: "http://restaurantfrantzen.com",
   },
@@ -156,7 +156,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/punk-royale.jpg"),
     description:
-      "Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways. ",
+      "The most fun restaurant in Stockholm, without a doubt. Perhaps not a place you go on a first date, but an amazing place to go with friends. Offers a provocative tasting menu that blends luxury ingredients with playful presentation, featuring dishes like caviar with vodka shots and foie gras served in unconventional ways.",
     website: "https://punkroyale.se/punk-royale-sthlm",
   },
   {
@@ -198,7 +198,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/miyakodori.jpg"),
     description:
-      "Japanese izakaya featuring a variety of grilled skewers, including meat, fish, and vegetarian options, alongside small dishes like salmon sashimi and deep-fried kara-age chicken.",
+      "Japanese izakaya featuring a variety of grilled skewers, including meat, fish, and vegetarian options. Very relaxed atmosphere and great service, one of our favorite asian restaurants in Stockholm.",
     website: "https://miyakodori.se/",
   },
   {
@@ -229,7 +229,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/hantverket.jpg"),
     description:
-      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors.",
+      "The menu emphasizes seasonal Swedish ingredients, offering medium-sized dishes that blend rustic and elegant flavors. Very relaxed atmosphere and great service.",
     website: "http://restauranghantverket.se/",
   },
   {
@@ -267,7 +267,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/doma.jpg"),
     description:
-      "European and Scandinavian-inspired dishes in a cozy and lively atmosphere.",
+      "European and Nordic-inspired dishes in a cozy and lively atmosphere. We've been here multiple times and the food is always spot on!",
     website: "https://www.doma.se/restaurangen",
   },
   {
@@ -311,7 +311,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Tasting menu featuring the finest European ingredients prepared with global influences, resulting in intense flavors and original combinations",
+      "Tasting menu featuring the finest European ingredients prepared with global influences. One of the best services we've ever had at a restaurant.",
     website: "http://aloerestaurant.se/",
   },
   {
@@ -349,7 +349,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/frammat.jpg"),
     description:
-      "Dynamic menu rooted in classic French cuisine, complemented by innovative and creative dishes that evolve regularly.",
+      "A hole-in-the-wall restaurant with a dynamic menu rooted in classic French cuisine. Real loud and lively atmosphere.",
     website: "https://frammat.com",
   },
   {
@@ -376,7 +376,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/woodstockholm.jpg"),
     description:
-      "Offers a themed menu that changes every two months, focusing on organically produced food and wine. The ambiance is intimate and cozy, featuring handcrafted furnishings and a vibrant atmosphere.",
+      "Another one of our go-to restaurants in Stockholm, with perhaps Stockholms best front of house team. They really take the time to talk about and explain the food which changes every two months, focusing on organically produced food and wine. Relaxed and cozy atmosphere.",
     website: "http://www.woodstockholm.com/",
   },
   {
@@ -409,7 +409,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/ag.jpg"),
     description:
-      "Renowned steakhouse specializing in premium meats, Restaurang AG offers a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
+      "If you like meat, this is the place to go. Renowned steakhouse specializing in premium meats, they offer a diverse selection of cuts, dry-aged in-house, complemented by classic side dishes.",
     website: "http://www.restaurangag.se/",
   },
   {
@@ -436,7 +436,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/barbro.jpg"),
     description:
-      "Asian fusion offering a menu featuring sushi, dumplings, and other Asian-inspired dishes, all designed for sharing.",
+      "Asian fusion offering a menu featuring sushi, dumplings, and other Asian-inspired dishes, all designed for sharing. Great service and according to the chef, Stockholms smallest kitchen.",
     website: "http://bar-bro.se/",
   },
   {
@@ -470,7 +470,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/tegelbacken.jpg"),
     description:
-      "European-inspired small plates in a warm, colorful setting with a touch of glamour.",
+      "European and French-inspired small plates in a warm, colorful setting with a touch of glamour. Formal atmosphere with great service.",
     website: "http://tegelbacken.com/",
   },
   {
@@ -503,7 +503,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/rolfs-kok.jpg"),
     description:
-      "Modern bistro focusing on simplicity and high-quality ingredients, featuring dishes like confit pork belly and reindeer schnitzel.",
+      "Modern bistro focusing on simplicity and high-quality ingredients, featuring dishes like confit pork belly and reindeer schnitzel. Very relaxed atmosphere and great service.",
     website: "https://rolfskok.se/",
   },
   {
@@ -531,7 +531,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/minh-mat.jpg"),
     description:
-      "Charming Vietnamese restaurant pairs nostalgic decor with a relaxed atmosphere, serving flavorful dishes like quality grilled prawns with a smooth cream of corn sauce.",
+      "Our favorite Vietnamese restaurant in Stockholm. Pairs nostalgic decor with a relaxed atmosphere, serving flavorful dishes like quality grilled prawns with a smooth cream of corn sauce.",
     website: "http://minhmat.se/",
   },
   {
@@ -569,7 +569,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/animo.jpg"),
     description:
-      "Dynamic à la carte menu that evolves with the seasons, emphasizing creativity and spontaneity. The innovative cocktail bar and curated wine list complement the dishes.",
+      "One of our go-to restaurants in Stockholm. Amazing service and chill atmosphere even though the food is very high-end. Dynamic à la carte menu that evolves with the seasons.",
     website: "https://www.animorestaurant.se",
   },
   {
@@ -603,7 +603,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/astoria.jpg"),
     description:
-      "Housed in the meticulously restored former Astoria Cinema from the 1870s, Brasserie Astoria offers a menu of modern brasserie classics with occasional Asian influences, utilizing quality produce.",
+      "While the atmosphere was a bit too formal and 'Stureplan-ig' for our taste, the food is extremely good. A menu of modern brasserie classics with occasional Asian influences.",
     website: "https://www.brasserieastoria.com/",
   },
   {
@@ -660,7 +660,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Wood-fired pizzas and small plates with Southern European influences in an intimate and lively setting.",
+      "Hands down the best pizza in Stockholm, and it's not even close. Super chill atmosphere and great service.",
     website: "https://babette.se/",
   },
   {
@@ -694,7 +694,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/solen.jpg"),
     description:
-      "Fire-cooked dishes with influences from the Mediterranean, Middle East, and South America in a lively, casual setting.",
+      "Another one of our go-to restaurants in Stockholm. Amazing service and chill atmosphere even though the food is very high-end but also comforting. Fire-cooked dishes with influences from the Mediterranean, Middle East, and South America in a lively, casual setting. Make sure to give their foie gras with sobrasada a try!",
     website: "https://www.solen.se",
   },
   {
@@ -722,7 +722,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/voisine.jpg"),
     description:
-      "Modern bistro-style dishes with French and Swedish influences, complemented by an extensive wine list.",
+      "Modern bistro-style dishes with French and Swedish influences with tons of great wine options. Very relaxed atmosphere and great service.",
     website: "http://www.voisine.se",
   },
   {
@@ -764,7 +764,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/pats-place.jpg"),
     description:
-      "Thai restaurant known for its inventive tapas-style dishes and Thai-inspired cocktails in a relaxed and friendly atmosphere.",
+      "Chaotic and cramped, but this is one of the best Thai restaurants in Stockholm. Inventive tapas-style dishes and Thai-inspired cocktails in a relaxed and friendly atmosphere.",
     website: "https://www.patsplace.se/",
   },
   {
@@ -798,7 +798,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/farang.jpg"),
     description:
-      "Stylish eatery with an industrial-chic finish & Pan-Asian dishes cooked in an open kitchen.",
+      "One of the best Asian restaurants in Stockholm. Make sure to try their 'Crab fried rice'!",
     website: "http://www.farang.se/",
   },
   {
@@ -841,7 +841,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Seasonal tasting menu that combines Nordic ingredients with global techniques, served in a strikingly designed space near Royal Djurgården.",
+      "One of the most beautiful restaurants we've ever visited. Seasonal tasting menu that combines Nordic ingredients with global techniques. If you have the time grab a cigar and Chartreuse afterwards on their patio.",
     website: "https://aira.se/",
   },
   {
@@ -869,7 +869,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nizza.jpg"),
     description:
-      "Offers a menu blending French and Italian culinary traditions, featuring dishes such as 'Fermentata cacio e pepe' and 'Agnolotti with ricotta, capers & taggiasca olives'.",
+      "Offers a menu blending French and Italian culinary traditions. Super relaxed atmosphere and the front of house team is absolutely amazing.",
     website: "http://www.cafenizza.se/",
   },
   {
@@ -888,7 +888,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/arroganta-svinet.jpg"),
     description:
-      "Texas-style barbecue, offering a casual and rustic dining experience with a focus on slow-cooked meats and smoky flavors.",
+      "Texas-style barbecue served in a setting that more resembles a shed than a restaurant. Very authentic and delicious BBQ.",
     website: "http://detarrogantasvinet.se/",
   },
   {
@@ -902,7 +902,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/funky-chicken.jpg"),
     description:
-      "Ranked Sweden’s best burger spot for five years, serves expertly crafted smash burgers with a signature crispy crust, drawing long queues, especially in summer.",
+      "The best burger spot in Sweden. Ranked Sweden’s best burger spot for five years, serves expertly crafted smash burgers with a signature crispy crust, drawing long queues, especially in summer.",
     website: "http://funkychickenfoodtruck.se/",
   },
   {
@@ -1331,7 +1331,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/freja.jpg"),
     description:
-      "Swedish cuisine with international influences and features panoramic views of Stockholm in a vibrant atmosphere.",
+      "Swedish cuisine with international influences and features panoramic views of Stockholm.",
     website: "https://freyjasoder.se/",
   },
   {
@@ -1448,7 +1448,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/coco-carmen.jpg"),
     description:
-      "From the team behind Punk Royale, Coco & Carmen offers a fixed tasting menu that blends European cuisine with Scandinavian and Japanese influences.",
+      "Coco & Carmen is like a light variant of Punk Royale, the chaos has been toned down a lot but you can still feel the same energy. Offers a fixed tasting menu that blends European cuisine with Scandinavian and Japanese influences.",
     website: "https://cococarmen.se",
   },
   {
@@ -1486,7 +1486,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/misshumashu.jpg"),
     description:
-      "Fusion menu blending Japanese flavors with international street food, featuring dishes like skewers, ramen, and creative small plates.",
+      "Fusion menu blending Japanese flavors with international street food in a relaxed and friendly atmosphere. Make sure to try their famous guacamole!",
     website: "https://misshumasshu.se",
   },
   {
@@ -1638,7 +1638,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/rolfs-hav.jpg"),
     description:
-      "Specializing in fresh seafood, Rolfs Hav offers a menu featuring dishes like oysters, caviar, and Skagen, with a focus on cold preparations.",
+      "Specializing in fresh seafood, offerring a menu featuring dishes like oysters, caviar, and Skagen. Really relaxed atmosphere and great service. Try to get a table at the bar if possible, and make sure to give the salmon buffalo wings a try!",
     website: "https://www.rolfshav.se",
   },
   {
@@ -1763,7 +1763,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bacchanale.jpg"),
     description:
-      "Seasonal French small plates cooked over wood fire, with a menu that evolves daily based on local ingredients and chef inspiration.",
+      "Similiar vibes to Kalle and Jonas other restaurant Främmat, very relaxed and fun. They are serving seasonal French small plates that evolves constantly.",
     website: "https://www.bacchanalesthlm.com",
   },
   {
@@ -1864,7 +1864,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato, complemented by an extensive Italian wine list.",
+      "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato. Really cozy and relaxed atmosphere.",
     website: "https://www.lavecchiasignora.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/la-vecchia-signora.jpg"),
@@ -1891,7 +1891,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Seafood-focused restaurant in Stockholm's Blasieholmen district, offering a unique dining experience where guests can select fresh fish or meat from an in-house market counter. The chosen items are prepared to order, accompanied by a variety of sauces and sides.",
+      "Seafood-focused restaurant in Stockholm's Blasieholmen district, offering a unique dining experience where guests can select fresh fish or meat from an in-house market counter.",
     website: "https://restaurangbar.se/en/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/bar-blasieholmen.jpg"),
@@ -2029,7 +2029,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Housed in a distinctive flatiron building, it offers a diverse menu featuring Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare and Middle Eastern-inspired options such as lemon falafel.",
+      "Great Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare. Cozy and relaxed atmosphere.",
     website: "https://bistrobananas.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/bistro-bananas.jpg"),
@@ -2167,7 +2167,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Lådan is a casual beer hall and street food restaurant located in Stockholm's Vasastan district. Established in 2017 by Jon Widegren, the founder of Flippin' Burgers, Lådan offers a menu featuring sliders, Chicago-style pizza slices, and various sides, all prepared from scratch.",
+      "The sister restaurant to Flippin' Burgers, Lådan is a casual beer hall and street food restaurant. One of our favorite burger spots in Stockholm. If you have the chance, give the bacon marmelade burger a try!",
     website: "https://ladansthlm.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/ladan.jpg"),
@@ -2336,7 +2336,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 7,
     },
     description:
-      "Lennart & Bror is a butcher shop and restaurant located in Stockholm's Vasastan district. The establishment offers a menu featuring artisanal sandwiches, sausages, and burgers made from high-quality meats. Known for its casual atmosphere, Lennart & Bror provides both dine-in and takeaway options, with a focus on delivering flavorful meat-centric dishes.",
+      "Our favorite butcher in Stockholm that also offers great food like sausages and burgers made from high-quality meats. Super casual atmosphere and great music.",
     website: "https://www.lennartochbror.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/lennart-bror.jpg"),
@@ -2366,7 +2366,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, the establishment offers a dining experience that feels like being in a friend's home.",
+      "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, offers a dining experience that feels like being in a friend's home. If you have the opportunity book a room at their hotel as well!",
     website: "https://www.etthem.se/kitchen/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
@@ -2466,7 +2466,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Svartengrens is a meat-focused restaurant and cocktail bar and is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago and preparing all dishes from scratch.",
+      "Svartengrens is a meat-focused restaurant and cocktail bar and is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago. Somewhat formal atmosphere and great service.",
     website: "https://www.svartengrens.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/svartengrens.jpg"),
@@ -2990,7 +2990,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates with a natural wine list.",
+      "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates in a very relaxed atmosphere.",
     website: "https://www.bastardosthlm.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/bastardo.jpg"),
     chefs: [
@@ -3031,7 +3031,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Cozy bistro offering playful small‑ and medium‑plates with international flavours and a well‑curated wine list in a relaxed, welcoming setting.",
+      "Cozy bistro offering playful small‑ and medium‑plates with outstanding service and a relaxed atmosphere. The lasagna with homemade XO sauce is to die for, we still think about that dish to this day.",
     website: "https://amalia.restaurant/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/amalia.jpg"),
   },
@@ -3446,7 +3446,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 8,
     },
     description:
-      "An ultra-vinous restaurant and wine bar in Gamla Stan, Stockholm, boasting a wine cellar of around 3,000 bottles. Its cuisine leans on classic French and southern European influences, with generous, bold flavors and a strong focus on premium ingredients.",
+      "An ultra-vinous restaurant and wine bar in Gamla Stan serving classic French and southern European cuisine. Somewhat formal atmosphere with great service. Their homage to Thomas Keller's 'Oysters and Pearls' was amazing.",
     website: "https://start.leijontornet.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/lejontornet.jpg"),
   },
