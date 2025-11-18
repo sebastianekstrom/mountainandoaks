@@ -3624,4 +3624,31 @@ export const RESTAURANTS: Restaurant[] = [
       "One of Stockholm's classics, started in 1929, serving classic Swedish and French dishes such as Wallenbergare and chèvre chaud. Hectic vibe, decent food and a really nice front of house team!",
     website: "https://www.tranan.se/",
   },
+  {
+    name: "Madame",
+    coordinates: {
+      longitude: 18.0764605,
+      latitude: 59.3152686,
+    },
+    ratings: {
+      svd: {
+        rating: 4,
+        reviewUrl:
+          "https://www.svd.se/a/5VdP7K/utsokt-men-vi-maste-braka-om-det-centrala-kimchin",
+      },
+      dn: {
+        rating: 4,
+        reviewUrl:
+          "https://www.dn.se/pa-stan/ata-ute/madam-prisvard-uppstickare-bland-stans-asiatiska-krogar/",
+      },
+      whiteguide: {
+        rating: 2,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/9240",
+      },
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/madame.jpg"),
+    description:
+      "Small Korean spot serving a tight menu built around rice, noodles, tofu, kimchi, and chili-driven sauces like gochujang. Expect clean flavors, a few classics like bibimbap and tteokbokki, and a minimalist dining room with a casual Seoul vibe.",
+    website: "https://madamsthlm.se/",
+  },
 ];
