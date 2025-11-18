@@ -617,7 +617,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/yonosabo.jpg"),
     description:
-      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls, with influences from Asian cuisines, served in a cozy and vibrant atmosphere.",
+      "Mexican street food bistro offering a menu featuring tacos, burritos, and bowls. Relaxed and nice atmosphere with good food and drinks.",
     website: "https://www.yonosabo.se",
   },
   {
@@ -736,7 +736,7 @@ export const RESTAURANTS: Restaurant[] = [
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/tjoget.jpg"),
     description:
-      "Hip eatery with a cafe & a wine bar serving Mediterranean-inspired dishes in an industrial ambiance.",
+      "Hip eatery with a cafe & a wine bar serving Mediterranean-inspired dishes in an industrial ambiance. Amazing cocktails and the saltimbocca is to die for!",
     website: "http://tjoget.com/",
   },
   {
@@ -1181,7 +1181,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
     description:
-      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame.",
+      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame. Food was a little bit on the bland side, and the service was somewhat unattentative. But the atmosphere and location is really good.",
     website: "https://riri.restaurant/",
   },
   {
@@ -1839,7 +1839,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Renowned for its dedication to classic American-style hamburgers. Established in 2012, the restaurant emphasizes quality ingredients, sourcing meat from small-scale Swedish producers and buns from local bakeries.",
+      "Renowned for its dedication to classic American-style hamburgers. Great atmosphere and milkshakes, but the competition has gotten better so there are better burgers out there.",
     website: "https://flippinburgers.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/flippin-burgers.jpg"),
@@ -1918,7 +1918,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Ho's Kina is a family-owned Chinese restaurant located in Stockholm's Hornstull district. Established in 1988 by Shiu Tung Ho, the restaurant offers generous portions of rustic Chinese dishes inspired by Cantonese, Sichuan, and Shanghai cuisines.",
+      "Ho's Kina is a family-owned Chinese restaurant located in Hornstull. Interior is simple, vibe is chaotic and the food is really good.",
     website: "https://restauranghos.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/hos-kina.jpg"),
@@ -1977,7 +1977,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "La Neta is a taquería in Stockholm offering authentic Mexican street food. Established in 2009 by two Monterrey natives, it serves tacos and quesadillas with homemade corn tortillas and freshly made salsas. The restaurant features a self-service salsa bar and a casual, communal dining atmosphere.",
+      "La Neta is a taquería in Stockholm offering authentic Mexican street food. The restaurant features a self-service salsa bar, which means unlimited sauce, which is never a bad thing. Not a place you sit and eat for hours but great for a quick bite.",
     website: "https://www.laneta.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/la-neta.jpg"),
@@ -2496,7 +2496,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 6,
     },
     description:
-      "New York-style burgers and house-smoked pastrami sandwiches made with premium brisket from Fällmans Kött.",
+      "New York-style burgers and house-smoked pastrami sandwiches. Front of house team is really great and chill, and the burger is one of the best in Sweden.",
     website: "https://www.bap-burgersandpastrami.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/bap-burgers-and-pastrami.jpg"),
   },
@@ -2529,7 +2529,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 6,
     },
     description:
-      "Upscale brasserie offering European classics like steak tartare and Sicilian fish, with seasonal ingredients and waterfront views.",
+      "Upscale brasserie offering European classics like steak tartare and Sicilian fish. With a live jazz band the atmosphere is quite formal, very attentative staff and the 'Lobster Rockefeller' is to die for.",
     website: "https://www.lydmar.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/lydmar-hotel.jpg"),
     chefs: [
@@ -2787,7 +2787,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Modern Indian street food concept offering dishes like kathi rolls, butter chicken, and deconstructed samosas, blending traditional flavors with contemporary presentation.",
+      "Modern Indian street food concept offering dishes like kathi rolls, butter chicken, and deconstructed samosas. The interior is simple, front of house team is so-so but it's our absolute favorite Indian spot in Stockholm.",
     website: "https://www.indianstreetfood.com/se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/indian-street-food-co.jpg"),
     chefs: [
@@ -2853,7 +2853,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 6,
     },
     description:
-      "Craft beer bar and gastropub offering experimental brews from Stigbergets Bryggeri and others, paired with elevated street food like dry-aged beef burgers and vegan currywurst.",
+      "Craft beer bar and gastropub offering experimental brews from Stigbergets Bryggeri and others. Amazing atmosphere and burgers and a great place to hang out with friends.",
     website: "https://stigbergetsfot.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/stigbergets-fot.jpg"),
     chefs: [
@@ -2959,7 +2959,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Uncomplicated Nordic‑European bistro at Sankt Eriksplan, highlighting clear flavours and top Swedish produce in a convivial, wine‑focused setting.",
+      "Uncomplicated Nordic‑European bistro highlighting clear flavours and top Swedish produce. You can immediately tell that Klas is very passionate about his work, carefully explaining each dish and answering questions. Amazing service overall and a really nice atmosphere.",
     website: "https://portalrestaurant.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/portal.jpg"),
     chefs: [
@@ -3099,8 +3099,8 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "A bold Persian–French fusion restaurant in Östermalm that serves stylish sharing plates in a neon-lit, punk‑vibe setting.",
-    website: "https://restaurantetoile.se/",
+      "A bold Persian–French fusion restaurant in Östermalm that serves stylish sharing plates in a neon-lit, punk‑vibe setting. The vibe is chaotic in a good way, and the staff takes really good care of you. The 'Tahdig Zone' is a must try!",
+    website: "https://www.coupdetat.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/coup-detat.jpg"),
     chefs: [
       {
