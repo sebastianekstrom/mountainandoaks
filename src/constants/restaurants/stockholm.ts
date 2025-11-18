@@ -3610,4 +3610,18 @@ export const RESTAURANTS: Restaurant[] = [
       "Nook has reopened near Mariatorget in a smaller, more intimate space, blending polished cooking with a relaxed neighborhood vibe at unusually fair prices. The two set menus deliver thoughtful, deeply flavored dishes, strong wine pairing, and warmly precise service. It’s essentially mature, small-scale fine dining disguised as a local spot.",
     website: "https://www.restaurangnook.se/",
   },
+  {
+    name: "Tranan",
+    coordinates: {
+      longitude: 18.0490466,
+      latitude: 59.3431723,
+    },
+    ratings: {
+      "m&o": 4,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/tranan.jpg"),
+    description:
+      "One of Stockholm's classics, started in 1929, serving classic Swedish and French dishes such as Wallenbergare and chèvre chaud. Hectic vibe, decent food and a really nice front of house team!",
+    website: "https://www.tranan.se/",
+  },
 ];
