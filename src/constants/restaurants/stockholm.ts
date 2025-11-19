@@ -3651,4 +3651,18 @@ export const RESTAURANTS: Restaurant[] = [
       "Small Korean spot serving a tight menu built around rice, noodles, tofu, kimchi, and chili-driven sauces like gochujang. Expect clean flavors, a few classics like bibimbap and tteokbokki, and a minimalist dining room with a casual Seoul vibe.",
     website: "https://madamsthlm.se/",
   },
+  {
+    name: "Soaré",
+    coordinates: {
+      longitude: 18.0577062,
+      latitude: 59.3501787,
+    },
+    ratings: {
+      "m&o": 2,
+    },
+    image: require("../../../public/images/restaurants/stockholm/restaurants/soare.jpg"),
+    description:
+      "Retro-inspired spot on where you dig into Belgian-style raclette and cheese or meat fondue. The front of house was amazing, really warm and welcoming, but the food was very bland overall.",
+    website: "https://madamsthlm.se/",
+  },
 ];
