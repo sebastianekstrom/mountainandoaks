@@ -107,10 +107,10 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
         </a>
 
         {ratingsArray.length > 0 && (
-          <div className="mt-2">
+          <div className="mt-[13px] flex gap-7">
             {/* Our rating section */}
             {ratingsArray.some((rating) => rating.source === "m&o") && (
-              <div className="mb-3">
+              <div className="">
                 <Text variant="h5" classNames="mb-1">
                   Our rating
                 </Text>
@@ -154,6 +154,8 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
           </div>
         )}
       </div>
+
+      <div className="w-full h-[1px] bg-gray-200 mt-4" />
 
       {restaurant.chefs && (
         <div className="mb-2 mt-4">
