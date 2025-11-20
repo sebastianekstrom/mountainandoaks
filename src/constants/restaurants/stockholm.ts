@@ -1839,7 +1839,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Renowned for its dedication to classic American-style hamburgers. Great atmosphere and milkshakes, but the competition has gotten better so there are better burgers out there.",
+      "Renowned for its dedication to classic American-style hamburgers and milkshakes. In their prime back in early 2010s they were considered the best burger spot in town. While they still serve great burgers the competition has come close and in a few cases even surpassed them.",
     website: "https://flippinburgers.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/flippin-burgers.jpg"),
