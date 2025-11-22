@@ -1130,6 +1130,7 @@ export const RESTAURANTS: Restaurant[] = [
         rating: 3,
         reviewUrl: "https://whiteguide.com/se/sv/restaurants/12692-",
       },
+      "m&o": 6,
     },
     chefs: [
       {
@@ -3155,6 +3156,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/matateljen-sma-konstverk-i-industriell-krogmiljo/",
       },
+      "m&o": 8,
     },
     chefs: [
       {
