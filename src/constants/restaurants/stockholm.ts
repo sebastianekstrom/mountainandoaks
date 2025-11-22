@@ -1181,7 +1181,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/riri.jpg"),
     description:
-      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame. Food was a little bit on the bland side, and the service was somewhat unattentative. But the atmosphere and location is really good.",
+      "Mediterranean-inspired menu that changes frequently, with dishes prepared over an open flame. The food can be a bit of a hit-and miss, but when it's good it's reaaaally good. Service was somewhat unattentative.",
     website: "https://riri.restaurant/",
   },
   {
@@ -1321,7 +1321,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/y6KqbK/krogguiden-om-freyja-utsikten-sticker-ut",
       },
-      "m&o": 6,
+      "m&o": 5,
     },
     chefs: [
       {
@@ -1458,7 +1458,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3338151,
     },
     ratings: {
-      "m&o": 8,
+      "m&o": 7,
       dn: {
         rating: 4,
         reviewUrl:
@@ -1739,7 +1739,7 @@ export const RESTAURANTS: Restaurant[] = [
       latitude: 59.3077732,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 7,
       dn: {
         rating: 3,
         reviewUrl:
@@ -2009,7 +2009,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Located atop Stockholm's Fotografiska museum, the restaurant offers panoramic views and a sustainable, plant-forward menu. Dishes emphasize seasonal, locally sourced vegetables, with optional sustainable meat or fish sides. The establishment is committed to zero-waste practices, including reusing materials like mussel shells for plates and repurposing old wine bottles into glassware.",
+      "Located atop Stockholm's Fotografiska museum, the restaurant offers panoramic views and a sustainable, plant-forward menu. Unfortunately the view didn't make up for the bland food and unattentative service.",
     website: "https://stockholm.fotografiska.com/en/restaurants/the-restaurant",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/fotografiska.jpg"),
@@ -2021,7 +2021,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0753039,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
       svd: {
         rating: 4,
         reviewUrl:
@@ -2110,7 +2110,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Established in 1893, Riche is a storied brasserie located in Stockholm's Östermalm district. Inspired by Café Riche in Paris, the restaurant blends French elegance with Swedish culinary traditions. The menu features a mix of classic dishes and contemporary creations, all prepared from scratch using seasonal, high-quality ingredients.",
+      "Established in 1893, Riche blends French elegance with Swedish culinary traditions. Great food but a bit too formal for our taste.",
     website: "https://riche.se/en/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/riche.jpg"),
@@ -2135,7 +2135,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The menu features a variety of tacos, ceviches, and other dishes, complemented by a selection of cocktails, including mezcal and tequila options.",
+      "Offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The setting is loud and chaotic, in a good way.",
     website: "https://yucmexican.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/yuc.jpg"),
@@ -2194,7 +2194,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Grus Grus is a wine bar located in Stockholm's Vasastan district, adjacent to its sister restaurant, Tranan. The establishment focuses on craft wines, offering selections ranging from obscure grape varieties to classic bottles. The menu features seasonal small plates designed for sharing, utilizing local Swedish produce.",
+      "Grus Grus is a wine bar located in Stockholm's Vasastan district, adjacent to its sister restaurant, Tranan. Food was good but the extremely rude staff didn't make up for it.",
     website: "https://grusgrusvinbaren.se/en/home/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/grus-grus.jpg"),
@@ -2255,7 +2255,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Offering northern Swedish cuisine with a modern twist. Established in 2013 by Martin Sjölander, the restaurant draws inspiration from the founder's upbringing in Norrland, incorporating traditional ingredients like reindeer, moose, and cloudberries into contemporary dishes.",
+      "Offering northern Swedish cuisine with a modern twist, drawing inspiration from the founder's upbringing in Norrland. Good wholesome food in a cozy atmosphere.",
     website: "https://restaurangknut.se/en/home/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/knut.jpg"),
@@ -2277,7 +2277,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Italian restaurant and wine bar located in Stockholm's Södermalm district. The establishment offers a menu that combines traditional Italian dishes with contemporary twists, focusing on high-quality ingredients.",
+      "Italian restaurant and wine bar located in Stockholm's Södermalm district. Offering a menu that combines traditional Italian dishes. A really bland experience overall, both in terms of food and service.",
     website: "https://www.delidiluca.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/deli-di-luca.jpg"),
@@ -2302,7 +2302,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Vietnamese restaurant in Stockholm offering authentic dishes inspired by the everyday food of Saigon. The menu features pho noodle soup, banh mi sandwiches, fresh spring rolls, and noodle salads, with options for meat lovers, vegetarians, and vegans.",
+      "Vietnamese restaurant in Stockholm offering authentic dishes inspired by the everyday food of Saigon. We've eaten bánh mì everywhere in Stockholm and Toronto, but this is the best we've had.",
     website: "https://eatnam.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/eatnam.jpg"),
@@ -2333,7 +2333,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0618021,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
     },
     description:
       "Our favorite butcher in Stockholm that also offers great food like sausages and burgers made from high-quality meats. Super casual atmosphere and great music.",
@@ -2431,7 +2431,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers, including the popular 100W IPA and Kellerbier. The gastropub serves comfort food designed to pair with their brews, featuring dishes like bone marrow burgers and seasonal seafood.",
+      "Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers. The gastropub serves comfort food designed to pair with their brews. Environment is great, with views over Södermalm and the food is very wholesome.",
     website: "https://www.nyacarnegiebryggeriet.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/nya-carnegiebryggeriet.jpg"),
@@ -2481,7 +2481,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes, all prepared with high-quality ingredients. The interior is inspired by 1950s American diners, creating a nostalgic atmosphere for guests.",
+      "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes. In our opinion the best burger in town after Flippin' Burgers.",
     website: "https://www.rockingrill.se/",
     image:
       require("../../../public/images/restaurants/stockholm/restaurants/rockin-grill.jpg"),
@@ -2493,7 +2493,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0822406,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "New York-style burgers and house-smoked pastrami sandwiches. Front of house team is really great and chill, and the burger is one of the best in Sweden.",
@@ -2526,7 +2526,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0770716,
     },
     ratings: {
-      "m&o": 6,
+      "m&o": 5,
     },
     description:
       "Upscale brasserie offering European classics like steak tartare and Sicilian fish. With a live jazz band the atmosphere is quite formal, very attentative staff and the 'Lobster Rockefeller' is to die for.",
@@ -2560,7 +2560,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Modern European cuisine with seasonal Swedish ingredients, offering dishes like Kalix bleak roe and spice-roasted duck in a Scandinavian-designed setting.",
+      "Modern European cuisine with seasonal Swedish ingredients, offering dishes like Kalix bleak roe and spice-roasted duck. Friendly front of house team and great food in a more formal setting.",
     website: "https://www.nobishotel.se/en",
     image: require("../../../public/images/restaurants/stockholm/restaurants/nobis-hotel.jpg"),
     chefs: [
@@ -2591,7 +2591,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     },
     description:
-      "Authentic Mexican eatery in Hornstull offering dishes like bone marrow tacos, enchiladas, and cochinita pibil, emphasizing fresh ingredients and traditional flavors.",
+      "Authentic Mexican eatery in Hornstull offering dishes like bone marrow tacos, enchiladas, and cochinita pibil, emphasizing fresh ingredients and traditional flavors. Cozy atmosphere and wholesome Mexican food.",
     website: "https://www.chelas.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/chelas.jpg"),
   },
@@ -2605,7 +2605,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "Modern pizzeria blending Swedish classics with Neapolitan techniques—think kebab, banana curry, and truffle pizzas made with house-fermented dough and local ingredients.",
+      "Modern pizzeria that focuses on making the 'traditional' Swedish pizza but with higher quality. Since we're no fans of the Neapolitan pizza, this is our favorite pizza spot in Stockholm. Not a place you stay for hours but great for a quick bite.",
     website: "https://www.stellapizza.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/stella.jpg"),
     chefs: [
@@ -2631,7 +2631,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "Gastropub known for its extensive beer and whisky selection, offering Swedish classics like mussels and steak tartare in a rustic setting.",
+      "Gastropub known for its extensive beer and whisky selection, offering Swedish classics like mussels and steak tartare in a very rustic and loud setting.",
     website: "https://akkurat.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/akkurat.jpg"),
     chefs: [
@@ -2702,7 +2702,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "Latin-Asian fusion spot offering sushi, poké bowls, and ceviche, blending Japanese precision with South American heat and citrus.",
+      "Latin-Asian fusion spot offering sushi, poké bowls, and ceviche, blending Japanese precision with South American heat. Overall a decent sushi!",
     website: "https://restauranglulu.se/kungsholmen/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/lulu.jpg"),
   },
@@ -2977,7 +2977,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0611886,
     },
     ratings: {
-      "m&o": 7,
+      "m&o": 6,
       dn: {
         rating: 4,
         reviewUrl:
@@ -3178,7 +3178,7 @@ export const RESTAURANTS: Restaurant[] = [
       longitude: 18.0869544,
     },
     ratings: {
-      "m&o": 5,
+      "m&o": 4,
     },
     description:
       "An Asian-fusion taco spot serving bold, street-food-style creations like bánh mì, kimchi-feta, shrimp-Parmesan, and crispy Japanese chicken, packed with multicultural flavor.",
@@ -3238,7 +3238,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "An homage to authentic Egyptian street food serving ta’ameya—crispy, fava‑bean falafel made from scratch with house‑roasted spices and freshly baked pita. Pure plant‑based goodness, minimalist vibes, natural wine and craft beer.",
+      "An homage to authentic Egyptian street food serving ta’ameya—crispy, fava‑bean falafel made from scratch with house‑roasted spices and freshly baked pita. The pita is out of this world, we usually buy a few dozens of them to take home and freeze.",
     website: "https://www.taameya.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/ta-meya.jpg"),
   },
@@ -3341,7 +3341,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 2,
     },
     description:
-      "Delivering wok‑made classics like Pad Thai, curries, Tom Yum, and stir‑fry—fresh, flavorful, generous portions (often vegan‑friendly) at wallet‑smart prices, with quick service and a laid‑back vibe.",
+      "Delivering wok‑made classics like Pad Thai, curries, Tom Yum, and in generous portions. Great for a quick lunch but nothing to write home about",
     website: "https://maethaiwok.se/restauranger/mae-thai-wok-skanstull/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/mae-thai.jpg"),
   },
@@ -3355,7 +3355,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 5,
     },
     description:
-      "Laid-back Italian spot serving Roman-style pizza al taglio, salumi, and tiramisu, with airy dough, natural wines, and a warm neighborhood vibe.",
+      "Laid-back Italian spot serving Roman-style pizza al taglio, salumi, and tiramisu, with airy dough, natural wines, and a warm neighborhood vibe. The best lasagna in Stockholm.",
     website: "https://theitaliancousins.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/the-italian-cousins.jpg"),
   },
@@ -3369,7 +3369,7 @@ export const RESTAURANTS: Restaurant[] = [
       "m&o": 2,
     },
     description:
-      "A casual Italian-inspired spot serving fresh, handmade pasta, pizzas, and wholesome salads at friendly prices—with generous portions and “more quality, less time” energy.",
+      "A casual Italian-inspired spot serving fresh, handmade pasta and pizzas. Decent lunch option for a quick bite but nothing more than that.",
     website: "https://goran-milutinovic-a5lk.squarespace.com/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/darmedpasta.jpg"),
   },
