@@ -1148,7 +1148,7 @@ export const RESTAURANTS: Restaurant[] = [
     ],
     image: require("../../../public/images/restaurants/stockholm/restaurants/bar-montan.jpg"),
     description:
-      "Modern European cuisine with a focus on seasonal and sustainable ingredients. The menu blends Nordic simplicity with Mediterranean flavors, featuring fresh seafood, grilled meats, and vibrant vegetable dishes.",
+      "Modern European cuisine with a focus on seasonal and sustainable ingredients. The menu blends Nordic simplicity with Mediterranean flavors, featuring fresh seafood, grilled meats, and vibrant vegetable dishes. Really cozy and warm atmosphere.",
     website: "http://barmontan.com/",
   },
   {
@@ -3169,7 +3169,7 @@ export const RESTAURANTS: Restaurant[] = [
       },
     ],
     description:
-      "Serving playful and precise seasonal dishes via tasting menus or à la carte in a raw, atelier-like setting with an open kitchen.",
+      "Serving playful and precise seasonal dishes via tasting menus or à la carte in a raw, atelier-like setting with an open kitchen. Amazing staff and food, and the vibe is very chill. Slakthusområdet is becoming our favorite neighborhood in Stockholm.",
     website: "https://matateljen.se/",
     image: require("../../../public/images/restaurants/stockholm/restaurants/matateljen.jpg"),
   },
