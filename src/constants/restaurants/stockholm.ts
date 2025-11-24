@@ -3156,6 +3156,10 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/matateljen-sma-konstverk-i-industriell-krogmiljo/",
       },
+      whiteguide: {
+        rating: 3,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/8875-matateljen",
+      },
       "m&o": 8,
     },
     chefs: [
