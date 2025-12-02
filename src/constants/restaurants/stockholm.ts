@@ -2989,6 +2989,10 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/ny2zwo/krogrecension-bastardo-masterverk-pa-rad-pa-guldklimp-till-krog",
       },
+      whiteguide: {
+        rating: 4,
+        reviewUrl: "https://whiteguide.com/se/sv/restaurants/12811-bastardo",
+      },
     },
     description:
       "Creative Italian-inspired brasserie in Vasastan serving handmade pasta, crudo, ossobuco and seasonal small plates in a very relaxed atmosphere.",
@@ -3399,6 +3403,13 @@ export const RESTAURANTS: Restaurant[] = [
         description: "Soyokaze",
       },
     ],
+    ratings: {
+      dn: {
+        rating: 3,
+        reviewUrl:
+          "https://www.dn.se/kultur/gaijin-splittrat-och-spretigt-nar-gasten-far-gissa-sig-fram-i-menyn/",
+      },
+    },
     description:
       "Kalle and Jonas teamed up with Bagi from Soyokaze to create a relaxed sushi restaurant designed for lingering over good food and drinks, not just a quick bite. Expect inventive Japanese dishes with bold flavors—like their magical corn, miso, and butter combo.",
     website: "https://gaijinsthlm.se/",
