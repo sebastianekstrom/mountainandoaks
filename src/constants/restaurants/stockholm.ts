@@ -1842,8 +1842,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Renowned for its dedication to classic American-style hamburgers and milkshakes. In their prime back in early 2010s they were considered the best burger spot in town. While they still serve great burgers the competition has come close and in a few cases even surpassed them.",
     website: "https://flippinburgers.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/flippin-burgers.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/flippin-burgers.jpg"),
   },
   {
     name: "La Vecchia Signora",
@@ -1867,8 +1866,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Specializing in cuisine from the Piemonte region, the restaurant offers dishes like tajarin, agnolotti al plin, and vitello tonnato. Really cozy and relaxed atmosphere.",
     website: "https://www.lavecchiasignora.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/la-vecchia-signora.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/la-vecchia-signora.jpg"),
   },
   {
     name: "B.A.R.",
@@ -1894,8 +1892,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Seafood-focused restaurant in Stockholm's Blasieholmen district, offering a unique dining experience where guests can select fresh fish or meat from an in-house market counter.",
     website: "https://restaurangbar.se/en/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/bar-blasieholmen.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bar-blasieholmen.jpg"),
   },
   {
     name: "Ho's Kina",
@@ -1921,8 +1918,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Ho's Kina is a family-owned Chinese restaurant located in Hornstull. Interior is simple, vibe is chaotic and the food is really good.",
     website: "https://restauranghos.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/hos-kina.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/hos-kina.jpg"),
   },
   {
     name: "Urban Deli Nytorget",
@@ -1948,8 +1944,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a menu featuring Nordic and international flavors, with an emphasis on sustainability and quality ingredients. The establishment also includes a grocery store and bakery, making it a popular spot for both dining and shopping.",
     website: "https://www.urbandeli.org/nytorget",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/urban-deli-nytorget.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/urban-deli-nytorget.jpg"),
   },
   {
     name: "La Neta",
@@ -1980,8 +1975,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "La Neta is a taquería in Stockholm offering authentic Mexican street food. The restaurant features a self-service salsa bar, which means unlimited sauce, which is never a bad thing. Not a place you sit and eat for hours but great for a quick bite.",
     website: "https://www.laneta.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/la-neta.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/la-neta.jpg"),
   },
   {
     name: "Fotografiska",
@@ -2012,8 +2006,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Located atop Stockholm's Fotografiska museum, the restaurant offers panoramic views and a sustainable, plant-forward menu. Unfortunately the view didn't make up for the bland food and unattentative service.",
     website: "https://stockholm.fotografiska.com/en/restaurants/the-restaurant",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/fotografiska.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/fotografiska.jpg"),
   },
   {
     name: "Bistro Bananas",
@@ -2032,8 +2025,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Great Neapolitan-style pizzas baked in a wood-fired oven, alongside French bistro dishes like steak tartare. Cozy and relaxed atmosphere.",
     website: "https://bistrobananas.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/bistro-bananas.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/bistro-bananas.jpg"),
   },
   {
     name: "Nytorget 6",
@@ -2064,8 +2056,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a menu that combines Swedish classics with Southern European flavors, featuring dishes like meatballs, omelets, and seafood pasta. With a vibrant atmosphere, it serves breakfast, lunch, and dinner, and includes a cocktail bar where skilled bartenders craft a variety of drinks.",
     website: "https://www.nytorget6.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/nytorget-6.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nytorget-6.jpg"),
   },
   {
     name: "Meatballs for the People",
@@ -2086,8 +2077,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Sweden's first and only restaurant dedicated exclusively to meatballs. The establishment offers a diverse selection of handmade, organic meatballs crafted from high-quality, locally sourced meats, including traditional options like beef and pork, as well as more adventurous choices such as moose, reindeer, and bear.",
     website: "https://meatball.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/meatballs-for-the-people.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/meatballs-for-the-people.jpg"),
   },
   {
     name: "Riche",
@@ -2113,8 +2103,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Established in 1893, Riche blends French elegance with Swedish culinary traditions. Great food but a bit too formal for our taste.",
     website: "https://riche.se/en/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/riche.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/riche.jpg"),
   },
   {
     name: "YUC!",
@@ -2138,8 +2127,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offering a fusion of Mexican flavors with influences from Peru, Chile, East Asia, and Sweden. The setting is loud and chaotic, in a good way.",
     website: "https://yucmexican.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/yuc.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/yuc.jpg"),
   },
   {
     name: "Lådan",
@@ -2170,8 +2158,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "The sister restaurant to Flippin' Burgers, Lådan is a casual beer hall and street food restaurant. One of our favorite burger spots in Stockholm. If you have the chance, give the bacon marmelade burger a try!",
     website: "https://ladansthlm.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/ladan.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ladan.jpg"),
   },
   {
     name: "Grus Grus",
@@ -2197,8 +2184,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Grus Grus is a wine bar located in Stockholm's Vasastan district, adjacent to its sister restaurant, Tranan. Food was good but the extremely rude staff didn't make up for it.",
     website: "https://grusgrusvinbaren.se/en/home/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/grus-grus.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/grus-grus.jpg"),
   },
   {
     name: "Den Gyldene Freden",
@@ -2226,8 +2212,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Established in 1722, Den Gyldene Freden is one of the world's oldest restaurants still operating in its original location. Situated in Stockholm's Gamla Stan, it offers a menu rooted in traditional Swedish cuisine, featuring dishes like meatballs with lingonberries and creamy potato purée.",
     website: "https://gyldenefreden.se/en/startpage/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/den-gyldene-freden.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/den-gyldene-freden.jpg"),
   },
   {
     name: "Knut",
@@ -2258,8 +2243,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offering northern Swedish cuisine with a modern twist, drawing inspiration from the founder's upbringing in Norrland. Good wholesome food in a cozy atmosphere.",
     website: "https://restaurangknut.se/en/home/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/knut.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/knut.jpg"),
   },
   {
     name: "Deli Di Luca",
@@ -2280,8 +2264,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Italian restaurant and wine bar located in Stockholm's Södermalm district. Offering a menu that combines traditional Italian dishes. A really bland experience overall, both in terms of food and service.",
     website: "https://www.delidiluca.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/deli-di-luca.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/deli-di-luca.jpg"),
   },
   {
     name: "Eatnam",
@@ -2305,8 +2288,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Vietnamese restaurant in Stockholm offering authentic dishes inspired by the everyday food of Saigon. We've eaten bánh mì everywhere in Stockholm and Toronto, but this is the best we've had.",
     website: "https://eatnam.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/eatnam.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/eatnam.jpg"),
   },
   {
     name: "Aifur",
@@ -2324,8 +2306,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a unique dining experience inspired by the Viking Age. Founded by Swedish musician Martin 'E-Type' Erikson, the restaurant immerses guests in a medieval atmosphere with communal wooden tables, candlelight, and traditional Nordic music. The menu features dishes like mead-boiled mussels, moose fillet, and saffron pancakes, accompanied by beverages such as mead, ale, and wine.",
     website: "http://aifur.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/aifur.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/aifur.jpg"),
   },
   {
     name: "Lennart & Bror",
@@ -2339,8 +2320,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Our favorite butcher in Stockholm that also offers great food like sausages and burgers made from high-quality meats. Super casual atmosphere and great music.",
     website: "https://www.lennartochbror.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/lennart-bror.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/lennart-bror.jpg"),
   },
   {
     name: "Ett Hem",
@@ -2369,8 +2349,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Ett Hem is an intimate restaurant nestled within a boutique hotel in Stockholm's Östermalm district. Housed in a 1910 Arts & Crafts townhouse, offers a dining experience that feels like being in a friend's home. If you have the opportunity book a room at their hotel as well!",
     website: "https://www.etthem.se/kitchen/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/ett-hem.jpg"),
   },
   {
     name: "Nalen",
@@ -2394,8 +2373,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Dating back to 1888, Nalen has long been a center for music and cultural events. The restaurant offers a refined take on traditional Swedish cuisine with modern influences, emphasizing sustainability and organic, locally sourced ingredients. Guests can enjoy dishes like Jerusalem artichoke soup with scallop, lamb brisket with sweetbread, and classic meatballs with cream sauce.",
     website: "https://www.nalen.com/restaurang/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/nalen.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nalen.jpg"),
   },
   {
     name: "Monster Chicken",
@@ -2409,8 +2387,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Korean fried chicken and soju bar located in Stockholm's Södermalm district. Known for its crispy, flavorful chicken, the restaurant offers a variety of sauces and spice levels, including options like 'Pa'Padak' and 'Monstrous Flame'.",
     website: "https://www.monsterchicken.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/monster-chicken.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/monster-chicken.jpg"),
   },
   {
     name: "Nya Carnegiebryggeriet",
@@ -2434,8 +2411,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Established in 2014 as a collaboration between Carlsberg Sweden and Brooklyn Brewery, it offers a range of innovative beers. The gastropub serves comfort food designed to pair with their brews. Environment is great, with views over Södermalm and the food is very wholesome.",
     website: "https://www.nyacarnegiebryggeriet.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/nya-carnegiebryggeriet.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/nya-carnegiebryggeriet.jpg"),
   },
   {
     name: "Svartengrens",
@@ -2469,8 +2445,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Svartengrens is a meat-focused restaurant and cocktail bar and is renowned for its commitment to sustainability, sourcing locally raised beef from the Stockholm archipelago. Somewhat formal atmosphere and great service.",
     website: "https://www.svartengrens.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/svartengrens.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/svartengrens.jpg"),
   },
   {
     name: "Rockin Grill",
@@ -2484,8 +2459,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Rockin Grill is an American-style fast-food restaurant, offering a menu featuring smashed burgers, pan pizzas, and milkshakes. In our opinion the best burger in town after Flippin' Burgers.",
     website: "https://www.rockingrill.se/",
-    image:
-      require("../../../public/images/restaurants/stockholm/restaurants/rockin-grill.jpg"),
+    image: require("../../../public/images/restaurants/stockholm/restaurants/rockin-grill.jpg"),
   },
   {
     name: "BAP",

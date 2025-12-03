@@ -157,7 +157,9 @@ const STEPS = [
             Remember to over season your sauce, the dough and cheeze will absorb{" "}
             <i>a lot of</i> the flavor. <br />
             <br />
-            If you taste the sauce and think <em>"this is way too intense"</em>{" "}
+            If you taste the sauce and think <em>
+              "this is way too intense"
+            </em>{" "}
             the sauce is perfect.
           </>
         }

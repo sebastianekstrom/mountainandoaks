@@ -5,8 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:js": "biome lint ./src ./tooling ./__tests__",
-    "lint:format": "biome format ./src ./tooling ./__tests__",
+    "lint:js": "oxlint ./src ./tooling ./__tests__",
+    "lint:format": "prettier --check \"./src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"./tooling/**/*.{ts,tsx,js,jsx,json}\" \"./__tests__/**/*.{ts,tsx,js,jsx,json}\"",
+    "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"./tooling/**/*.{ts,tsx,js,jsx,json}\" \"./__tests__/**/*.{ts,tsx,js,jsx,json}\"",
     "lint:js:dead-code": "node tooling/find-dead-code.js",
     "test:js": "jest --no-coverage",
     "test:js:ci": "jest",
@@ -37,7 +38,6 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
     "@playwright/test": "^1.33.0",
     "@storybook/addon-essentials": "^7.0.13",
     "@storybook/addon-interactions": "^7.0.13",
@@ -57,7 +57,9 @@
     "@types/uuid": "^9.0.8",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.3.1",
+    "oxlint": "^1.31.0",
     "plop": "^4.0.1",
+    "prettier": "^3.7.3",
     "storybook": "^7.0.13",
     "storybook-addon-next": "^1.8.0",
     "ts-prune": "^0.10.3"
