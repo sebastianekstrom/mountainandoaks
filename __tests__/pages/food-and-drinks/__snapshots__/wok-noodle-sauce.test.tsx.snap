@@ -116,6 +116,25 @@ exports[`WokNoodleSauce page renders the correct ingredients 1`] = `
           <p
             class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
           >
+            Sambal badjak
+          </p>
+        </div>
+        <p
+          class="variable font-sans text-paragraph text-regular leading-paragraph "
+        >
+          20
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="variable font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
             Concentrated chicken stock
           </p>
         </div>
