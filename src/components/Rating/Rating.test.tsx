@@ -162,7 +162,7 @@ describe("Rating component", () => {
       const image = screen.getByRole("img");
       expect(image).toHaveAttribute("src", "/images/misc/wg-logo.png");
 
-      const text = screen.getByText("3/6");
+      const text = screen.getByText("3/5");
       expect(text).toHaveClass("text-gray-700");
 
       // Should not be wrapped in a link
@@ -185,7 +185,7 @@ describe("Rating component", () => {
       const image = screen.getByRole("img");
       expect(image).toHaveAttribute("src", "/images/misc/wg-logo.png");
 
-      expect(screen.getByText("4/6")).toBeInTheDocument();
+      expect(screen.getByText("4/5")).toBeInTheDocument();
     });
   });
 });

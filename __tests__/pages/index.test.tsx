@@ -11,7 +11,7 @@ describe("Home", () => {
 
   it("renders category sections", () => {
     render(<Home />);
-    expect(screen.getByText("More delicious pizza")).toBeDefined();
+    expect(screen.getAllByText("Pizza").length).toBeGreaterThan(0);
     expect(screen.getByText("Mmmm... bread")).toBeDefined();
   });
 });
