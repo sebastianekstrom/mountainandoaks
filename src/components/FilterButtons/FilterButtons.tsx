@@ -1,4 +1,3 @@
-import type React from "react";
 import { Text } from "components/Text/Text";
 
 interface FilterButtonsProps {

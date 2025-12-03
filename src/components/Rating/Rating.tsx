@@ -96,7 +96,7 @@ export const Rating: React.FC<RatingProps> = ({ source, value, reviewUrl }) => {
         className={`flex gap-1 ${wrapperProps.className || ""}`}
         title={`${stars} Michelin star${stars === 1 ? "" : "s"}`}
       >
-        {Array.from({ length: stars }).map((_, starIndex) => (
+        {Array.from({ length: stars }).map((_, _starIndex) => (
           <Image
             key={uuidv4()}
             width={25}

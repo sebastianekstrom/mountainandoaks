@@ -52,7 +52,7 @@ export const PostList = ({
       </section>
 
       {/* Used for the home page */}
-      {categories?.map(({ title, filter, isRestCategory }, index) => {
+      {categories?.map(({ title, filter, isRestCategory }, _index) => {
         let categoryRecipes: Recipe[];
 
         if (isRestCategory) {
