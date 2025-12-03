@@ -1,9 +1,10 @@
 import { render, fireEvent } from "@testing-library/react";
+import { vi } from "vitest";
 import { FilterButtons } from "./FilterButtons";
 
 describe("FilterButtons", () => {
   it("calls onFilterChange with the correct filter when buttons are clicked", () => {
-    const mockOnFilterChange = jest.fn();
+    const mockOnFilterChange = vi.fn();
     const { getByText } = render(
       <FilterButtons
         filters={[

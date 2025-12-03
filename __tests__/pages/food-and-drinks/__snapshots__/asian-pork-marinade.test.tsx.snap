@@ -1,4 +1,211 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AsianPorkMarinade page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Fish sauce
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          40
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Soy sauce
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          30
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Maple syrup
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          25
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sriracha
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sweet soy sauce (kecap manis)
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            5 spice
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Maggi
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sesame oil
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          1.5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Garlic powder
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          1.5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Onion powder
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          1.5
+          g
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
 
 exports[`AsianPorkMarinade page renders the correct ingredients 1`] = `
 <section

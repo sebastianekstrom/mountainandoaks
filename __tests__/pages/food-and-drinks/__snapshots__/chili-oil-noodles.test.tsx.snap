@@ -1,4 +1,323 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ChiliOildNoodles page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Chili oil
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Vegetable oil
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            300
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Shallots
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            70
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Soy sauce
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            36
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Garlic
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            35
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Chili flakes
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            15
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Black pepper corns
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            11
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Brown sugar
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            11
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Sichuan pepper
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            6
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Star anis
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            5
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              MSG
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            5
+            g
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Dish
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Udon noodles
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Peanuts
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Scallion
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Fresh chili
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Lime
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;
 
 exports[`ChiliOildNoodles page renders the correct ingredients 1`] = `
 <section

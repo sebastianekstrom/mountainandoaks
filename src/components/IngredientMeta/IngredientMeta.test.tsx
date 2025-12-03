@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import { vi } from "vitest";
 import React from "react";
 
 import type { RecipeTimes } from "components/Ingredients/Ingredients";
@@ -6,8 +7,8 @@ import type { RecipeTimes } from "components/Ingredients/Ingredients";
 import { IngredientMeta } from "./IngredientMeta";
 
 const defaultProps = {
-  onIncrease: jest.fn(),
-  onDecrease: jest.fn(),
+  onIncrease: vi.fn(),
+  onDecrease: vi.fn(),
   multiplier: 1,
   weight: 1000,
   ingredientSuffix: "loaf",

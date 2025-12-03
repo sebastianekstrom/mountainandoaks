@@ -1,14 +1,15 @@
 import { render, screen } from "@testing-library/react";
+import { vi } from "vitest";
 import React from "react";
 import { useRouter } from "next/router";
 
 import { Recommended } from "./Recommended";
 
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
+vi.mock("next/router", () => ({
+  useRouter: vi.fn(),
 }));
 
-jest.mock("../../constants/recipes", () => {
+vi.mock("../../constants/recipes", () => {
   const createMockRecipe = (title: string, category: string) => ({
     title,
     url: `/${category}/${title.toLowerCase().replace(/\s+/g, "-")}`,
@@ -44,7 +45,7 @@ jest.mock("../../constants/recipes", () => {
   };
 });
 
-const mockUseRouter = useRouter as jest.MockedFunction<typeof useRouter>;
+const mockUseRouter = useRouter as vi.MockedFunction<typeof useRouter>;
 
 const createMockRouter = (route = "/test-route") => ({
   route,
@@ -52,17 +53,17 @@ const createMockRouter = (route = "/test-route") => ({
   query: {},
   asPath: route,
   basePath: "",
-  push: jest.fn(),
-  replace: jest.fn(),
-  reload: jest.fn(),
-  back: jest.fn(),
-  forward: jest.fn(),
-  prefetch: jest.fn(),
-  beforePopState: jest.fn(),
+  push: vi.fn(),
+  replace: vi.fn(),
+  reload: vi.fn(),
+  back: vi.fn(),
+  forward: vi.fn(),
+  prefetch: vi.fn(),
+  beforePopState: vi.fn(),
   events: {
-    on: jest.fn(),
-    off: jest.fn(),
-    emit: jest.fn(),
+    on: vi.fn(),
+    off: vi.fn(),
+    emit: vi.fn(),
   },
   isFallback: false,
   isLocaleDomain: false,
@@ -78,7 +79,7 @@ describe("Recommended Component", () => {
   });
 
   afterEach(() => {
-    jest.clearAllMocks();
+    vi.clearAllMocks();
   });
 
   it("renders correctly with bread category (shows all available bread recipes)", () => {

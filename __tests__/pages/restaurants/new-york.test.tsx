@@ -1,21 +1,22 @@
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom/vitest";
+import { vi } from "vitest";
 import NewYork from "pages/restaurants/new-york";
 import { RestaurantCity } from "components/Restaurant/RestaurantCity";
 
-jest.mock("components/Restaurant/RestaurantCity", () => ({
-  RestaurantCity: jest.fn(() => (
+vi.mock("components/Restaurant/RestaurantCity", () => ({
+  RestaurantCity: vi.fn(() => (
     <div data-testid="restaurant-city-component" />
   )),
 }));
 
-jest.mock("constants/restaurants/new-york", () => ({
+vi.mock("constants/restaurants/new-york", () => ({
   RESTAURANTS: [{ name: "Test Restaurant" }],
 }));
 
-jest.mock(
+vi.mock(
   "public/images/restaurants/new-york/metaImage.jpg",
-  () => "mocked-image-path",
+  () => ({ default: "mocked-image-path" }),
 );
 
 describe("New York page", () => {

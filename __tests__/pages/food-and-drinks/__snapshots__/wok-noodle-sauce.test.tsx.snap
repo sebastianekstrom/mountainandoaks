@@ -1,4 +1,249 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`WokNoodleSauce page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Light soy sauce
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          55
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Water
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          50
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Dark soy sauce
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          35
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sugar
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          35
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Oyster sauce
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          25
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sambal badjak
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          20
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Concentrated chicken stock
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Rice vinegar
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          10
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Cornstarch
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          6
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            MSG
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          2
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Sesame oil
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          2
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Five spice
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          0.5
+          g
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
 
 exports[`WokNoodleSauce page renders the correct ingredients 1`] = `
 <section

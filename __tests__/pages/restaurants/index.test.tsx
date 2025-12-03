@@ -1,18 +1,19 @@
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom/vitest";
+import { vi } from "vitest";
 import RestaurantsHome from "pages/restaurants/index";
 
-jest.mock("constants/restaurants/stockholm", () => ({
+vi.mock("constants/restaurants/stockholm", () => ({
   RESTAURANTS: Array(10).fill({ name: "Test Stockholm Restaurant" }),
 }));
 
-jest.mock("constants/restaurants/london", () => ({
+vi.mock("constants/restaurants/london", () => ({
   RESTAURANTS: Array(5).fill({ name: "Test London Restaurant" }),
 }));
 
-jest.mock(
+vi.mock(
   "public/images/restaurants/stockholm/metaImage.jpg",
-  () => "mocked-stockholm-image-path",
+  () => ({ default: "mocked-stockholm-image-path" }),
 );
 
 describe("Restaurants index page", () => {

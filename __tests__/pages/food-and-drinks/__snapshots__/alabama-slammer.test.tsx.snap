@@ -1,4 +1,116 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AlabamaSlammer page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Orange juice
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          12
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Vodka
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          2
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Southern Comfort
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          2
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Amaretto
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          2
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Grenadine
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          1
+          cl
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
 
 exports[`AlabamaSlammer page renders the correct ingredients 1`] = `
 <section

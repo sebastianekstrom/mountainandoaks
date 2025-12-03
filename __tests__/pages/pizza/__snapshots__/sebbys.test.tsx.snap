@@ -1,4 +1,429 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sebbys page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Dough
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Bread flour
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            520
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Water
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            185
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Milk
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            185
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Vegetable oil
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            30
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Instant yeast
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            6
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Salt
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            8
+            g
+          </p>
+        </li>
+      </ul>
+      <div
+        class="ml-auto"
+      >
+        <button
+          class="mt-2 rounded-full text-regular bg-pill-background py-2 px-4"
+          data-testid="BAKERS_PERCENTAGE"
+          role="button"
+          type="button"
+        >
+          <p
+            class="--font-local font-sans text-caption leading-paragraph "
+          >
+            Show bakers %
+          </p>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Bolognese
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Minced meat (beef)
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            500
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Beef stock
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            470
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Canned whole tomatoes
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            400
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Red wine
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            250
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Mirepoix (celery, onion, carrot)
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            240
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Water
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            200
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Mushroom
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            150
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Tomato purée
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            60
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Garlic
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            13
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Bay leaf
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Toppings
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Cheeze of your choice
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            160
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Finely shredded Parmesan
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            30
+            g
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;
 
 exports[`Sebbys page renders the correct ingredients 1`] = `
 <section

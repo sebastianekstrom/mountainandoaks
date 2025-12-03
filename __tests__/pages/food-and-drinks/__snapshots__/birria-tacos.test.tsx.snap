@@ -1,4 +1,445 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BirriaTacos page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        Birria
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Beef stock
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1200
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Chuck
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            500
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Ox tail
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            300
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              White wine vinegar
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            15
+            g
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Cloves of garlic
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            4
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Ancho chili
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            2.5
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Guajillo chili
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            2.5
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Chipotle chili
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Bay leaf
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            2
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Cinnamon stick
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Yellow onion
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.5
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Tomato
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            1
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Grinded coriander seeds
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.5
+             tsp
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Cumin
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.5
+             tsp
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Dried oregano
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.5
+             tsp
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Clove
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          >
+            0.3
+             tsp
+          </p>
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Salt & pepper
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="mt-8"
+  >
+    <div
+      class="mb-2"
+    >
+      <h3
+        class="--font-anek-gujarati font-heading font-bold text-h3 leading-h3 text-regular "
+      >
+        For the taco
+      </h3>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <ul>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Corn tortillas
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Lime
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Shredded cheese
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              Cilantro
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+        <li
+          class="flex justify-between mb-1 transition-opacity "
+        >
+          <div
+            class=""
+          >
+            <p
+              class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+            >
+              White onion
+            </p>
+          </div>
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;
 
 exports[`BirriaTacos page renders the correct ingredients 1`] = `
 <section

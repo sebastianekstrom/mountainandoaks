@@ -1,4 +1,113 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BasilInfusedOil page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Fresh basil
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          20
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Fresh spinach leaves
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          15
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Oil (olive or rapeseed)
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          80
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            White wine vinegar
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          1.5
+          g
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Salt
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+`;
 
 exports[`BasilInfusedOil page renders the correct ingredients 1`] = `
 <section

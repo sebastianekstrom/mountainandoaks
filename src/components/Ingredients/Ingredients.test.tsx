@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import { vi } from "vitest";
 import userEvent from "@testing-library/user-event";
 import React from "react";
 
@@ -120,7 +121,7 @@ describe("Ingredients", () => {
   });
 
   it("calls onChangeMultiplier when multiplier changes", async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     render(<Ingredients {...defaultProps} onChangeMultiplier={onChange} />);
 
     await userEvent.click(screen.getByLabelText("Increase amount"));

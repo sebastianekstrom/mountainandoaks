@@ -1,10 +1,11 @@
 import { render, screen } from "@testing-library/react";
+import { vi } from "vitest";
 import React from "react";
 import { Rating } from "./Rating";
 
 let mockUuidCounter = 0;
-jest.mock("uuid", () => ({
-  v4: jest.fn(() => `test-uuid-${++mockUuidCounter}`),
+vi.mock("uuid", () => ({
+  v4: vi.fn(() => `test-uuid-${++mockUuidCounter}`),
 }));
 
 describe("Rating component", () => {

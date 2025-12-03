@@ -1,4 +1,97 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AlandSour page > renders the correct ingredients 1`] = `
+<section
+  class="mb-8 lg:mb-0"
+  data-testid="INGREDIENT_LIST"
+>
+  <div>
+     
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <ul>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Gin
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          5
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Lemon juice
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          3
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Elderflower syrup
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          3
+          cl
+        </p>
+      </li>
+      <li
+        class="flex justify-between mb-1 transition-opacity "
+      >
+        <div
+          class=""
+        >
+          <p
+            class="--font-local font-sans text-paragraph text-regular leading-paragraph font-semibold"
+          >
+            Fresh pressed apple juice
+          </p>
+        </div>
+        <p
+          class="--font-local font-sans text-paragraph text-regular leading-paragraph "
+        >
+          15
+          cl
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
 
 exports[`AlandSour page renders the correct ingredients 1`] = `
 <section
