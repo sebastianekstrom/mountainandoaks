@@ -20,8 +20,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Located in Manhattan's Essex Market, Dhamaka offers a bold exploration of India's lesser-known regional cuisines. The menu features dishes like goat neck dum biryani, gurda kapoora (goat kidney and testicles), and champaran meat cooked with an entire bulb of garlic. The restaurant emphasizes complex spices and fierce heat levels, providing an 'unapologetic' dining experience.",
     website: "https://www.dhamaka.nyc/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/dhamaka.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/dhamaka.jpg"),
   },
   {
     name: "Le Bernardin",
@@ -126,8 +125,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A seafood-focused restaurant which draws inspiration from the coastal cuisines of Spain and Portugal. The menu features dishes like fried shrimp heads, Louisiana white prawns a la plancha, and grass-fed lamb burgers with anchovies.",
     website: "https://www.cervosnyc.com/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/cervos.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/cervos.jpg"),
   },
   {
     name: "Tolo",
@@ -148,8 +146,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a refined menu that blends regional Chinese flavors with modern techniques. Signature dishes include seared rice noodles with XO sauce, sweet-and-sour crispy fish, and five-spice boiled peanuts. The restaurant features a curated 300-bottle wine list and a cozy, design-forward interior.",
     website: "https://tolonyc.com/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/tolo.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/tolo.jpg"),
   },
   {
     name: "Potluck Club",
@@ -170,8 +167,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Founded by five childhood friends, the restaurant offers a modern take on traditional Cantonese dishes, infused with American influences. The menu features items like salt & pepper fried chicken with scallion biscuits and chili-plum jam, and jellyfish tiger salad.",
     website: "https://thepotluckclubny.com/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/potluck-club.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/potluck-club.jpg"),
   },
   {
     name: "Momofuku Noodle Bar",
@@ -192,8 +188,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Opened in 2004 in New York City's East Village, Momofuku Noodle Bar is the flagship restaurant of David Chang's culinary empire. The restaurant offers a constantly changing menu featuring noodles, steamed buns, and daily dishes, drawing inspiration from Asian street food. Signature items include the pork belly buns and smoked pork ramen.",
     website: "https://momofukunoodlebar.com/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/momofuku-noodle-bar.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/momofuku-noodle-bar.jpg"),
   },
   {
     name: "bōm",
@@ -219,8 +214,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "An intimate 17-seat Korean chef's counter in Manhattan's Flatiron District, bōm offers a progressive tasting menu that begins with delicate seafood and vegetable bites, followed by various cuts of premium meats, including dry-aged wagyu, grilled tableside.",
     website: "https://www.bom-nyc.com/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/bom.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/bom.jpg"),
   },
   {
     name: "Sushi Sho",
@@ -241,8 +235,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Sushi Sho in New York offers an omakase experience that showcases a variety of aged, fermented, and pickled fish, shellfish, and vegetables. The restaurant features an eight-seat Hinoki counter and emphasizes traditional Edomae techniques.",
     website: "https://www.exploretock.com/sushi-sho-nyc",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/sushi-sho.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/sushi-sho.jpg"),
   },
   {
     name: "Chef's Table",
@@ -268,8 +261,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "An intimate counter-dining experience located in the back of a Hell's Kitchen grocery store, Chef's Table at Brooklyn Fare offers a seafood-centric tasting menu that blends Japanese and French techniques. The restaurant features a 44-seat walnut counter surrounding an open kitchen.",
     website: "https://www.brooklynfare.com/chefs-table/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/chefs-table-at-brooklyn-fare.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/chefs-table-at-brooklyn-fare.jpg"),
   },
   {
     name: "Aquavit",
@@ -290,8 +282,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "The menu features seasonal dishes that blend traditional Scandinavian flavors with contemporary techniques, such as North Sea cod with mussel foam and the signature 'Arctic Bird's Nest' dessert. The restaurant's elegant setting includes a sleek bar and open kitchen, providing a sophisticated dining experience.",
     website: "https://www.aquavit.org/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/aquavit.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/aquavit.jpg"),
   },
   {
     name: "Jean-Georges",
@@ -305,7 +296,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Opened in 1997, it serves as the flagship of Chef Jean-Georges Vongerichten's global restaurant empire. The menu blends French, American, and Asian influences, emphasizing seasonal ingredients sourced from local farmers' markets. The dining room offers elegant views of Central Park, providing a refined setting for the meticulously crafted dishes.",
     website: "https://www.jean-georgesrestaurant.com/jean-georges/",
-    image:
-      require("../../../public/images/restaurants/new-york/restaurants/jean-georges.jpg"),
+    image: require("../../../public/images/restaurants/new-york/restaurants/jean-georges.jpg"),
   },
 ];

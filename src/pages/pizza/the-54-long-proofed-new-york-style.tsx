@@ -91,7 +91,9 @@ const STEPS = [
     pizza in a home oven, please see{" "}
     <Link href="/guides/baking-pizza-in-home-oven">my guide here</Link>. <br />
     <br /> I'd recommending using my{" "}
-    <Link href="/pizza/new-york-style-sauce">New York style tomato sauce</Link>{" "}
+    <Link href="/pizza/new-york-style-sauce">
+      New York style tomato sauce
+    </Link>{" "}
     for the most authentic experience.
   </Text>,
 ];

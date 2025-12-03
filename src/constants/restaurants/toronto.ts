@@ -20,8 +20,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a modern interpretation of Mexican cuisine. The menu features dishes cooked exclusively over a 28-foot wood fire, utilizing both traditional Mexican ingredients and locally sourced Canadian produce.",
     website: "https://www.quetzaltoronto.com/",
-    image:
-      require("../../../public/images/restaurants/toronto/restaurants/quetzal.jpg"),
+    image: require("../../../public/images/restaurants/toronto/restaurants/quetzal.jpg"),
   },
   {
     name: "Enigma Yorkville",
@@ -41,8 +40,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A Michelin-starred restaurant in Toronto's Yorkville neighborhood, offering a modern international tasting menu that blends premium local and international ingredients. The dining experience is refined and globally inspired.",
     website: "https://www.enigmayorkville.com/",
-    image:
-      require("../../../public/images/restaurants/toronto/restaurants/enigma-yorkville.jpg"),
+    image: require("../../../public/images/restaurants/toronto/restaurants/enigma-yorkville.jpg"),
   },
   {
     name: "DaiLo",
@@ -60,8 +58,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A contemporary Asian brasserie in Toronto's Little Italy, DaiLo offers a modern interpretation of Chinese cuisine, incorporating French culinary techniques and local Canadian ingredients.",
     website: "https://dailoto.com/",
-    image:
-      require("../../../public/images/restaurants/toronto/restaurants/dailo.jpg"),
+    image: require("../../../public/images/restaurants/toronto/restaurants/dailo.jpg"),
   },
   {
     name: "Alo",
@@ -82,8 +79,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Located atop a heritage building in downtown Toronto, Alo offers a contemporary French tasting menu that blends European and Asian influences.",
     website: "https://alorestaurant.com/",
-    image:
-      require("../../../public/images/restaurants/toronto/restaurants/alo.jpg"),
+    image: require("../../../public/images/restaurants/toronto/restaurants/alo.jpg"),
   },
   {
     name: "Viaggio",
@@ -101,7 +97,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a seasonal menu that blends classical Italian elements with global flavors. Signature dishes include tagliolini with charred octopus in smoked dashi butter and tiramisu pancakes with espresso maple syrup. The restaurant features a cozy 32-seat dining room and a spacious patio adorned with garden lights.",
     website: "https://viaggiorestaurant.ca/",
-    image:
-      require("../../../public/images/restaurants/toronto/restaurants/viaggio.jpg"),
+    image: require("../../../public/images/restaurants/toronto/restaurants/viaggio.jpg"),
   },
 ];

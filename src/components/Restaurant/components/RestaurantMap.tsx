@@ -15,7 +15,10 @@ interface RestaurantMapProps {
   flyToLocation: ({
     longitude,
     latitude,
-  }: { longitude: number; latitude: number }) => void;
+  }: {
+    longitude: number;
+    latitude: number;
+  }) => void;
   mapboxKey?: string;
 }
 

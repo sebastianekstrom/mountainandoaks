@@ -21,8 +21,7 @@ export const RESTAURANTS: Restaurant[] = [
       "A three-Michelin-starred restaurant located within the Cheval Blanc Paris hotel, offering a creative French cuisine that emphasizes sauces and seasonal ingredients in an intimate setting overlooking the Seine.",
     website:
       "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
-    image:
-      require("../../../public/images/restaurants/paris/restaurants/plenitude.jpg"),
+    image: require("../../../public/images/restaurants/paris/restaurants/plenitude.jpg"),
   },
   {
     name: "Pages",

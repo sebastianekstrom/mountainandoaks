@@ -104,7 +104,8 @@ const STEPS = [
       <Text extra={<WindowPaneTest />}>
         Start kneading the dough. If you have a stand mixer mix it for 3 minutes
         on low speed to combine the dough, and then 5 minutes on medium to
-        develop gluten strength. If you knead by hand, knead for 10 minutes.{" "}
+        develop gluten strength. If you knead by hand, knead for 10
+        minutes.{" "}
       </Text>,
       <Text>
         Lightly grease another bowl with olive oil, shape the dough into a ball

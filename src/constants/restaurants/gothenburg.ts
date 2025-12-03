@@ -21,8 +21,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a modern take on Swedish cuisine. The open kitchen allows diners to observe the preparation of seasonal dishes that emphasize local ingredients, reflecting a commitment to sustainability and culinary excellence.",
     website: "https://en.skmat.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/sk-mat-och-manniskor.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/sk-mat-och-manniskor.jpg"),
   },
   {
     name: "Familjen",
@@ -43,8 +42,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Familjen offers modern West Swedish gastronomy in a relaxed, living-room-inspired setting. The menu emphasizes seasonal, locally sourced ingredients, resulting in hearty yet refined dishes. The vibrant atmosphere is enhanced by a renowned cocktail program and a curated selection of wines and beers.",
     website: "https://www.restaurangfamiljen.se/en/familjen-en/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/familjen.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/familjen.jpg"),
   },
   {
     name: "Bulot",
@@ -65,8 +63,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A modern bistro in central Gothenburg, Bulot offers a seasonal menu with a subtle French influence, emphasizing seafood and local ingredients. The restaurant features a relaxed atmosphere with both à la carte and tasting menu options.",
     website: "https://www.bulot.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/bulot.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/bulot.jpg"),
   },
   {
     name: "Human",
@@ -84,8 +81,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a modern Nordic tasting menu with a focus on seasonal, locally sourced ingredients. The intimate setting features an open kitchen and minimalist design, creating a relaxed yet refined dining experience.",
     website: "https://www.humanrestaurang.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/human.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/human.jpg"),
   },
   {
     name: "Koka",
@@ -106,8 +102,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Koka offers a modern take on West Swedish gastronomy. The menu emphasizes local seafood, vegetables, and game, with a strong commitment to sustainability—90% of ingredients are organic. The minimalist setting complements the focused and flavorful dishes, which are available in 3, 5, or 7-course tasting menus.",
     website: "https://restaurangkoka.se/en/restaurant-koka/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/koka.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/koka.jpg"),
   },
   {
     name: "vRÅ",
@@ -125,8 +120,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "vRÅ offers a fusion of Nordic and Japanese cuisine, emphasizing sustainable practices. The menu features seasonal, locally sourced seafood and produce, with ingredients often harvested from the restaurant's rooftop garden. The dining space combines elements of the building's 1920s architecture with modern design.",
     website: "https://restaurangvra.se/en",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/vra.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/vra.jpg"),
   },
   {
     name: "28+",
@@ -140,8 +134,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A Michelin-starred institution in Gothenburg since 1991, 28+ offers refined French-Scandinavian cuisine in an atmospheric cellar setting. The menu emphasizes seasonal ingredients, blending classical techniques with bold flavors. The restaurant is renowned for its exceptional cheese selection and one of Sweden's finest wine cellars.",
     website: "http://www.28plus.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/28-plus.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/28-plus.jpg"),
   },
   {
     name: "Project",
@@ -162,8 +155,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "Offers a seasonal tasting menu that emphasizes seafood and local game, complemented by Japanese influences. The intimate setting and attentive service create a welcoming atmosphere for guests.",
     website: "https://projectgbg.com/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/project.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/project.jpg"),
   },
   {
     name: "Bar La Lune",
@@ -181,8 +173,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A cozy natural wine bar in Gothenburg's Vasa district, Bar La Lune offers a Parisian-inspired atmosphere with a focus on natural wines and seasonal small plates. The menu features dishes like pork fat and duck liver rillette, galette du Provence, and chicken liver mousse on grilled bread.",
     website: "https://barlalune.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/bar-la-lune.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/bar-la-lune.jpg"),
   },
   {
     name: "Trattoria La Strega",
@@ -200,8 +191,7 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A cozy trattoria in Gothenburg's Vasastan district, Trattoria La Strega offers authentic Northern Italian cuisine with a focus on seasonal ingredients and natural wines. The restaurant is renowned for its signature pappardelle with king crab and a curated selection of organic wines.",
     website: "http://www.trattorialastrega.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/trattoria-la-strega.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/trattoria-la-strega.jpg"),
   },
   {
     name: "Carbon",
@@ -218,7 +208,6 @@ export const RESTAURANTS: Restaurant[] = [
     description:
       "A modern bistro in Gothenburg, Carbon offers a seasonal menu that blends contemporary techniques with traditional bases. Guests can choose between 5 or 8-course tasting menus, with all dishes accompanied by suggested wine pairings. The restaurant features an elegant interior with rich décor and crushed velvet banquettes, creating a refined dining atmosphere.",
     website: "https://www.restaurangcarbon.se/",
-    image:
-      require("../../../public/images/restaurants/gothenburg/restaurants/carbon.jpg"),
+    image: require("../../../public/images/restaurants/gothenburg/restaurants/carbon.jpg"),
   },
 ];

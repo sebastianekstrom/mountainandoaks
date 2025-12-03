@@ -9,8 +9,6 @@ import image6 from "public/images/bread/banh-mi-bun/6.jpg";
 import image7 from "public/images/bread/banh-mi-bun/7.jpg";
 import image8 from "public/images/bread/banh-mi-bun/8.jpg";
 import image9 from "public/images/bread/banh-mi-bun/9.jpg";
-import finalBread from "public/images/bread/banh-mi-bun/final-bread.png";
-import finalImage from "public/images/bread/banh-mi-bun/final.png";
 import metaImage from "public/images/bread/banh-mi-bun/thumbnails/meta.png";
 import heroImage from "public/images/bread/banh-mi-bun/thumbnails/tall.png";
 
