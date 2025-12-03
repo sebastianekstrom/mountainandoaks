@@ -29,11 +29,17 @@
 
 ## 💻 Getting started
 
-Clone this repository and run the following commands:
+First, install [Bun](https://bun.sh) if you haven't already:
 
 ```bash
-$ yarn install
-$ yarn run dev
+$ curl -fsSL https://bun.sh/install | bash
+```
+
+Then clone this repository and run the following commands:
+
+```bash
+$ bun install
+$ bun run dev
 ```
 
 The site will be available on [http://localhost:3000](http://localhost:3000).
@@ -44,20 +50,20 @@ The Github actions runs the following tests:
 
 - **Unit tests**
   - These are ran with [Jest](https://jestjs.io/) with the help of [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/)
-  - Run `yarn run test` to run the tests locally
+  - Run `bun run test` to run the tests locally
 - **E2E**
   - There's E2E tests with the help of [Playwright](https://playwright.dev/)
-  - Run `yarn run test:e2e` to run the tests locally
+  - Run `bun run test:e2e` to run the tests locally
 - **Type checks**
   - TypeScript type checks are ran with the `tsc` command
-  - Run `yarn run tsc` to run the tests locally
+  - Run `bun run tsc` to run the tests locally
 
 ## 🎨 Storybook
 
 Start the [Storybook](https://storybook.js.org/) server with:
 
 ```
-yarn run storybook
+bun run storybook
 ```
 
 Storybook will be available on [http://localhost:6006](http://localhost:6006).

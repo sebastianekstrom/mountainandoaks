@@ -10,45 +10,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v4
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-            ${{ runner.os }}-yarn-
+          bun-version: latest
 
       - name: Install dependencies
-        run: yarn
+        run: bun install
 
       - name: Get installed Playwright version
         id: playwright-version
-        run: echo "::set-output name=version::$(yarn why --json @playwright/test | grep -h 'workspace:.' | jq --raw-output '.children[].locator' | sed -e 's/@playwright\/test@.*://')"
+        run: echo "::set-output name=version::$(bun pm ls --all | grep '@playwright/test' | head -1 | awk '{print $2}')"
 
       - uses: actions/cache@v4
         id: playwright-cache
         with:
           path: "~/.cache/ms-playwright"
           key: "${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}"
-          restore-keys: |
-            ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-            ${{ runner.os }}-yarn-
 
       - name: Install Playwrights dependencies
         if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: npx playwright install
+        run: bunx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: yarn run test:e2e
+        run: bun run test:e2e
       - uses: actions/upload-artifact@v4
         if: always()
         with:
