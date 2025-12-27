@@ -3383,6 +3383,11 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/gaijin-splittrat-och-spretigt-nar-gasten-far-gissa-sig-fram-i-menyn/",
       },
+      svd: {
+        rating: 5,
+        reviewUrl:
+          "https://www.svd.se/a/d4dVnB/recension-av-gaijin-japanska-smaker-lyft-till-fullanding",
+      },
     },
     description:
       "Kalle and Jonas teamed up with Bagi from Soyokaze to create a relaxed sushi restaurant designed for lingering over good food and drinks, not just a quick bite. Expect inventive Japanese dishes with bold flavors—like their magical corn, miso, and butter combo.",
