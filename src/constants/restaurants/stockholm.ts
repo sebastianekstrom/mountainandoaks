@@ -1592,6 +1592,7 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.svd.se/a/WRkQ92/krogguiden-om-chez-jolie-kan-bli-en-fransk-klassiker",
       },
+      "m&o": 7,
     },
     chefs: [
       {
