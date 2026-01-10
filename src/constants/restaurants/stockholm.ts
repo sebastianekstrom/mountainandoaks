@@ -3601,10 +3601,11 @@ export const RESTAURANTS: Restaurant[] = [
         reviewUrl:
           "https://www.dn.se/kultur/nook-omtyckt-matparadis-gor-comeback-pa-ny-adress/",
       },
+      "m&o": 6,
     },
     image: require("../../../public/images/restaurants/stockholm/restaurants/nook.jpg"),
     description:
-      "Nook has reopened near Mariatorget in a smaller, more intimate space, blending polished cooking with a relaxed neighborhood vibe at unusually fair prices. The two set menus deliver thoughtful, deeply flavored dishes, strong wine pairing, and warmly precise service. It’s essentially mature, small-scale fine dining disguised as a local spot.",
+      "Blending polished cooking with a relaxed neighborhood vibe at unusually fair prices. The two set menus deliver thoughtful, deeply flavored dishes and strong wine pairing. The food was good overall, but somewhat uneven in flavors and seasoning.",
     website: "https://www.restaurangnook.se/",
   },
   {
