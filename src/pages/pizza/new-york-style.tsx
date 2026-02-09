@@ -24,16 +24,16 @@ const INGREDIENTS = [
     isWater: true,
   },
   {
-    value: 13,
-    label: "Sugar",
-  },
-  {
-    value: 11,
+    value: 6,
     label: "Olive oil",
   },
   {
     value: 5,
     label: "Salt",
+  },
+  {
+    value: 4,
+    label: "Sugar",
   },
   {
     value: 2,
